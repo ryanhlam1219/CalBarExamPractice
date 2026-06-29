@@ -106,6 +106,7 @@ def load_seed(
                 totals["templates"] = _load_schimmel_seed(session, seed_data, settings.parser_version)
                 session.commit()
             except Exception as exc:
+                session.rollback()
                 typer.echo(f"  Warning: Schimmel templates: {exc}")
 
         # ── Load supplemental rules ──
@@ -123,9 +124,10 @@ def load_seed(
                     parse_result.source_document_id = doc.id
                     counts = replace_rule_parse(session, doc, parse_result)
                     totals["rules"] += counts.get("rules", 0)
+                    session.commit()
                 except Exception as exc:
+                    session.rollback()
                     typer.echo(f"  Warning: {rf.name}: {exc}")
-            session.commit()
             typer.echo(f"  Loaded {totals['rules']} supplemental rules")
 
         from app.db.repositories.essays import dedupe_essay_questions
@@ -269,14 +271,16 @@ def _get_or_create_seed_document(session: Session, name: str, doc_type: str) -> 
     )
     if existing:
         return existing
+    import hashlib as _hl
+    short_hash = _hl.md5(name.encode()).hexdigest()[:16]
     doc = SourceDocument(
         source_type=SourceType.BAR_REVIEW_OUTLINE.value,
         publisher="Seeded from parsed JSON",
-        title=name,
+        title=name[:500],
         subject=doc_type,
-        original_filename=name,
-        local_path=f"seed://{name}",
-        sha256=f"seed-{name}",
+        original_filename=name[:500],
+        local_path=f"seed://{short_hash}",
+        sha256=f"seed-{short_hash}",
         file_size_bytes=0,
         mime_type="application/json",
         license_status=LicenseStatus.PRIVATE_USE_ONLY.value,
