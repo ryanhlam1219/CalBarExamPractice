@@ -69,11 +69,19 @@ def load_seed(
                     from app.schemas.essays import EssayParseResult
                     data = json.loads(ef.read_text())
                     year, month = _extract_year_month(ef.stem)
+                    cleaned_questions = []
                     for q in data.get("questions", []):
+                        norm = (q.get("normalized_text") or "").lower()
+                        if "your answer should demonstrate" in norm or norm.startswith("essay question"):
+                            continue
                         if not q.get("exam_year"):
                             q["exam_year"] = year
                         if not q.get("exam_month"):
                             q["exam_month"] = month
+                        cleaned_questions.append(q)
+                    if not cleaned_questions:
+                        continue
+                    data["questions"] = cleaned_questions
                     parse_result = EssayParseResult(**data)
                     doc = _get_or_create_seed_document(
                         session, ef.stem.replace(".essays", ""), "essay_questions",
