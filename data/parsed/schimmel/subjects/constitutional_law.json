@@ -11,21 +11,21 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 27,
-                "title": "STATE ACTION\nState Action\n\u2022",
+                "title": "STATE ACTION\nState Action\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 27,
-                "title": "Required to invoke constitutional protections\n\u2022",
+                "title": "Required to invoke constitutional protections\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 27,
-                "title": "Involves action by\n\u2022\nGovernment or government official, or\n\u2022",
+                "title": "Involves action by\n•\nGovernment or government official, or\n•",
                 "type": "TOPIC"
               },
               {
@@ -39,14 +39,14 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 27,
-                "title": "Eleventh Amendment \u2013 Sovereign Immunity\nPrivate Parties\n\u2022",
+                "title": "Eleventh Amendment – Sovereign Immunity\nPrivate Parties\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 27,
-                "title": "Private party cannot sue state or its agency\n\u2022\nExceptions\n\u2022",
+                "title": "Private party cannot sue state or its agency\n•\nExceptions\n•",
                 "type": "TOPIC"
               },
               {
@@ -54,7 +54,7 @@
                 "depth": 3,
                 "jurisdiction": "FEDERAL",
                 "page": 27,
-                "title": "State waives sovereign immunity\n\u2022\nLawsuit involves federal laws under Section 5 of 14A\n\u2022",
+                "title": "State waives sovereign immunity\n•\nLawsuit involves federal laws under Section 5 of 14A\n•",
                 "type": "TOPIC"
               },
               {
@@ -67,11 +67,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Lawsuit seeks money damages from named state official\nCongressional Abrogation\n\u2022\nCongress may regulate state laws violating due process, equal\nprotection, and privileges and immunities\n\u2022",
-                        "raw_text": "Lawsuit seeks money damages from named state official\nCongressional Abrogation\n\u2022\nCongress may regulate state laws violating due process, equal\nprotection, and privileges and immunities\n\u2022"
+                        "normalized_text": "Lawsuit seeks money damages from named state official\nCongressional Abrogation\n•\nCongress may regulate state laws violating due process, equal\nprotection, and privileges and immunities\n•",
+                        "raw_text": "Lawsuit seeks money damages from named state official\nCongressional Abrogation\n•\nCongress may regulate state laws violating due process, equal\nprotection, and privileges and immunities\n•"
                       }
                     ],
-                    "title": "Lawsuit seeks money damages from named state official\nCongressional Abrogation\n\u2022\nCongress may regulate state laws violat",
+                    "title": "Lawsuit seeks money damages from named state official\nCongressional Abrogation\n•\nCongress may regulate state laws violat",
                     "type": "RULE"
                   },
                   {
@@ -85,14 +85,14 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 27,
-                "title": "Lawsuit seeks declaratory or injunctive relief against named state\nofficial\n\u2022",
+                "title": "Lawsuit seeks declaratory or injunctive relief against named state\nofficial\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 27,
-                "title": "Generalized Grievances\n\u2022",
+                "title": "Generalized Grievances\n•",
                 "type": "TOPIC"
               },
               {
@@ -105,11 +105,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Third Party Standing\n\u2022\nGenerally, no standing to assert third party rights\n\u2022\nExceptions\n\u2022\nthird party unable to assert own rights\n\u2022\nSpecial relationship between P and third party",
-                        "raw_text": "Third Party Standing\n\u2022\nGenerally, no standing to assert 3P rights\n\u2022\nExceptions\n\u2022\n3P unable to assert own rights\n\u2022\nSpecial relationship between P and 3P"
+                        "normalized_text": "Third Party Standing\n•\nGenerally, no standing to assert third party rights\n•\nExceptions\n•\nthird party unable to assert own rights\n•\nSpecial relationship between P and third party",
+                        "raw_text": "Third Party Standing\n•\nGenerally, no standing to assert 3P rights\n•\nExceptions\n•\n3P unable to assert own rights\n•\nSpecial relationship between P and 3P"
                       }
                     ],
-                    "title": "Third Party Standing\n\u2022\nGenerally, no standing to assert 3P rights\n\u2022\nExceptions\n\u2022\n3P unable to assert own rights\n\u2022\nSpecia",
+                    "title": "Third Party Standing\n•\nGenerally, no standing to assert 3P rights\n•\nExceptions\n•\n3P unable to assert own rights\n•\nSpecia",
                     "type": "RULE"
                   },
                   {
@@ -136,8 +136,8 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Standing if harm is to organization itself\nOrganizations on Behalf of its Members\n(1) Members would have standing to sue individually\n(2) Harm related to organization\u2019s purpose, and\n(3) Neither claim nor relief sought necessitates individual members\u2019",
-                        "raw_text": "Standing if harm is to organization itself\nOrganizations on Behalf of its Members\n(1) Members would have standing to sue individually\n(2) Harm related to organization\u2019s purpose, and\n(3) Neither claim nor relief sought necessitates individual members\u2019"
+                        "normalized_text": "Standing if harm is to organization itself\nOrganizations on Behalf of its Members\n(1) Members would have standing to sue individually\n(2) Harm related to organization’s purpose, and\n(3) Neither claim nor relief sought necessitates individual members’",
+                        "raw_text": "Standing if harm is to organization itself\nOrganizations on Behalf of its Members\n(1) Members would have standing to sue individually\n(2) Harm related to organization’s purpose, and\n(3) Neither claim nor relief sought necessitates individual members’"
                       }
                     ],
                     "title": "Standing if harm is to organization itself\nOrganizations on Behalf of its Members\n(1) Members would have standing to sue",
@@ -147,21 +147,21 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 28,
-                "title": "\u2022\nHarm to P adversely affects relationship with 3P\nOrganizational Standing\n\u2022",
+                "title": "•\nHarm to P adversely affects relationship with 3P\nOrganizational Standing\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 28,
-                "title": "participation\nRIPENESS\nRipeness\n\u2022",
+                "title": "participation\nRIPENESS\nRipeness\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 28,
-                "title": "Harm or threat of imminent harm\nMOOTNESS\nMootness\n\u2022",
+                "title": "Harm or threat of imminent harm\nMOOTNESS\nMootness\n•",
                 "type": "TOPIC"
               },
               {
@@ -170,14 +170,14 @@
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 28,
-                    "title": "Exceptions\nCapable of Repetition Yet Evading Review\n\u2022",
+                    "title": "Exceptions\nCapable of Repetition Yet Evading Review\n•",
                     "type": "ELEMENT"
                   },
                   {
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 28,
-                    "title": "Harm exists in short periods and ceases prior to end of litigation\n\u2022",
+                    "title": "Harm exists in short periods and ceases prior to end of litigation\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -198,7 +198,7 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 28,
-                "title": "Voluntary Cessation\n\u2022",
+                "title": "Voluntary Cessation\n•",
                 "type": "TOPIC"
               },
               {
@@ -211,8 +211,8 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Not dismissed where at least one class member has ongoing injury\nSEPARATION OF POWERS\nLEGISLATIVE BRANCH\nNECESSARY AND PROPER CLAUSE\nNecessary and Proper Clause\n\u2022",
-                        "raw_text": "Not dismissed where at least one class member has ongoing injury\nSEPARATION OF POWERS\nLEGISLATIVE BRANCH\nNECESSARY AND PROPER CLAUSE\nNecessary and Proper Clause\n\u2022"
+                        "normalized_text": "Not dismissed where at least one class member has ongoing injury\nSEPARATION OF POWERS\nLEGISLATIVE BRANCH\nNECESSARY AND PROPER CLAUSE\nNecessary and Proper Clause\n•",
+                        "raw_text": "Not dismissed where at least one class member has ongoing injury\nSEPARATION OF POWERS\nLEGISLATIVE BRANCH\nNECESSARY AND PROPER CLAUSE\nNecessary and Proper Clause\n•"
                       }
                     ],
                     "title": "Not dismissed where at least one class member has ongoing injury\nSEPARATION OF POWERS\nLEGISLATIVE BRANCH\nNECESSARY AND P",
@@ -222,7 +222,7 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 28,
-                "title": "D voluntarily ceases harm to P but can resume at any time\nClass Actions\n\u2022",
+                "title": "D voluntarily ceases harm to P but can resume at any time\nClass Actions\n•",
                 "type": "TOPIC"
               },
               {
@@ -242,11 +242,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "COMMERCE CLAUSE\nCommerce Clause \u2013 Interstate Commerce\n\u2022\nCongress has power to regulate channels, instrumentalities, and economic\nactivities that substantially affect interstate commerce",
-                        "raw_text": "COMMERCE CLAUSE\nCommerce Clause \u2013 Interstate Commerce\n\u2022\nCongress has power to regulate channels, instrumentalities, and economic\nactivities that substantially affect interstate commerce"
+                        "normalized_text": "COMMERCE CLAUSE\nCommerce Clause – Interstate Commerce\n•\nCongress has power to regulate channels, instrumentalities, and economic\nactivities that substantially affect interstate commerce",
+                        "raw_text": "COMMERCE CLAUSE\nCommerce Clause – Interstate Commerce\n•\nCongress has power to regulate channels, instrumentalities, and economic\nactivities that substantially affect interstate commerce"
                       }
                     ],
-                    "title": "COMMERCE CLAUSE\nCommerce Clause \u2013 Interstate Commerce\n\u2022\nCongress has power to regulate channels, instrumentalities, and ",
+                    "title": "COMMERCE CLAUSE\nCommerce Clause – Interstate Commerce\n•\nCongress has power to regulate channels, instrumentalities, and ",
                     "type": "RULE"
                   },
                   {
@@ -264,11 +264,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Economic or Commercial Activities\n\u2022\nCongress may regulate if rational basis that activities, in aggregate,\nsubstantially affect interstate commerce\nNon-Economic or Non-Commercial Activities\n\u2022",
-                        "raw_text": "Economic or Commercial Activities\n\u2022\nCongress may regulate if rational basis that activities, in aggregate,\nsubstantially affect interstate commerce\nNon-Economic or Non-Commercial Activities\n\u2022"
+                        "normalized_text": "Economic or Commercial Activities\n•\nCongress may regulate if rational basis that activities, in aggregate,\nsubstantially affect interstate commerce\nNon-Economic or Non-Commercial Activities\n•",
+                        "raw_text": "Economic or Commercial Activities\n•\nCongress may regulate if rational basis that activities, in aggregate,\nsubstantially affect interstate commerce\nNon-Economic or Non-Commercial Activities\n•"
                       }
                     ],
-                    "title": "Economic or Commercial Activities\n\u2022\nCongress may regulate if rational basis that activities, in aggregate,\nsubstantially",
+                    "title": "Economic or Commercial Activities\n•\nCongress may regulate if rational basis that activities, in aggregate,\nsubstantially",
                     "type": "RULE"
                   },
                   {
@@ -304,8 +304,8 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Congress may regulate any interstate or intrastate activity that has a\nsubstantial economic effect on interstate commerce\nTENTH AMENDMENT AND COMMANDEERING\nTenth Amendment\n\u2022",
-                        "raw_text": "Congress may regulate any interstate or intrastate activity that has a\nsubstantial economic effect on interstate commerce\nTENTH AMENDMENT AND COMMANDEERING\nTenth Amendment\n\u2022"
+                        "normalized_text": "Congress may regulate any interstate or intrastate activity that has a\nsubstantial economic effect on interstate commerce\nTENTH AMENDMENT AND COMMANDEERING\nTenth Amendment\n•",
+                        "raw_text": "Congress may regulate any interstate or intrastate activity that has a\nsubstantial economic effect on interstate commerce\nTENTH AMENDMENT AND COMMANDEERING\nTenth Amendment\n•"
                       }
                     ],
                     "title": "Congress may regulate any interstate or intrastate activity that has a\nsubstantial economic effect on interstate commerc",
@@ -322,8 +322,8 @@
                           {
                             "elements": [],
                             "exceptions": [],
-                            "normalized_text": "Congress may not commandeer state legislatures to enact legislation or\nexecute a federal regulatory program\nTAXING AND SPENDING\nTaxing and Spending Power\n\u2022",
-                            "raw_text": "Congress may not commandeer state legislatures to enact legislation or\nexecute a federal regulatory program\nTAXING AND SPENDING\nTaxing and Spending Power\n\u2022"
+                            "normalized_text": "Congress may not commandeer state legislatures to enact legislation or\nexecute a federal regulatory program\nTAXING AND SPENDING\nTaxing and Spending Power\n•",
+                            "raw_text": "Congress may not commandeer state legislatures to enact legislation or\nexecute a federal regulatory program\nTAXING AND SPENDING\nTaxing and Spending Power\n•"
                           }
                         ],
                         "title": "Congress may not commandeer state legislatures to enact legislation or\nexecute a federal regulatory program\nTAXING AND S",
@@ -337,11 +337,11 @@
                           {
                             "elements": [],
                             "exceptions": [],
-                            "normalized_text": "Congress may tax and spend for the general welfare\nTaxes\n(1) Tax\u2019s primary purpose is to raise revenue, and\n(2) reasonable relationship between tax and regulation",
-                            "raw_text": "Congress may tax and spend for the general welfare\nTaxes\n(1) Tax\u2019s primary purpose is to raise revenue, and\n(2) Rx relationship between tax and regulation"
+                            "normalized_text": "Congress may tax and spend for the general welfare\nTaxes\n(1) Tax’s primary purpose is to raise revenue, and\n(2) reasonable relationship between tax and regulation",
+                            "raw_text": "Congress may tax and spend for the general welfare\nTaxes\n(1) Tax’s primary purpose is to raise revenue, and\n(2) Rx relationship between tax and regulation"
                           }
                         ],
-                        "title": "Congress may tax and spend for the general welfare\nTaxes\n(1) Tax\u2019s primary purpose is to raise revenue, and\n(2) Rx relat",
+                        "title": "Congress may tax and spend for the general welfare\nTaxes\n(1) Tax’s primary purpose is to raise revenue, and\n(2) Rx relat",
                         "type": "RULE"
                       }
                     ],
@@ -349,21 +349,21 @@
                     "depth": 4,
                     "jurisdiction": "FEDERAL",
                     "page": 29,
-                    "title": "All powers neither granted to federal government nor prohibited to the states\nare reserved to the states\nCommandeering\n\u2022",
+                    "title": "All powers neither granted to federal government nor prohibited to the states\nare reserved to the states\nCommandeering\n•",
                     "type": "ISSUE"
                   }
                 ],
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 29,
-                "title": "Substantial Economic Effect \u2013 Aggregation\n\u2022",
+                "title": "Substantial Economic Effect – Aggregation\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 29,
-                "title": "Regulatory Spending\n\u2022",
+                "title": "Regulatory Spending\n•",
                 "type": "TOPIC"
               },
               {
@@ -379,49 +379,49 @@
                     "confidence": 0.75,
                     "depth": 4,
                     "page": 30,
-                    "title": "\u2022\nCondition\n(1) Unambiguously stated\n(2) Bear relationship to spending purpose, and\n(3) Not unduly coercive",
+                    "title": "•\nCondition\n(1) Unambiguously stated\n(2) Bear relationship to spending purpose, and\n(3) Not unduly coercive",
                     "type": "ISSUE"
                   }
                 ],
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 29,
-                "title": "For any public purpose\nConditional Grants\n\u2022\nEncourage, not compel, state legislation",
+                "title": "For any public purpose\nConditional Grants\n•\nEncourage, not compel, state legislation",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 30,
-                "title": "DELEGATION OF POWER\nDelegation\n\u2022",
+                "title": "DELEGATION OF POWER\nDelegation\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 30,
-                "title": "Congress may delegate legislative powers to executive officers and\nadministrative agencies\n\u2022",
+                "title": "Congress may delegate legislative powers to executive officers and\nadministrative agencies\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 30,
-                "title": "Must provide intelligible standards to establish scope\nEXECUTIVE BRANCH\nExecutive Powers\n\u2022",
+                "title": "Must provide intelligible standards to establish scope\nEXECUTIVE BRANCH\nExecutive Powers\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 30,
-                "title": "Reserved to the President\nDomestic Affairs\n\u2022",
+                "title": "Reserved to the President\nDomestic Affairs\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 30,
-                "title": "Appoint and remove officers\n\u2022\nPardon offenses against U.S.\n\u2022",
+                "title": "Appoint and remove officers\n•\nPardon offenses against U.S.\n•",
                 "type": "TOPIC"
               },
               {
@@ -430,14 +430,14 @@
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 30,
-                    "title": "Foreign Affairs\n\u2022\nAct on behalf of U.S. in foreign relations\n\u2022",
+                    "title": "Foreign Affairs\n•\nAct on behalf of U.S. in foreign relations\n•",
                     "type": "ELEMENT"
                   },
                   {
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 30,
-                    "title": "Deploy as commander-in-chief of armed forces\n\u2022",
+                    "title": "Deploy as commander-in-chief of armed forces\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -449,18 +449,18 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Negotiate and enter into executive agreements\nAPPOINTMENT AND REMOVAL\nAppointment Powers\nPresident\n\u2022\nAppoint ambassadors, top-level federal officers, federal judges\n\u2022",
-                        "raw_text": "Negotiate and enter into executive agreements\nAPPOINTMENT AND REMOVAL\nAppointment Powers\nPresident\n\u2022\nAppoint ambassadors, top-level federal officers, federal judges\n\u2022"
+                        "normalized_text": "Negotiate and enter into executive agreements\nAPPOINTMENT AND REMOVAL\nAppointment Powers\nPresident\n•\nAppoint ambassadors, top-level federal officers, federal judges\n•",
+                        "raw_text": "Negotiate and enter into executive agreements\nAPPOINTMENT AND REMOVAL\nAppointment Powers\nPresident\n•\nAppoint ambassadors, top-level federal officers, federal judges\n•"
                       }
                     ],
-                    "title": "Negotiate and enter into executive agreements\nAPPOINTMENT AND REMOVAL\nAppointment Powers\nPresident\n\u2022\nAppoint ambassadors",
+                    "title": "Negotiate and enter into executive agreements\nAPPOINTMENT AND REMOVAL\nAppointment Powers\nPresident\n•\nAppoint ambassadors",
                     "type": "RULE"
                   },
                   {
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 30,
-                    "title": "With advice and consent of Senate\nCongress\n\u2022",
+                    "title": "With advice and consent of Senate\nCongress\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -471,11 +471,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Can vest power to appoint inferior officers in other branches of\ngovernment\nRemoval Powers\nPresident\n\u2022",
-                        "raw_text": "Can vest power to appoint inferior officers in other branches of\ngovernment\nRemoval Powers\nPresident\n\u2022"
+                        "normalized_text": "Can vest power to appoint inferior officers in other branches of\ngovernment\nRemoval Powers\nPresident\n•",
+                        "raw_text": "Can vest power to appoint inferior officers in other branches of\ngovernment\nRemoval Powers\nPresident\n•"
                       }
                     ],
-                    "title": "Can vest power to appoint inferior officers in other branches of\ngovernment\nRemoval Powers\nPresident\n\u2022",
+                    "title": "Can vest power to appoint inferior officers in other branches of\ngovernment\nRemoval Powers\nPresident\n•",
                     "type": "RULE"
                   },
                   {
@@ -496,21 +496,21 @@
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 31,
-                    "title": "Congress can require showing of good cause\nCongress\n\u2022",
+                    "title": "Congress can require showing of good cause\nCongress\n•",
                     "type": "ELEMENT"
                   },
                   {
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 31,
-                    "title": "Can only remove through impeachment power\nPARDON POWER\nPardon Power\n\u2022",
+                    "title": "Can only remove through impeachment power\nPARDON POWER\nPardon Power\n•",
                     "type": "ELEMENT"
                   },
                   {
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 31,
-                    "title": "Power to grant pardons\nTREATIES AND EXECUTIVE AGREEMENTS\nTreaties\n\u2022",
+                    "title": "Power to grant pardons\nTREATIES AND EXECUTIVE AGREEMENTS\nTreaties\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -521,11 +521,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "President has authority to make treaties\n\u2022\nMust be ratified by 2/3 Senate\n\u2022\nTreaties > Executive agreements",
-                        "raw_text": "President has authority to make treaties\n\u2022\nMust be ratified by 2/3 Senate\n\u2022\nTreaties > Executive agreements"
+                        "normalized_text": "President has authority to make treaties\n•\nMust be ratified by 2/3 Senate\n•\nTreaties > Executive agreements",
+                        "raw_text": "President has authority to make treaties\n•\nMust be ratified by 2/3 Senate\n•\nTreaties > Executive agreements"
                       }
                     ],
-                    "title": "President has authority to make treaties\n\u2022\nMust be ratified by 2/3 Senate\n\u2022\nTreaties > Executive agreements",
+                    "title": "President has authority to make treaties\n•\nMust be ratified by 2/3 Senate\n•\nTreaties > Executive agreements",
                     "type": "RULE"
                   },
                   {
@@ -536,11 +536,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Conflicts\n\u2022\nTreaties > Conflicting state laws\n\u2022\nTreaty vs. Congressional acts: Whichever is most recent\n\u2022\nConstitution > Treaties\nExecutive Agreements\n\u2022",
-                        "raw_text": "Conflicts\n\u2022\nTreaties > Conflicting state laws\n\u2022\nTreaty vs. Congressional acts: Whichever is most recent\n\u2022\nConstitution > Treaties\nExecutive Agreements\n\u2022"
+                        "normalized_text": "Conflicts\n•\nTreaties > Conflicting state laws\n•\nTreaty vs. Congressional acts: Whichever is most recent\n•\nConstitution > Treaties\nExecutive Agreements\n•",
+                        "raw_text": "Conflicts\n•\nTreaties > Conflicting state laws\n•\nTreaty vs. Congressional acts: Whichever is most recent\n•\nConstitution > Treaties\nExecutive Agreements\n•"
                       }
                     ],
-                    "title": "Conflicts\n\u2022\nTreaties > Conflicting state laws\n\u2022\nTreaty vs. Congressional acts: Whichever is most recent\n\u2022\nConstitution >",
+                    "title": "Conflicts\n•\nTreaties > Conflicting state laws\n•\nTreaty vs. Congressional acts: Whichever is most recent\n•\nConstitution >",
                     "type": "RULE"
                   },
                   {
@@ -551,11 +551,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Between President and heads of foreign countries\nConflicts\n\u2022\nExecutive agreements > Conflicting state laws\nSTATE POWER AND REGULATION\nSUPREMACY CLAUSE\nSupremacy Clause\n\u2022\nConstitution, U.S. laws, U.S. treaties supersede conflicting state and local laws\nExpress Preemption\n\u2022",
-                        "raw_text": "Between President and heads of foreign countries\nConflicts\n\u2022\nExecutive agreements > Conflicting state laws\nSTATE POWER AND REGULATION\nSUPREMACY CLAUSE\nSupremacy Clause\n\u2022\nConstitution, U.S. laws, U.S. treaties supersede conflicting state and local laws\nExpress Preemption\n\u2022"
+                        "normalized_text": "Between President and heads of foreign countries\nConflicts\n•\nExecutive agreements > Conflicting state laws\nSTATE POWER AND REGULATION\nSUPREMACY CLAUSE\nSupremacy Clause\n•\nConstitution, U.S. laws, U.S. treaties supersede conflicting state and local laws\nExpress Preemption\n•",
+                        "raw_text": "Between President and heads of foreign countries\nConflicts\n•\nExecutive agreements > Conflicting state laws\nSTATE POWER AND REGULATION\nSUPREMACY CLAUSE\nSupremacy Clause\n•\nConstitution, U.S. laws, U.S. treaties supersede conflicting state and local laws\nExpress Preemption\n•"
                       }
                     ],
-                    "title": "Between President and heads of foreign countries\nConflicts\n\u2022\nExecutive agreements > Conflicting state laws\nSTATE POWER A",
+                    "title": "Between President and heads of foreign countries\nConflicts\n•\nExecutive agreements > Conflicting state laws\nSTATE POWER A",
                     "type": "RULE"
                   }
                 ],
@@ -579,7 +579,7 @@
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 32,
-                    "title": "Implied Preemption\nConflict Preemption\n\u2022",
+                    "title": "Implied Preemption\nConflict Preemption\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -591,11 +591,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Congressional act or federal law preempts conflicting state or local\nlaw\nObject Preemption\n\u2022\nState law obstructs federal law\u2019s objective\nField Preemption\n\u2022",
-                        "raw_text": "Congressional act or federal law preempts conflicting state or local\nlaw\nObject Preemption\n\u2022\nState law obstructs federal law\u2019s objective\nField Preemption\n\u2022"
+                        "normalized_text": "Congressional act or federal law preempts conflicting state or local\nlaw\nObject Preemption\n•\nState law obstructs federal law’s objective\nField Preemption\n•",
+                        "raw_text": "Congressional act or federal law preempts conflicting state or local\nlaw\nObject Preemption\n•\nState law obstructs federal law’s objective\nField Preemption\n•"
                       }
                     ],
-                    "title": "Congressional act or federal law preempts conflicting state or local\nlaw\nObject Preemption\n\u2022\nState law obstructs federal",
+                    "title": "Congressional act or federal law preempts conflicting state or local\nlaw\nObject Preemption\n•\nState law obstructs federal",
                     "type": "RULE"
                   },
                   {
@@ -606,11 +606,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Congress demonstrates intent to occupy entire field\nCONTRACTS CLAUSE\nContracts Clause\n\u2022",
-                        "raw_text": "Congress demonstrates intent to occupy entire field\nCONTRACTS CLAUSE\nContracts Clause\n\u2022"
+                        "normalized_text": "Congress demonstrates intent to occupy entire field\nCONTRACTS CLAUSE\nContracts Clause\n•",
+                        "raw_text": "Congress demonstrates intent to occupy entire field\nCONTRACTS CLAUSE\nContracts Clause\n•"
                       }
                     ],
-                    "title": "Congress demonstrates intent to occupy entire field\nCONTRACTS CLAUSE\nContracts Clause\n\u2022",
+                    "title": "Congress demonstrates intent to occupy entire field\nCONTRACTS CLAUSE\nContracts Clause\n•",
                     "type": "RULE"
                   },
                   {
@@ -621,18 +621,18 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Prevents state legislation retroactively impairing obligation of contracts\nPrivate Contracts\n\u2022\nGovernment\u2019s impairment must be reasonable and necessary to achieve important\ngovernment purpose\nPublic Contracts\n\u2022\nGovernment\u2019s impairment must be reasonable and necessary to achieve important\ngovernment purpose that could not be accomplished through less restrictive\nmeans\nPRIVILEGES AND IMMUNITIES\nFourteenth Amendment Privileges and Immunities\n\u2022",
-                        "raw_text": "Prevents state legislation retroactively impairing obligation of Ks\nPrivate Contracts\n\u2022\nGovernment\u2019s impairment must be rx and necessary to achieve important\ngovernment purpose\nPublic Contracts\n\u2022\nGovernment\u2019s impairment must be rx and necessary to achieve important\ngovernment purpose that could not be accomplished through less restrictive\nmeans\nPRIVILEGES AND IMMUNITIES\nFourteenth Amendment Privileges and Immunities\n\u2022"
+                        "normalized_text": "Prevents state legislation retroactively impairing obligation of contracts\nPrivate Contracts\n•\nGovernment’s impairment must be reasonable and necessary to achieve important\ngovernment purpose\nPublic Contracts\n•\nGovernment’s impairment must be reasonable and necessary to achieve important\ngovernment purpose that could not be accomplished through less restrictive\nmeans\nPRIVILEGES AND IMMUNITIES\nFourteenth Amendment Privileges and Immunities\n•",
+                        "raw_text": "Prevents state legislation retroactively impairing obligation of Ks\nPrivate Contracts\n•\nGovernment’s impairment must be rx and necessary to achieve important\ngovernment purpose\nPublic Contracts\n•\nGovernment’s impairment must be rx and necessary to achieve important\ngovernment purpose that could not be accomplished through less restrictive\nmeans\nPRIVILEGES AND IMMUNITIES\nFourteenth Amendment Privileges and Immunities\n•"
                       }
                     ],
-                    "title": "Prevents state legislation retroactively impairing obligation of Ks\nPrivate Contracts\n\u2022\nGovernment\u2019s impairment must be ",
+                    "title": "Prevents state legislation retroactively impairing obligation of Ks\nPrivate Contracts\n•\nGovernment’s impairment must be ",
                     "type": "RULE"
                   },
                   {
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 32,
-                    "title": "States may not intentionally discriminate against out-of-state residents\n\u2022",
+                    "title": "States may not intentionally discriminate against out-of-state residents\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -681,11 +681,11 @@
                   {
                     "elements": [],
                     "exceptions": [],
-                    "normalized_text": "Dormant Commerce Clause\n\u2022\nState and local laws may regulate interstate commerce only if legislation does not (i)\ndirectly discriminate against out-of-state commerce or (ii) unduly burden interstate\ncommerce",
-                    "raw_text": "Dormant Commerce Clause\n\u2022\nState and local laws may regulate interstate commerce only if legislation does not (i)\ndirectly discriminate against out-of-state commerce or (ii) unduly burden interstate\ncommerce"
+                    "normalized_text": "Dormant Commerce Clause\n•\nState and local laws may regulate interstate commerce only if legislation does not (i)\ndirectly discriminate against out-of-state commerce or (ii) unduly burden interstate\ncommerce",
+                    "raw_text": "Dormant Commerce Clause\n•\nState and local laws may regulate interstate commerce only if legislation does not (i)\ndirectly discriminate against out-of-state commerce or (ii) unduly burden interstate\ncommerce"
                   }
                 ],
-                "title": "Dormant Commerce Clause\n\u2022\nState and local laws may regulate interstate commerce only if legislation does not (i)\ndirectl",
+                "title": "Dormant Commerce Clause\n•\nState and local laws may regulate interstate commerce only if legislation does not (i)\ndirectl",
                 "type": "RULE"
               },
               {
@@ -705,8 +705,8 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Law that discriminates against out-of-state commerce is presumed invalid\nunless\n(1) Law furthers important state interest, and\n(2) No other non-discriminator alternatives exist\nExceptions\nMarket Participant\n\u2022\nState hiring, selling, or purchasing goods\nExpress Congressional Approval\n\u2022",
-                        "raw_text": "Law that discriminates against out-of-state commerce is presumed invalid\nunless\n(1) Law furthers important state interest, and\n(2) No other non-discriminator alternatives exist\nExceptions\nMarket Participant\n\u2022\nState hiring, selling, or purchasing goods\nExpress Congressional Approval\n\u2022"
+                        "normalized_text": "Law that discriminates against out-of-state commerce is presumed invalid\nunless\n(1) Law furthers important state interest, and\n(2) No other non-discriminator alternatives exist\nExceptions\nMarket Participant\n•\nState hiring, selling, or purchasing goods\nExpress Congressional Approval\n•",
+                        "raw_text": "Law that discriminates against out-of-state commerce is presumed invalid\nunless\n(1) Law furthers important state interest, and\n(2) No other non-discriminator alternatives exist\nExceptions\nMarket Participant\n•\nState hiring, selling, or purchasing goods\nExpress Congressional Approval\n•"
                       }
                     ],
                     "title": "Law that discriminates against out-of-state commerce is presumed invalid\nunless\n(1) Law furthers important state interes",
@@ -720,8 +720,8 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Congress may permit states to enact legislation that\ndiscriminates against out-of-state commerce\nUnduly Burden to Interstate Commerce\n\u2022",
-                        "raw_text": "Congress may permit states to enact legislation that\ndiscriminates against out-of-state commerce\nUnduly Burden to Interstate Commerce\n\u2022"
+                        "normalized_text": "Congress may permit states to enact legislation that\ndiscriminates against out-of-state commerce\nUnduly Burden to Interstate Commerce\n•",
+                        "raw_text": "Congress may permit states to enact legislation that\ndiscriminates against out-of-state commerce\nUnduly Burden to Interstate Commerce\n•"
                       }
                     ],
                     "title": "Congress may permit states to enact legislation that\ndiscriminates against out-of-state commerce\nUnduly Burden to Inters",
@@ -735,8 +735,8 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Non-discriminatory law may still be invalid if places undue burden on\ninterstate commerce\nTAKINGS CLAUSE\nTakings Clause\n\u2022",
-                        "raw_text": "Non-discriminatory law may still be invalid if places undue burden on\ninterstate commerce\nTAKINGS CLAUSE\nTakings Clause\n\u2022"
+                        "normalized_text": "Non-discriminatory law may still be invalid if places undue burden on\ninterstate commerce\nTAKINGS CLAUSE\nTakings Clause\n•",
+                        "raw_text": "Non-discriminatory law may still be invalid if places undue burden on\ninterstate commerce\nTAKINGS CLAUSE\nTakings Clause\n•"
                       }
                     ],
                     "title": "Non-discriminatory law may still be invalid if places undue burden on\ninterstate commerce\nTAKINGS CLAUSE\nTakings Clause\n",
@@ -746,14 +746,14 @@
                     "confidence": 0.75,
                     "depth": 4,
                     "page": 33,
-                    "title": "Prohibits government from taking private property for public use without just compensation\nProperty Interest\n\u2022",
+                    "title": "Prohibits government from taking private property for public use without just compensation\nProperty Interest\n•",
                     "type": "ISSUE"
                   }
                 ],
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 33,
-                "title": "Discrimination\n\u2022",
+                "title": "Discrimination\n•",
                 "type": "TOPIC"
               },
               {
@@ -766,11 +766,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Taking\nPossessory or Per Se\nPhysical Occupation\n\u2022\nLegislation \u2192 Permanent physical government occupation\nConstructive Occupation\n\u2022\nLegislation \u2192 Property\u2019s value or use is impaired\nRegulatory\n\u2022",
-                        "raw_text": "Taking\nPossessory or Per Se\nPhysical Occupation\n\u2022\nLegislation \u2192 Permanent physical government occupation\nConstructive Occupation\n\u2022\nLegislation \u2192 Property\u2019s value or use is impaired\nRegulatory\n\u2022"
+                        "normalized_text": "Taking\nPossessory or Per Se\nPhysical Occupation\n•\nLegislation → Permanent physical government occupation\nConstructive Occupation\n•\nLegislation → Property’s value or use is impaired\nRegulatory\n•",
+                        "raw_text": "Taking\nPossessory or Per Se\nPhysical Occupation\n•\nLegislation → Permanent physical government occupation\nConstructive Occupation\n•\nLegislation → Property’s value or use is impaired\nRegulatory\n•"
                       }
                     ],
-                    "title": "Taking\nPossessory or Per Se\nPhysical Occupation\n\u2022\nLegislation \u2192 Permanent physical government occupation\nConstructive Oc",
+                    "title": "Taking\nPossessory or Per Se\nPhysical Occupation\n•\nLegislation → Permanent physical government occupation\nConstructive Oc",
                     "type": "RULE"
                   },
                   {
@@ -781,18 +781,18 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Government places regulations such that owner is deprived of benefit of his\nproperty\nPublic Use\n\u2022",
-                        "raw_text": "Government places regulations such that owner is deprived of benefit of his\nproperty\nPublic Use\n\u2022"
+                        "normalized_text": "Government places regulations such that owner is deprived of benefit of his\nproperty\nPublic Use\n•",
+                        "raw_text": "Government places regulations such that owner is deprived of benefit of his\nproperty\nPublic Use\n•"
                       }
                     ],
-                    "title": "Government places regulations such that owner is deprived of benefit of his\nproperty\nPublic Use\n\u2022",
+                    "title": "Government places regulations such that owner is deprived of benefit of his\nproperty\nPublic Use\n•",
                     "type": "RULE"
                   },
                   {
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 33,
-                    "title": "Rationally related to conceivable public purpose\n\u2022",
+                    "title": "Rationally related to conceivable public purpose\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -826,18 +826,18 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "fair market value of property at time of taking\nDUE PROCESS\nPROCEDURAL DUE PROCESS\nProcedural Due Process\n\u2022\nNo state shall make or enforce any law, which shall deprive any person of life,\nliberty, or property without due process of law\nThreatened Protected Interest\nProperty\n\u2022",
-                        "raw_text": "FMV of property at time of taking\nDUE PROCESS\nPROCEDURAL DUE PROCESS\nProcedural Due Process\n\u2022\nNo state shall make or enforce any law, which shall deprive any person of life,\nliberty, or property without due process of law\nThreatened Protected Interest\nProperty\n\u2022"
+                        "normalized_text": "fair market value of property at time of taking\nDUE PROCESS\nPROCEDURAL DUE PROCESS\nProcedural Due Process\n•\nNo state shall make or enforce any law, which shall deprive any person of life,\nliberty, or property without due process of law\nThreatened Protected Interest\nProperty\n•",
+                        "raw_text": "FMV of property at time of taking\nDUE PROCESS\nPROCEDURAL DUE PROCESS\nProcedural Due Process\n•\nNo state shall make or enforce any law, which shall deprive any person of life,\nliberty, or property without due process of law\nThreatened Protected Interest\nProperty\n•"
                       }
                     ],
-                    "title": "FMV of property at time of taking\nDUE PROCESS\nPROCEDURAL DUE PROCESS\nProcedural Due Process\n\u2022\nNo state shall make or enf",
+                    "title": "FMV of property at time of taking\nDUE PROCESS\nPROCEDURAL DUE PROCESS\nProcedural Due Process\n•\nNo state shall make or enf",
                     "type": "RULE"
                   }
                 ],
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 34,
-                "title": "Just Compensation\n\u2022",
+                "title": "Just Compensation\n•",
                 "type": "TOPIC"
               },
               {
@@ -850,11 +850,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Process Due\n\u2022\nFactors\n(i) Private interest affected\n(ii) Risk of erroneous deprivation of interest through procedures used and",
-                        "raw_text": "Process Due\n\u2022\nFactors\n(i) Private interest affected\n(ii) Risk of erroneous deprivation of interest through procedures used and"
+                        "normalized_text": "Process Due\n•\nFactors\n(i) Private interest affected\n(ii) Risk of erroneous deprivation of interest through procedures used and",
+                        "raw_text": "Process Due\n•\nFactors\n(i) Private interest affected\n(ii) Risk of erroneous deprivation of interest through procedures used and"
                       }
                     ],
-                    "title": "Process Due\n\u2022\nFactors\n(i) Private interest affected\n(ii) Risk of erroneous deprivation of interest through procedures us",
+                    "title": "Process Due\n•\nFactors\n(i) Private interest affected\n(ii) Risk of erroneous deprivation of interest through procedures us",
                     "type": "RULE"
                   },
                   {
@@ -876,7 +876,7 @@
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 34,
-                    "title": "Notice and Hearing\n\u2022",
+                    "title": "Notice and Hearing\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -887,11 +887,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Generally entitled to notice and hearing\nSUBSTANTIVE DUE PROCESS\nSubstantive Due Process\n\u2022",
-                        "raw_text": "Generally entitled to notice and hearing\nSUBSTANTIVE DUE PROCESS\nSubstantive Due Process\n\u2022"
+                        "normalized_text": "Generally entitled to notice and hearing\nSUBSTANTIVE DUE PROCESS\nSubstantive Due Process\n•",
+                        "raw_text": "Generally entitled to notice and hearing\nSUBSTANTIVE DUE PROCESS\nSubstantive Due Process\n•"
                       }
                     ],
-                    "title": "Generally entitled to notice and hearing\nSUBSTANTIVE DUE PROCESS\nSubstantive Due Process\n\u2022",
+                    "title": "Generally entitled to notice and hearing\nSUBSTANTIVE DUE PROCESS\nSubstantive Due Process\n•",
                     "type": "RULE"
                   },
                   {
@@ -902,11 +902,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Protects against unlawful impingement of rights\nStandards of Review\nFundamental Rights\n\u2022\nFundamental right \u2192 Strict scrutiny\nStrict Scrutiny\n(1) Necessary and least restrictive means\n(2) Compelling government interest",
-                        "raw_text": "Protects against unlawful impingement of rights\nStandards of Review\nFundamental Rights\n\u2022\nFundamental right \u2192 Strict scrutiny\nStrict Scrutiny\n(1) Necessary and least restrictive means\n(2) Compelling government interest"
+                        "normalized_text": "Protects against unlawful impingement of rights\nStandards of Review\nFundamental Rights\n•\nFundamental right → Strict scrutiny\nStrict Scrutiny\n(1) Necessary and least restrictive means\n(2) Compelling government interest",
+                        "raw_text": "Protects against unlawful impingement of rights\nStandards of Review\nFundamental Rights\n•\nFundamental right → Strict scrutiny\nStrict Scrutiny\n(1) Necessary and least restrictive means\n(2) Compelling government interest"
                       }
                     ],
-                    "title": "Protects against unlawful impingement of rights\nStandards of Review\nFundamental Rights\n\u2022\nFundamental right \u2192 Strict scru",
+                    "title": "Protects against unlawful impingement of rights\nStandards of Review\nFundamental Rights\n•\nFundamental right → Strict scru",
                     "type": "RULE"
                   },
                   {
@@ -924,74 +924,74 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Non-Fundamental Rights\n\u2022\nNon-fundamental right \u2192 Rational basis\nRational Basis\n(1) Rationally related\n(2) Legitimate government interest",
-                        "raw_text": "Non-Fundamental Rights\n\u2022\nNon-fundamental right \u2192 Rational basis\nRational Basis\n(1) Rationally related\n(2) Legitimate government interest"
+                        "normalized_text": "Non-Fundamental Rights\n•\nNon-fundamental right → Rational basis\nRational Basis\n(1) Rationally related\n(2) Legitimate government interest",
+                        "raw_text": "Non-Fundamental Rights\n•\nNon-fundamental right → Rational basis\nRational Basis\n(1) Rationally related\n(2) Legitimate government interest"
                       }
                     ],
-                    "title": "Non-Fundamental Rights\n\u2022\nNon-fundamental right \u2192 Rational basis\nRational Basis\n(1) Rationally related\n(2) Legitimate gov",
+                    "title": "Non-Fundamental Rights\n•\nNon-fundamental right → Rational basis\nRational Basis\n(1) Rationally related\n(2) Legitimate gov",
                     "type": "RULE"
                   }
                 ],
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 34,
-                "title": "Legitimate claim\nLiberty\n\u2022\nDeprived of physical freedom, freedom of choice, or fundamental\nrights",
+                "title": "Legitimate claim\nLiberty\n•\nDeprived of physical freedom, freedom of choice, or fundamental\nrights",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 35,
-                "title": "FUNDAMENTAL RIGHTS\nFundamental Rights\n\u2022",
+                "title": "FUNDAMENTAL RIGHTS\nFundamental Rights\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 35,
-                "title": "Right to travel\n\u2022",
+                "title": "Right to travel\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 35,
-                "title": "Right to vote\n\u2022",
+                "title": "Right to vote\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 35,
-                "title": "Right to privacy\n\u2022",
+                "title": "Right to privacy\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 35,
-                "title": "Right to family autonomy\n\u2022\nMarriage, divorce, custody, child-rearing\n\u2022",
+                "title": "Right to family autonomy\n•\nMarriage, divorce, custody, child-rearing\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 35,
-                "title": "Right to reproductive autonomy\n\u2022\nProcreation, sexual relations, contraception, abortion\n\u2022",
+                "title": "Right to reproductive autonomy\n•\nProcreation, sexual relations, contraception, abortion\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 35,
-                "title": "Right to refuse medical treatment\nAbortion\nPre-Viability\n\u2022",
+                "title": "Right to refuse medical treatment\nAbortion\nPre-Viability\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 35,
-                "title": "May regulate abortion\n\u2022",
+                "title": "May regulate abortion\n•",
                 "type": "TOPIC"
               },
               {
@@ -1005,7 +1005,7 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 35,
-                "title": "Post-Viability\n\u2022",
+                "title": "Post-Viability\n•",
                 "type": "TOPIC"
               },
               {
@@ -1014,28 +1014,28 @@
                     "confidence": 0.75,
                     "depth": 4,
                     "page": 35,
-                    "title": "Must provide exception to preserve health or life of mother\nEQUAL PROTECTION\nEqual Protection Clause\n\u2022",
+                    "title": "Must provide exception to preserve health or life of mother\nEQUAL PROTECTION\nEqual Protection Clause\n•",
                     "type": "ISSUE"
                   },
                   {
                     "confidence": 0.75,
                     "depth": 4,
                     "page": 35,
-                    "title": "All persons entitled to equal protection of the laws\nDiscriminatory Classification\nFacially Discriminatory\n\u2022",
+                    "title": "All persons entitled to equal protection of the laws\nDiscriminatory Classification\nFacially Discriminatory\n•",
                     "type": "ISSUE"
                   },
                   {
                     "confidence": 0.75,
                     "depth": 4,
                     "page": 35,
-                    "title": "Creates distinctions between categories of people on its face\nFacially Neutral Law with Discriminatory Application\n\u2022",
+                    "title": "Creates distinctions between categories of people on its face\nFacially Neutral Law with Discriminatory Application\n•",
                     "type": "ISSUE"
                   }
                 ],
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 35,
-                "title": "May regulate once fetus reaches viability\n\u2022",
+                "title": "May regulate once fetus reaches viability\n•",
                 "type": "TOPIC"
               },
               {
@@ -1051,7 +1051,7 @@
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 36,
-                    "title": "Discriminatory Motive or Purpose\n\u2022",
+                    "title": "Discriminatory Motive or Purpose\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -1062,25 +1062,25 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Shown to have discriminatory motive or purpose\nStandard of Scrutiny\nSuspect Classification or Fundamental Right \u2013 Strict Scrutiny\n\u2022\nRace\n\u2022\nEthnicity\n\u2022",
-                        "raw_text": "Shown to have discriminatory motive or purpose\nStandard of Scrutiny\nSuspect Classification or Fundamental Right \u2013 Strict Scrutiny\n\u2022\nRace\n\u2022\nEthnicity\n\u2022"
+                        "normalized_text": "Shown to have discriminatory motive or purpose\nStandard of Scrutiny\nSuspect Classification or Fundamental Right – Strict Scrutiny\n•\nRace\n•\nEthnicity\n•",
+                        "raw_text": "Shown to have discriminatory motive or purpose\nStandard of Scrutiny\nSuspect Classification or Fundamental Right – Strict Scrutiny\n•\nRace\n•\nEthnicity\n•"
                       }
                     ],
-                    "title": "Shown to have discriminatory motive or purpose\nStandard of Scrutiny\nSuspect Classification or Fundamental Right \u2013 Strict",
+                    "title": "Shown to have discriminatory motive or purpose\nStandard of Scrutiny\nSuspect Classification or Fundamental Right – Strict",
                     "type": "RULE"
                   },
                   {
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 36,
-                    "title": "National origin\n\u2022",
+                    "title": "National origin\n•",
                     "type": "ELEMENT"
                   },
                   {
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 36,
-                    "title": "Alienage if classification by state law\n\u2022",
+                    "title": "Alienage if classification by state law\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -1115,7 +1115,7 @@
                     "confidence": 0.6,
                     "depth": 5,
                     "page": 36,
-                    "title": "Quasi-Suspect Classification \u2013 Intermediate Scrutiny\n\u2022\nGender\n\u2022",
+                    "title": "Quasi-Suspect Classification – Intermediate Scrutiny\n•\nGender\n•",
                     "type": "ELEMENT"
                   },
                   {
@@ -1141,11 +1141,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Non-Suspect Classification \u2013 Rational Basis\n\u2022\nAge\n\u2022\nDisability\n\u2022\nWealth\n\u2022\nEconomics\n\u2022",
-                        "raw_text": "Non-Suspect Classification \u2013 Rational Basis\n\u2022\nAge\n\u2022\nDisability\n\u2022\nWealth\n\u2022\nEconomics\n\u2022"
+                        "normalized_text": "Non-Suspect Classification – Rational Basis\n•\nAge\n•\nDisability\n•\nWealth\n•\nEconomics\n•",
+                        "raw_text": "Non-Suspect Classification – Rational Basis\n•\nAge\n•\nDisability\n•\nWealth\n•\nEconomics\n•"
                       }
                     ],
-                    "title": "Non-Suspect Classification \u2013 Rational Basis\n\u2022\nAge\n\u2022\nDisability\n\u2022\nWealth\n\u2022\nEconomics\n\u2022",
+                    "title": "Non-Suspect Classification – Rational Basis\n•\nAge\n•\nDisability\n•\nWealth\n•\nEconomics\n•",
                     "type": "RULE"
                   },
                   {
@@ -1173,7 +1173,7 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 36,
-                "title": "FIRST AMENDMENT\nFirst Amendment\n\u2022",
+                "title": "FIRST AMENDMENT\nFirst Amendment\n•",
                 "type": "TOPIC"
               },
               {
@@ -1229,28 +1229,28 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 37,
-                "title": "Symbolic Speech\n\u2022",
+                "title": "Symbolic Speech\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 37,
-                "title": "Content-Based Regulation\n\u2022",
+                "title": "Content-Based Regulation\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 37,
-                "title": "Restrictions based on content\n\u2022",
+                "title": "Restrictions based on content\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 37,
-                "title": "Strict scrutiny\nContent-Neutral Regulation\n\u2022",
+                "title": "Strict scrutiny\nContent-Neutral Regulation\n•",
                 "type": "TOPIC"
               },
               {
@@ -1274,28 +1274,28 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 37,
-                "title": "Restrictions on all speech\n\u2022",
+                "title": "Restrictions on all speech\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 37,
-                "title": "Fighting Words\n\u2022",
+                "title": "Fighting Words\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 37,
-                "title": "Inflicts injury or incites immediate breach of peace or violence\nCommercial Speech\n\u2022",
+                "title": "Inflicts injury or incites immediate breach of peace or violence\nCommercial Speech\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 37,
-                "title": "Protected unless false or misleading\n\u2022",
+                "title": "Protected unless false or misleading\n•",
                 "type": "TOPIC"
               },
               {
@@ -1316,11 +1316,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "FORUM\nPublic Forums\n\u2022\nTraditional: Historically used for expressive activities\n\u2022\nLimited: Designated for public expressive purpose",
-                        "raw_text": "FORUM\nPublic Forums\n\u2022\nTraditional: Historically used for expressive activities\n\u2022\nLimited: Designated for public expressive purpose"
+                        "normalized_text": "FORUM\nPublic Forums\n•\nTraditional: Historically used for expressive activities\n•\nLimited: Designated for public expressive purpose",
+                        "raw_text": "FORUM\nPublic Forums\n•\nTraditional: Historically used for expressive activities\n•\nLimited: Designated for public expressive purpose"
                       }
                     ],
-                    "title": "FORUM\nPublic Forums\n\u2022\nTraditional: Historically used for expressive activities\n\u2022\nLimited: Designated for public expressi",
+                    "title": "FORUM\nPublic Forums\n•\nTraditional: Historically used for expressive activities\n•\nLimited: Designated for public expressi",
                     "type": "RULE"
                   }
                 ],
@@ -1340,8 +1340,8 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Intermediate scrutiny\n(1) Narrowly tailored\n(2) Achieve important government interest, and\n(3) Leaves open ample alternative means\nContent-Based\n\u2022",
-                        "raw_text": "Intermediate scrutiny\n(1) Narrowly tailored\n(2) Achieve important government interest, and\n(3) Leaves open ample alternative means\nContent-Based\n\u2022"
+                        "normalized_text": "Intermediate scrutiny\n(1) Narrowly tailored\n(2) Achieve important government interest, and\n(3) Leaves open ample alternative means\nContent-Based\n•",
+                        "raw_text": "Intermediate scrutiny\n(1) Narrowly tailored\n(2) Achieve important government interest, and\n(3) Leaves open ample alternative means\nContent-Based\n•"
                       }
                     ],
                     "title": "Intermediate scrutiny\n(1) Narrowly tailored\n(2) Achieve important government interest, and\n(3) Leaves open ample alterna",
@@ -1351,14 +1351,14 @@
                     "confidence": 0.75,
                     "depth": 4,
                     "page": 38,
-                    "title": "Strict scrutiny\nNon-Public Forum\n(1) Viewpoint-neutral, and\n(2) Satisfies rational basis test\nLIMITATIONS\nVagueness\n\u2022",
+                    "title": "Strict scrutiny\nNon-Public Forum\n(1) Viewpoint-neutral, and\n(2) Satisfies rational basis test\nLIMITATIONS\nVagueness\n•",
                     "type": "ISSUE"
                   }
                 ],
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 38,
-                "title": "Content-Neutral\nTime, Place, Manner\n\u2022",
+                "title": "Content-Neutral\nTime, Place, Manner\n•",
                 "type": "TOPIC"
               },
               {
@@ -1371,11 +1371,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Regulates substantially more speech than Constitution allows\nPrior Restraint\n\u2022\nRestricts harmful speech before it\u2019s expressed\n\u2022",
-                        "raw_text": "Regulates substantially more speech than Constitution allows\nPrior Restraint\n\u2022\nRestricts harmful speech before it\u2019s expressed\n\u2022"
+                        "normalized_text": "Regulates substantially more speech than Constitution allows\nPrior Restraint\n•\nRestricts harmful speech before it’s expressed\n•",
+                        "raw_text": "Regulates substantially more speech than Constitution allows\nPrior Restraint\n•\nRestricts harmful speech before it’s expressed\n•"
                       }
                     ],
-                    "title": "Regulates substantially more speech than Constitution allows\nPrior Restraint\n\u2022\nRestricts harmful speech before it\u2019s expr",
+                    "title": "Regulates substantially more speech than Constitution allows\nPrior Restraint\n•\nRestricts harmful speech before it’s expr",
                     "type": "RULE"
                   },
                   {
@@ -1386,25 +1386,25 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "Strict scrutiny\nFREEDOM OF RELIGION\nESTABLISHMENT CLAUSE\nEstablishment Clause\n\u2022\nGovernment may not establish official religion, favor one religion over\nanother, or favor religion over non-religion\nFacially Religious Preference\n\u2022",
-                        "raw_text": "Strict scrutiny\nFREEDOM OF RELIGION\nESTABLISHMENT CLAUSE\nEstablishment Clause\n\u2022\nGovernment may not establish official religion, favor one religion over\nanother, or favor religion over non-religion\nFacially Religious Preference\n\u2022"
+                        "normalized_text": "Strict scrutiny\nFREEDOM OF RELIGION\nESTABLISHMENT CLAUSE\nEstablishment Clause\n•\nGovernment may not establish official religion, favor one religion over\nanother, or favor religion over non-religion\nFacially Religious Preference\n•",
+                        "raw_text": "Strict scrutiny\nFREEDOM OF RELIGION\nESTABLISHMENT CLAUSE\nEstablishment Clause\n•\nGovernment may not establish official religion, favor one religion over\nanother, or favor religion over non-religion\nFacially Religious Preference\n•"
                       }
                     ],
-                    "title": "Strict scrutiny\nFREEDOM OF RELIGION\nESTABLISHMENT CLAUSE\nEstablishment Clause\n\u2022\nGovernment may not establish official re",
+                    "title": "Strict scrutiny\nFREEDOM OF RELIGION\nESTABLISHMENT CLAUSE\nEstablishment Clause\n•\nGovernment may not establish official re",
                     "type": "RULE"
                   }
                 ],
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 38,
-                "title": "Rx person cannot determine whether speech is prohibited or permitted\nOverbreadth\n\u2022",
+                "title": "Rx person cannot determine whether speech is prohibited or permitted\nOverbreadth\n•",
                 "type": "TOPIC"
               },
               {
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 38,
-                "title": "Prefers one religion over another on its face\n\u2022",
+                "title": "Prefers one religion over another on its face\n•",
                 "type": "TOPIC"
               },
               {
@@ -1424,11 +1424,11 @@
                       {
                         "elements": [],
                         "exceptions": [],
-                        "normalized_text": "No Facially Religious Preference \u2013 Lemon Test\n\u2022\nLaw\u2019s impact favors a religion\nLemon Test\n(1) Predominant secular purpose\n(2) Primary effect neither advances nor inhibits religion, and\n(3) No excessive government entanglement with religion",
-                        "raw_text": "No Facially Religious Preference \u2013 Lemon Test\n\u2022\nLaw\u2019s impact favors a religion\nLemon Test\n(1) Predominant secular purpose\n(2) Primary effect neither advances nor inhibits religion, and\n(3) No excessive government entanglement with religion"
+                        "normalized_text": "No Facially Religious Preference – Historical Practices Test (Kennedy v. Bremerton, 2022)\n•\nLaw’s impact favors a religion\nHistorical Practices Test (Kennedy v. Bremerton, 2022)\n(1) Historical practice and understanding\n(2) Whether challenged practice fits within historical tradition\nNote: Lemon Test overruled by Kennedy v. Bremerton School District (2022)",
+                        "raw_text": "No Facially Religious Preference – Historical Practices Test (Kennedy v. Bremerton, 2022)\n•\nLaw’s impact favors a religion\nHistorical Practices Test (Kennedy v. Bremerton, 2022)\n(1) Historical practice and understanding\n(2) Whether challenged practice fits within historical tradition\nNote: Lemon Test overruled by Kennedy v. Bremerton School District (2022)"
                       }
                     ],
-                    "title": "No Facially Religious Preference \u2013 Lemon Test\n\u2022\nLaw\u2019s impact favors a religion\nLemon Test\n(1) Predominant secular purpos",
+                    "title": "No Facially Religious Preference – Historical Practices Test (Kennedy v. Bremerton, 2022)\n•\nLaw’s impact favors a religion\nHistorical Practices Test (Kennedy v. Bremerton, 2022)\n(1) Predominant secular purpos",
                     "type": "RULE"
                   }
                 ],
@@ -1451,14 +1451,14 @@
                 "confidence": 0.65,
                 "depth": 5,
                 "page": 39,
-                "title": "Free Exercise Clause\n\u2022",
+                "title": "Free Exercise Clause\n•",
                 "type": "SUBISSUE"
               },
               {
                 "confidence": 0.65,
                 "depth": 5,
                 "page": 39,
-                "title": "Government may not prohibit free exercise of religion\n\u2022",
+                "title": "Government may not prohibit free exercise of religion\n•",
                 "type": "SUBISSUE"
               },
               {
@@ -1476,11 +1476,11 @@
                   {
                     "elements": [],
                     "exceptions": [],
-                    "normalized_text": "Religious Belief\n\u2022\nMay look to one\u2019s sincerity in asserting belief\nLaws Targeting Religious Conduct\n\u2022",
-                    "raw_text": "Religious Belief\n\u2022\nMay look to one\u2019s sincerity in asserting belief\nLaws Targeting Religious Conduct\n\u2022"
+                    "normalized_text": "Religious Belief\n•\nMay look to one’s sincerity in asserting belief\nLaws Targeting Religious Conduct\n•",
+                    "raw_text": "Religious Belief\n•\nMay look to one’s sincerity in asserting belief\nLaws Targeting Religious Conduct\n•"
                   }
                 ],
-                "title": "Religious Belief\n\u2022\nMay look to one\u2019s sincerity in asserting belief\nLaws Targeting Religious Conduct\n\u2022",
+                "title": "Religious Belief\n•\nMay look to one’s sincerity in asserting belief\nLaws Targeting Religious Conduct\n•",
                 "type": "RULE"
               },
               {
@@ -1494,7 +1494,7 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 39,
-                "title": "Laws of General Applicability\n\u2022",
+                "title": "Laws of General Applicability\n•",
                 "type": "TOPIC"
               },
               {
@@ -1525,7 +1525,7 @@
                 "confidence": 0.8,
                 "depth": 3,
                 "page": 39,
-                "title": "Rational basis test\nFREEDOM OF ASSOCIATION\nFreedom of Association\n\u2022",
+                "title": "Rational basis test\nFREEDOM OF ASSOCIATION\nFreedom of Association\n•",
                 "type": "TOPIC"
               }
             ],
