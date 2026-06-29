@@ -275,7 +275,7 @@ if command -v ollama &>/dev/null; then
 
     if ollama_running; then
         ok "Ollama is running"
-        if ! ollama list 2>/dev/null | grep -q "$OLLAMA_MODEL"; then
+        if ! ollama list 2>/dev/null | grep -qF "$OLLAMA_MODEL"; then
             info "Downloading AI model: $OLLAMA_MODEL"
             info "This is a one-time download and may take 10-20 minutes..."
             echo ""
@@ -336,7 +336,7 @@ with SessionLocal() as s:
 info "Current data: $QUESTION_COUNT questions, $TEMPLATE_COUNT templates, $RULE_COUNT supplemental rules"
 
 # If database is empty but parsed JSON files exist, load from seed
-PARSED_COUNT=$(ls data/parsed/*.essays.json 2>/dev/null | wc -l | tr -d ' ')
+PARSED_COUNT=$(find data/parsed -maxdepth 1 -name '*.essays.json' 2>/dev/null | wc -l | tr -d ' ' || echo "0")
 
 if [ "$QUESTION_COUNT" = "0" ] && [ "$PARSED_COUNT" -gt 0 ]; then
     info "Loading pre-parsed data from data/parsed/ (no PDF downloads needed)..."
