@@ -30,13 +30,30 @@ info()  { echo -e "    ${DIM}$1${NC}"; }
 TOTAL_STEPS=8
 banner
 
-# Pre-flight: ensure curl is available (needed for Homebrew, Ollama)
+# ── Pre-flight checks ────────────────────────────────────────────────────────
+
+# macOS: ensure Xcode CommandLineTools are installed (needed for git, clang, etc.)
+if [[ "$(uname)" == "Darwin" ]] && ! xcode-select -p &>/dev/null; then
+    echo -e "${YELLOW}    Xcode Command Line Tools are required.${NC}"
+    echo -e "    A system dialog may appear — click ${BOLD}Install${NC} and wait for it to finish."
+    echo -e "    ${DIM}This is a one-time install and may take 5-10 minutes.${NC}"
+    echo ""
+    xcode-select --install 2>/dev/null || true
+    echo ""
+    echo -e "    Press ${BOLD}Enter${NC} after the installation completes..."
+    read -r
+fi
+
+# Ensure curl is available
 if ! command -v curl &>/dev/null; then
-    fail "curl is required but not found. Install it first:\n    macOS: xcode-select --install\n    Linux: sudo apt install curl"
+    fail "curl is required but not found.\n    macOS: xcode-select --install\n    Linux: sudo apt install curl"
 fi
 
 # Ensure data directories exist (gitignored, won't exist on fresh clone)
 mkdir -p data/input data/raw data/extracted data/parsed data/manifests
+
+# Skip Homebrew interactive confirmation prompts
+export HOMEBREW_NO_AUTO_UPDATE=1
 
 # ══════════════════════════════════════════════════════════════════════════════
 # STEP 1: Homebrew (macOS package manager)
@@ -46,9 +63,9 @@ step 1 "Package manager (Homebrew)"
 ensure_brew() {
     if command -v brew &>/dev/null; then return 0; fi
     info "Homebrew is a package manager that installs tools for you."
-    info "You may be asked for your password — this is normal."
+    info "You may be asked for your Mac password — this is normal."
     echo ""
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     # Add brew to path for this session
     if [ -f /opt/homebrew/bin/brew ]; then
         eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -90,7 +107,6 @@ find_python() {
     return 1
 }
 
-# Create or verify virtual environment
 if [ -f .venv/bin/python ] && .venv/bin/python --version &>/dev/null; then
     ok "Python virtual environment exists ($(.venv/bin/python --version))"
 else
@@ -101,7 +117,7 @@ else
             info "Installing Python 3.12 via Homebrew..."
             brew install python@3.12
         else
-            fail "Python 3.12+ not found. Install it with: sudo apt install python3.12 python3.12-venv"
+            fail "Python 3.12+ not found. Install it with:\n    sudo apt install python3.12 python3.12-venv"
         fi
         PYTHON=$(find_python) || fail "Could not find Python 3.12+ after installation"
     }
@@ -121,7 +137,7 @@ if .venv/bin/pip install -q -e ".[dev]" 2>/dev/null; then
     ok "All Python packages installed"
 else
     warn "Dev dependencies failed — trying core dependencies only..."
-    .venv/bin/pip install -q -e . 2>/dev/null || fail "Failed to install Python dependencies"
+    .venv/bin/pip install -q -e . 2>/dev/null || fail "Failed to install Python dependencies.\n    Check your internet connection and try again."
     ok "Core Python packages installed"
 fi
 
@@ -179,7 +195,6 @@ start_pg_brew() {
         info "Installing PostgreSQL 16 via Homebrew..."
         brew install postgresql@16
         brew link postgresql@16 --force 2>/dev/null || true
-        # Ensure pg tools are on PATH for this session
         local pg_bin
         pg_bin="$(brew --prefix postgresql@16 2>/dev/null)/bin"
         if [ -d "$pg_bin" ]; then
@@ -195,11 +210,9 @@ start_pg_brew() {
 }
 
 ensure_pg_database() {
-    # Test if our database already exists
     if psql -h localhost -p 5432 -U calbar -d calbar_tutor -c "SELECT 1" &>/dev/null; then
         return 0
     fi
-    # Try to create the role and database
     for superuser in "$USER" postgres; do
         if psql -h localhost -p 5432 -U "$superuser" -d postgres -c "SELECT 1" &>/dev/null 2>&1; then
             psql -h localhost -p 5432 -U "$superuser" -d postgres -c "
@@ -246,6 +259,17 @@ OLLAMA_MODEL=$(grep -E "^CALBAR_OLLAMA_MODEL=" .env 2>/dev/null | cut -d= -f2 ||
 
 ollama_running() { curl -sf http://localhost:11434/api/tags &>/dev/null; }
 
+# Test if a model actually works (not just downloaded)
+ollama_model_works() {
+    local test_response
+    test_response=$(curl -sf --max-time 15 http://localhost:11434/api/chat -d "{
+        \"model\": \"$OLLAMA_MODEL\",
+        \"messages\": [{\"role\": \"user\", \"content\": \"Say OK\"}],
+        \"stream\": false
+    }" 2>/dev/null) || return 1
+    echo "$test_response" | grep -q "message" 2>/dev/null
+}
+
 if ! command -v ollama &>/dev/null; then
     info "Ollama provides AI-powered essay analysis."
     if [[ "$(uname)" == "Darwin" ]]; then
@@ -275,51 +299,64 @@ if command -v ollama &>/dev/null; then
     if ollama_running; then
         ok "Ollama is running"
 
-        # Cloud models (name contains "-cloud") require an Ollama account
-        if [[ "$OLLAMA_MODEL" == *"-cloud"* ]] || [[ "$OLLAMA_MODEL" == *":cloud"* ]] || [[ "$OLLAMA_MODEL" == *"cloud"* ]]; then
-            if ! ollama list 2>/dev/null | grep -qF "$OLLAMA_MODEL"; then
+        # Check if model is already pulled AND working
+        MODEL_READY=false
+        if ollama list 2>/dev/null | grep -qF "$OLLAMA_MODEL"; then
+            info "Testing model $OLLAMA_MODEL..."
+            if ollama_model_works; then
+                ok "Model $OLLAMA_MODEL is ready and working"
+                MODEL_READY=true
+            else
+                warn "Model $OLLAMA_MODEL is downloaded but not responding."
+                info "This usually means you need to log in to Ollama for cloud models."
+            fi
+        fi
+
+        if [ "$MODEL_READY" = false ]; then
+            # Cloud models require Ollama account login
+            if [[ "$OLLAMA_MODEL" == *"cloud"* ]]; then
                 echo ""
-                echo -e "    ${BOLD}The model '$OLLAMA_MODEL' runs in the cloud and requires an Ollama account.${NC}"
+                echo -e "    ${BOLD}Cloud model setup required${NC}"
                 echo ""
-                echo -e "    ${BOLD}To set up:${NC}"
-                echo -e "    1. Create a free account at ${GREEN}https://ollama.com/signup${NC}"
-                echo -e "    2. Run: ${GREEN}ollama login${NC}"
-                echo -e "    3. Re-run this script"
+                echo -e "    The model '${GREEN}$OLLAMA_MODEL${NC}' runs via Ollama's cloud service."
+                echo -e "    This requires a free Ollama account."
                 echo ""
-                echo -e "    ${DIM}Or switch to a local model by editing .env:${NC}"
-                echo -e "    ${DIM}  CALBAR_OLLAMA_MODEL=gemma3:12b${NC}"
+                echo -e "    ${BOLD}Step 1:${NC} Create account at ${GREEN}https://ollama.com/signup${NC}"
+                echo -e "    ${BOLD}Step 2:${NC} Open a new terminal and run: ${GREEN}ollama login${NC}"
+                echo -e "    ${BOLD}Step 3:${NC} Come back here and press Enter"
                 echo ""
-                read -p "    Have you already logged in to Ollama? (y/n) " -n 1 -r
+                echo -e "    ${DIM}Alternative: Use a free local model instead (no account needed):${NC}"
+                echo -e "    ${DIM}  Edit .env and change CALBAR_OLLAMA_MODEL=gemma3:12b${NC}"
+                echo -e "    ${DIM}  Then re-run ./start.sh${NC}"
                 echo ""
-                if [[ $REPLY =~ ^[Yy]$ ]]; then
-                    info "Pulling cloud model: $OLLAMA_MODEL"
-                    if ollama pull "$OLLAMA_MODEL"; then
-                        ok "Model $OLLAMA_MODEL ready"
+                read -p "    Press Enter after logging in (or type 'skip' to continue without AI): " OLLAMA_REPLY
+                if [[ "${OLLAMA_REPLY:-}" != "skip" ]]; then
+                    info "Pulling model: $OLLAMA_MODEL"
+                    if ollama pull "$OLLAMA_MODEL" && ollama_model_works; then
+                        ok "Model $OLLAMA_MODEL is ready"
+                        MODEL_READY=true
                     else
-                        warn "Failed to pull cloud model — you may need to run: ollama login"
-                        warn "Mock analysis will be used until the model is available."
+                        warn "Model still not working. You may need to log in first."
+                        warn "Run 'ollama login' in another terminal, then restart this script."
                     fi
-                else
-                    info "Skipping cloud model setup for now."
-                    warn "Mock analysis will be used. Run 'ollama login' and restart to enable AI."
                 fi
             else
-                ok "Model $OLLAMA_MODEL is ready"
-            fi
-        else
-            # Local model — just pull it
-            if ! ollama list 2>/dev/null | grep -qF "$OLLAMA_MODEL"; then
+                # Local model — just download it
                 info "Downloading AI model: $OLLAMA_MODEL"
                 info "This is a one-time download and may take 10-20 minutes..."
                 echo ""
                 if ollama pull "$OLLAMA_MODEL"; then
                     ok "Model $OLLAMA_MODEL downloaded"
+                    MODEL_READY=true
                 else
                     warn "Failed to download model — mock analysis will be used"
                 fi
-            else
-                ok "Model $OLLAMA_MODEL is ready"
             fi
+        fi
+
+        if [ "$MODEL_READY" = false ]; then
+            warn "AI analysis will use simplified mock grading."
+            warn "For full AI analysis, set up Ollama and restart."
         fi
     else
         warn "Could not start Ollama — mock analysis will be used"
@@ -374,7 +411,6 @@ if [ "$QUESTION_COUNT" = "0" ] && [ "$PARSED_COUNT" -gt 0 ]; then
     info "Loading pre-parsed data from data/parsed/ (no PDF downloads needed)..."
     .venv/bin/python -m app.cli load-seed || warn "Seed loading had errors — see above"
 
-    # Re-check counts
     QUESTION_COUNT=$(.venv/bin/python -c "
 from app.db.session import SessionLocal; from sqlalchemy import func, select; from app.db.models.essays import EssayQuestion
 with SessionLocal() as s: print(s.scalar(select(func.count(EssayQuestion.id))) or 0)
@@ -389,7 +425,6 @@ with SessionLocal() as s: print(s.scalar(select(func.count(LegalRule.id))) or 0)
 " 2>/dev/null || echo "0")
     ok "Loaded from seed: $QUESTION_COUNT questions, $TEMPLATE_COUNT templates, $RULE_COUNT rules"
 elif [ "$QUESTION_COUNT" = "0" ]; then
-    # No parsed data available — download from CalBar website
     info "No pre-parsed data found. Downloading from CalBar website..."
     info "This may take several minutes on first run."
     for year in $(seq 2026 -1 2012); do
@@ -403,7 +438,6 @@ with SessionLocal() as s: print(s.scalar(select(func.count(EssayQuestion.id))) o
 " 2>/dev/null || echo "0")
     ok "Downloaded and parsed $QUESTION_COUNT essay questions"
 
-    # Try loading templates and rules from PDFs if available
     SCHIMMEL_PDF="data/input/Schimmel Templates_Bullet Version.pdf"
     if [ -f "$SCHIMMEL_PDF" ]; then
         .venv/bin/python -m app.cli parse-essay-template --file "$SCHIMMEL_PDF" 2>/dev/null || warn "Template parsing failed"
@@ -415,10 +449,25 @@ else
     ok "Database already populated: $QUESTION_COUNT questions, $TEMPLATE_COUNT templates, $RULE_COUNT rules"
 fi
 
+# Final data check — warn if empty
+if [ "$QUESTION_COUNT" = "0" ]; then
+    warn "No essay questions were loaded."
+    warn "The app will start but the Practice page will be empty."
+    info "Try running: .venv/bin/python -m app.cli run-pipeline --year 2025 --month february"
+fi
+
 # ══════════════════════════════════════════════════════════════════════════════
 # STEP 8: Launch the application
 # ══════════════════════════════════════════════════════════════════════════════
 step 8 "Starting CalBar Exam Tutor"
+
+# Check if port 8000 is already in use
+if lsof -i :8000 &>/dev/null; then
+    warn "Port 8000 is already in use by another application."
+    info "Either stop the other application or change the port:"
+    info "  .venv/bin/python -m app.cli serve --port 8001"
+    echo ""
+fi
 
 PROVIDER=$(.venv/bin/python -c "
 from app.services.analysis import get_analysis_service
@@ -438,7 +487,7 @@ if [ "$PROVIDER" = "OllamaAnalysisService" ]; then
     echo -e "  ${GREEN}✓${NC}  AI Engine: Ollama (${OLLAMA_MODEL})"
 else
     echo -e "  ${YELLOW}⚠${NC}  AI Engine: Mock (Ollama not available)"
-    echo -e "     ${DIM}Install and start Ollama for full AI analysis.${NC}"
+    echo -e "     ${DIM}Set up Ollama for full AI analysis (see Step 6 above).${NC}"
 fi
 echo -e "  ${GREEN}✓${NC}  Questions: $QUESTION_COUNT"
 echo -e "  ${GREEN}✓${NC}  Templates: $TEMPLATE_COUNT"
