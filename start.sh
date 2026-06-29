@@ -299,7 +299,7 @@ if command -v ollama &>/dev/null; then
     if ollama_running; then
         ok "Ollama is running"
 
-        # 1. If model is already pulled and working — done
+        # 1. Already pulled and working — done silently
         MODEL_READY=false
         if ollama list 2>/dev/null | grep -qF "$OLLAMA_MODEL"; then
             info "Verifying model $OLLAMA_MODEL..."
@@ -309,8 +309,7 @@ if command -v ollama &>/dev/null; then
             fi
         fi
 
-        # 2. If not ready, try pulling silently (works for local models
-        #    and cloud models where the user is already logged in)
+        # 2. Not ready — try pulling (works for local models and logged-in users)
         if [ "$MODEL_READY" = false ]; then
             info "Pulling model $OLLAMA_MODEL..."
             ollama pull "$OLLAMA_MODEL" 2>/dev/null || true
@@ -320,25 +319,70 @@ if command -v ollama &>/dev/null; then
             fi
         fi
 
-        # 3. Still not working — now explain what's needed
-        if [ "$MODEL_READY" = false ]; then
-            if [[ "$OLLAMA_MODEL" == *"cloud"* ]]; then
-                warn "Cloud model '$OLLAMA_MODEL' requires an Ollama account."
-                echo ""
-                echo -e "    ${BOLD}To enable AI analysis:${NC}"
-                echo -e "    1. Create a free account at ${GREEN}https://ollama.com/signup${NC}"
-                echo -e "    2. Run: ${GREEN}ollama login${NC}"
-                echo -e "    3. Re-run: ${GREEN}./start.sh${NC}"
-                echo ""
-                echo -e "    ${DIM}Or use a local model (no account needed):${NC}"
-                echo -e "    ${DIM}  Edit .env → CALBAR_OLLAMA_MODEL=gemma3:12b${NC}"
-                echo -e "    ${DIM}  Then re-run ./start.sh${NC}"
-            else
-                warn "Could not download model '$OLLAMA_MODEL'."
-                info "Check your internet connection and try: ollama pull $OLLAMA_MODEL"
-            fi
+        # 3. Cloud model still not working — needs account login
+        if [ "$MODEL_READY" = false ] && [[ "$OLLAMA_MODEL" == *"cloud"* ]]; then
             echo ""
-            warn "Continuing without AI — mock analysis will be used."
+            echo -e "    ${BOLD}The AI model needs an Ollama account to run.${NC}"
+            echo -e "    ${DIM}You have two options:${NC}"
+            echo ""
+            echo -e "    ${GREEN}[1] Cloud model (recommended)${NC}"
+            echo -e "        Uses Ollama cloud — faster and higher quality."
+            echo -e "        Requires a free account at https://ollama.com (takes 30 seconds)."
+            echo ""
+            echo -e "    ${YELLOW}[2] Local model${NC}"
+            echo -e "        Runs entirely on your computer — no account needed."
+            echo -e "        Slower, but works completely offline."
+            echo ""
+            local ai_choice
+            while true; do
+                read -rp "    Enter 1 or 2: " ai_choice
+                case "$ai_choice" in
+                    1) break ;;
+                    2) break ;;
+                    *) echo -e "    ${RED}Please enter 1 or 2.${NC}" ;;
+                esac
+            done
+            echo ""
+
+            if [[ "$ai_choice" == "1" ]]; then
+                info "Opening Ollama login — a browser window will open."
+                info "Sign up or log in, then come back here."
+                echo ""
+                ollama login || {
+                    warn "Ollama login failed. You can try again later with: ollama login"
+                }
+                echo ""
+                info "Pulling cloud model $OLLAMA_MODEL..."
+                if ollama pull "$OLLAMA_MODEL" && ollama_model_works; then
+                    ok "Cloud model $OLLAMA_MODEL is ready"
+                    MODEL_READY=true
+                else
+                    warn "Cloud model not working. Try 'ollama login' again or switch to local."
+                fi
+            else
+                LOCAL_MODEL="gemma3:12b"
+                info "Downloading local model $LOCAL_MODEL (~8GB)..."
+                echo -e "    ${DIM}This may take a few minutes. Good time for a coffee break.${NC}"
+                echo ""
+                if ollama pull "$LOCAL_MODEL"; then
+                    OLLAMA_MODEL="$LOCAL_MODEL"
+                    sed -i '' "s/^CALBAR_OLLAMA_MODEL=.*/CALBAR_OLLAMA_MODEL=$LOCAL_MODEL/" .env 2>/dev/null || true
+                    ok "Local model $LOCAL_MODEL ready"
+                    MODEL_READY=true
+                else
+                    warn "Failed to download local model."
+                fi
+            fi
+        fi
+
+        # 4. Local model not working (non-cloud) — just report
+        if [ "$MODEL_READY" = false ] && [[ "$OLLAMA_MODEL" != *"cloud"* ]]; then
+            warn "Could not set up model '$OLLAMA_MODEL'."
+            info "Check your internet connection and try: ollama pull $OLLAMA_MODEL"
+        fi
+
+        if [ "$MODEL_READY" = false ]; then
+            warn "AI analysis will use simplified mock grading for now."
         fi
     else
         warn "Could not start Ollama — mock analysis will be used"
