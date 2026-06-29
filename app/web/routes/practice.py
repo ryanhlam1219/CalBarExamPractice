@@ -56,7 +56,7 @@ def practice_home(
     subjects = list(session.scalars(select(LegalSubject).order_by(LegalSubject.display_name)).all())
     years = sorted({q.exam_year for q in questions if q.exam_year}, reverse=True)
 
-    # Compute practiced subjects: subjects that have at least one submission
+    # Compute practiced subjects
     from app.db.models.submissions import EssayAnalysis
     from app.db.models.templates import EssayTemplate as ET
     practiced_subjects: set[str] = set()
@@ -70,10 +70,18 @@ def practice_home(
     for row in practiced_rows:
         practiced_subjects.add(row[0])
 
-    all_subjects_list = subjects
+    # Map each question to its subject via the template linkage
+    q_subject_map = _get_question_subject_map(session)
+
+    # Enrich questions with subject for client-side filtering
+    question_data = []
+    for q in questions:
+        subj = q_subject_map.get(q.id, "")
+        question_data.append({"question": q, "subject": subj})
 
     templates = request.app.state.templates
     return templates.TemplateResponse(request, "practice.html", {
+        "question_data": question_data,
         "questions": questions,
         "subjects": subjects,
         "years": years,
@@ -81,8 +89,42 @@ def practice_home(
         "filter_year": parsed_year,
         "filter_month": clean_month,
         "practiced_subjects": practiced_subjects,
-        "all_subjects_list": all_subjects_list,
+        "all_subjects_list": subjects,
     })
+
+
+_question_subject_cache: dict[int, str] | None = None
+
+
+def _get_question_subject_map(session: Session) -> dict[int, str]:
+    """Map question IDs to subject names. Uses the official subject labels
+    and keyword matcher, cached after first computation."""
+    global _question_subject_cache
+    if _question_subject_cache is not None:
+        return _question_subject_cache
+
+    from app.services.question_subject_mapper import (
+        _official_subject_label_for_question,
+        _match_subject,
+        _match_subject_label,
+    )
+
+    all_questions = list(session.scalars(select(EssayQuestion)).all())
+    all_subjects = list(session.scalars(select(LegalSubject)).all())
+    result: dict[int, str] = {}
+
+    for q in all_questions:
+        question_text = "\n".join(t for t in [q.title, q.normalized_text, q.raw_text] if t)
+        label = _official_subject_label_for_question(session, q)
+        matched = None
+        if label:
+            matched = _match_subject_label(label, question_text, all_subjects)
+        if not matched:
+            matched = _match_subject(question_text, all_subjects)
+        result[q.id] = matched.display_name if matched else ""
+
+    _question_subject_cache = result
+    return result
 
 
 @router.get("/random")

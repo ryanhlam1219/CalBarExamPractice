@@ -3,19 +3,33 @@
 
 {% block extra_css %}
 <style>
-.filter-bar { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 20px; }
+.filter-bar { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
 .filter-bar label { font-weight: 650; font-size: 13px; color: var(--muted); }
 .filter-actions { margin-left: auto; display: flex; gap: 8px; }
+
+.search-bar { display: flex; gap: 10px; margin-bottom: 16px; }
+.search-bar input[type="text"] { flex: 1; min-height: 40px; padding: 8px 14px; font-size: 14px; }
+.search-bar select { min-height: 40px; min-width: 180px; }
+
 .question-grid { display: grid; gap: 12px; }
 .q-card { display: flex; align-items: center; gap: 16px; padding: 16px 20px; }
 .q-card .q-info { flex: 1; min-width: 0; }
 .q-card .q-title { font-weight: 650; font-size: 15px; }
-.q-card .q-meta { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.q-card .q-meta { color: var(--muted); font-size: 13px; margin-top: 2px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .q-card .q-preview { color: var(--muted); font-size: 13px; margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.q-card.hidden { display: none; }
+
+.subject-badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 11px; font-weight: 650; background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe; }
+
+.results-count { font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+
 .empty-state { text-align: center; padding: 60px 20px; }
 .empty-state h2 { font-size: 18px; margin-bottom: 8px; }
 .empty-state p { color: var(--muted); max-width: 500px; margin: 0 auto; }
 .empty-state code { display: block; margin-top: 16px; padding: 12px; background: #f1f5f9; border-radius: 6px; font-size: 13px; text-align: left; max-width: 500px; margin-left: auto; margin-right: auto; }
+
+.no-results { display: none; text-align: center; padding: 40px; color: var(--muted); }
+.no-results.visible { display: block; }
 </style>
 {% endblock %}
 
@@ -26,6 +40,7 @@
     <p>Select an essay question to begin a timed practice exam.</p>
   </div>
 
+  <!-- Year/Month filter (server-side) -->
   <form class="filter-bar" method="get" action="/">
     <label for="year">Year</label>
     <select name="year" id="year" onchange="this.form.submit()">
@@ -39,6 +54,7 @@
       <option value="">All Months</option>
       <option value="february" {% if filter_month == 'february' %}selected{% endif %}>February</option>
       <option value="july" {% if filter_month == 'july' %}selected{% endif %}>July</option>
+      <option value="october" {% if filter_month == 'october' %}selected{% endif %}>October</option>
     </select>
     {% if questions %}
     <div class="filter-actions">
@@ -50,27 +66,47 @@
     {% endif %}
   </form>
 
+  <!-- Search + Subject filter (client-side) -->
+  {% if question_data %}
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search questions by keyword (e.g., holographic will, negligence, easement...)" autocomplete="off">
+    <select id="subject-filter" onchange="filterQuestions()">
+      <option value="">All Subjects</option>
+      {% for s in all_subjects_list %}
+      <option value="{{ s.display_name }}">{{ s.display_name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  {% endif %}
+
+  <!-- Subject coverage -->
   {% if all_subjects_list %}
-  <div class="card" style="margin-bottom: 20px; padding: 16px 20px;">
-    <div style="font-weight: 700; font-size: 14px; margin-bottom: 10px;">
+  <div class="card" style="margin-bottom: 16px; padding: 14px 20px;">
+    <div style="font-weight: 700; font-size: 14px; margin-bottom: 8px;">
       Subject Coverage: {{ practiced_subjects | length }}/{{ all_subjects_list | length }} subjects practiced
     </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
       {% for s in all_subjects_list %}
       {% if s.display_name in practiced_subjects %}
-      <span style="display: inline-block; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 650; background: #dcfce7; color: #16a34a;">{{ s.display_name }}</span>
+      <span style="display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 650; background: #dcfce7; color: #16a34a; cursor: pointer;" onclick="filterBySubject('{{ s.display_name }}')">{{ s.display_name }}</span>
       {% else %}
-      <span style="display: inline-block; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 650; background: #f1f5f9; color: #94a3b8;" title="Not practiced">{{ s.display_name }}</span>
+      <span style="display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 650; background: #f1f5f9; color: #94a3b8; cursor: pointer;" title="Not practiced" onclick="filterBySubject('{{ s.display_name }}')">{{ s.display_name }}</span>
       {% endif %}
       {% endfor %}
     </div>
   </div>
   {% endif %}
 
-  {% if questions %}
-  <div class="question-grid">
-    {% for q in questions %}
-    <div class="card q-card">
+  <div class="results-count" id="results-count"></div>
+
+  {% if question_data %}
+  <div class="question-grid" id="question-grid">
+    {% for qd in question_data %}
+    {% set q = qd.question %}
+    <div class="card q-card"
+         data-subject="{{ qd.subject }}"
+         data-text="{{ q.normalized_text[:500] | lower }}"
+         data-title="{{ q.title | lower if q.title else '' }}">
       <div class="q-info">
         <div class="q-title">
           {% if q.exam_month %}{{ q.exam_month | capitalize }}{% endif %}
@@ -79,13 +115,17 @@
         </div>
         <div class="q-meta">
           {{ q.jurisdiction or "California" }}
-          {% if q.title %} &middot; {{ q.title }}{% endif %}
+          {% if qd.subject %}<span class="subject-badge">{{ qd.subject }}</span>{% endif %}
         </div>
         <div class="q-preview">{{ q.normalized_text[:200] }}{% if q.normalized_text|length > 200 %}&hellip;{% endif %}</div>
       </div>
       <a href="/exam/{{ q.id }}" class="btn btn-primary">Start</a>
     </div>
     {% endfor %}
+  </div>
+
+  <div class="card no-results" id="no-results">
+    <p>No questions match your search. Try different keywords or clear the filters.</p>
   </div>
   {% else %}
   <div class="card empty-state">
@@ -95,4 +135,75 @@
   </div>
   {% endif %}
 </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function() {
+  var searchInput = document.getElementById('search-input');
+  var subjectFilter = document.getElementById('subject-filter');
+  if (!searchInput) return;
+
+  var debounceTimer;
+  searchInput.addEventListener('input', function() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(filterQuestions, 150);
+  });
+})();
+
+function filterBySubject(subject) {
+  var sel = document.getElementById('subject-filter');
+  if (sel) {
+    sel.value = subject;
+    filterQuestions();
+  }
+}
+
+function filterQuestions() {
+  var searchInput = document.getElementById('search-input');
+  var subjectFilter = document.getElementById('subject-filter');
+  var cards = document.querySelectorAll('.q-card');
+  var noResults = document.getElementById('no-results');
+  var countEl = document.getElementById('results-count');
+
+  var query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+  var subject = subjectFilter ? subjectFilter.value : '';
+  var keywords = query.split(/\s+/).filter(function(w) { return w.length > 0; });
+
+  var visible = 0;
+  var total = cards.length;
+
+  cards.forEach(function(card) {
+    var cardSubject = card.getAttribute('data-subject') || '';
+    var cardText = card.getAttribute('data-text') || '';
+    var cardTitle = card.getAttribute('data-title') || '';
+    var searchable = cardSubject.toLowerCase() + ' ' + cardText + ' ' + cardTitle;
+
+    var matchesSubject = !subject || cardSubject === subject;
+    var matchesSearch = keywords.length === 0 || keywords.every(function(kw) {
+      return searchable.indexOf(kw) !== -1;
+    });
+
+    if (matchesSubject && matchesSearch) {
+      card.classList.remove('hidden');
+      visible++;
+    } else {
+      card.classList.add('hidden');
+    }
+  });
+
+  if (noResults) {
+    noResults.classList.toggle('visible', visible === 0 && total > 0);
+  }
+  if (countEl) {
+    if (query || subject) {
+      countEl.textContent = visible + ' of ' + total + ' questions' +
+        (subject ? ' in ' + subject : '') +
+        (query ? ' matching "' + query + '"' : '');
+    } else {
+      countEl.textContent = '';
+    }
+  }
+}
+</script>
 {% endblock %}
