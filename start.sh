@@ -274,17 +274,52 @@ if command -v ollama &>/dev/null; then
 
     if ollama_running; then
         ok "Ollama is running"
-        if ! ollama list 2>/dev/null | grep -qF "$OLLAMA_MODEL"; then
-            info "Downloading AI model: $OLLAMA_MODEL"
-            info "This is a one-time download and may take 10-20 minutes..."
-            echo ""
-            if ollama pull "$OLLAMA_MODEL"; then
-                ok "Model $OLLAMA_MODEL downloaded"
+
+        # Cloud models (name contains "-cloud") require an Ollama account
+        if [[ "$OLLAMA_MODEL" == *"-cloud"* ]] || [[ "$OLLAMA_MODEL" == *":cloud"* ]] || [[ "$OLLAMA_MODEL" == *"cloud"* ]]; then
+            if ! ollama list 2>/dev/null | grep -qF "$OLLAMA_MODEL"; then
+                echo ""
+                echo -e "    ${BOLD}The model '$OLLAMA_MODEL' runs in the cloud and requires an Ollama account.${NC}"
+                echo ""
+                echo -e "    ${BOLD}To set up:${NC}"
+                echo -e "    1. Create a free account at ${GREEN}https://ollama.com/signup${NC}"
+                echo -e "    2. Run: ${GREEN}ollama login${NC}"
+                echo -e "    3. Re-run this script"
+                echo ""
+                echo -e "    ${DIM}Or switch to a local model by editing .env:${NC}"
+                echo -e "    ${DIM}  CALBAR_OLLAMA_MODEL=gemma3:12b${NC}"
+                echo ""
+                read -p "    Have you already logged in to Ollama? (y/n) " -n 1 -r
+                echo ""
+                if [[ $REPLY =~ ^[Yy]$ ]]; then
+                    info "Pulling cloud model: $OLLAMA_MODEL"
+                    if ollama pull "$OLLAMA_MODEL"; then
+                        ok "Model $OLLAMA_MODEL ready"
+                    else
+                        warn "Failed to pull cloud model — you may need to run: ollama login"
+                        warn "Mock analysis will be used until the model is available."
+                    fi
+                else
+                    info "Skipping cloud model setup for now."
+                    warn "Mock analysis will be used. Run 'ollama login' and restart to enable AI."
+                fi
             else
-                warn "Failed to download model — mock analysis will be used"
+                ok "Model $OLLAMA_MODEL is ready"
             fi
         else
-            ok "Model $OLLAMA_MODEL is ready"
+            # Local model — just pull it
+            if ! ollama list 2>/dev/null | grep -qF "$OLLAMA_MODEL"; then
+                info "Downloading AI model: $OLLAMA_MODEL"
+                info "This is a one-time download and may take 10-20 minutes..."
+                echo ""
+                if ollama pull "$OLLAMA_MODEL"; then
+                    ok "Model $OLLAMA_MODEL downloaded"
+                else
+                    warn "Failed to download model — mock analysis will be used"
+                fi
+            else
+                ok "Model $OLLAMA_MODEL is ready"
+            fi
         fi
     else
         warn "Could not start Ollama — mock analysis will be used"
