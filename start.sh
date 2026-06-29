@@ -116,12 +116,14 @@ fi
 step 3 "Python dependencies"
 
 info "Installing/updating packages (this may take a minute on first run)..."
-.venv/bin/pip install -q --upgrade pip 2>&1 | tail -1 || true
-if ! .venv/bin/pip install -q -e ".[dev]" 2>&1 | tail -3; then
+.venv/bin/pip install -q --upgrade pip 2>/dev/null || true
+if .venv/bin/pip install -q -e ".[dev]" 2>/dev/null; then
+    ok "All Python packages installed"
+else
     warn "Dev dependencies failed — trying core dependencies only..."
-    .venv/bin/pip install -q -e . 2>&1 | tail -3 || fail "Failed to install Python dependencies"
+    .venv/bin/pip install -q -e . 2>/dev/null || fail "Failed to install Python dependencies"
+    ok "Core Python packages installed"
 fi
-ok "All Python packages installed"
 
 # ══════════════════════════════════════════════════════════════════════════════
 # STEP 4: Environment configuration
@@ -300,8 +302,11 @@ fi
 step 7 "Database setup & data loading"
 
 info "Creating database tables..."
-.venv/bin/python -m app.cli init-db 2>/dev/null
-ok "Database tables ready"
+if .venv/bin/python -m app.cli init-db 2>/dev/null; then
+    ok "Database tables ready"
+else
+    fail "Could not initialize database tables. Is PostgreSQL running?\n    Check: pg_isready -h localhost -p 5432\n    Create DB: createdb -U \$USER calbar_tutor"
+fi
 
 # Check current data state
 QUESTION_COUNT=$(.venv/bin/python -c "
