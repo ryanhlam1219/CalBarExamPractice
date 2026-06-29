@@ -28,6 +28,11 @@ fail()  { echo -e "    ${RED}✗  $1${NC}"; echo -e "    ${DIM}If you need help,
 info()  { echo -e "    ${DIM}$1${NC}"; }
 
 TOTAL_STEPS=8
+
+# Track which services this script started (so we clean them up on exit)
+STARTED_POSTGRES=false
+STARTED_OLLAMA=false
+
 banner
 
 # ── Pre-flight checks ────────────────────────────────────────────────────────
@@ -236,8 +241,10 @@ if pg_running; then
     ok "PostgreSQL is already running"
 elif start_pg_docker; then
     ok "PostgreSQL started via Docker"
+    STARTED_POSTGRES=true
 elif start_pg_brew; then
     ok "PostgreSQL started via Homebrew"
+    STARTED_POSTGRES=true
 else
     fail "Could not start PostgreSQL.\n    Try: brew install postgresql@16 && brew services start postgresql@16\n    Or: docker compose up -d postgres"
 fi
@@ -290,10 +297,12 @@ if command -v ollama &>/dev/null; then
     if ! ollama_running; then
         info "Starting Ollama service..."
         ollama serve &>/dev/null &
+        OLLAMA_PID=$!
         for i in $(seq 1 15); do
             ollama_running && break
             sleep 1
         done
+        STARTED_OLLAMA=true
     fi
 
     if ollama_running; then
@@ -519,7 +528,25 @@ echo -e "  ${GREEN}✓${NC}  Questions: $QUESTION_COUNT"
 echo -e "  ${GREEN}✓${NC}  Templates: $TEMPLATE_COUNT"
 echo -e "  ${GREEN}✓${NC}  Rules: $RULE_COUNT"
 echo ""
-echo -e "  ${DIM}Press Ctrl+C to stop the server.${NC}"
+echo -e "  ${DIM}Press Ctrl+C to stop the server and all services.${NC}"
 echo ""
 
-exec .venv/bin/python -m app.cli serve --port 8000 --reload
+cleanup() {
+    echo ""
+    echo -e "${BOLD}Shutting down...${NC}"
+    if [ "$STARTED_OLLAMA" = true ]; then
+        info "Stopping Ollama..."
+        pkill -f "ollama serve" 2>/dev/null || true
+        ok "Ollama stopped"
+    fi
+    if [ "$STARTED_POSTGRES" = true ]; then
+        info "Stopping PostgreSQL..."
+        brew services stop postgresql@16 2>/dev/null || brew services stop postgresql 2>/dev/null || docker compose stop postgres 2>/dev/null || true
+        ok "PostgreSQL stopped"
+    fi
+    echo -e "${GREEN}All services stopped. Goodbye!${NC}"
+}
+
+trap cleanup EXIT
+
+.venv/bin/python -m app.cli serve --port 8000 --reload
