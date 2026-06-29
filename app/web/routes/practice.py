@@ -70,14 +70,14 @@ def practice_home(
     for row in practiced_rows:
         practiced_subjects.add(row[0])
 
-    # Map each question to its subject via the template linkage
+    # Map each question to its subject(s)
     q_subject_map = _get_question_subject_map(session)
 
-    # Enrich questions with subject for client-side filtering
+    # Enrich questions with subjects for client-side filtering
     question_data = []
     for q in questions:
-        subj = q_subject_map.get(q.id, "")
-        question_data.append({"question": q, "subject": subj})
+        subjs = q_subject_map.get(q.id, [])
+        question_data.append({"question": q, "subjects": subjs})
 
     templates = request.app.state.templates
     return templates.TemplateResponse(request, "practice.html", {
@@ -93,37 +93,55 @@ def practice_home(
     })
 
 
-_question_subject_cache: dict[int, str] | None = None
+_question_subjects_cache: dict[int, list[str]] | None = None
 
 
-def _get_question_subject_map(session: Session) -> dict[int, str]:
-    """Map question IDs to subject names. Uses the official subject labels
-    and keyword matcher, cached after first computation."""
-    global _question_subject_cache
-    if _question_subject_cache is not None:
-        return _question_subject_cache
+def _get_question_subject_map(session: Session) -> dict[int, list[str]]:
+    """Map question IDs to lists of subject names. Handles multi-topic
+    questions like 'Contracts/Remedies' by returning both subjects."""
+    global _question_subjects_cache
+    if _question_subjects_cache is not None:
+        return _question_subjects_cache
 
+    import re
     from app.services.question_subject_mapper import (
         _official_subject_label_for_question,
+        _clean_subject_label,
         _match_subject,
-        _match_subject_label,
+        SUBJECT_LABEL_ALIASES,
     )
 
     all_questions = list(session.scalars(select(EssayQuestion)).all())
     all_subjects = list(session.scalars(select(LegalSubject)).all())
-    result: dict[int, str] = {}
+    subject_by_name = {s.display_name.casefold(): s for s in all_subjects}
+    result: dict[int, list[str]] = {}
 
     for q in all_questions:
         question_text = "\n".join(t for t in [q.title, q.normalized_text, q.raw_text] if t)
         label = _official_subject_label_for_question(session, q)
-        matched = None
-        if label:
-            matched = _match_subject_label(label, question_text, all_subjects)
-        if not matched:
-            matched = _match_subject(question_text, all_subjects)
-        result[q.id] = matched.display_name if matched else ""
+        subjects: list[str] = []
 
-    _question_subject_cache = result
+        if label:
+            parts = [p.strip() for p in re.split(r"[/,]", label) if p.strip()]
+            for part in parts:
+                cleaned = _clean_subject_label(part).casefold()
+                aliases = SUBJECT_LABEL_ALIASES.get(cleaned, [])
+                for alias in aliases:
+                    if alias not in subjects:
+                        subjects.append(alias)
+                if not aliases and cleaned in subject_by_name:
+                    name = subject_by_name[cleaned].display_name
+                    if name not in subjects:
+                        subjects.append(name)
+
+        if not subjects:
+            matched = _match_subject(question_text, all_subjects)
+            if matched:
+                subjects.append(matched.display_name)
+
+        result[q.id] = subjects
+
+    _question_subjects_cache = result
     return result
 
 

@@ -104,7 +104,7 @@
     {% for qd in question_data %}
     {% set q = qd.question %}
     <div class="card q-card"
-         data-subject="{{ qd.subject }}"
+         data-subjects="{{ qd.subjects | join('||') }}"
          data-text="{{ q.normalized_text[:500] | lower }}"
          data-title="{{ q.title | lower if q.title else '' }}">
       <div class="q-info">
@@ -115,7 +115,9 @@
         </div>
         <div class="q-meta">
           {{ q.jurisdiction or "California" }}
-          {% if qd.subject %}<span class="subject-badge">{{ qd.subject }}</span>{% endif %}
+          {% for subj in qd.subjects %}
+          <span class="subject-badge">{{ subj }}</span>
+          {% endfor %}
         </div>
         <div class="q-preview">{{ q.normalized_text[:200] }}{% if q.normalized_text|length > 200 %}&hellip;{% endif %}</div>
       </div>
@@ -174,12 +176,12 @@ function filterQuestions() {
   var total = cards.length;
 
   cards.forEach(function(card) {
-    var cardSubject = card.getAttribute('data-subject') || '';
+    var cardSubjects = (card.getAttribute('data-subjects') || '').split('||').filter(Boolean);
     var cardText = card.getAttribute('data-text') || '';
     var cardTitle = card.getAttribute('data-title') || '';
-    var searchable = cardSubject.toLowerCase() + ' ' + cardText + ' ' + cardTitle;
+    var searchable = cardSubjects.join(' ').toLowerCase() + ' ' + cardText + ' ' + cardTitle;
 
-    var matchesSubject = !subject || cardSubject === subject;
+    var matchesSubject = !subject || cardSubjects.indexOf(subject) !== -1;
     var matchesSearch = keywords.length === 0 || keywords.every(function(kw) {
       return searchable.indexOf(kw) !== -1;
     });
