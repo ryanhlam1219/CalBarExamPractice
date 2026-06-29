@@ -68,10 +68,18 @@ def load_seed(
                 try:
                     from app.schemas.essays import EssayParseResult
                     data = json.loads(ef.read_text())
+                    year, month = _extract_year_month(ef.stem)
+                    for q in data.get("questions", []):
+                        if not q.get("exam_year"):
+                            q["exam_year"] = year
+                        if not q.get("exam_month"):
+                            q["exam_month"] = month
                     parse_result = EssayParseResult(**data)
                     doc = _get_or_create_seed_document(
                         session, ef.stem.replace(".essays", ""), "essay_questions",
                     )
+                    doc.exam_year = year
+                    doc.exam_month = month
                     from app.db.repositories.essays import replace_essay_parse
                     replace_essay_parse(session, doc, parse_result)
                     totals["questions"] += len(parse_result.questions)
@@ -215,6 +223,31 @@ def _load_schimmel_seed(session: Session, seed_data: dict, parser_version: str) 
 
     typer.echo(f"  Loaded {len(templates_data)} templates, {total_nodes} nodes, {total_rules} rule candidates")
     return len(templates_data)
+
+
+_MONTH_MAP = {
+    "jan": "january", "feb": "february", "mar": "march", "apr": "april",
+    "may": "may", "jun": "june", "jul": "july", "aug": "august",
+    "sep": "september", "oct": "october", "nov": "november", "dec": "december",
+    "january": "january", "february": "february", "march": "march",
+    "april": "april", "july": "july", "august": "august",
+    "september": "september", "october": "october", "november": "november",
+    "december": "december",
+}
+
+
+def _extract_year_month(filename: str) -> tuple[int | None, str | None]:
+    """Extract exam year and month from a CalBar PDF filename."""
+    import re as _re
+    name = filename.lower()
+    year_match = _re.search(r"(20\d{2})", name)
+    year = int(year_match.group(1)) if year_match else None
+    month = None
+    for abbr, full in _MONTH_MAP.items():
+        if abbr in name:
+            month = full
+            break
+    return year, month
 
 
 def _get_or_create_seed_document(session: Session, name: str, doc_type: str) -> SourceDocument:
