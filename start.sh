@@ -330,10 +330,31 @@ with SessionLocal() as s:
 
 info "Current data: $QUESTION_COUNT questions, $TEMPLATE_COUNT templates, $RULE_COUNT supplemental rules"
 
-# Load essay questions if empty
-if [ "$QUESTION_COUNT" = "0" ]; then
-    info "Loading CalBar essay questions from the CalBar website..."
-    info "This downloads official exam PDFs — may take a few minutes on first run."
+# If database is empty but parsed JSON files exist, load from seed
+PARSED_COUNT=$(ls data/parsed/*.essays.json 2>/dev/null | wc -l | tr -d ' ')
+
+if [ "$QUESTION_COUNT" = "0" ] && [ "$PARSED_COUNT" -gt 0 ]; then
+    info "Loading pre-parsed data from data/parsed/ (no PDF downloads needed)..."
+    .venv/bin/python -m app.cli load-seed || warn "Seed loading had errors — see above"
+
+    # Re-check counts
+    QUESTION_COUNT=$(.venv/bin/python -c "
+from app.db.session import SessionLocal; from sqlalchemy import func, select; from app.db.models.essays import EssayQuestion
+with SessionLocal() as s: print(s.scalar(select(func.count(EssayQuestion.id))) or 0)
+" 2>/dev/null || echo "0")
+    TEMPLATE_COUNT=$(.venv/bin/python -c "
+from app.db.session import SessionLocal; from sqlalchemy import func, select; from app.db.models.templates import EssayTemplate
+with SessionLocal() as s: print(s.scalar(select(func.count(EssayTemplate.id))) or 0)
+" 2>/dev/null || echo "0")
+    RULE_COUNT=$(.venv/bin/python -c "
+from app.db.session import SessionLocal; from sqlalchemy import func, select; from app.db.models.rules import LegalRule
+with SessionLocal() as s: print(s.scalar(select(func.count(LegalRule.id))) or 0)
+" 2>/dev/null || echo "0")
+    ok "Loaded from seed: $QUESTION_COUNT questions, $TEMPLATE_COUNT templates, $RULE_COUNT rules"
+elif [ "$QUESTION_COUNT" = "0" ]; then
+    # No parsed data available — download from CalBar website
+    info "No pre-parsed data found. Downloading from CalBar website..."
+    info "This may take several minutes on first run."
     for year in $(seq 2026 -1 2012); do
         for month in february july october; do
             .venv/bin/python -m app.cli run-pipeline --year "$year" --month "$month" --limit 1 2>/dev/null || true
@@ -343,37 +364,18 @@ if [ "$QUESTION_COUNT" = "0" ]; then
 from app.db.session import SessionLocal; from sqlalchemy import func, select; from app.db.models.essays import EssayQuestion
 with SessionLocal() as s: print(s.scalar(select(func.count(EssayQuestion.id))) or 0)
 " 2>/dev/null || echo "0")
-    ok "Loaded $QUESTION_COUNT essay questions"
-else
-    ok "$QUESTION_COUNT essay questions in database"
-fi
+    ok "Downloaded and parsed $QUESTION_COUNT essay questions"
 
-# Load Schimmel templates if empty
-SCHIMMEL_PDF="data/input/Schimmel Templates_Bullet Version.pdf"
-if [ "$TEMPLATE_COUNT" = "0" ] && [ -f "$SCHIMMEL_PDF" ]; then
-    info "Parsing Schimmel essay templates..."
-    .venv/bin/python -m app.cli parse-essay-template --file "$SCHIMMEL_PDF" 2>/dev/null || warn "Template parsing failed"
-    ok "Schimmel templates loaded"
-elif [ "$TEMPLATE_COUNT" = "0" ]; then
-    warn "Schimmel template PDF not found at: $SCHIMMEL_PDF"
-    warn "Place the PDF there and re-run this script to load templates."
+    # Try loading templates and rules from PDFs if available
+    SCHIMMEL_PDF="data/input/Schimmel Templates_Bullet Version.pdf"
+    if [ -f "$SCHIMMEL_PDF" ]; then
+        .venv/bin/python -m app.cli parse-essay-template --file "$SCHIMMEL_PDF" 2>/dev/null || warn "Template parsing failed"
+    fi
+    if [ -d "CalBarRules" ]; then
+        .venv/bin/python -m app.cli parse-all-rules 2>/dev/null || warn "Rule parsing failed"
+    fi
 else
-    ok "$TEMPLATE_COUNT Schimmel templates in database"
-fi
-
-# Load supplemental rules if empty
-if [ "$RULE_COUNT" = "0" ] && [ -d "CalBarRules" ]; then
-    info "Parsing supplemental rules from CalBarRules/ outlines..."
-    .venv/bin/python -m app.cli parse-all-rules 2>/dev/null || warn "Rule parsing failed"
-    RULE_COUNT=$(.venv/bin/python -c "
-from app.db.session import SessionLocal; from sqlalchemy import func, select; from app.db.models.rules import LegalRule
-with SessionLocal() as s: print(s.scalar(select(func.count(LegalRule.id))) or 0)
-" 2>/dev/null || echo "0")
-    ok "Loaded $RULE_COUNT supplemental rules"
-elif [ "$RULE_COUNT" = "0" ]; then
-    warn "CalBarRules/ directory not found — supplemental rules not loaded"
-else
-    ok "$RULE_COUNT supplemental rules in database"
+    ok "Database already populated: $QUESTION_COUNT questions, $TEMPLATE_COUNT templates, $RULE_COUNT rules"
 fi
 
 # ══════════════════════════════════════════════════════════════════════════════

@@ -46,6 +46,115 @@ def init_db() -> None:
     typer.echo("Database tables are ready.")
 
 
+@app.command("load-seed")
+def load_seed(
+    parsed_dir: Annotated[Path, typer.Option(help="Directory with parsed JSON files.")] = Path("data/parsed"),
+) -> None:
+    """Load pre-parsed essay questions, Schimmel templates, and rules from JSON files.
+
+    Use this on a fresh install to populate the database without needing
+    the original PDF files. The parsed JSONs are included in the git repo.
+    """
+    Base.metadata.create_all(engine)
+    settings = get_settings()
+    totals = {"questions": 0, "answers": 0, "templates": 0, "rules": 0}
+
+    with SessionLocal() as session:
+        # ── Load essay questions ──
+        essay_files = sorted(parsed_dir.glob("*.essays.json"))
+        if essay_files:
+            typer.echo(f"Loading {len(essay_files)} essay JSON files...")
+            for ef in essay_files:
+                try:
+                    from app.schemas.essays import EssayParseResult
+                    data = json.loads(ef.read_text())
+                    parse_result = EssayParseResult(**data)
+                    doc = _get_or_create_seed_document(
+                        session, ef.stem.replace(".essays", ""), "essay_questions",
+                    )
+                    from app.db.repositories.essays import replace_essay_parse
+                    replace_essay_parse(session, doc, parse_result)
+                    totals["questions"] += len(parse_result.questions)
+                    totals["answers"] += len(parse_result.selected_answers)
+                except Exception as exc:
+                    typer.echo(f"  Warning: {ef.name}: {exc}")
+            session.commit()
+            typer.echo(f"  Loaded {totals['questions']} questions, {totals['answers']} selected answers")
+
+        # ── Load Schimmel templates ──
+        schimmel_candidate = parsed_dir / "schimmel" / "Schimmel Templates_Bullet Version.candidate.json"
+        if schimmel_candidate.exists():
+            typer.echo("Loading Schimmel templates...")
+            try:
+                cand_data = json.loads(schimmel_candidate.read_text())
+                document_candidate = SchimmelDocumentCandidate(**cand_data)
+                doc = _get_or_create_seed_document(
+                    session, "Schimmel Templates_Bullet Version", "essay_templates",
+                )
+                counts = replace_essay_template_parse(
+                    session, doc, document_candidate, parser_version=settings.parser_version,
+                )
+                totals["templates"] = counts.get("templates", 0)
+                session.commit()
+                typer.echo(f"  Loaded {totals['templates']} templates, {counts.get('nodes', 0)} nodes, {counts.get('rule_candidates', 0)} rule candidates")
+            except Exception as exc:
+                typer.echo(f"  Warning: Schimmel templates: {exc}")
+
+        # ── Load supplemental rules ──
+        rule_files = sorted(parsed_dir.glob("*.rules.json"))
+        if rule_files:
+            typer.echo(f"Loading {len(rule_files)} rule JSON files...")
+            for rf in rule_files:
+                try:
+                    from app.schemas.rules import RuleParseResult
+                    data = json.loads(rf.read_text())
+                    parse_result = RuleParseResult(**data)
+                    doc = _get_or_create_seed_document(
+                        session, rf.stem.replace(".rules", ""), "rule_outline",
+                    )
+                    parse_result.source_document_id = doc.id
+                    counts = replace_rule_parse(session, doc, parse_result)
+                    totals["rules"] += counts.get("rules", 0)
+                except Exception as exc:
+                    typer.echo(f"  Warning: {rf.name}: {exc}")
+            session.commit()
+            typer.echo(f"  Loaded {totals['rules']} supplemental rules")
+
+        from app.db.repositories.essays import dedupe_essay_questions
+        deduped = dedupe_essay_questions(session)
+        if deduped:
+            typer.echo(f"  Deduped {deduped} duplicate questions")
+        session.commit()
+
+    typer.echo(f"\nSeed complete: {totals['questions']} questions, {totals['templates']} templates, {totals['rules']} rules")
+
+
+def _get_or_create_seed_document(session: Session, name: str, doc_type: str) -> SourceDocument:
+    """Get or create a minimal source document for seeded data."""
+    from sqlalchemy import select as sa_select
+    existing = session.scalar(
+        sa_select(SourceDocument).where(
+            SourceDocument.original_filename == name,
+            SourceDocument.source_type == SourceType.BAR_REVIEW_OUTLINE.value,
+        )
+    )
+    if existing:
+        return existing
+    return register_source_document(
+        session,
+        local_path=Path(name),
+        source_type=SourceType.BAR_REVIEW_OUTLINE.value,
+        publisher="Seeded from parsed JSON",
+        title=name,
+        subject=doc_type,
+        original_filename=name,
+        license_status=LicenseStatus.PRIVATE_USE_ONLY.value,
+        redistribution_allowed=False,
+        usage_notes="Loaded from pre-parsed data in git repo.",
+        metadata_json={"seeded": True},
+    )
+
+
 @app.command("discover-calbar")
 def discover_calbar(
     dry_run: Annotated[bool, typer.Option(help="Print the manifest without downloading.")] = True,
