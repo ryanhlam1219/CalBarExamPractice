@@ -82,21 +82,13 @@ def load_seed(
             typer.echo(f"  Loaded {totals['questions']} questions, {totals['answers']} selected answers")
 
         # ── Load Schimmel templates ──
-        schimmel_candidate = parsed_dir / "schimmel" / "Schimmel Templates_Bullet Version.candidate.json"
-        if schimmel_candidate.exists():
+        schimmel_seed = parsed_dir / "schimmel_seed.json"
+        if schimmel_seed.exists():
             typer.echo("Loading Schimmel templates...")
             try:
-                cand_data = json.loads(schimmel_candidate.read_text())
-                document_candidate = SchimmelDocumentCandidate(**cand_data)
-                doc = _get_or_create_seed_document(
-                    session, "Schimmel Templates_Bullet Version", "essay_templates",
-                )
-                counts = replace_essay_template_parse(
-                    session, doc, document_candidate, parser_version=settings.parser_version,
-                )
-                totals["templates"] = counts.get("templates", 0)
+                seed_data = json.loads(schimmel_seed.read_text())
+                totals["templates"] = _load_schimmel_seed(session, seed_data, settings.parser_version)
                 session.commit()
-                typer.echo(f"  Loaded {totals['templates']} templates, {counts.get('nodes', 0)} nodes, {counts.get('rule_candidates', 0)} rule candidates")
             except Exception as exc:
                 typer.echo(f"  Warning: Schimmel templates: {exc}")
 
@@ -127,6 +119,102 @@ def load_seed(
         session.commit()
 
     typer.echo(f"\nSeed complete: {totals['questions']} questions, {totals['templates']} templates, {totals['rules']} rules")
+
+
+def _load_schimmel_seed(session: Session, seed_data: dict, parser_version: str) -> int:
+    """Load Schimmel templates directly from the seed JSON (bypasses parser)."""
+    from app.db.models.templates import EssayTemplate, TemplateNode, TemplateRuleCandidate
+    from app.db.models.rules import LegalSubject
+    from app.db.models.enums import ReviewStatus
+
+    templates_data = seed_data.get("templates", [])
+    doc = _get_or_create_seed_document(session, "Schimmel Templates_Bullet Version", "essay_templates")
+    total_nodes = 0
+    total_rules = 0
+
+    for td in templates_data:
+        subject_name = td["subject_name"]
+        canonical = subject_name.lower().replace(" ", "_")
+        subject = session.scalar(select(LegalSubject).where(LegalSubject.canonical_name == canonical))
+        if not subject:
+            subject = LegalSubject(canonical_name=canonical, display_name=subject_name)
+            session.add(subject)
+            session.flush()
+
+        template = EssayTemplate(
+            legal_subject_id=subject.id,
+            source_document_id=doc.id,
+            name=td["name"],
+            jurisdiction_scope="GENERAL",
+            version="1",
+            parse_confidence=td.get("parse_confidence", 0.9),
+            review_status=ReviewStatus.UNREVIEWED.value,
+            parser_version=parser_version,
+            metadata_json={"source": "schimmel_template_parser"},
+        )
+        session.add(template)
+        session.flush()
+
+        node_id_map: dict[int, int] = {}
+        for idx, nd in enumerate(td.get("nodes", [])):
+            parent_db_id = None
+            parent_idx = nd.get("parent_index")
+            if parent_idx is not None and parent_idx in node_id_map:
+                parent_db_id = node_id_map[parent_idx]
+
+            node = TemplateNode(
+                essay_template_id=template.id,
+                parent_node_id=parent_db_id,
+                node_type=nd["node_type"],
+                title=nd["title"],
+                raw_text=nd.get("raw_text"),
+                normalized_text=nd.get("normalized_text"),
+                display_order=nd.get("display_order", idx),
+                depth=nd.get("depth", 0),
+                jurisdiction_scope=nd.get("jurisdiction_scope"),
+                parse_confidence=nd.get("parse_confidence", 0.9),
+                review_status=ReviewStatus.UNREVIEWED.value,
+                parser_version=parser_version,
+                metadata_json={},
+            )
+            session.add(node)
+            session.flush()
+            node_id_map[idx] = node.id
+            total_nodes += 1
+
+        for rc in td.get("rule_candidates", []):
+            node_title = rc.get("node_title", "")
+            node_id = None
+            for idx, nd in enumerate(td.get("nodes", [])):
+                if nd["title"].split('\n')[0][:80] == node_title:
+                    node_id = node_id_map.get(idx)
+                    break
+            if not node_id:
+                node_id = node_id_map.get(0)
+            if not node_id:
+                continue
+
+            rule = TemplateRuleCandidate(
+                template_node_id=node_id,
+                legal_subject_id=subject.id,
+                raw_rule_text=rc["raw_rule_text"],
+                normalized_rule_text=rc.get("normalized_rule_text"),
+                jurisdiction_scope=rc.get("jurisdiction_scope", "GENERAL"),
+                rule_variant=rc.get("rule_variant"),
+                source_document_id=doc.id,
+                start_page=rc.get("start_page", 1),
+                end_page=rc.get("end_page", 1),
+                parse_confidence=rc.get("parse_confidence", 0.9),
+                review_status=ReviewStatus.UNREVIEWED.value,
+                parser_version=parser_version,
+            )
+            session.add(rule)
+            total_rules += 1
+
+        session.flush()
+
+    typer.echo(f"  Loaded {len(templates_data)} templates, {total_nodes} nodes, {total_rules} rule candidates")
+    return len(templates_data)
 
 
 def _get_or_create_seed_document(session: Session, name: str, doc_type: str) -> SourceDocument:
