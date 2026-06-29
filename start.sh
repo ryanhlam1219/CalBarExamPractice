@@ -360,8 +360,8 @@ if command -v ollama &>/dev/null; then
                     warn "Cloud model not working. Try 'ollama login' again or switch to local."
                 fi
             else
-                LOCAL_MODEL="gemma3:12b"
-                info "Downloading local model $LOCAL_MODEL (~8GB)..."
+                LOCAL_MODEL="gemma3:4b"
+                info "Downloading local model $LOCAL_MODEL (~3GB)..."
                 echo -e "    ${DIM}This may take a few minutes. Good time for a coffee break.${NC}"
                 echo ""
                 if ollama pull "$LOCAL_MODEL"; then
