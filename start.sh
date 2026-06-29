@@ -30,6 +30,14 @@ info()  { echo -e "    ${DIM}$1${NC}"; }
 TOTAL_STEPS=8
 banner
 
+# Pre-flight: ensure curl is available (needed for Homebrew, Ollama)
+if ! command -v curl &>/dev/null; then
+    fail "curl is required but not found. Install it first:\n    macOS: xcode-select --install\n    Linux: sudo apt install curl"
+fi
+
+# Ensure data directories exist (gitignored, won't exist on fresh clone)
+mkdir -p data/input data/raw data/extracted data/parsed data/manifests
+
 # ══════════════════════════════════════════════════════════════════════════════
 # STEP 1: Homebrew (macOS package manager)
 # ══════════════════════════════════════════════════════════════════════════════
@@ -107,9 +115,12 @@ fi
 # ══════════════════════════════════════════════════════════════════════════════
 step 3 "Python dependencies"
 
-info "Installing/updating packages..."
+info "Installing/updating packages (this may take a minute on first run)..."
 .venv/bin/pip install -q --upgrade pip 2>&1 | tail -1 || true
-.venv/bin/pip install -q -e ".[dev]" 2>&1 | tail -1
+if ! .venv/bin/pip install -q -e ".[dev]" 2>&1 | tail -3; then
+    warn "Dev dependencies failed — trying core dependencies only..."
+    .venv/bin/pip install -q -e . 2>&1 | tail -3 || fail "Failed to install Python dependencies"
+fi
 ok "All Python packages installed"
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -166,6 +177,12 @@ start_pg_brew() {
         info "Installing PostgreSQL 16 via Homebrew..."
         brew install postgresql@16
         brew link postgresql@16 --force 2>/dev/null || true
+        # Ensure pg tools are on PATH for this session
+        local pg_bin
+        pg_bin="$(brew --prefix postgresql@16 2>/dev/null)/bin"
+        if [ -d "$pg_bin" ]; then
+            export PATH="$pg_bin:$PATH"
+        fi
     fi
     if ! pg_running; then
         info "Starting PostgreSQL service..."
@@ -315,10 +332,10 @@ info "Current data: $QUESTION_COUNT questions, $TEMPLATE_COUNT templates, $RULE_
 
 # Load essay questions if empty
 if [ "$QUESTION_COUNT" = "0" ]; then
-    info "Loading CalBar essay questions (this downloads from the CalBar website)..."
-    # Load all available years
-    for year in 2024 2025 2026; do
-        for month in february july; do
+    info "Loading CalBar essay questions from the CalBar website..."
+    info "This downloads official exam PDFs — may take a few minutes on first run."
+    for year in $(seq 2026 -1 2012); do
+        for month in february july october; do
             .venv/bin/python -m app.cli run-pipeline --year "$year" --month "$month" --limit 1 2>/dev/null || true
         done
     done
