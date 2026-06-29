@@ -262,7 +262,6 @@ if ! command -v ollama &>/dev/null; then
     fi
 fi
 
-OLLAMA_AVAILABLE=false
 if command -v ollama &>/dev/null; then
     if ! ollama_running; then
         info "Starting Ollama service..."
@@ -281,13 +280,11 @@ if command -v ollama &>/dev/null; then
             echo ""
             if ollama pull "$OLLAMA_MODEL"; then
                 ok "Model $OLLAMA_MODEL downloaded"
-                OLLAMA_AVAILABLE=true
             else
                 warn "Failed to download model — mock analysis will be used"
             fi
         else
             ok "Model $OLLAMA_MODEL is ready"
-            OLLAMA_AVAILABLE=true
         fi
     else
         warn "Could not start Ollama — mock analysis will be used"
