@@ -439,6 +439,33 @@ with SessionLocal() as s:
 
 info "Current data: $QUESTION_COUNT questions, $TEMPLATE_COUNT templates, $RULE_COUNT supplemental rules"
 
+# Check for stale seed data (questions loaded without year/month)
+STALE_DATA=false
+if [ "$QUESTION_COUNT" -gt 0 ]; then
+    MISSING_YEAR=$(.venv/bin/python -c "
+from app.db.session import SessionLocal
+from sqlalchemy import func, select
+from app.db.models.essays import EssayQuestion
+with SessionLocal() as s:
+    print(s.scalar(select(func.count(EssayQuestion.id)).where(EssayQuestion.exam_year.is_(None))) or 0)
+" 2>/dev/null || echo "0")
+    if [ "$MISSING_YEAR" -gt 0 ]; then
+        warn "Found $MISSING_YEAR questions without year/month — re-seeding database..."
+        info "Resetting database tables..."
+        .venv/bin/python -c "
+from app.db.base import Base
+from app.db.session import engine
+Base.metadata.drop_all(engine)
+Base.metadata.create_all(engine)
+print('done')
+" 2>/dev/null || true
+        QUESTION_COUNT="0"
+        TEMPLATE_COUNT="0"
+        RULE_COUNT="0"
+        STALE_DATA=true
+    fi
+fi
+
 # If database is empty but parsed JSON files exist, load from seed
 PARSED_COUNT=$(find data/parsed -maxdepth 1 -name '*.essays.json' 2>/dev/null | wc -l | tr -d ' ' || echo "0")
 
