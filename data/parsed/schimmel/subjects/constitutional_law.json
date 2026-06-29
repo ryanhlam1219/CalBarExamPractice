@@ -1,0 +1,1548 @@
+{
+  "pages": "27-39",
+  "subject": "Constitutional Law",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 27,
+                "title": "STATE ACTION\nState Action\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 27,
+                "title": "Required to invoke constitutional protections\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 27,
+                "title": "Involves action by\n\u2022\nGovernment or government official, or\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 27,
+                "title": "Private party entangled with government",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 27,
+                "title": "Eleventh Amendment \u2013 Sovereign Immunity\nPrivate Parties\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 27,
+                "title": "Private party cannot sue state or its agency\n\u2022\nExceptions\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "FEDERAL",
+                "page": 27,
+                "title": "State waives sovereign immunity\n\u2022\nLawsuit involves federal laws under Section 5 of 14A\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 27,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Lawsuit seeks money damages from named state official\nCongressional Abrogation\n\u2022\nCongress may regulate state laws violating due process, equal\nprotection, and privileges and immunities\n\u2022",
+                        "raw_text": "Lawsuit seeks money damages from named state official\nCongressional Abrogation\n\u2022\nCongress may regulate state laws violating due process, equal\nprotection, and privileges and immunities\n\u2022"
+                      }
+                    ],
+                    "title": "Lawsuit seeks money damages from named state official\nCongressional Abrogation\n\u2022\nCongress may regulate state laws violat",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 27,
+                    "title": "Congress must expressly state abrogation\nSTANDING\nStanding\n(1) Injury-in-fact\n(2) Causation, and\n(3) Redressability",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 27,
+                "title": "Lawsuit seeks declaratory or injunctive relief against named state\nofficial\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 27,
+                "title": "Generalized Grievances\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 27,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Third Party Standing\n\u2022\nGenerally, no standing to assert third party rights\n\u2022\nExceptions\n\u2022\nthird party unable to assert own rights\n\u2022\nSpecial relationship between P and third party",
+                        "raw_text": "Third Party Standing\n\u2022\nGenerally, no standing to assert 3P rights\n\u2022\nExceptions\n\u2022\n3P unable to assert own rights\n\u2022\nSpecial relationship between P and 3P"
+                      }
+                    ],
+                    "title": "Third Party Standing\n\u2022\nGenerally, no standing to assert 3P rights\n\u2022\nExceptions\n\u2022\n3P unable to assert own rights\n\u2022\nSpecia",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 27,
+                    "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 27,
+                "title": "Generalized grievances lack standing",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 28,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Standing if harm is to organization itself\nOrganizations on Behalf of its Members\n(1) Members would have standing to sue individually\n(2) Harm related to organization\u2019s purpose, and\n(3) Neither claim nor relief sought necessitates individual members\u2019",
+                        "raw_text": "Standing if harm is to organization itself\nOrganizations on Behalf of its Members\n(1) Members would have standing to sue individually\n(2) Harm related to organization\u2019s purpose, and\n(3) Neither claim nor relief sought necessitates individual members\u2019"
+                      }
+                    ],
+                    "title": "Standing if harm is to organization itself\nOrganizations on Behalf of its Members\n(1) Members would have standing to sue",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 28,
+                "title": "\u2022\nHarm to P adversely affects relationship with 3P\nOrganizational Standing\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 28,
+                "title": "participation\nRIPENESS\nRipeness\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 28,
+                "title": "Harm or threat of imminent harm\nMOOTNESS\nMootness\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 28,
+                    "title": "Exceptions\nCapable of Repetition Yet Evading Review\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 28,
+                    "title": "Harm exists in short periods and ceases prior to end of litigation\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 28,
+                    "title": "May be repeated",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 28,
+                "title": "Live case and controversy at all stages of review",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 28,
+                "title": "Voluntary Cessation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 28,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Not dismissed where at least one class member has ongoing injury\nSEPARATION OF POWERS\nLEGISLATIVE BRANCH\nNECESSARY AND PROPER CLAUSE\nNecessary and Proper Clause\n\u2022",
+                        "raw_text": "Not dismissed where at least one class member has ongoing injury\nSEPARATION OF POWERS\nLEGISLATIVE BRANCH\nNECESSARY AND PROPER CLAUSE\nNecessary and Proper Clause\n\u2022"
+                      }
+                    ],
+                    "title": "Not dismissed where at least one class member has ongoing injury\nSEPARATION OF POWERS\nLEGISLATIVE BRANCH\nNECESSARY AND P",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 28,
+                "title": "D voluntarily ceases harm to P but can resume at any time\nClass Actions\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 28,
+                    "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 29,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "COMMERCE CLAUSE\nCommerce Clause \u2013 Interstate Commerce\n\u2022\nCongress has power to regulate channels, instrumentalities, and economic\nactivities that substantially affect interstate commerce",
+                        "raw_text": "COMMERCE CLAUSE\nCommerce Clause \u2013 Interstate Commerce\n\u2022\nCongress has power to regulate channels, instrumentalities, and economic\nactivities that substantially affect interstate commerce"
+                      }
+                    ],
+                    "title": "COMMERCE CLAUSE\nCommerce Clause \u2013 Interstate Commerce\n\u2022\nCongress has power to regulate channels, instrumentalities, and ",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 29,
+                    "title": "Intrastate Commerce",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 29,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Economic or Commercial Activities\n\u2022\nCongress may regulate if rational basis that activities, in aggregate,\nsubstantially affect interstate commerce\nNon-Economic or Non-Commercial Activities\n\u2022",
+                        "raw_text": "Economic or Commercial Activities\n\u2022\nCongress may regulate if rational basis that activities, in aggregate,\nsubstantially affect interstate commerce\nNon-Economic or Non-Commercial Activities\n\u2022"
+                      }
+                    ],
+                    "title": "Economic or Commercial Activities\n\u2022\nCongress may regulate if rational basis that activities, in aggregate,\nsubstantially",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 29,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Congress may regulate if can demonstrate substantial economic\neffect on interstate commerce",
+                        "raw_text": "Congress may regulate if can demonstrate substantial economic\neffect on interstate commerce"
+                      }
+                    ],
+                    "title": "Congress may regulate if can demonstrate substantial economic\neffect on interstate commerce",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "FEDERAL",
+                "page": 28,
+                "title": "Congress has power to enact laws necessary and proper to execute powers of\nfederal government",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 29,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Congress may regulate any interstate or intrastate activity that has a\nsubstantial economic effect on interstate commerce\nTENTH AMENDMENT AND COMMANDEERING\nTenth Amendment\n\u2022",
+                        "raw_text": "Congress may regulate any interstate or intrastate activity that has a\nsubstantial economic effect on interstate commerce\nTENTH AMENDMENT AND COMMANDEERING\nTenth Amendment\n\u2022"
+                      }
+                    ],
+                    "title": "Congress may regulate any interstate or intrastate activity that has a\nsubstantial economic effect on interstate commerc",
+                    "type": "RULE"
+                  },
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "jurisdiction": "FEDERAL",
+                        "page": 29,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Congress may not commandeer state legislatures to enact legislation or\nexecute a federal regulatory program\nTAXING AND SPENDING\nTaxing and Spending Power\n\u2022",
+                            "raw_text": "Congress may not commandeer state legislatures to enact legislation or\nexecute a federal regulatory program\nTAXING AND SPENDING\nTaxing and Spending Power\n\u2022"
+                          }
+                        ],
+                        "title": "Congress may not commandeer state legislatures to enact legislation or\nexecute a federal regulatory program\nTAXING AND S",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 29,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Congress may tax and spend for the general welfare\nTaxes\n(1) Tax\u2019s primary purpose is to raise revenue, and\n(2) reasonable relationship between tax and regulation",
+                            "raw_text": "Congress may tax and spend for the general welfare\nTaxes\n(1) Tax\u2019s primary purpose is to raise revenue, and\n(2) Rx relationship between tax and regulation"
+                          }
+                        ],
+                        "title": "Congress may tax and spend for the general welfare\nTaxes\n(1) Tax\u2019s primary purpose is to raise revenue, and\n(2) Rx relat",
+                        "type": "RULE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "jurisdiction": "FEDERAL",
+                    "page": 29,
+                    "title": "All powers neither granted to federal government nor prohibited to the states\nare reserved to the states\nCommandeering\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 29,
+                "title": "Substantial Economic Effect \u2013 Aggregation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 29,
+                "title": "Regulatory Spending\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 29,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 30,
+                    "title": "\u2022\nCondition\n(1) Unambiguously stated\n(2) Bear relationship to spending purpose, and\n(3) Not unduly coercive",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 29,
+                "title": "For any public purpose\nConditional Grants\n\u2022\nEncourage, not compel, state legislation",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 30,
+                "title": "DELEGATION OF POWER\nDelegation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 30,
+                "title": "Congress may delegate legislative powers to executive officers and\nadministrative agencies\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 30,
+                "title": "Must provide intelligible standards to establish scope\nEXECUTIVE BRANCH\nExecutive Powers\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 30,
+                "title": "Reserved to the President\nDomestic Affairs\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 30,
+                "title": "Appoint and remove officers\n\u2022\nPardon offenses against U.S.\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 30,
+                    "title": "Foreign Affairs\n\u2022\nAct on behalf of U.S. in foreign relations\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 30,
+                    "title": "Deploy as commander-in-chief of armed forces\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "FEDERAL",
+                    "page": 30,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Negotiate and enter into executive agreements\nAPPOINTMENT AND REMOVAL\nAppointment Powers\nPresident\n\u2022\nAppoint ambassadors, top-level federal officers, federal judges\n\u2022",
+                        "raw_text": "Negotiate and enter into executive agreements\nAPPOINTMENT AND REMOVAL\nAppointment Powers\nPresident\n\u2022\nAppoint ambassadors, top-level federal officers, federal judges\n\u2022"
+                      }
+                    ],
+                    "title": "Negotiate and enter into executive agreements\nAPPOINTMENT AND REMOVAL\nAppointment Powers\nPresident\n\u2022\nAppoint ambassadors",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 30,
+                    "title": "With advice and consent of Senate\nCongress\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 30,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Can vest power to appoint inferior officers in other branches of\ngovernment\nRemoval Powers\nPresident\n\u2022",
+                        "raw_text": "Can vest power to appoint inferior officers in other branches of\ngovernment\nRemoval Powers\nPresident\n\u2022"
+                      }
+                    ],
+                    "title": "Can vest power to appoint inferior officers in other branches of\ngovernment\nRemoval Powers\nPresident\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 30,
+                    "title": "Can remove top-level executive officers without cause",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 30,
+                    "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 31,
+                    "title": "Congress can require showing of good cause\nCongress\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 31,
+                    "title": "Can only remove through impeachment power\nPARDON POWER\nPardon Power\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 31,
+                    "title": "Power to grant pardons\nTREATIES AND EXECUTIVE AGREEMENTS\nTreaties\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 31,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "President has authority to make treaties\n\u2022\nMust be ratified by 2/3 Senate\n\u2022\nTreaties > Executive agreements",
+                        "raw_text": "President has authority to make treaties\n\u2022\nMust be ratified by 2/3 Senate\n\u2022\nTreaties > Executive agreements"
+                      }
+                    ],
+                    "title": "President has authority to make treaties\n\u2022\nMust be ratified by 2/3 Senate\n\u2022\nTreaties > Executive agreements",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 31,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Conflicts\n\u2022\nTreaties > Conflicting state laws\n\u2022\nTreaty vs. Congressional acts: Whichever is most recent\n\u2022\nConstitution > Treaties\nExecutive Agreements\n\u2022",
+                        "raw_text": "Conflicts\n\u2022\nTreaties > Conflicting state laws\n\u2022\nTreaty vs. Congressional acts: Whichever is most recent\n\u2022\nConstitution > Treaties\nExecutive Agreements\n\u2022"
+                      }
+                    ],
+                    "title": "Conflicts\n\u2022\nTreaties > Conflicting state laws\n\u2022\nTreaty vs. Congressional acts: Whichever is most recent\n\u2022\nConstitution >",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 31,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Between President and heads of foreign countries\nConflicts\n\u2022\nExecutive agreements > Conflicting state laws\nSTATE POWER AND REGULATION\nSUPREMACY CLAUSE\nSupremacy Clause\n\u2022\nConstitution, U.S. laws, U.S. treaties supersede conflicting state and local laws\nExpress Preemption\n\u2022",
+                        "raw_text": "Between President and heads of foreign countries\nConflicts\n\u2022\nExecutive agreements > Conflicting state laws\nSTATE POWER AND REGULATION\nSUPREMACY CLAUSE\nSupremacy Clause\n\u2022\nConstitution, U.S. laws, U.S. treaties supersede conflicting state and local laws\nExpress Preemption\n\u2022"
+                      }
+                    ],
+                    "title": "Between President and heads of foreign countries\nConflicts\n\u2022\nExecutive agreements > Conflicting state laws\nSTATE POWER A",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "FEDERAL",
+                "page": 30,
+                "title": "Execute federal law",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 31,
+                    "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 32,
+                    "title": "Implied Preemption\nConflict Preemption\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "FEDERAL",
+                    "page": 32,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Congressional act or federal law preempts conflicting state or local\nlaw\nObject Preemption\n\u2022\nState law obstructs federal law\u2019s objective\nField Preemption\n\u2022",
+                        "raw_text": "Congressional act or federal law preempts conflicting state or local\nlaw\nObject Preemption\n\u2022\nState law obstructs federal law\u2019s objective\nField Preemption\n\u2022"
+                      }
+                    ],
+                    "title": "Congressional act or federal law preempts conflicting state or local\nlaw\nObject Preemption\n\u2022\nState law obstructs federal",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 32,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Congress demonstrates intent to occupy entire field\nCONTRACTS CLAUSE\nContracts Clause\n\u2022",
+                        "raw_text": "Congress demonstrates intent to occupy entire field\nCONTRACTS CLAUSE\nContracts Clause\n\u2022"
+                      }
+                    ],
+                    "title": "Congress demonstrates intent to occupy entire field\nCONTRACTS CLAUSE\nContracts Clause\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 32,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Prevents state legislation retroactively impairing obligation of contracts\nPrivate Contracts\n\u2022\nGovernment\u2019s impairment must be reasonable and necessary to achieve important\ngovernment purpose\nPublic Contracts\n\u2022\nGovernment\u2019s impairment must be reasonable and necessary to achieve important\ngovernment purpose that could not be accomplished through less restrictive\nmeans\nPRIVILEGES AND IMMUNITIES\nFourteenth Amendment Privileges and Immunities\n\u2022",
+                        "raw_text": "Prevents state legislation retroactively impairing obligation of Ks\nPrivate Contracts\n\u2022\nGovernment\u2019s impairment must be rx and necessary to achieve important\ngovernment purpose\nPublic Contracts\n\u2022\nGovernment\u2019s impairment must be rx and necessary to achieve important\ngovernment purpose that could not be accomplished through less restrictive\nmeans\nPRIVILEGES AND IMMUNITIES\nFourteenth Amendment Privileges and Immunities\n\u2022"
+                      }
+                    ],
+                    "title": "Prevents state legislation retroactively impairing obligation of Ks\nPrivate Contracts\n\u2022\nGovernment\u2019s impairment must be ",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 32,
+                    "title": "States may not intentionally discriminate against out-of-state residents\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 32,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Discriminatory state laws valid if\n(1) Out-of-state residents are source of problem government attempting to resolve,",
+                        "raw_text": "Discriminatory state laws valid if\n(1) Out-of-state residents are source of problem government attempting to resolve,"
+                      }
+                    ],
+                    "title": "Discriminatory state laws valid if\n(1) Out-of-state residents are source of problem government attempting to resolve,",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 31,
+                "title": "Expressly providing state and local governments may not legislate within\nparticular area",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 32,
+                "title": "and\n(2) No less restrictive means exist to achieve important government interest",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 27,
+            "title": "CONSTITUTIONAL LAW\nJUSTICIABILITY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 32,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Dormant Commerce Clause\n\u2022\nState and local laws may regulate interstate commerce only if legislation does not (i)\ndirectly discriminate against out-of-state commerce or (ii) unduly burden interstate\ncommerce",
+                    "raw_text": "Dormant Commerce Clause\n\u2022\nState and local laws may regulate interstate commerce only if legislation does not (i)\ndirectly discriminate against out-of-state commerce or (ii) unduly burden interstate\ncommerce"
+                  }
+                ],
+                "title": "Dormant Commerce Clause\n\u2022\nState and local laws may regulate interstate commerce only if legislation does not (i)\ndirectl",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 32,
+                "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 33,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Law that discriminates against out-of-state commerce is presumed invalid\nunless\n(1) Law furthers important state interest, and\n(2) No other non-discriminator alternatives exist\nExceptions\nMarket Participant\n\u2022\nState hiring, selling, or purchasing goods\nExpress Congressional Approval\n\u2022",
+                        "raw_text": "Law that discriminates against out-of-state commerce is presumed invalid\nunless\n(1) Law furthers important state interest, and\n(2) No other non-discriminator alternatives exist\nExceptions\nMarket Participant\n\u2022\nState hiring, selling, or purchasing goods\nExpress Congressional Approval\n\u2022"
+                      }
+                    ],
+                    "title": "Law that discriminates against out-of-state commerce is presumed invalid\nunless\n(1) Law furthers important state interes",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 33,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Congress may permit states to enact legislation that\ndiscriminates against out-of-state commerce\nUnduly Burden to Interstate Commerce\n\u2022",
+                        "raw_text": "Congress may permit states to enact legislation that\ndiscriminates against out-of-state commerce\nUnduly Burden to Interstate Commerce\n\u2022"
+                      }
+                    ],
+                    "title": "Congress may permit states to enact legislation that\ndiscriminates against out-of-state commerce\nUnduly Burden to Inters",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 33,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Non-discriminatory law may still be invalid if places undue burden on\ninterstate commerce\nTAKINGS CLAUSE\nTakings Clause\n\u2022",
+                        "raw_text": "Non-discriminatory law may still be invalid if places undue burden on\ninterstate commerce\nTAKINGS CLAUSE\nTakings Clause\n\u2022"
+                      }
+                    ],
+                    "title": "Non-discriminatory law may still be invalid if places undue burden on\ninterstate commerce\nTAKINGS CLAUSE\nTakings Clause\n",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 33,
+                    "title": "Prohibits government from taking private property for public use without just compensation\nProperty Interest\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 33,
+                "title": "Discrimination\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 33,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Taking\nPossessory or Per Se\nPhysical Occupation\n\u2022\nLegislation \u2192 Permanent physical government occupation\nConstructive Occupation\n\u2022\nLegislation \u2192 Property\u2019s value or use is impaired\nRegulatory\n\u2022",
+                        "raw_text": "Taking\nPossessory or Per Se\nPhysical Occupation\n\u2022\nLegislation \u2192 Permanent physical government occupation\nConstructive Occupation\n\u2022\nLegislation \u2192 Property\u2019s value or use is impaired\nRegulatory\n\u2022"
+                      }
+                    ],
+                    "title": "Taking\nPossessory or Per Se\nPhysical Occupation\n\u2022\nLegislation \u2192 Permanent physical government occupation\nConstructive Oc",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 33,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Government places regulations such that owner is deprived of benefit of his\nproperty\nPublic Use\n\u2022",
+                        "raw_text": "Government places regulations such that owner is deprived of benefit of his\nproperty\nPublic Use\n\u2022"
+                      }
+                    ],
+                    "title": "Government places regulations such that owner is deprived of benefit of his\nproperty\nPublic Use\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 33,
+                    "title": "Rationally related to conceivable public purpose\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 33,
+                    "title": "Rx belief the public will benefit",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 33,
+                    "title": "7\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 33,
+                "title": "Must have real property interest to challenge",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 34,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "fair market value of property at time of taking\nDUE PROCESS\nPROCEDURAL DUE PROCESS\nProcedural Due Process\n\u2022\nNo state shall make or enforce any law, which shall deprive any person of life,\nliberty, or property without due process of law\nThreatened Protected Interest\nProperty\n\u2022",
+                        "raw_text": "FMV of property at time of taking\nDUE PROCESS\nPROCEDURAL DUE PROCESS\nProcedural Due Process\n\u2022\nNo state shall make or enforce any law, which shall deprive any person of life,\nliberty, or property without due process of law\nThreatened Protected Interest\nProperty\n\u2022"
+                      }
+                    ],
+                    "title": "FMV of property at time of taking\nDUE PROCESS\nPROCEDURAL DUE PROCESS\nProcedural Due Process\n\u2022\nNo state shall make or enf",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 34,
+                "title": "Just Compensation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 34,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Process Due\n\u2022\nFactors\n(i) Private interest affected\n(ii) Risk of erroneous deprivation of interest through procedures used and",
+                        "raw_text": "Process Due\n\u2022\nFactors\n(i) Private interest affected\n(ii) Risk of erroneous deprivation of interest through procedures used and"
+                      }
+                    ],
+                    "title": "Process Due\n\u2022\nFactors\n(i) Private interest affected\n(ii) Risk of erroneous deprivation of interest through procedures us",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 34,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "probable value of additional procedural safeguards\n(iii) Fiscal and administrative burden in providing additional process",
+                        "raw_text": "probable value of additional procedural safeguards\n(iii) Fiscal and administrative burden in providing additional process"
+                      }
+                    ],
+                    "title": "probable value of additional procedural safeguards\n(iii) Fiscal and administrative burden in providing additional proces",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 34,
+                    "title": "Notice and Hearing\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 34,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Generally entitled to notice and hearing\nSUBSTANTIVE DUE PROCESS\nSubstantive Due Process\n\u2022",
+                        "raw_text": "Generally entitled to notice and hearing\nSUBSTANTIVE DUE PROCESS\nSubstantive Due Process\n\u2022"
+                      }
+                    ],
+                    "title": "Generally entitled to notice and hearing\nSUBSTANTIVE DUE PROCESS\nSubstantive Due Process\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 34,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Protects against unlawful impingement of rights\nStandards of Review\nFundamental Rights\n\u2022\nFundamental right \u2192 Strict scrutiny\nStrict Scrutiny\n(1) Necessary and least restrictive means\n(2) Compelling government interest",
+                        "raw_text": "Protects against unlawful impingement of rights\nStandards of Review\nFundamental Rights\n\u2022\nFundamental right \u2192 Strict scrutiny\nStrict Scrutiny\n(1) Necessary and least restrictive means\n(2) Compelling government interest"
+                      }
+                    ],
+                    "title": "Protects against unlawful impingement of rights\nStandards of Review\nFundamental Rights\n\u2022\nFundamental right \u2192 Strict scru",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 34,
+                    "title": "8\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 35,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Non-Fundamental Rights\n\u2022\nNon-fundamental right \u2192 Rational basis\nRational Basis\n(1) Rationally related\n(2) Legitimate government interest",
+                        "raw_text": "Non-Fundamental Rights\n\u2022\nNon-fundamental right \u2192 Rational basis\nRational Basis\n(1) Rationally related\n(2) Legitimate government interest"
+                      }
+                    ],
+                    "title": "Non-Fundamental Rights\n\u2022\nNon-fundamental right \u2192 Rational basis\nRational Basis\n(1) Rationally related\n(2) Legitimate gov",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 34,
+                "title": "Legitimate claim\nLiberty\n\u2022\nDeprived of physical freedom, freedom of choice, or fundamental\nrights",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "FUNDAMENTAL RIGHTS\nFundamental Rights\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "Right to travel\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "Right to vote\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "Right to privacy\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "Right to family autonomy\n\u2022\nMarriage, divorce, custody, child-rearing\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "Right to reproductive autonomy\n\u2022\nProcreation, sexual relations, contraception, abortion\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "Right to refuse medical treatment\nAbortion\nPre-Viability\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "May regulate abortion\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "Regulations must not place undue burden on right to abortion",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "Post-Viability\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 35,
+                    "title": "Must provide exception to preserve health or life of mother\nEQUAL PROTECTION\nEqual Protection Clause\n\u2022",
+                    "type": "ISSUE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 35,
+                    "title": "All persons entitled to equal protection of the laws\nDiscriminatory Classification\nFacially Discriminatory\n\u2022",
+                    "type": "ISSUE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 35,
+                    "title": "Creates distinctions between categories of people on its face\nFacially Neutral Law with Discriminatory Application\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "May regulate once fetus reaches viability\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 35,
+                    "title": "9\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 36,
+                    "title": "Discriminatory Motive or Purpose\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 36,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Shown to have discriminatory motive or purpose\nStandard of Scrutiny\nSuspect Classification or Fundamental Right \u2013 Strict Scrutiny\n\u2022\nRace\n\u2022\nEthnicity\n\u2022",
+                        "raw_text": "Shown to have discriminatory motive or purpose\nStandard of Scrutiny\nSuspect Classification or Fundamental Right \u2013 Strict Scrutiny\n\u2022\nRace\n\u2022\nEthnicity\n\u2022"
+                      }
+                    ],
+                    "title": "Shown to have discriminatory motive or purpose\nStandard of Scrutiny\nSuspect Classification or Fundamental Right \u2013 Strict",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 36,
+                    "title": "National origin\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 36,
+                    "title": "Alienage if classification by state law\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "cross_references": [
+                      {
+                        "resolution": "NEEDS_REVIEW",
+                        "target": "Fundamental Rights Above"
+                      }
+                    ],
+                    "depth": 5,
+                    "page": 36,
+                    "title": "See Fundamental Rights Above",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 36,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Strict Scrutiny\n(1) Necessary and least restrictive means\n(2) Compelling government interest",
+                        "raw_text": "Strict Scrutiny\n(1) Necessary and least restrictive means\n(2) Compelling government interest"
+                      }
+                    ],
+                    "title": "Strict Scrutiny\n(1) Necessary and least restrictive means\n(2) Compelling government interest",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 36,
+                    "title": "Quasi-Suspect Classification \u2013 Intermediate Scrutiny\n\u2022\nGender\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 36,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Illegitimate children\nIntermediate Scrutiny\n(1) Substantially related\n(2) Important government interest",
+                        "raw_text": "Illegitimate children\nIntermediate Scrutiny\n(1) Substantially related\n(2) Important government interest"
+                      }
+                    ],
+                    "title": "Illegitimate children\nIntermediate Scrutiny\n(1) Substantially related\n(2) Important government interest",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 36,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Non-Suspect Classification \u2013 Rational Basis\n\u2022\nAge\n\u2022\nDisability\n\u2022\nWealth\n\u2022\nEconomics\n\u2022",
+                        "raw_text": "Non-Suspect Classification \u2013 Rational Basis\n\u2022\nAge\n\u2022\nDisability\n\u2022\nWealth\n\u2022\nEconomics\n\u2022"
+                      }
+                    ],
+                    "title": "Non-Suspect Classification \u2013 Rational Basis\n\u2022\nAge\n\u2022\nDisability\n\u2022\nWealth\n\u2022\nEconomics\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 36,
+                    "title": "Sexual orientation",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 35,
+                "title": "Creates disparate impact when applied",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 36,
+                "title": "Rational Basis\n(1) Rationally related\n(2) Legitimate government interest",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 36,
+                "title": "FIRST AMENDMENT\nFirst Amendment\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 36,
+                    "title": "10\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 36,
+                "title": "Protects freedom of expression",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 32,
+            "title": "DORMANT COMMERCE CLAUSE",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 37,
+                "title": "Protected Speech",
+                "type": "ELEMENT"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 37,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "May regulate if\n(1) Regulation furthers important government interest\n(2) Government interest unrelated to suppression of speech, and\n(3) Regulation burdens speech no greater than necessary",
+                        "raw_text": "May regulate if\n(1) Regulation furthers important government interest\n(2) Government interest unrelated to suppression of speech, and\n(3) Regulation burdens speech no greater than necessary"
+                      }
+                    ],
+                    "title": "May regulate if\n(1) Regulation furthers important government interest\n(2) Government interest unrelated to suppression o",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 37,
+                "title": "Symbolic Speech\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 37,
+                "title": "Content-Based Regulation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 37,
+                "title": "Restrictions based on content\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 37,
+                "title": "Strict scrutiny\nContent-Neutral Regulation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 37,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Intermediate scrutiny\nUnprotected and Lesser-Protected Speech\nObscenity\n(1) Appeals to prurient interest\n(2) Depicts sexual conduct in patently offensive way, and\n(3) Lacks serious literary, artistic, political, scientific value\nIncitement\n(1) Directed at inciting imminent lawless action, and\n(2) Likely to incite such action",
+                        "raw_text": "Intermediate scrutiny\nUnprotected and Lesser-Protected Speech\nObscenity\n(1) Appeals to prurient interest\n(2) Depicts sexual conduct in patently offensive way, and\n(3) Lacks serious literary, artistic, political, scientific value\nIncitement\n(1) Directed at inciting imminent lawless action, and\n(2) Likely to incite such action"
+                      }
+                    ],
+                    "title": "Intermediate scrutiny\nUnprotected and Lesser-Protected Speech\nObscenity\n(1) Appeals to prurient interest\n(2) Depicts sex",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 37,
+                "title": "Restrictions on all speech\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 37,
+                "title": "Fighting Words\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 37,
+                "title": "Inflicts injury or incites immediate breach of peace or violence\nCommercial Speech\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 37,
+                "title": "Protected unless false or misleading\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 37,
+                    "title": "11\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "TRADITIONAL",
+                    "page": 38,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "FORUM\nPublic Forums\n\u2022\nTraditional: Historically used for expressive activities\n\u2022\nLimited: Designated for public expressive purpose",
+                        "raw_text": "FORUM\nPublic Forums\n\u2022\nTraditional: Historically used for expressive activities\n\u2022\nLimited: Designated for public expressive purpose"
+                      }
+                    ],
+                    "title": "FORUM\nPublic Forums\n\u2022\nTraditional: Historically used for expressive activities\n\u2022\nLimited: Designated for public expressi",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 37,
+                "title": "Regulations must\n(1) Be narrowly tailored\n(2) Directly advance\n(3) Substantial government interest",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 38,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Intermediate scrutiny\n(1) Narrowly tailored\n(2) Achieve important government interest, and\n(3) Leaves open ample alternative means\nContent-Based\n\u2022",
+                        "raw_text": "Intermediate scrutiny\n(1) Narrowly tailored\n(2) Achieve important government interest, and\n(3) Leaves open ample alternative means\nContent-Based\n\u2022"
+                      }
+                    ],
+                    "title": "Intermediate scrutiny\n(1) Narrowly tailored\n(2) Achieve important government interest, and\n(3) Leaves open ample alterna",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 38,
+                    "title": "Strict scrutiny\nNon-Public Forum\n(1) Viewpoint-neutral, and\n(2) Satisfies rational basis test\nLIMITATIONS\nVagueness\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 38,
+                "title": "Content-Neutral\nTime, Place, Manner\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 38,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Regulates substantially more speech than Constitution allows\nPrior Restraint\n\u2022\nRestricts harmful speech before it\u2019s expressed\n\u2022",
+                        "raw_text": "Regulates substantially more speech than Constitution allows\nPrior Restraint\n\u2022\nRestricts harmful speech before it\u2019s expressed\n\u2022"
+                      }
+                    ],
+                    "title": "Regulates substantially more speech than Constitution allows\nPrior Restraint\n\u2022\nRestricts harmful speech before it\u2019s expr",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 38,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Strict scrutiny\nFREEDOM OF RELIGION\nESTABLISHMENT CLAUSE\nEstablishment Clause\n\u2022\nGovernment may not establish official religion, favor one religion over\nanother, or favor religion over non-religion\nFacially Religious Preference\n\u2022",
+                        "raw_text": "Strict scrutiny\nFREEDOM OF RELIGION\nESTABLISHMENT CLAUSE\nEstablishment Clause\n\u2022\nGovernment may not establish official religion, favor one religion over\nanother, or favor religion over non-religion\nFacially Religious Preference\n\u2022"
+                      }
+                    ],
+                    "title": "Strict scrutiny\nFREEDOM OF RELIGION\nESTABLISHMENT CLAUSE\nEstablishment Clause\n\u2022\nGovernment may not establish official re",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 38,
+                "title": "Rx person cannot determine whether speech is prohibited or permitted\nOverbreadth\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 38,
+                "title": "Prefers one religion over another on its face\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 38,
+                    "title": "12\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 39,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "No Facially Religious Preference \u2013 Lemon Test\n\u2022\nLaw\u2019s impact favors a religion\nLemon Test\n(1) Predominant secular purpose\n(2) Primary effect neither advances nor inhibits religion, and\n(3) No excessive government entanglement with religion",
+                        "raw_text": "No Facially Religious Preference \u2013 Lemon Test\n\u2022\nLaw\u2019s impact favors a religion\nLemon Test\n(1) Predominant secular purpose\n(2) Primary effect neither advances nor inhibits religion, and\n(3) No excessive government entanglement with religion"
+                      }
+                    ],
+                    "title": "No Facially Religious Preference \u2013 Lemon Test\n\u2022\nLaw\u2019s impact favors a religion\nLemon Test\n(1) Predominant secular purpos",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 38,
+                "title": "Strict scrutiny",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 37,
+            "title": "FREE SPEECH\nSPEECH",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 39,
+                "title": "Free Exercise Clause\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 39,
+                "title": "Government may not prohibit free exercise of religion\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 39,
+                "title": "Strict scrutiny",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 39,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Religious Belief\n\u2022\nMay look to one\u2019s sincerity in asserting belief\nLaws Targeting Religious Conduct\n\u2022",
+                    "raw_text": "Religious Belief\n\u2022\nMay look to one\u2019s sincerity in asserting belief\nLaws Targeting Religious Conduct\n\u2022"
+                  }
+                ],
+                "title": "Religious Belief\n\u2022\nMay look to one\u2019s sincerity in asserting belief\nLaws Targeting Religious Conduct\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 39,
+                "title": "Strict scrutiny",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 39,
+                "title": "Laws of General Applicability\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 39,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Government must not penalize person affiliated with a group unless\n(1) Group actively involved in unlawful activity\n(2) Person had knowledge of activity, and\n(3) Intent to advance activity",
+                        "raw_text": "Government must not penalize person affiliated with a group unless\n(1) Group actively involved in unlawful activity\n(2) Person had knowledge of activity, and\n(3) Intent to advance activity"
+                      }
+                    ],
+                    "title": "Government must not penalize person affiliated with a group unless\n(1) Group actively involved in unlawful activity\n(2) ",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 39,
+                    "title": "13\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 39,
+                "title": "Rational basis test\nFREEDOM OF ASSOCIATION\nFreedom of Association\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 39,
+            "title": "FREE EXERCISE OF RELIGION",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 27,
+        "title": "Constitutional Law",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Constitutional Law Essay Template"
+  }
+}

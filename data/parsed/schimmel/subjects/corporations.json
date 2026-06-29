@@ -1,0 +1,949 @@
+{
+  "pages": "55-60",
+  "subject": "Corporations",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 55,
+            "title": "CORPORATIONS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 55,
+                "title": "Promoters\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 55,
+                "title": "Raise capital and enter into Ks to form corporation",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 55,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Liability\n\u2022\nPersonally liable for all pre-incorporation contracts unless (i) novation or (ii) adoption",
+                    "raw_text": "Liability\n\u2022\nPersonally liable for all pre-incorporation Ks unless (i) novation or (ii) adoption"
+                  }
+                ],
+                "title": "Liability\n\u2022\nPersonally liable for all pre-incorporation Ks unless (i) novation or (ii) adoption",
+                "type": "SUBISSUE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 55,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Parties agree to replace promoter with corporation in contract\nAdoption\n\u2022\nExpress: Per board resolution\n\u2022\nImplied: Accepting benefits of contract\nINCORPORATION",
+                        "raw_text": "Parties agree to replace promoter with corporation in K\nAdoption\n\u2022\nExpress: Per board resolution\n\u2022\nImplied: Accepting benefits of K\nINCORPORATION"
+                      }
+                    ],
+                    "title": "Parties agree to replace promoter with corporation in K\nAdoption\n\u2022\nExpress: Per board resolution\n\u2022\nImplied: Accepting be",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 55,
+                    "title": "Procedure\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 55,
+                    "title": "Incorporator must file articles of incorporation with Secretary of State\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 55,
+                    "title": "Articles of incorporation must include\n\u2022\nName\n\u2022\nPurpose\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 55,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Number of shares authorized to issue\n\u2022\nAgent\u2019s name and address\n\u2022\nIncorporator\u2019s name and address",
+                        "raw_text": "Number of shares authorized to issue\n\u2022\nAgent\u2019s name and address\n\u2022\nIncorporator\u2019s name and address"
+                      }
+                    ],
+                    "title": "Number of shares authorized to issue\n\u2022\nAgent\u2019s name and address\n\u2022\nIncorporator\u2019s name and address",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 55,
+                    "title": "Ultra Vires\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 55,
+                    "title": "Corporation transacts beyond scope of specified narrow purpose",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 55,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Challenging Ultra Vires\n\u2022\nChallenge to enjoin ultra vires act can be brought by (i) shareholder against\ncorporation, (ii) corporation against director, officer, employee, or agent, or\n(iii) state",
+                        "raw_text": "Challenging Ultra Vires\n\u2022\nChallenge to enjoin ultra vires act can be brought by (i) shareholder against\ncorporation, (ii) corporation against director, officer, employee, or agent, or\n(iii) state"
+                      }
+                    ],
+                    "title": "Challenging Ultra Vires\n\u2022\nChallenge to enjoin ultra vires act can be brought by (i) shareholder against\ncorporation, (ii",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 55,
+                "title": "Novation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 55,
+                "title": "De Jure Corporation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 55,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Operating corporation without knowledge that good faith attempt to incorporate was\nunsuccessful\nCorporation by Estoppel\n(1) Operating corporation without knowledge that good faith attempt to incorporate was",
+                        "raw_text": "Operating corporation without knowledge that good faith attempt to incorporate was\nunsuccessful\nCorporation by Estoppel\n(1) Operating corporation without knowledge that good faith attempt to incorporate was"
+                      }
+                    ],
+                    "title": "Operating corporation without knowledge that good faith attempt to incorporate was\nunsuccessful\nCorporation by Estoppel\n",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 55,
+                "title": "Validly incorporated corporation\nDe Facto Corporation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 55,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "\u2022\nPrevents third party from (i) denying corporation\u2019s existence or (ii) holding owner personally\nliable",
+                        "raw_text": "\u2022\nPrevents 3P from (i) denying corporation\u2019s existence or (ii) holding owner personally\nliable"
+                      }
+                    ],
+                    "title": "\u2022\nPrevents 3P from (i) denying corporation\u2019s existence or (ii) holding owner personally\nliable",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 55,
+                    "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "UCC",
+                "page": 55,
+                "title": "unsuccessful, and\n(2) 3P contract with owner believing it to be de jure corporation",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Board of Directors",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Board of Directors\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Manage corporation\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "At least one director required\nSelection\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Elected by shareholders\nRemoval\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "MAJORITY",
+                    "page": 56,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Shareholders may remove directors through majority vote\nMeetings\n\u2022\nRegular: According to bylaws, no notice required\n\u2022\nSpecial: Notice required unless waived by signed waiver or attendance",
+                        "raw_text": "Shareholders may remove directors through majority vote\nMeetings\n\u2022\nRegular: According to bylaws, no notice required\n\u2022\nSpecial: Notice required unless waived by signed waiver or attendance"
+                      }
+                    ],
+                    "title": "Shareholders may remove directors through majority vote\nMeetings\n\u2022\nRegular: According to bylaws, no notice required\n\u2022\nSp",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Voting\n\u2022\nQuorum of directors must be in attendance for board\u2019s actions to be valid\n\u2022",
+                        "raw_text": "Voting\n\u2022\nQuorum of directors must be in attendance for board\u2019s actions to be valid\n\u2022"
+                      }
+                    ],
+                    "title": "Voting\n\u2022\nQuorum of directors must be in attendance for board\u2019s actions to be valid\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "MAJORITY",
+                    "page": 56,
+                    "title": "Resolutions require majority vote",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Action Without Meeting\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Unanimous written consent required\nOfficers",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Officers\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Carry out daily operations\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Selected by board of directors",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Authority to Act",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Actual Authority",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "Express Actual Authority\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 56,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Created through oral or written words\nImplied Actual Authority\n\u2022\nBased on officer\u2019s reasonable understanding of corporation\u2019s\nobjective",
+                        "raw_text": "Created through oral or written words\nImplied Actual Authority\n\u2022\nBased on officer\u2019s rx understanding of corporation\u2019s\nobjective"
+                      }
+                    ],
+                    "title": "Created through oral or written words\nImplied Actual Authority\n\u2022\nBased on officer\u2019s rx understanding of corporation\u2019s\nob",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 56,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Implied Authority by Position\n\u2022\nBased on officer\u2019s job title or position\nApparent Authority\n\u2022\nCorporation causes third party\u2019s reasonable belief that officer has authority to act",
+                        "raw_text": "Implied Authority by Position\n\u2022\nBased on officer\u2019s job title or position\nApparent Authority\n\u2022\nCorporation causes 3P\u2019s rx belief that officer has authority to act"
+                      }
+                    ],
+                    "title": "Implied Authority by Position\n\u2022\nBased on officer\u2019s job title or position\nApparent Authority\n\u2022\nCorporation causes 3P\u2019s rx",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 56,
+                    "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 57,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Third Party\u2019s Reasonable Belief\n\u2022\nBased on trade customs, industry standards, and officer\u2019s\nposition\nRatification\n(1) Corporation expressly or impliedly demonstrates assent to contract\n(2) Must be timely\n(3) Parties have capacity, and\n(4) Corporation knows material facts",
+                        "raw_text": "Third Party\u2019s Reasonable Belief\n\u2022\nBased on trade customs, industry standards, and officer\u2019s\nposition\nRatification\n(1) Corporation expressly or impliedly demonstrates assent to K\n(2) Must be timely\n(3) Parties have capacity, and\n(4) Corporation knows material facts"
+                      }
+                    ],
+                    "title": "Third Party\u2019s Reasonable Belief\n\u2022\nBased on trade customs, industry standards, and officer\u2019s\nposition\nRatification\n(1) Co",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 56,
+                "title": "Bylaws\n\u2022\nSet out corporation\u2019s governing rules\nCORPORATION MANAGEMENT STRUCTURE",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 55,
+            "title": "PRE-INCORPORATION MATTERS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 57,
+                "title": "Fiduciary Duties",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 57,
+                "title": "Duty of Care\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 57,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Directors and officers must act with care of reasonably prudent person in similar position\n\u2022\nOtherwise, may be personally liable",
+                    "raw_text": "Directors and officers must act with care of rxly prudent person in similar position\n\u2022\nOtherwise, may be personally liable"
+                  }
+                ],
+                "title": "Directors and officers must act with care of rxly prudent person in similar position\n\u2022\nOtherwise, may be personally liab",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 57,
+                "title": "Reliance\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 57,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Rebuttable presumption\n\u2022\nDecision made (1) in good faith (2) with care of reasonably prudent person and (3)\nwith reasonable belief that actions were in corporation\u2019s best interest\nDuty of Loyalty\n\u2022\nDirectors and officers must prioritize corporation\u2019s interests above own",
+                        "raw_text": "Rebuttable presumption\n\u2022\nDecision made (1) in good faith (2) with care of rxly prudent person and (3)\nwith rx belief that actions were in corporation\u2019s best interest\nDuty of Loyalty\n\u2022\nDirectors and officers must prioritize corporation\u2019s interests above own"
+                      }
+                    ],
+                    "title": "Rebuttable presumption\n\u2022\nDecision made (1) in good faith (2) with care of rxly prudent person and (3)\nwith rx belief tha",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 57,
+                    "title": "Self-Dealing\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 57,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Director or officer transacts with a corporation for benefit of himself or his\nrelatives",
+                        "raw_text": "Director or officer transacts with a corporation for benefit of himself or his\nrelatives"
+                      }
+                    ],
+                    "title": "Director or officer transacts with a corporation for benefit of himself or his\nrelatives",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 57,
+                "title": "May rxly rely on advice of others\nBusiness Judgment Rule\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 57,
+                    "title": "Self-dealing transactions protected if approved or fair to corporation\nUsurping a Corporate Opportunity\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 57,
+                "title": "Safe-Harbor Rule\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 57,
+                "title": "Directors and officers must disclose all corporate opportunities\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 57,
+                    "title": "Shareholders\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 57,
+                    "title": "Elect board of directors\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 57,
+                    "title": "Vote on significant decisions\nMeetings",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 57,
+                    "title": "Annual Meetings\n\u2022\nMandatory",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 57,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 58,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "\u2022\nMain purpose: Elect directors\nSpecial Meetings\n\u2022\nNotice required \u2013 time, date, location, purpose\nVoting\n\u2022\nEach share of stock is entitled to 1 vote",
+                        "raw_text": "\u2022\nMain purpose: Elect directors\nSpecial Meetings\n\u2022\nNotice required \u2013 time, date, location, purpose\nVoting\n\u2022\nEach share of stock is entitled to 1 vote"
+                      }
+                    ],
+                    "title": "\u2022\nMain purpose: Elect directors\nSpecial Meetings\n\u2022\nNotice required \u2013 time, date, location, purpose\nVoting\n\u2022\nEach share o",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 57,
+                "title": "May only personally pursue opportunity after rejected by corporation\nSHAREHOLDERS",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 58,
+                "title": "Quorum\n\u2022\nQuorum of shares must be in attendance for shareholders\u2019 decision to be valid\nRecord Date\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 58,
+                "title": "Only shareholders who hold shares on record date are entitled to vote\nProxy Voting\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 58,
+                    "title": "Generally revocable but may be irrevocable if coupled with interest or expressly\nstated\nVoting Agreements\n\u2022",
+                    "type": "ISSUE"
+                  },
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 58,
+                        "title": "Direct Lawsuits\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 58,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Shareholder personally suing corporation\nDerivative Lawsuits\n\u2022\nShareholder with standing suing on corporation\u2019s behalf",
+                            "raw_text": "Shareholder personally suing corporation\nDerivative Lawsuits\n\u2022\nShareholder with standing suing on corporation\u2019s behalf"
+                          }
+                        ],
+                        "title": "Shareholder personally suing corporation\nDerivative Lawsuits\n\u2022\nShareholder with standing suing on corporation\u2019s behalf",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 58,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Standing\n\u2022  Shareholder has standing if (1) owns shares at time of harm and throughout\n      litigation and (2) adequately represents corporation\u2019s interests",
+                            "raw_text": "Standing\n\u2022  Shareholder has standing if (1) owns shares at time of harm and throughout\n      litigation and (2) adequately represents corporation\u2019s interests"
+                          }
+                        ],
+                        "title": "Standing\n\u2022  Shareholder has standing if (1) owns shares at time of harm and throughout\n      litigation and (2) adequate",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "jurisdiction": "MINORITY",
+                        "page": 58,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Written Demand\n\u2022\nPrior to derivative lawsuit, (1) shareholder must make written\ndemand for board to file, and (2) demand must be rejected\nFiduciary Duties\n\u2022\nControlling shareholders: Owed to corporation and minority shareholders\n\u2022\nMinority shareholders: None\nPiercing the Corporate Veil",
+                            "raw_text": "Written Demand\n\u2022\nPrior to derivative lawsuit, (1) shareholder must make written\ndemand for board to file, and (2) demand must be rejected\nFiduciary Duties\n\u2022\nControlling shareholders: Owed to corporation and minority shareholders\n\u2022\nMinority shareholders: None\nPiercing the Corporate Veil"
+                          }
+                        ],
+                        "title": "Written Demand\n\u2022\nPrior to derivative lawsuit, (1) shareholder must make written\ndemand for board to file, and (2) demand",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 58,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Factors\n(i)   Undercapitalization\n(ii)   Alter ego\n(iii)   Fraud\n(iv)   Siphoning corporate funds and stripping corporate assets",
+                            "raw_text": "Factors\n(i)   Undercapitalization\n(ii)   Alter ego\n(iii)   Fraud\n(iv)   Siphoning corporate funds and stripping corporate assets"
+                          }
+                        ],
+                        "title": "Factors\n(i)   Undercapitalization\n(ii)   Alter ego\n(iii)   Fraud\n(iv)   Siphoning corporate funds and stripping corporat",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 58,
+                        "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 58,
+                    "title": "Multiple shareholders may enter into enforceable signed agreement for how to vote\ntheir shares\nShareholder Litigation",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 58,
+                "title": "Shareholders may vote by proxy\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Stock\n\u2022\nCorrelates to owner\u2019s rights and interests\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Common stock required\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Board of directors approve issuance of stock\nValuation\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Adequate consideration required in exchange for shares of stock\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Adequacy determined by board of directors",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Par Value\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Minimum amount for which share of stock may be sold\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Set par value not required\nWatered Stock\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Stock sold below par value",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 59,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Liability\n\u2022\nBoard of directors: Liable for difference between par value and value\nreceived\n\u2022\nShareholders: Liable if knowingly received watered stock\nDistribution",
+                        "raw_text": "Liability\n\u2022\nBoard of directors: Liable for difference between par value and value\nreceived\n\u2022\nShareholders: Liable if knowingly received watered stock\nDistribution"
+                      }
+                    ],
+                    "title": "Liability\n\u2022\nBoard of directors: Liable for difference between par value and value\nreceived\n\u2022\nShareholders: Liable if kno",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Dividend\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Distribution of profits to shareholders\nAuthority to Distribute\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "FEDERAL",
+                    "page": 59,
+                    "title": "Authorized by board of directors\nFederal Securities Laws",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Rule 10b-5\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "Prohibits use of fraud to effectuate purchase or sale of securities",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 59,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Claim Requirements\n(1) P purchased or sold security\n(2) Using interstate commerce\n(3) D intentionally or recklessly\n(4) Engaged in fraudulent conduct\n(5) Pertaining to material info\n(6) Upon which P relied, and\n(7) Suffered harm",
+                        "raw_text": "Claim Requirements\n(1) P purchased or sold security\n(2) Using interstate commerce\n(3) D intentionally or recklessly\n(4) Engaged in fraudulent conduct\n(5) Pertaining to material info\n(6) Upon which P relied, and\n(7) Suffered harm"
+                      }
+                    ],
+                    "title": "Claim Requirements\n(1) P purchased or sold security\n(2) Using interstate commerce\n(3) D intentionally or recklessly\n(4) ",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 59,
+                    "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 59,
+                "title": "(v)   Failure to observe formalities\n(vi)   Self-dealing\n(vii) Commingling\nSTOCK",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 60,
+                "title": "Rule 16(b)\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 60,
+                "title": "Obstructs unethical use of insider info for purchase and sale of securities\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 60,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Public corporation traded on national exchange\n\u2022\nCorporation with assets > $10 million and a minimum of 2,000 shareholders\nFUNDAMENTAL CORPORATE CHANGES",
+                        "raw_text": "Public corporation traded on national exchange\n\u2022\nCorporation with assets > $10 million and a minimum of 2,000 shareholders\nFUNDAMENTAL CORPORATE CHANGES"
+                      }
+                    ],
+                    "title": "Public corporation traded on national exchange\n\u2022\nCorporation with assets > $10 million and a minimum of 2,000 shareholde",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 60,
+                    "title": "Dissolution\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 60,
+                    "title": "Corporation ceases to exist\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 60,
+                    "title": "Voluntary or involuntary action",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 60,
+                    "title": "Voluntary\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "MAJORITY",
+                    "page": 60,
+                    "title": "Dissolved by directors and shareholders through majority vote\nInvoluntary",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 60,
+                    "title": "Creditors\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 60,
+                    "title": "Dissolved by creditors upon showing of insolvency\nShareholders\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 60,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Dissolved by shareholders upon showing directors engaged in fraud or assets\nare being wasted\nWinding Up\n\u2022\nAfter dissolution, corporation exists only to wind up and liquidate",
+                        "raw_text": "Dissolved by shareholders upon showing directors engaged in fraud or assets\nare being wasted\nWinding Up\n\u2022\nAfter dissolution, corporation exists only to wind up and liquidate"
+                      }
+                    ],
+                    "title": "Dissolved by shareholders upon showing directors engaged in fraud or assets\nare being wasted\nWinding Up\n\u2022\nAfter dissolut",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 60,
+                    "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 60,
+                "title": "Applicable to\n\u2022\nDirectors, officers, shareholders owning more than 10%\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 57,
+            "title": "FIDUCIARY DUTIES OF DIRECTORS AND OFFICERS",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 55,
+        "title": "Corporations",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Corporations Essay Template"
+  }
+}

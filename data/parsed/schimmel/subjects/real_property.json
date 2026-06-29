@@ -1,0 +1,1532 @@
+{
+  "pages": "107-119",
+  "subject": "Real Property",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 107,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Owner has absolute ownership of both present and future possessory rights\n\u2022\nDuration: Indefinite and potentially infinite\n\u2022\nAlienable, devisable, descendible\n\u2022",
+                    "raw_text": "Owner has absolute ownership of both present and future possessory rights\n\u2022\nDuration: Indefinite and potentially infinite\n\u2022\nAlienable, devisable, descendible\n\u2022"
+                  }
+                ],
+                "title": "Owner has absolute ownership of both present and future possessory rights\n\u2022\nDuration: Indefinite and potentially infinit",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "COMMON_LAW",
+                "page": 107,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "If owner dies intestate\n\u2022\nWith heirs \u2192 Heirs inherit\n\u2022\nWithout heirs \u2192 Escheat to state\nWords of Limitation\n\u2022\nCommon law: Words of limitation required\n\u2022\nModern law: Default for conveyances without words of limitation\nDefeasible Fees\nDefeasible Fee\n\u2022\nDuration: Potentially infinite\n\u2022",
+                    "raw_text": "If owner dies intestate\n\u2022\nWith heirs \u2192 Heirs inherit\n\u2022\nWithout heirs \u2192 Escheat to state\nWords of Limitation\n\u2022\nCommon law: Words of limitation required\n\u2022\nModern law: Default for conveyances without words of limitation\nDefeasible Fees\nDefeasible Fee\n\u2022\nDuration: Potentially infinite\n\u2022"
+                  }
+                ],
+                "title": "If owner dies intestate\n\u2022\nWith heirs \u2192 Heirs inherit\n\u2022\nWithout heirs \u2192 Escheat to state\nWords of Limitation\n\u2022\nCommon law",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.75,
+            "depth": 4,
+            "page": 107,
+            "title": "REAL PROPERTY\nOWNERSHIP\nPRESENT ESTATES AND FUTURE INTERESTS\nFee Simple Absolute\nFee Simple Absolute\n\u2022",
+            "type": "ISSUE"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 107,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Created by durational language\n\u2022\nAlienable, devisable, descendible\nPossibility of Reverter\n\u2022\nOnce stated condition occurs, ownership reverts to grantor or\nhis successor\nFee Simple Subject to Condition Subsequent\n\u2022",
+                    "raw_text": "Created by durational language\n\u2022\nAlienable, devisable, descendible\nPossibility of Reverter\n\u2022\nOnce stated condition occurs, ownership reverts to grantor or\nhis successor\nFee Simple Subject to Condition Subsequent\n\u2022"
+                  }
+                ],
+                "title": "Created by durational language\n\u2022\nAlienable, devisable, descendible\nPossibility of Reverter\n\u2022\nOnce stated condition occur",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 107,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Created by conditional language\n\u2022\nDuration: Limited\n\u2022\nAlienable during grantor\u2019s life\n\u2022\nDevisable and descendible upon grantor\u2019s death\nRight of Reentry\n\u2022",
+                    "raw_text": "Created by conditional language\n\u2022\nDuration: Limited\n\u2022\nAlienable during grantor\u2019s life\n\u2022\nDevisable and descendible upon grantor\u2019s death\nRight of Reentry\n\u2022"
+                  }
+                ],
+                "title": "Created by conditional language\n\u2022\nDuration: Limited\n\u2022\nAlienable during grantor\u2019s life\n\u2022\nDevisable and descendible upon g",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 107,
+            "title": "Subject to termination by occurrence of specified condition\nFee Simple Determinable\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 107,
+            "title": "Grantor must specifically retain right\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 107,
+                    "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 107,
+                "title": "Created by conditional language\n\u2022\nDuration: Limited\n\u2022\nAutomatically transfers to 3P upon happening of stated condition",
+                "type": "ISSUE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 108,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Held by grantor who retains right to reclaim\nRemainder\n\u2022\nHeld by third party and arises upon end of life estate\nRestraint on Alienation\n\u2022",
+                        "raw_text": "Held by grantor who retains right to reclaim\nRemainder\n\u2022\nHeld by 3P and arises upon end of life estate\nRestraint on Alienation\n\u2022"
+                      }
+                    ],
+                    "title": "Held by grantor who retains right to reclaim\nRemainder\n\u2022\nHeld by 3P and arises upon end of life estate\nRestraint on Alie",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 108,
+                "title": "Executory Interests\n\u2022\nBelong to 3P\n\u2022\nTransferrable\nLife Estate\n\u2022\nDuration: Measured by a life\nReversion\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 107,
+            "title": "May reclaim upon happening of stated condition\nFee Simple Subject to Executory Interest\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 108,
+                "title": "May be valid if rx and for limited duration\nCONCURRENT ESTATES\nTenancy in Common\n\u2022\nHeld by 2 or more tenants\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 108,
+            "title": "Generally void\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "COMMON_LAW",
+                "page": 108,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Each tenant has undivided interest and right to possess whole property\n\u2022\nDevisable, transferable, descendible\nJoint Tenancy\n\u2022\nOwned by 2 or more tenants\n\u2022\nright of survivorship\n\u2022\nAlienable\n\u2022\nModern law: Survivorship language and clear intent required\n\u2022\nCommon law: 4 unities required\n(1) Time\n(2) Title\n(3) Interest, and\n(4) Possession\nSeverance\n\u2022",
+                    "raw_text": "Each tenant has undivided interest and right to possess whole property\n\u2022\nDevisable, transferable, descendible\nJoint Tenancy\n\u2022\nOwned by 2 or more tenants\n\u2022\nROS\n\u2022\nAlienable\n\u2022\nModern law: Survivorship language and clear intent required\n\u2022\nCommon law: 4 unities required\n(1) Time\n(2) Title\n(3) Interest, and\n(4) Possession\nSeverance\n\u2022"
+                  }
+                ],
+                "title": "Each tenant has undivided interest and right to possess whole property\n\u2022\nDevisable, transferable, descendible\nJoint Tena",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 108,
+            "title": "No ROS\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 108,
+            "title": "Converts severed share into tenancy in common\nConveyance at Death\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 108,
+            "title": "No effect\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 108,
+            "title": "Other joint tenants have ROS\nSale\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 108,
+                "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 108,
+            "title": "Severs joint tenancy with respect to seller",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Mortgage\nTitle Theory\n\u2022\nSevers joint tenancy, resulting in tenancy in common\nLien Theory\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Severs joint tenancy upon foreclosure sale after default\nJudicial Lien\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "No severance unless levy and sale of interest\nRights and Obligations of Tenants\nPossession\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Each tenant has right to possess whole property\nOuster\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Ousted tenant may sue for access and damages\nAdverse Possession\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Ousted tenant may make claim for adverse possession\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 109,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Co-tenants do not pay other co-tenants for use\n\u2022\nIf renting property to third party, must share rent minus operating and repair\nexpenses\nOperating Expenses\n\u2022",
+                    "raw_text": "Co-tenants do not pay other co-tenants for use\n\u2022\nIf renting property to 3P, must share rent minus operating and repair\nexpenses\nOperating Expenses\n\u2022"
+                  }
+                ],
+                "title": "Co-tenants do not pay other co-tenants for use\n\u2022\nIf renting property to 3P, must share rent minus operating and repair\ne",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "See Adverse Possession\nRent\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Co-tenant can request contribution if paid more than his share\nRepairs and Improvements\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Co-tenant may not request reimbursement for repairs\nPartition\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Any tenant may unilaterally partition property\nLANDLORD AND TENANT\nLEASEHOLDS\nTenancy for Years\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Fixed period\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Created by express agreement\n\u2022\nMust satisfy SOF if for 1+ year\nTermination\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "Terminates automatically upon end of term\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 109,
+                "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 109,
+            "title": "No notice required",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "Renewal\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "Right to renew must be expressly stated\nPeriodic Tenancy\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "Repetitive and continuous measured by fixed period\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "No expiration date\n\u2022\nCreated by express agreement, implication, or operation of law\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "SOF not applicable\nTermination\n\u2022\nNotice required at least 1 period in advance\nRenewal\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "Automatically renews\nTenancy at Will\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "No specific duration\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 110,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "May be terminated at any time by either party\nRight to Terminate\n\u2022\nIf agreement only gives right to landlord \u2192 Same right implied for tenant\n\u2022\nIf agreement only gives right to tenant \u2192 Same right not implied for landlord\nTenancy at Sufferance\n\u2022",
+                    "raw_text": "May be terminated at any time by either party\nRight to Terminate\n\u2022\nIf agreement only gives right to landlord \u2192 Same right implied for tenant\n\u2022\nIf agreement only gives right to tenant \u2192 Same right not implied for landlord\nTenancy at Sufferance\n\u2022"
+                  }
+                ],
+                "title": "May be terminated at any time by either party\nRight to Terminate\n\u2022\nIf agreement only gives right to landlord \u2192 Same righ",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "Created by express agreement or implication\nTermination\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "Tenant wrongfully remains in possession after tenancy expires\nTermination\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "COMMON_LAW",
+                "page": 110,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Duty to pay rent\n\u2022\nIf failure to perform, landlord may sue for damages and evict\nAbandonment\n\u2022\nCommon law: If tenant abandons, landlord may reclaim\nWaste\n\u2022",
+                    "raw_text": "Duty to pay rent\n\u2022\nIf failure to perform, landlord may sue for damages and evict\nAbandonment\n\u2022\nCommon law: If tenant abandons, landlord may reclaim\nWaste\n\u2022"
+                  }
+                ],
+                "title": "Duty to pay rent\n\u2022\nIf failure to perform, landlord may sue for damages and evict\nAbandonment\n\u2022\nCommon law: If tenant aba",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "Terminates when tenant vacates or landlord evicts\nTENANT DUTIES\nTenant Duties\nRent\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "Tenant must repair damages for which he is responsible\nAffirmative Waste\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 110,
+                "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 110,
+            "title": "Tenant may not cause voluntary waste",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 111,
+            "title": "Ameliorative Waste\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 111,
+            "title": "Tenant may make rxly necessary physical alterations which increase\nproperty value\nPermissive Waste\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "MAJORITY",
+                "page": 111,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "No duty to repair normal wear and tear\nLANDLORD DUTIES\nLandlord Duties\nPossession\n\u2022\nMajority: Duty to deliver actual and legal possession\n\u2022\nMinority: Duty to deliver legal possession\nRepair\n\u2022\nResidential leases: Duty to repair\n\u2022\nCommercial leases: No duty to repair\nWarranty of Habitability\n\u2022",
+                    "raw_text": "No duty to repair normal wear and tear\nLANDLORD DUTIES\nLandlord Duties\nPossession\n\u2022\nMajority: Duty to deliver actual and legal possession\n\u2022\nMinority: Duty to deliver legal possession\nRepair\n\u2022\nResidential leases: Duty to repair\n\u2022\nCommercial leases: No duty to repair\nWarranty of Habitability\n\u2022"
+                  }
+                ],
+                "title": "No duty to repair normal wear and tear\nLANDLORD DUTIES\nLandlord Duties\nPossession\n\u2022\nMajority: Duty to deliver actual and",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 111,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Must maintain property to meet health and safety standards\nRemedies\n\u2022\nIf breached, tenant must notify landlord and give reasonable time for repair\n\u2022\nIf failure to make repairs, tenant may\n\u2022",
+                    "raw_text": "Must maintain property to meet health and safety standards\nRemedies\n\u2022\nIf breached, tenant must notify landlord and give rx time for repair\n\u2022\nIf failure to make repairs, tenant may\n\u2022"
+                  }
+                ],
+                "title": "Must maintain property to meet health and safety standards\nRemedies\n\u2022\nIf breached, tenant must notify landlord and give ",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 111,
+            "title": "Tenant must repair property to preserve original condition\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 111,
+            "title": "Withhold rent\n\u2022\nMake repairs and deduct cost from future rent, or\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 111,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Tenant entitled to use and enjoyment of property without interference from\nlandlord\nEviction\nActual Eviction\n\u2022\nIf landlord prevents access to property, lease terminates\nConstructive Eviction\n\u2022\nIf landlord creates condition causing substantial interference, tenant\nnot obligated to pay rent if\n(1) Tenant provides notice\n(2) Landlord fails to resolve condition, and\n(3) Tenant vacates within reasonable amount of time\nMitigation\n\u2022",
+                    "raw_text": "Tenant entitled to use and enjoyment of property without interference from\nlandlord\nEviction\nActual Eviction\n\u2022\nIf landlord prevents access to property, lease terminates\nConstructive Eviction\n\u2022\nIf landlord creates condition causing substantial interference, tenant\nnot obligated to pay rent if\n(1) Tenant provides notice\n(2) Landlord fails to resolve condition, and\n(3) Tenant vacates within rx amount of time\nMitigation\n\u2022"
+                  }
+                ],
+                "title": "Tenant entitled to use and enjoyment of property without interference from\nlandlord\nEviction\nActual Eviction\n\u2022\nIf landlo",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 111,
+            "title": "Remain in possession and seek damages\nCovenant of Quiet Enjoyment\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 111,
+                "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 111,
+            "title": "Landlord has duty to mitigate damages and duty of due diligence to re-let the\nproperty",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 112,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Lease may be assigned freely\n\u2022\nTransfers remainder of tenant\u2019s lease\n\u2022\nAssignee: Privity of estate with landlord\n\u2022\nAssignor: Privity of contract with landlord\nRent\n\u2022\nIf assignee does not pay rent, assignor liable\nSublease\n\u2022",
+                    "raw_text": "Lease may be assigned freely\n\u2022\nTransfers remainder of tenant\u2019s lease\n\u2022\nAssignee: Privity of estate with landlord\n\u2022\nAssignor: Privity of contract with landlord\nRent\n\u2022\nIf assignee does not pay rent, assignor liable\nSublease\n\u2022"
+                  }
+                ],
+                "title": "Lease may be assigned freely\n\u2022\nTransfers remainder of tenant\u2019s lease\n\u2022\nAssignee: Privity of estate with landlord\n\u2022\nAssig",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 112,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Lease may be subleased freely\n\u2022\nTransfer for less than complete duration of tenant\u2019s lease\n\u2022\nAssignor: Privity of contract and privity of estate with landlord\nRent\n\u2022",
+                    "raw_text": "Lease may be subleased freely\n\u2022\nTransfer for less than complete duration of tenant\u2019s lease\n\u2022\nAssignor: Privity of contract and privity of estate with landlord\nRent\n\u2022"
+                  }
+                ],
+                "title": "Lease may be subleased freely\n\u2022\nTransfer for less than complete duration of tenant\u2019s lease\n\u2022\nAssignor: Privity of contra",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 112,
+            "title": "ASSIGNMENTS AND SUBLEASES\nAssignment\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 112,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Landlord may only refuse assignment or sublease based on reasonable grounds pertaining to\nproperty\nTITLES\nADVERSE POSSESSION\nAdverse Possession\n(1) Actual entry\n(2) Open and notorious\n(3) Hostile\n(4) Exclusive, and\n(5) Continuous for statutory period\nActual\n\u2022",
+                    "raw_text": "Landlord may only refuse assignment or sublease based on rx grounds pertaining to\nproperty\nTITLES\nADVERSE POSSESSION\nAdverse Possession\n(1) Actual entry\n(2) Open and notorious\n(3) Hostile\n(4) Exclusive, and\n(5) Continuous for statutory period\nActual\n\u2022"
+                  }
+                ],
+                "title": "Landlord may only refuse assignment or sublease based on rx grounds pertaining to\nproperty\nTITLES\nADVERSE POSSESSION\nAdv",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 112,
+            "title": "Assignor liable for rent\nLimitations\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 112,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Must occupy in manner that would give owner constructive notice\nHostile\n\u2022\nMust occupy without owner\u2019s permission\nExclusive\n\u2022",
+                    "raw_text": "Must occupy in manner that would give owner constructive notice\nHostile\n\u2022\nMust occupy without owner\u2019s permission\nExclusive\n\u2022"
+                  }
+                ],
+                "title": "Must occupy in manner that would give owner constructive notice\nHostile\n\u2022\nMust occupy without owner\u2019s permission\nExclusi",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 112,
+            "title": "Must be actual entry and possession\nOpen and Notorious\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 112,
+            "title": "Cannot share property with owner but may share with other possessors\nContinuous\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 112,
+            "title": "Must be continuous throughout statutory period\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 112,
+            "title": "Tacking allowed to meet statutory period\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 112,
+                "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 113,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "TRANSFER BY DEED\nDeed\n(1) Compliance with formalities\n(2) Delivery, and\n(3) Acceptance\nFormalities\n(1) Satisfy statute of frauds\n(2) Describe property, and\n(3) Identify parties",
+                    "raw_text": "TRANSFER BY DEED\nDeed\n(1) Compliance with formalities\n(2) Delivery, and\n(3) Acceptance\nFormalities\n(1) Satisfy SOF\n(2) Describe property, and\n(3) Identify parties"
+                  }
+                ],
+                "title": "TRANSFER BY DEED\nDeed\n(1) Compliance with formalities\n(2) Delivery, and\n(3) Acceptance\nFormalities\n(1) Satisfy SOF\n(2) D",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 112,
+            "title": "Tacking requires privity between occupants",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 113,
+                "title": "Must be in writing signed by grantor\nExceptions\n(i) Part performance\n(ii) Promissory estoppel\nIntent\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 113,
+            "title": "Statute of Frauds\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 113,
+            "title": "Delivered when grantor has present intent to transfer\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 113,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Creates presumption of intent\nTransfer to Third-Party Agents\n\u2022\nIf grantor gives to third party agent but reverses right to rescind or makes\ndelivery conditional \u2192 No present intent or delivery\nAcceptance\n\u2022",
+                    "raw_text": "Creates presumption of intent\nTransfer to Third-Party Agents\n\u2022\nIf grantor gives to 3P agent but reverses right to rescind or makes\ndelivery conditional \u2192 No present intent or delivery\nAcceptance\n\u2022"
+                  }
+                ],
+                "title": "Creates presumption of intent\nTransfer to Third-Party Agents\n\u2022\nIf grantor gives to 3P agent but reverses right to rescin",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 113,
+            "title": "Must include words of intent\nTransfer to Grantee\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 113,
+                "title": "Grantor guarantees against defects created by himself and all prior\ntitleholders\nPresent Covenants\nSeisin\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 113,
+            "title": "Generally presumed\nTypes of Deeds\nGeneral Warranty Deed\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 113,
+            "title": "Grantor owns property described in deed\nRight to Convey\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 113,
+            "title": "Grantor has right to convey title\nAgainst Encumbrances\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 113,
+                "title": "7\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 114,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Future Covenants\nQuiet Enjoyment\n\u2022\nGrantee\u2019s possession and enjoyment will not be disturbed by\nthird party\u2019s assertion of superior title\nWarranty\n\u2022\nGrantor will defend against third party\u2019s assertion of title\nFurther Assurances\n\u2022",
+                    "raw_text": "Future Covenants\nQuiet Enjoyment\n\u2022\nGrantee\u2019s possession and enjoyment will not be disturbed by\n3P\u2019s assertion of superior title\nWarranty\n\u2022\nGrantor will defend against 3P\u2019s assertion of title\nFurther Assurances\n\u2022"
+                  }
+                ],
+                "title": "Future Covenants\nQuiet Enjoyment\n\u2022\nGrantee\u2019s possession and enjoyment will not be disturbed by\n3P\u2019s assertion of superio",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 113,
+            "title": "Property does not contain undisclosed encumbrances",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 114,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Contains same covenants as general warranty deed\n\u2022\nOnly warrants against defects arising during grantor\u2019s ownership\nQuitclaim Deed\n\u2022",
+                    "raw_text": "Contains same covenants as general warranty deed\n\u2022\nOnly warrants against defects arising during grantor\u2019s ownership\nQuitclaim Deed\n\u2022"
+                  }
+                ],
+                "title": "Contains same covenants as general warranty deed\n\u2022\nOnly warrants against defects arising during grantor\u2019s ownership\nQuit",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 114,
+            "title": "Grantor will use any means necessary to perfect defective\ntitle\nSpecial Warranty Deed\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "COMMON_LAW",
+                "page": 114,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Transfers any interest grantor had\nRecording Statutes\n\u2022\nUnless recording statute governs, common law approach \u201cfirst in time, first in right\u201d\nis default\nTypes\nNotice\n\u2022",
+                    "raw_text": "Transfers any interest grantor had\nRecording Statutes\n\u2022\nUnless recording statute governs, common law approach \u201cfirst in time, first in right\u201d\nis default\nTypes\nNotice\n\u2022"
+                  }
+                ],
+                "title": "Transfers any interest grantor had\nRecording Statutes\n\u2022\nUnless recording statute governs, common law approach \u201cfirst in ",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 114,
+            "title": "Guarantees no covenants of title\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 114,
+            "title": "BFP granted title prior to grantee who failed to record\nBona Fide Purchaser\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 114,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "First to record granted title\nRace-Notice\n\u2022\nBFP granted title if (1) records first and (2) acquires without notice\nof prior interests\nNotice\nActual\n\u2022",
+                    "raw_text": "First to record granted title\nRace-Notice\n\u2022\nBFP granted title if (1) records first and (2) acquires without notice\nof prior interests\nNotice\nActual\n\u2022"
+                  }
+                ],
+                "title": "First to record granted title\nRace-Notice\n\u2022\nBFP granted title if (1) records first and (2) acquires without notice\nof pr",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 114,
+            "title": "Acquired property for value without notice of prior interests\nRace\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 114,
+            "title": "Grantee with actual notice not granted title in notice or race-notice\njxs\nInquiry\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 114,
+                "title": "8\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 114,
+            "title": "Rx inspection of property would reveal conflicting interests",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 115,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "All prior interests were recorded\nShelter Rule\n\u2022\nBFP who acquired title through recording statute\u2019s protection shelters his\ngrantee\nLAND USE\nEASEMENTS\nEasements\n\u2022",
+                    "raw_text": "All prior interests were recorded\nShelter Rule\n\u2022\nBFP who acquired title through recording statute\u2019s protection shelters his\ngrantee\nLAND USE\nEASEMENTS\nEasements\n\u2022"
+                  }
+                ],
+                "title": "All prior interests were recorded\nShelter Rule\n\u2022\nBFP who acquired title through recording statute\u2019s protection shelters ",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 115,
+            "title": "Constructive\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 115,
+                "title": "Landowner gives right to use his land for particular purpose\nTypes of Easements\nEasements Appurtenant\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 115,
+            "title": "Non-possessory interest\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 115,
+            "title": "Attach to land\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 115,
+            "title": "Subsequent landowners with notice may benefit\nEasements in Gross\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 115,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Do not transfer to subsequent landowners\nCreation of Easements\nExpress\nGrant\n(1) In writing and satisfy statute of frauds\n(2) Signed by grantor\n(3) Identify parties and property, and\n(4) Demonstrate grantor\u2019s intent\nReservation\n\u2022",
+                    "raw_text": "Do not transfer to subsequent landowners\nCreation of Easements\nExpress\nGrant\n(1) In writing and satisfy SOF\n(2) Signed by grantor\n(3) Identify parties and property, and\n(4) Demonstrate grantor\u2019s intent\nReservation\n\u2022"
+                  }
+                ],
+                "title": "Do not transfer to subsequent landowners\nCreation of Easements\nExpress\nGrant\n(1) In writing and satisfy SOF\n(2) Signed b",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 115,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Servient estate holder gives title to property but reserves himself\nright to use land for specific purpose\nImplied\nNecessity\n(1) Original piece of land is subdivided, and\n(2) No access to easement because subdivision is landlocked\nImplication\n(1) Common owner\u2019s\n(2) Pre-existing use that is\n(3) Open and continuous after subdivision, and\n(4) reasonably necessary to dominant estate\u2019s use and enjoyment",
+                    "raw_text": "Servient estate holder gives title to property but reserves himself\nright to use land for specific purpose\nImplied\nNecessity\n(1) Original piece of land is subdivided, and\n(2) No access to easement because subdivision is landlocked\nImplication\n(1) Common owner\u2019s\n(2) Pre-existing use that is\n(3) Open and continuous after subdivision, and\n(4) Rxly necessary to dominant estate\u2019s use and enjoyment"
+                  }
+                ],
+                "title": "Servient estate holder gives title to property but reserves himself\nright to use land for specific purpose\nImplied\nNeces",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 115,
+                "title": "9\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 116,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Prescription\n\u2022\nContinuous, actual, open and notorious, hostile use for statutory period\nEstoppel\n\u2022\nreasonable and detrimental reliance of servient estate holder\u2019s permission\nNegative\n\u2022",
+                    "raw_text": "Prescription\n\u2022\nContinuous, actual, open and notorious, hostile use for statutory period\nEstoppel\n\u2022\nRx and detrimental reliance of servient estate holder\u2019s permission\nNegative\n\u2022"
+                  }
+                ],
+                "title": "Prescription\n\u2022\nContinuous, actual, open and notorious, hostile use for statutory period\nEstoppel\n\u2022\nRx and detrimental re",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 115,
+            "title": "Attach to and benefit specific owner\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "COMMON_LAW",
+                "page": 116,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Must be created in writing signed by grantor\nTermination\n\u2022\nCommon law: No termination unless stated by grantor\n\u2022\nModern law: Several termination methods\nRelease\n\u2022",
+                    "raw_text": "Must be created in writing signed by grantor\nTermination\n\u2022\nCommon law: No termination unless stated by grantor\n\u2022\nModern law: Several termination methods\nRelease\n\u2022"
+                  }
+                ],
+                "title": "Must be created in writing signed by grantor\nTermination\n\u2022\nCommon law: No termination unless stated by grantor\n\u2022\nModern ",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Restricts use of land\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Express release in writing which satisfies SOF\nMerger\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Dominant estate acquires title to servient estate or vice versa\nSeverance\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Holder of easement appurtenant attempts to convey or transfer right\nAbandonment\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Affirmative acts demonstrate intent to abandon\nLicenses\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Grants non-possessory right to enter land for specific purpose\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Freely revocable unless estoppel\nCreation\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Need not satisfy SOF\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "May be granted orally\nCOVENANTS\nReal Covenants\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Written promise pertaining to land use\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Affirmative or negative\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 116,
+                "title": "Run with the land if\n(1) Writing\n(2) Intent\n(3) Touch and concern\n(4) Notice, and\n(5) Privity\nWriting\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Burden and benefit\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 116,
+                "title": "10\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 116,
+            "title": "Must be in writing and satisfy SOF",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Intent\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Parties must demonstrate intent for covenant to run\nTouch and Concern\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Covenant directly related to use of land\nNegative Covenants\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Run with land if restrict land use\nAffirmative Covenants\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Run with land if require certain land use\nNotice\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Only required for burden to run\nPrivity\nHorizontal Privity\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Only required for burden to run\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Parties shared some interest in land at time of agreement\nVertical Privity\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Required for both benefit and burden to run\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Relationship between original party and subsequent owner\nBurden\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 117,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Subsequent owner must hold estate that is part of original\nparty\u2019s interest\nTermination\n(i) Release\n(ii) Merger\n(iii) Abandonment\n(iv) Estoppel",
+                    "raw_text": "Subsequent owner must hold estate that is part of original\nparty\u2019s interest\nTermination\n(i) Release\n(ii) Merger\n(iii) Abandonment\n(iv) Estoppel"
+                  }
+                ],
+                "title": "Subsequent owner must hold estate that is part of original\nparty\u2019s interest\nTermination\n(i) Release\n(ii) Merger\n(iii) Ab",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Subsequent owner must hold estate of same duration as\noriginal party\nBenefit\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 117,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Covenant enforced through equitable remedy\n(1) Writing that satisfies statute of frauds\n(2) Intent for servitude to be enforced against subsequent landowners\n(3) Touch and concern the land, and\n(4) Subsequent purchaser had notice",
+                    "raw_text": "Covenant enforced through equitable remedy\n(1) Writing that satisfies SOF\n(2) Intent for servitude to be enforced against subsequent landowners\n(3) Touch and concern the land, and\n(4) Subsequent purchaser had notice"
+                  }
+                ],
+                "title": "Covenant enforced through equitable remedy\n(1) Writing that satisfies SOF\n(2) Intent for servitude to be enforced agains",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 117,
+                "title": "11\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 118,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Implied Reciprocal Servitudes\n(1) Land developer intends to subject all plots of subdivision to\n(2) Reciprocal and\n(3) Negative covenant\n(4) Subsequent landowners have notice, and\n(5) Common scheme",
+                    "raw_text": "Implied Reciprocal Servitudes\n(1) Land developer intends to subject all plots of subdivision to\n(2) Reciprocal and\n(3) Negative covenant\n(4) Subsequent landowners have notice, and\n(5) Common scheme"
+                  }
+                ],
+                "title": "Implied Reciprocal Servitudes\n(1) Land developer intends to subject all plots of subdivision to\n(2) Reciprocal and\n(3) N",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 118,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Defenses to Enforcement\nUnclean Hands\n\u2022\nP has engaged in unethical, illegal, or improper conduct\nEstoppel\n\u2022\nP makes representation that he will not assert claim against D, and D reasonably\nrelies\nLaches\n(1)  P unrxly delayed filing cause of action, and\n(2) Delay causes prejudice to D",
+                    "raw_text": "Defenses to Enforcement\nUnclean Hands\n\u2022\nP has engaged in unethical, illegal, or improper conduct\nEstoppel\n\u2022\nP makes representation that he will not assert claim against D, and D rxly\nrelies\nLaches\n(1)  P unrxly delayed filing COA, and\n(2) Delay causes prejudice to D"
+                  }
+                ],
+                "title": "Defenses to Enforcement\nUnclean Hands\n\u2022\nP has engaged in unethical, illegal, or improper conduct\nEstoppel\n\u2022\nP makes repr",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 117,
+            "title": "Equitable Servitudes\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 118,
+            "title": "MORTGAGES AND SECURITY INTERESTS\nMortgage\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 118,
+                "title": "Must satisfy SOF\n\u2022\nIf borrower defaults, lender may claim land to be sold at public auction\nDeed of Trust\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 118,
+            "title": "Property interest that acts as security for obligation\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 118,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Used by borrower to purchase property\nForeclosure\n\u2022\nIf borrower fails to satisfy obligation, lender may foreclose\n\u2022\nIf multiple interests, terminates all junior interests\nGOVERNMENT REGULATION AND ZONING\nZoning\n\u2022",
+                    "raw_text": "Used by borrower to purchase property\nForeclosure\n\u2022\nIf borrower fails to satisfy obligation, lender may foreclose\n\u2022\nIf multiple interests, terminates all junior interests\nGOVERNMENT REGULATION AND ZONING\nZoning\n\u2022"
+                  }
+                ],
+                "title": "Used by borrower to purchase property\nForeclosure\n\u2022\nIf borrower fails to satisfy obligation, lender may foreclose\n\u2022\nIf m",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 118,
+            "title": "Mortgage alternative\n\u2022\nIf borrower defaults, lender may privately sell\nPurchase Money Mortgage\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 118,
+            "title": "Government regulations to control land use relating to general welfare\nVoid Regulation\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 118,
+            "title": "Must pass rational basis test\nExisting Non-Conforming Property\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 118,
+                "title": "12\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 118,
+            "title": "Non-conforming uses that pre-exist ordinance may continue unless harmful in nature",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 119,
+            "title": "Post-Ordinance Non-Conforming Property\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 119,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Must show\n(1) Complying with ordinance would cause hardship through no fault of his own, and\n(2) Variance would not cause public harm",
+                    "raw_text": "Must show\n(1) Complying with ordinance would cause hardship through no fault of his own, and\n(2) Variance would not cause public harm"
+                  }
+                ],
+                "title": "Must show\n(1) Complying with ordinance would cause hardship through no fault of his own, and\n(2) Variance would not caus",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 119,
+            "title": "Owner intends to violate zoning ordinance through non-conforming use\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 119,
+                "title": "Permits development in manner not otherwise permitted due to dimensions or\nphysical restrictions\nUse Variance\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 119,
+            "title": "Area Variance\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 119,
+            "title": "Permits use in manner not otherwise permitted\nTHE LAND SALE CONTRACT\nLand Sale Contract\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 119,
+            "title": "Must satisfy SOF\n\u2022\nOnce K is executed, deed merges with K\nMarketable Title\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 119,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Free from reasonable doubt of litigation\nNUISANCE\nPrivate Nuisance\n\u2022\nSubstantial and unrx interference with another\u2019s use and enjoyment of his land\nSubstantial Interference\n\u2022",
+                    "raw_text": "Free from rx doubt of litigation\nNUISANCE\nPrivate Nuisance\n\u2022\nSubstantial and unrx interference with another\u2019s use and enjoyment of his land\nSubstantial Interference\n\u2022"
+                  }
+                ],
+                "title": "Free from rx doubt of litigation\nNUISANCE\nPrivate Nuisance\n\u2022\nSubstantial and unrx interference with another\u2019s use and en",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 119,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Offensive to average person in community\nUnreasonable Interference\n\u2022\nP\u2019s injury outweighs utility of D\u2019s actions\nPublic Nuisance\n\u2022",
+                    "raw_text": "Offensive to average person in community\nUnreasonable Interference\n\u2022\nP\u2019s injury outweighs utility of D\u2019s actions\nPublic Nuisance\n\u2022"
+                  }
+                ],
+                "title": "Offensive to average person in community\nUnreasonable Interference\n\u2022\nP\u2019s injury outweighs utility of D\u2019s actions\nPublic ",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 119,
+            "title": "Seller has duty to convey marketable title\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 119,
+            "title": "Unrx interference with rights of public\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 119,
+                "title": "13\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 119,
+            "title": "P suffers harm unique to that suffered by public",
+            "type": "TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 107,
+        "title": "Real Property",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Real Property Essay Template"
+  }
+}

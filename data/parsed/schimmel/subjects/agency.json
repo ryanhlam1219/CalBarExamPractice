@@ -1,0 +1,445 @@
+{
+  "pages": "1-3",
+  "subject": "Agency",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.7,
+            "depth": 5,
+            "page": 1,
+            "title": "AGENCY",
+            "type": "SUBISSUE"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 1,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Creation\n(1) Both A and P manifest assent to work together\n(2) A agrees to work for P\u2019s benefit, and\n(3) A agrees to work subject to P\u2019s control",
+                    "raw_text": "Creation\n(1) Both A and P manifest assent to work together\n(2) A agrees to work for P\u2019s benefit, and\n(3) A agrees to work subject to P\u2019s control"
+                  }
+                ],
+                "title": "Creation\n(1) Both A and P manifest assent to work together\n(2) A agrees to work for P\u2019s benefit, and\n(3) A agrees to wor",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 1,
+                "title": "Principal\n\u2022\nTypically, an employer\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 1,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Agent\n\u2022\nCorporation: Directors, officers, employees\n\u2022\nPartnership: Partners or employees",
+                        "raw_text": "Agent\n\u2022\nCorporation: Directors, officers, employees\n\u2022\nPartnership: Partners or employees"
+                      }
+                    ],
+                    "title": "Agent\n\u2022\nCorporation: Directors, officers, employees\n\u2022\nPartnership: Partners or employees",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 1,
+                    "title": "Independent Contractor\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 1,
+                    "title": "Can be an A if physical conduct subject to P's control",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 1,
+                "title": "Controls objective but not means",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 1,
+            "title": "CREATION OF AN AGENCY RELATIONSHIP",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 1,
+            "title": "LIABILITY OF PRINCIPAL AND AGENT TO OTHERS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 1,
+            "title": "UNDERLYING CAUSE OF ACTION: BREACH OF CONTRACT",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "title": "Principal\u2019s Contractual Liability\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "title": "May be liable for K entered into by A if A had actual or apparent authority",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "title": "Authority",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "title": "Actual Authority",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "title": "Express Actual Authority\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "title": "Created through oral or written words",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "title": "Implied Actual Authority\n\u2022\nBased on A\u2019s rx understanding of P\u2019s objective",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "title": "Implied by Position\n\u2022\nBased on A\u2019s job title or position",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "title": "Apparent Authority\n\u2022\nP causes 3P\u2019s rx belief that A has authority to act",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Third Party\u2019s Reasonable Belief\n\u2022\nBased on trade customs, industry standards, and A\u2019s position",
+                    "raw_text": "Third Party\u2019s Reasonable Belief\n\u2022\nBased on trade customs, industry standards, and A\u2019s position"
+                  }
+                ],
+                "title": "Third Party\u2019s Reasonable Belief\n\u2022\nBased on trade customs, industry standards, and A\u2019s position",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 1,
+                "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 2,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Ratification\n(1) P expressly or impliedly demonstrates assent to contract\n(2) Timely\n(3) Parties have capacity, and\n(4) P knows material facts",
+                    "raw_text": "Ratification\n(1) P expressly or impliedly demonstrates assent to K\n(2) Timely\n(3) Parties have capacity, and\n(4) P knows material facts"
+                  }
+                ],
+                "title": "Ratification\n(1) P expressly or impliedly demonstrates assent to K\n(2) Timely\n(3) Parties have capacity, and\n(4) P knows",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 2,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Estoppel\n(1) P makes false representation or conceals material fact\n(2) With intent to create third party\u2019s reliance\n(3) third party relies, and\n(4) Reliance reasonably based on P\u2019s false representation",
+                    "raw_text": "Estoppel\n(1) P makes false representation or conceals material fact\n(2) With intent to create 3P\u2019s reliance\n(3) 3P relies, and\n(4) Reliance rxly based on P\u2019s false representation"
+                  }
+                ],
+                "title": "Estoppel\n(1) P makes false representation or conceals material fact\n(2) With intent to create 3P\u2019s reliance\n(3) 3P relie",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 1,
+            "title": "PRINCIPAL\u2019S LIABILITY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 2,
+                    "title": "Partially Disclosed Principal\n\u2022    3P knows A is working for P but does not know P\u2019s identity\n\u2022    3P can sue P or A",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 2,
+                "title": "Disclosed Principal\n\u2022    3P knows A is working for P and P\u2019s identity\n\u2022    3P can only sue P",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 2,
+                "title": "Undisclosed Principal\n\u2022  3P does not know A is working for P or P\u2019s identity\n\u2022  3P can only sue A",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 2,
+            "title": "AGENT\u2019S LIABILITY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 2,
+            "title": "UNDERLYING CAUSE OF ACTION: TORT CLAIM",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 2,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Vicarious Liability\n\u2022\nP liable for employee\u2019s torts committed within scope of employment\n\u2022\nGenerally, not liable for independent contractor\u2019s torts",
+                    "raw_text": "Vicarious Liability\n\u2022\nP liable for employee\u2019s torts committed within scope of employment\n\u2022\nGenerally, not liable for independent contractor\u2019s torts"
+                  }
+                ],
+                "title": "Vicarious Liability\n\u2022\nP liable for employee\u2019s torts committed within scope of employment\n\u2022\nGenerally, not liable for ind",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 2,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Scope of Employment\n(1) Conduct occurred within general limitations of employment\n(2) A motivated to act for P\u2019s benefit\n(3) Act within A\u2019s assigned duties",
+                    "raw_text": "Scope of Employment\n(1) Conduct occurred within general limitations of employment\n(2) A motivated to act for P\u2019s benefit\n(3) Act within A\u2019s assigned duties"
+                  }
+                ],
+                "title": "Scope of Employment\n(1) Conduct occurred within general limitations of employment\n(2) A motivated to act for P\u2019s benefit",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 2,
+                "title": "Intentional Torts\n\u2022\nP may be liable for employee\u2019s intentional torts",
+                "type": "ELEMENT"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 2,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Commuting for business is within scope of employment\nDirect Liability\n\u2022\nP directly liable to third party if\n(i) Consented or approved of A\u2019s tortious conduct toward third party\n(ii) Negligently hired or managed A, or\n(iii) Assigned a non-delegable duty",
+                        "raw_text": "Commuting for business is within scope of employment\nDirect Liability\n\u2022\nP directly liable to 3P if\n(i) Consented or approved of A\u2019s tortious conduct toward 3P\n(ii) Negligently hired or managed A, or\n(iii) Assigned a non-delegable duty"
+                      }
+                    ],
+                    "title": "Commuting for business is within scope of employment\nDirect Liability\n\u2022\nP directly liable to 3P if\n(i) Consented or appr",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 2,
+                    "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 2,
+                "title": "Work-Related Travel\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 2,
+            "title": "PRINCIPAL\u2019S LIABILITY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 3,
+                "title": "Agent\u2019s Tort Liability\n\u2022\nA\u2019s negligence torts: A directly liable, P vicariously liable\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 3,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Agent\u2019s Duties Owed to Principals\n(i)  Duty of loyalty\n(ii)  Duty to obey contract\n(iii)  Duty of reasonable care\n(iv)  Duty to preserve trade secrets\n(v)  Duty to provide info\n(vi)  Duty to act within scope of authority\n(vii) Indemnity for A\u2019s own torts",
+                        "raw_text": "Agent\u2019s Duties Owed to Principals\n(i)  Duty of loyalty\n(ii)  Duty to obey K\n(iii)  Duty of rx care\n(iv)  Duty to preserve trade secrets\n(v)  Duty to provide info\n(vi)  Duty to act within scope of authority\n(vii) Indemnity for A\u2019s own torts"
+                      }
+                    ],
+                    "title": "Agent\u2019s Duties Owed to Principals\n(i)  Duty of loyalty\n(ii)  Duty to obey K\n(iii)  Duty of rx care\n(iv)  Duty to preserv",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 3,
+                    "title": "Duty of Loyalty\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 3,
+                    "title": "A cannot\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 3,
+                    "title": "Usurp business opportunity\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 3,
+                    "title": "Collect secret profits\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 3,
+                    "title": "Compete against P\nAgent\u2019s Rights",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 3,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "(i) Compensation\n(ii) Reimbursement\n(iii) Indemnity\n(iv) P\u2019s good faith and cooperation\n(v) P preventing harm to A",
+                        "raw_text": "(i) Compensation\n(ii) Reimbursement\n(iii) Indemnity\n(iv) P\u2019s good faith and cooperation\n(v) P preventing harm to A"
+                      }
+                    ],
+                    "title": "(i) Compensation\n(ii) Reimbursement\n(iii) Indemnity\n(iv) P\u2019s good faith and cooperation\n(v) P preventing harm to A",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 3,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 3,
+                "title": "P can seek indemnification from A\nFIDUCIARY DUTIES",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 3,
+            "title": "AGENT\u2019S LIABILITY",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 1,
+        "title": "Agency",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Agency Essay Template"
+  }
+}

@@ -1,0 +1,823 @@
+{
+  "pages": "120-124",
+  "subject": "Legal Remedies",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 120,
+            "title": "LEGAL REMEDIES\nCONTRACTS\nExpectation Damages\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 120,
+            "title": "Result directly from breach of K\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 120,
+            "title": "Put P in position he would have been in had K been performed",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 120,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Result indirectly from breach of contract\n\u2022\nDamages\n(1) foreseeable at time of contract formation\n(2) Caused by D\u2019s breach, and\n(3) Calculated with reasonable certainty",
+                    "raw_text": "Result indirectly from breach of K\n\u2022\nDamages\n(1) Fx at time of K formation\n(2) Caused by D\u2019s breach, and\n(3) Calculated with rx certainty"
+                  }
+                ],
+                "title": "Result indirectly from breach of K\n\u2022\nDamages\n(1) Fx at time of K formation\n(2) Caused by D\u2019s breach, and\n(3) Calculated ",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Incidental Damages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Rxly incurred expenses by P to remedy breach of K",
+                "type": "ELEMENT"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 120,
+            "title": "Consequential Damages\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 120,
+            "title": "Reliance Damages\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 120,
+            "title": "Alternative to expectation damages\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 120,
+            "title": "Expenditures made in fx reliance on K\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Liquidated Damages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Specified at K formation\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Rx estimate of actual damages",
+                "type": "ELEMENT"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 120,
+            "title": "Put P in position he would have been in had K never existed",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 120,
+            "title": "Nominal Damages\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Compensatory Damages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Compensate P for injury or loss suffered",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "General Damages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Non-economic losses",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Special Damages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Economic losses",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Consequential Damages\n\u2022\nResult indirectly from D\u2019s tortious conduct\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "P must show harm\n\u2022\nFx\n\u2022\nCaused by D\u2019s tort\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 120,
+                "title": "Calculated with rx certainty",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 120,
+                "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 121,
+                "title": "Nominal Damages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 121,
+                "title": "Elements of COA established but no substantial loss",
+                "type": "ELEMENT"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 120,
+            "title": "Elements of COA established but no substantial loss\nTORTS",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 121,
+            "title": "Punitive Damages\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 121,
+            "title": "In addition to compensatory damages\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 121,
+            "title": "Deter or punish D for misconduct\nLIMITATIONS ON RECOVERY",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 121,
+                "title": "Causation\n\u2022\nCausal relationship between D\u2019s conduct and P\u2019s harm",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 121,
+                "title": "Certainty\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 121,
+                "title": "Prove damages with rx certainty",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 121,
+                "title": "Duty to Mitigate\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 121,
+                "title": "P has duty to rxly mitigate losses\nEQUITABLE REMEDIES",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 121,
+            "title": "CONTRACTS AND TORTS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 121,
+                "title": "Reformation\n\u2022\nRe-writing of K to accurately reflect parties\u2019 original intent",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 121,
+                "title": "Mutual\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 121,
+                "title": "Both parties mistaken about an essential element of K",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 121,
+                "title": "Unilateral\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 121,
+                "title": "One party mistaken about essential element of K",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 121,
+                "title": "Recission\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 121,
+                "title": "Cancels K due to invalid formation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 121,
+                "title": "P must\n(1) Give notice, and\n(2) Return benefits received from D",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 121,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "D ordered to perform contract\n(1) Valid contract exists\n(2) P performed or is able to perform\n(3) Monetary damages inadequate\n(4) Feasibility of court\u2019s enforcement, and\n(5) No defenses exist",
+                        "raw_text": "D ordered to perform K\n(1) Valid K exists\n(2) P performed or is able to perform\n(3) Monetary damages inadequate\n(4) Feasibility of court\u2019s enforcement, and\n(5) No defenses exist"
+                      }
+                    ],
+                    "title": "D ordered to perform K\n(1) Valid K exists\n(2) P performed or is able to perform\n(3) Monetary damages inadequate\n(4) Feas",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "cross_references": [
+                      {
+                        "resolution": "NEEDS_REVIEW",
+                        "target": "See Contracts Template."
+                      }
+                    ],
+                    "depth": 5,
+                    "page": 121,
+                    "title": "Valid Contract\nSee Contracts Template.",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 121,
+                    "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 122,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Plaintiff\u2019s Performance\nMonetary Damages are Inadequate\n\u2022\nInadequate when (i) rare or unique property or (ii) real property",
+                        "raw_text": "Plaintiff\u2019s Performance\nMonetary Damages are Inadequate\n\u2022\nInadequate when (i) rare or unique property or (ii) real property"
+                      }
+                    ],
+                    "title": "Plaintiff\u2019s Performance\nMonetary Damages are Inadequate\n\u2022\nInadequate when (i) rare or unique property or (ii) real prope",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 122,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Court\u2019s Enforcement\n\u2022\nSpecific performance not ordered if (i) extensive supervision or\n(ii) enforcement too difficult",
+                        "raw_text": "Court\u2019s Enforcement\n\u2022\nSpecific performance not ordered if (i) extensive supervision or\n(ii) enforcement too difficult"
+                      }
+                    ],
+                    "title": "Court\u2019s Enforcement\n\u2022\nSpecific performance not ordered if (i) extensive supervision or\n(ii) enforcement too difficult",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 122,
+                    "title": "No Defenses\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 122,
+                    "title": "No specific performance if D asserts equitable defenses",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 121,
+                "title": "Specific Performance\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 122,
+                    "title": "Unclean Hands\n\u2022\nP engaged in unethical, illegal, or improper conduct",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 122,
+                "title": "Laches\n(1) P unrxly delayed filing COA, and\n(2) Delay causes prejudice to D",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 121,
+            "title": "CONTRACTS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 122,
+                "title": "Injunctions\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 122,
+                "title": "Court order compelling party to act or refrain from acting",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 122,
+                "title": "Temporary Restraining Orders\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 122,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "P must show\n(1) Likely threat of irreparable harm\n(2) Likely success on the merits\n(3) TRO is feasible to enforce\n(4) Balance of hardships in P\u2019s favor, and\n(5) No defenses",
+                        "raw_text": "P must show\n(1) Likely threat of irreparable harm\n(2) Likely success on the merits\n(3) TRO is feasible to enforce\n(4) Balance of hardships in P\u2019s favor, and\n(5) No defenses"
+                      }
+                    ],
+                    "title": "P must show\n(1) Likely threat of irreparable harm\n(2) Likely success on the merits\n(3) TRO is feasible to enforce\n(4) Ba",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 122,
+                "title": "Issued for short duration to maintain status quo\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 122,
+                "title": "Preliminary Injunction\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 122,
+                "title": "Issued before or during trial to maintain status quo\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 122,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "P must show\n(1) Likely threat of irreparable harm\n(2) Likely success on the merits\n(3) Injunction is feasible to enforce\n(4) Balance of hardships in P\u2019s favor, and\n(5) No defenses",
+                        "raw_text": "P must show\n(1) Likely threat of irreparable harm\n(2) Likely success on the merits\n(3) Injunction is feasible to enforce\n(4) Balance of hardships in P\u2019s favor, and\n(5) No defenses"
+                      }
+                    ],
+                    "title": "P must show\n(1) Likely threat of irreparable harm\n(2) Likely success on the merits\n(3) Injunction is feasible to enforce",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 122,
+                    "title": "Permanent Injunction\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 122,
+                    "title": "Issued after P won underlying case\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 122,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "P must show\n(1) Likely threat of irreparable harm\n(2) Injunction feasible to enforce\n(3) Balance of hardships in P\u2019s favor, and\n(4) No defenses",
+                        "raw_text": "P must show\n(1) Likely threat of irreparable harm\n(2) Injunction feasible to enforce\n(3) Balance of hardships in P\u2019s favor, and\n(4) No defenses"
+                      }
+                    ],
+                    "title": "P must show\n(1) Likely threat of irreparable harm\n(2) Injunction feasible to enforce\n(3) Balance of hardships in P\u2019s fav",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 122,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 122,
+                "title": "Notice and hearing required\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 122,
+            "title": "CONTRACTS AND TORTS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 123,
+            "title": "EQUITABLE DEFENSES",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 123,
+                "title": "Laches\n(1) P unrxly delayed filing COA, and\n(2) Delay causes prejudice to D",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 123,
+                "title": "Unclean Hands\n\u2022\nP engaged in unethical, illegal, or improper conduct\nRESTITUTION REMEDIES",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 123,
+            "title": "CONTRACTS AND TORTS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 123,
+                "title": "Legal Restitution\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 123,
+                "title": "D unjustly enriched by benefit conferred by P",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 123,
+                "title": "Money\n\u2022\nIf benefit is money, recovery is amount paid to D",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 123,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Goods or Services\n\u2022\nIf benefit is goods or services, recovery based on (i) cost of providing\nbenefit, (ii) market value, or (iii) price specified in agreement",
+                    "raw_text": "Goods or Services\n\u2022\nIf benefit is goods or services, recovery based on (i) cost of providing\nbenefit, (ii) market value, or (iii) price specified in agreement"
+                  }
+                ],
+                "title": "Goods or Services\n\u2022\nIf benefit is goods or services, recovery based on (i) cost of providing\nbenefit, (ii) market value,",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 123,
+                "title": "Replevin\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 123,
+                "title": "Recover personal property wrongfully taken by D",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 123,
+                "title": "Ejectment\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 123,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Quasi-Contract\n(1) No valid contract\n(2) P conferred benefit upon D\n(3) P reasonably expected to get paid\n(4) D asked for benefit, and\n(5) D unjustly enriched if allowed to retain benefit",
+                        "raw_text": "Quasi-Contract\n(1) No valid K\n(2) P conferred benefit upon D\n(3) P rxly expected to get paid\n(4) D asked for benefit, and\n(5) D unjustly enriched if allowed to retain benefit"
+                      }
+                    ],
+                    "title": "Quasi-Contract\n(1) No valid K\n(2) P conferred benefit upon D\n(3) P rxly expected to get paid\n(4) D asked for benefit, an",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 123,
+                    "title": "TORTS",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 123,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Constructive Trust\n(1) D unlawfully acquired property\n(2) Would be unjustly enriched if allowed to retain, and\n(3) Money damages inadequate",
+                        "raw_text": "Constructive Trust\n(1) D unlawfully acquired property\n(2) Would be unjustly enriched if allowed to retain, and\n(3) Money damages inadequate"
+                      }
+                    ],
+                    "title": "Constructive Trust\n(1) D unlawfully acquired property\n(2) Would be unjustly enriched if allowed to retain, and\n(3) Money",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 123,
+                "title": "Recover real property wrongfully possessed by D\nCONTRACTS",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 123,
+                "title": "Tracing\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 123,
+                "title": "P can reacquire through tracing\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 123,
+                    "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 124,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Equitable Lien\n(1) D unlawfully acquired money\n(2) Would be unjustly enriched if allowed to retain, and\n(3) Money damages inadequate",
+                        "raw_text": "Equitable Lien\n(1) D unlawfully acquired money\n(2) Would be unjustly enriched if allowed to retain, and\n(3) Money damages inadequate"
+                      }
+                    ],
+                    "title": "Equitable Lien\n(1) D unlawfully acquired money\n(2) Would be unjustly enriched if allowed to retain, and\n(3) Money damage",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 123,
+                "title": "P entitled to appreciation in property value",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 124,
+                "title": "Tracing\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 124,
+                "title": "P can reacquire through tracing\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 124,
+                    "title": "Additional Satisfaction\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 124,
+                    "title": "D liable to P for difference between proceeds from sale and money owed to P",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 124,
+                    "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 124,
+                "title": "P not entitled to appreciate in property value",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 123,
+            "title": "CONTRACTS AND TORTS",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 120,
+        "title": "Legal Remedies",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Legal Remedies Essay Template"
+  }
+}

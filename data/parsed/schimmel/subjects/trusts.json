@@ -1,0 +1,486 @@
+{
+  "pages": "140-143",
+  "subject": "Trusts",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "TRUSTS\nTRUSTS\nTrust\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Trustee holds title to property for benefit of ascertainable beneficiary\nRevocability\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 140,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Revocable trust becomes irrevocable when grantor dies or loses capacity\nTYPES OF TRUSTS\nEXPRESS TRUSTS\nPrivate Express Trust\n(1) Grantor with intent to create trust\n(2) Trustee\n(3) At least 1 ascertainable beneficiary\n(4) Valid trust purpose, and\n(5) Trust res",
+                    "raw_text": "Revocable trust becomes irrevocable when grantor dies or loses capacity\nTYPES OF TRUSTS\nEXPRESS TRUSTS\nPrivate Express Trust\n(1) Grantor with intent to create trust\n(2) Trustee\n(3) At least 1 ascertainable beneficiary\n(4) Valid trust purpose, and\n(5) Trust res"
+                  }
+                ],
+                "title": "Revocable trust becomes irrevocable when grantor dies or loses capacity\nTYPES OF TRUSTS\nEXPRESS TRUSTS\nPrivate Express T",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Revocable by default\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Grantor with Intent\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Express or implied intent to create trust\nTrustee\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Person or entity holding legal title to trust res\nBeneficiaries\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Person or entity holding equitable title to trust\nTrust Purpose\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Valid if legal\nTrust Res\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Identifiable and specific trust property\nInter Vivos Trust\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Created while grantor alive\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Grantor has right to revoke during lifetime\nTestamentary Trust\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Created by valid will\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Takes hold once grantor dies\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Must be in writing\nCharitable Trust\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 140,
+                "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 141,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Cy Pres Doctrine\n\u2022\nSubstitute original purpose with another aligned with grantor\u2019s intent\nREMEDIAL TRUSTS\nResulting Trust\n\u2022",
+                    "raw_text": "Cy Pres Doctrine\n\u2022\nSubstitute original purpose with another aligned with grantor\u2019s intent\nREMEDIAL TRUSTS\nResulting Trust\n\u2022"
+                  }
+                ],
+                "title": "Cy Pres Doctrine\n\u2022\nSubstitute original purpose with another aligned with grantor\u2019s intent\nREMEDIAL TRUSTS\nResulting Trus",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 140,
+            "title": "Created for charitable purpose that benefits society",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 141,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "D holds wrongfully acquired property as trustee and must convey to P\nTRUST MODIFICATION AND TERMINATION\nTrust Modification\nModification by Living Grantor\n\u2022",
+                    "raw_text": "D holds wrongfully acquired property as trustee and must convey to P\nTRUST MODIFICATION AND TERMINATION\nTrust Modification\nModification by Living Grantor\n\u2022"
+                  }
+                ],
+                "title": "D holds wrongfully acquired property as trustee and must convey to P\nTRUST MODIFICATION AND TERMINATION\nTrust Modificati",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 141,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Grantor may unilaterally modify if expressly reserved right in trust\n\u2022\nIf failure to reserve right, grantor may still modify if\n(1) All beneficiaries consent, and\n(2) No interference with trust\u2019s main purpose",
+                    "raw_text": "Grantor may unilaterally modify if expressly reserved right in trust\n\u2022\nIf failure to reserve right, grantor may still modify if\n(1) All beneficiaries consent, and\n(2) No interference with trust\u2019s main purpose"
+                  }
+                ],
+                "title": "Grantor may unilaterally modify if expressly reserved right in trust\n\u2022\nIf failure to reserve right, grantor may still mo",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 141,
+            "title": "Requires trustee to revert property to grantor or his estate if trust fails\nConstructive Trust\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 141,
+            "title": "Trust Termination\nExpiration\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 141,
+            "title": "Expires at end of stated term\nAccomplished Purpose\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 141,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Grantor may unilaterally terminate if expressly reserved right in trust\nIrrevocable Trust\n\u2022\nIf failure to reserve right, grantor may still terminate if all beneficiaries\nconsent\nTermination by Beneficiaries and Trustee\n\u2022\nIf grantor deceased, beneficiaries may terminate if all beneficiaries and trustee\nconsent\nJudicial Termination\n\u2022",
+                    "raw_text": "Grantor may unilaterally terminate if expressly reserved right in trust\nIrrevocable Trust\n\u2022\nIf failure to reserve right, grantor may still terminate if all beneficiaries\nconsent\nTermination by Beneficiaries and Trustee\n\u2022\nIf grantor deceased, beneficiaries may terminate if all beneficiaries and trustee\nconsent\nJudicial Termination\n\u2022"
+                  }
+                ],
+                "title": "Grantor may unilaterally terminate if expressly reserved right in trust\nIrrevocable Trust\n\u2022\nIf failure to reserve right,",
+                "type": "RULE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 141,
+                    "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 141,
+                "title": "Court may terminate if\n(i) Trust purpose accomplished, or\n(ii) Purpose becomes illegal, impracticable, or impossible",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 141,
+            "title": "Terminates once purpose is accomplished\nTermination by Grantor\nRevocable Trust\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "DISTRIBUTION \u2013 BENEFICIARIES AND CREDITORS\nBeneficiaries\nIncome Beneficiary\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "Receives income from trust\nRemainder Beneficiary\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "Entitled to trust principal upon termination\nDiscretionary Trust\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "Confers trustee with discretion to determine\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "When to pay beneficiaries\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "Which beneficiaries to pay\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "How much to pay\nMandatory Trust\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 142,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Directs trustee to distribute in support of beneficiary\nSpendthrift Trust\n\u2022\nConfines beneficiary\u2019s ability to alienate interest\n\u2022",
+                    "raw_text": "Directs trustee to distribute in support of beneficiary\nSpendthrift Trust\n\u2022\nConfines beneficiary\u2019s ability to alienate interest\n\u2022"
+                  }
+                ],
+                "title": "Directs trustee to distribute in support of beneficiary\nSpendthrift Trust\n\u2022\nConfines beneficiary\u2019s ability to alienate i",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "Trustee bound by terms of trust and must distribute accordingly\nSupport Trust\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 142,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Beneficiary can freely alienate interest\nTRUSTEE\u2019S POWERS, DUTIES AND REMEDIES AGAINST TRUSTEE\nTRUSTEE\u2019S POWERS\nTrustee\u2019s Powers\n\u2022",
+                    "raw_text": "Beneficiary can freely alienate interest\nTRUSTEE\u2019S POWERS, DUTIES AND REMEDIES AGAINST TRUSTEE\nTRUSTEE\u2019S POWERS\nTrustee\u2019s Powers\n\u2022"
+                  }
+                ],
+                "title": "Beneficiary can freely alienate interest\nTRUSTEE\u2019S POWERS, DUTIES AND REMEDIES AGAINST TRUSTEE\nTRUSTEE\u2019S POWERS\nTrustee\u2019",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "Prevents creditors from reaching trust property\nAlienability of Trust Property\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "Expressly granted in trust\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "Impliedly necessary to act as rxly prudent person in directing trust\nTRUSTEE\u2019S DUTIES\nDuty of Care\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 142,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Act as reasonably prudent investor would in investing own assets\nBreach\n\u2022\nFactors\n(i) Distribution requirements\n(ii) Economic condition",
+                    "raw_text": "Act as rxly prudent investor would in investing own assets\nBreach\n\u2022\nFactors\n(i) Distribution requirements\n(ii) Economic condition"
+                  }
+                ],
+                "title": "Act as rxly prudent investor would in investing own assets\nBreach\n\u2022\nFactors\n(i) Distribution requirements\n(ii) Economic ",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 142,
+                "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 143,
+                "title": "(iii) Role of investment in relation to trust\u2019s overall investment",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 143,
+                "title": "portfolio\n(iv) Need for liquidity, regularity of income, and preservation or",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 142,
+            "title": "Manage trust as rxly prudent person would in managing own affairs\nDuty to Prudently Invest\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 143,
+            "title": "appreciation of capital\nDuty of Impartiality\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 143,
+                "title": "Not engage in self-dealing\n\u2022\nDistribute assets in good faith and in beneficiaries\u2019 interest\nDuty to Disclose\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 143,
+            "title": "Remain impartial when dealing with beneficiaries\nDuty of Loyalty\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "COMMON_LAW",
+                "page": 143,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Account for actions made in furtherance of trust\nDelegation of Duties\n\u2022\nCommon law: Prohibited from delegating authority\n\u2022\nModern law: May delegate if utilizes due care and skill\nREMEDIES AGAINST TRUSTEE\nRemedies Against Trustee\n\u2022\nBeneficiaries may sue for damages or trustee\u2019s removal\nCo-Trustee Liability\n\u2022\nLiable for one another\u2019s wrongful acts if\n\u2022",
+                    "raw_text": "Account for actions made in furtherance of trust\nDelegation of Duties\n\u2022\nCommon law: Prohibited from delegating authority\n\u2022\nModern law: May delegate if utilizes due care and skill\nREMEDIES AGAINST TRUSTEE\nRemedies Against Trustee\n\u2022\nBeneficiaries may sue for damages or trustee\u2019s removal\nCo-Trustee Liability\n\u2022\nLiable for one another\u2019s wrongful acts if\n\u2022"
+                  }
+                ],
+                "title": "Account for actions made in furtherance of trust\nDelegation of Duties\n\u2022\nCommon law: Prohibited from delegating authority",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 143,
+            "title": "Fully disclose truthful info about status of assets\nDuty to Account\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 143,
+                    "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 143,
+                "title": "Wrongfully delegate authority\nThird-Party Liability\n\u2022\n3P liable for losses if knowingly takes part in breach",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 143,
+            "title": "Engage in or hide breach\n\u2022\nAuthorize co-trustee\u2019s breach\n\u2022\nFail to avert breach, or\n\u2022",
+            "type": "TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 140,
+        "title": "Trusts",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Trusts Essay Template"
+  }
+}

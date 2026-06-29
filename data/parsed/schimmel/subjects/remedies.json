@@ -1,0 +1,136 @@
+{
+  "pages": "136-139",
+  "subject": "Remedies",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.5,
+            "depth": 5,
+            "page": 136,
+            "rule_candidates": [
+              {
+                "elements": [],
+                "exceptions": [],
+                "normalized_text": "Defenses\nTruth\n\u2022\nComplete defense\nConsent\n\u2022\nComplete defense unless D exceeds scope of consent\nAbsolute Privilege\n\u2022\nPrecludes speaker from liability\nQualified Privilege\n\u2022\nMay preclude speaker from liability\nNUISANCE\nPRIVATE NUISANCE\nPrivate Nuisance\n\u2022\nSubstantial and unrx interference with another\u2019s use and enjoyment of his land\nSubstantial Interference\n\u2022\nOffensive to average person in community\nUnreasonable Interference\n\u2022\nP\u2019s injury outweighs utility of D\u2019s actions",
+                "raw_text": "Defenses\nTruth\n\u2022\nComplete defense\nConsent\n\u2022\nComplete defense unless D exceeds scope of consent\nAbsolute Privilege\n\u2022\nPrecludes speaker from liability\nQualified Privilege\n\u2022\nMay preclude speaker from liability\nNUISANCE\nPRIVATE NUISANCE\nPrivate Nuisance\n\u2022\nSubstantial and unrx interference with another\u2019s use and enjoyment of his land\nSubstantial Interference\n\u2022\nOffensive to average person in community\nUnreasonable Interference\n\u2022\nP\u2019s injury outweighs utility of D\u2019s actions"
+              }
+            ],
+            "title": "Defenses\nTruth\n\u2022\nComplete defense\nConsent\n\u2022\nComplete defense unless D exceeds scope of consent\nAbsolute Privilege\n\u2022\nPrec",
+            "type": "RULE"
+          },
+          {
+            "confidence": 0.5,
+            "depth": 5,
+            "page": 136,
+            "rule_candidates": [
+              {
+                "elements": [],
+                "exceptions": [],
+                "normalized_text": "PUBLIC NUISANCE\nPublic Nuisance\n\u2022\nUnrx interference with rights of public\n\u2022\nP suffers harm unique to that suffered by public\nREMEDIES\nRemedies\n\u2022\nMonetary damages and injunctive relief\nABATEMENT\nPrivate Nuisance\n\u2022\nP may enter D\u2019s land to abate if P gave D notice and D refused to act",
+                "raw_text": "PUBLIC NUISANCE\nPublic Nuisance\n\u2022\nUnrx interference with rights of public\n\u2022\nP suffers harm unique to that suffered by public\nREMEDIES\nRemedies\n\u2022\nMonetary damages and injunctive relief\nABATEMENT\nPrivate Nuisance\n\u2022\nP may enter D\u2019s land to abate if P gave D notice and D refused to act"
+              }
+            ],
+            "title": "PUBLIC NUISANCE\nPublic Nuisance\n\u2022\nUnrx interference with rights of public\n\u2022\nP suffers harm unique to that suffered by pu",
+            "type": "RULE"
+          },
+          {
+            "confidence": 0.65,
+            "depth": 5,
+            "page": 136,
+            "title": "12\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+            "type": "SUBISSUE"
+          },
+          {
+            "confidence": 0.5,
+            "depth": 5,
+            "page": 137,
+            "rule_candidates": [
+              {
+                "elements": [],
+                "exceptions": [],
+                "normalized_text": "Public Nuisance\n\u2022\nP has right to abate by self-help\nDEFENSES\nRegulatory Compliance\n\u2022\nNot complete defense but may be taken into consideration\nComing to the Nuisance\n\u2022\nNot complete defense but may be taken into consideration\nINVASION OF PRIVACY\nMisappropriation\n\u2022\nUnauthorized use of P\u2019s identity for D\u2019s commercial gain\nIntrusion Upon Seclusion\n(1) Prying, invading, intruding upon P\u2019s affairs\n(2) Intrusion would be highly offensive to reasonable person, and\n(3) P\u2019s affairs intruded upon are private\nFalse Light\n(1) D published facts about P\n(2) Placing P in false light, and\n(3) False light would be highly offensive to reasonable person\nPublication of Private Facts\n(1) Public disclosure of private info about P, and\n(2) Disclosure would be highly offensive to reasonable person\nMISREPRESENTATION\nIntentional Misrepresentation\n(1) D\u2019s false representation of a material fact\n(2) Scienter\n(3) Intent to induce P\u2019s reliance\n(4) Causation\n(5) Justifiable reliance, and\n(6) Actual damages with possibility of consequential damages\nDuty to Disclose\n\u2022\nGenerally, no duty to disclose",
+                "raw_text": "Public Nuisance\n\u2022\nP has right to abate by self-help\nDEFENSES\nRegulatory Compliance\n\u2022\nNot complete defense but may be taken into consideration\nComing to the Nuisance\n\u2022\nNot complete defense but may be taken into consideration\nINVASION OF PRIVACY\nMisappropriation\n\u2022\nUnauthorized use of P\u2019s identity for D\u2019s commercial gain\nIntrusion Upon Seclusion\n(1) Prying, invading, intruding upon P\u2019s affairs\n(2) Intrusion would be highly offensive to rx person, and\n(3) P\u2019s affairs intruded upon are private\nFalse Light\n(1) D published facts about P\n(2) Placing P in false light, and\n(3) False light would be highly offensive to rx person\nPublication of Private Facts\n(1) Public disclosure of private info about P, and\n(2) Disclosure would be highly offensive to rx person\nMISREPRESENTATION\nIntentional Misrepresentation\n(1) D\u2019s false representation of a material fact\n(2) Scienter\n(3) Intent to induce P\u2019s reliance\n(4) Causation\n(5) Justifiable reliance, and\n(6) Actual damages with possibility of consequential damages\nDuty to Disclose\n\u2022\nGenerally, no duty to disclose"
+              }
+            ],
+            "title": "Public Nuisance\n\u2022\nP has right to abate by self-help\nDEFENSES\nRegulatory Compliance\n\u2022\nNot complete defense but may be tak",
+            "type": "RULE"
+          },
+          {
+            "confidence": 0.65,
+            "depth": 5,
+            "page": 137,
+            "title": "13\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+            "type": "SUBISSUE"
+          },
+          {
+            "confidence": 0.5,
+            "depth": 5,
+            "page": 138,
+            "rule_candidates": [
+              {
+                "elements": [],
+                "exceptions": [],
+                "normalized_text": "Negligent Misrepresentation\n(1) D\u2019s false representation\n(2) As a result of negligence\n(3) Within a business transaction with P\n(4) Causing\n(5) P\u2019s justifiable reliance, and\n(6) Damages\nMISCELLANEOUS CONCEPTS\nLIABILITY\nNegligent Infliction of Emotional Distress\n\u2022\nD causes foreseeable harm to foreseeable P\nZone of Danger\n(1) D was negligent\n(2) Placing P within zone of danger, and\n(3) Threat of physical injury caused emotional distress\nBystander\n\u2022\nBystander outside zone of danger can recover if\n(1) Closely related to injured person\n(2) Was present where injury occurred, and\n(3) Witnessed injury\nSpecial Relationship\n\u2022\nNo threat of physical injury or manifestations of emotional distress required\nfor recovery\nVicarious Liability\nEmployee\n\u2022\nEmployer vicariously liable for employee\u2019s torts within scope of employment\nIndependent Contractor\n\u2022\nEmployer not vicariously liable for independent contractor\u2019s torts unless\n(i) Non-delegable duty or\n(ii) Inherently dangerous activity\nLiability for Employer\u2019s Own Negligence\n\u2022\nEmployer may be liable for negligently hiring or overseeing",
+                "raw_text": "Negligent Misrepresentation\n(1) D\u2019s false representation\n(2) As a result of negligence\n(3) Within a business transaction with P\n(4) Causing\n(5) P\u2019s justifiable reliance, and\n(6) Damages\nMISCELLANEOUS CONCEPTS\nLIABILITY\nNegligent Infliction of Emotional Distress\n\u2022\nD causes fx harm to fx P\nZone of Danger\n(1) D was negligent\n(2) Placing P within zone of danger, and\n(3) Threat of physical injury caused emotional distress\nBystander\n\u2022\nBystander outside zone of danger can recover if\n(1) Closely related to injured person\n(2) Was present where injury occurred, and\n(3) Witnessed injury\nSpecial Relationship\n\u2022\nNo threat of physical injury or manifestations of emotional distress required\nfor recovery\nVicarious Liability\nEmployee\n\u2022\nEmployer vicariously liable for employee\u2019s torts within scope of employment\nIndependent Contractor\n\u2022\nEmployer not vicariously liable for independent contractor\u2019s torts unless\n(i) Non-delegable duty or\n(ii) Inherently dangerous activity\nLiability for Employer\u2019s Own Negligence\n\u2022\nEmployer may be liable for negligently hiring or overseeing"
+              }
+            ],
+            "title": "Negligent Misrepresentation\n(1) D\u2019s false representation\n(2) As a result of negligence\n(3) Within a business transaction",
+            "type": "RULE"
+          },
+          {
+            "confidence": 0.65,
+            "depth": 5,
+            "page": 138,
+            "title": "14\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+            "type": "SUBISSUE"
+          },
+          {
+            "confidence": 0.5,
+            "depth": 5,
+            "page": 139,
+            "rule_candidates": [
+              {
+                "elements": [],
+                "exceptions": [],
+                "normalized_text": "Multiple Parties\nJoint and Several Liability\n\u2022\nP can elect to recover from all Ds or a single D\nContribution\n\u2022\nIf P seeks recovery from single D, that D can seek contribution from other Ds\nIndemnification\n\u2022\nResponsibility of P\u2019s harm shifted from one D to another\nSURVIVAL ACTIONS\nSurvival Actions\n\u2022\nDecedent\u2019s estate representative can assert any cause of action that decedent could have at time\nof death\nWrongful Death\n\u2022\nDecedent\u2019s spouse, kin, or representative can assert cause of action to recover for loss caused\nby decedent\u2019s death",
+                "raw_text": "Multiple Parties\nJoint and Several Liability\n\u2022\nP can elect to recover from all Ds or a single D\nContribution\n\u2022\nIf P seeks recovery from single D, that D can seek contribution from other Ds\nIndemnification\n\u2022\nResponsibility of P\u2019s harm shifted from one D to another\nSURVIVAL ACTIONS\nSurvival Actions\n\u2022\nDecedent\u2019s estate representative can assert any COA that decedent could have at time\nof death\nWrongful Death\n\u2022\nDecedent\u2019s spouse, kin, or representative can assert COA to recover for loss caused\nby decedent\u2019s death"
+              }
+            ],
+            "title": "Multiple Parties\nJoint and Several Liability\n\u2022\nP can elect to recover from all Ds or a single D\nContribution\n\u2022\nIf P seek",
+            "type": "RULE"
+          },
+          {
+            "confidence": 0.5,
+            "depth": 5,
+            "page": 139,
+            "rule_candidates": [
+              {
+                "elements": [],
+                "exceptions": [],
+                "normalized_text": "Damages\n\u2022\nLoss of support, companionship, and affection\n\u2022\nPain and suffering not included",
+                "raw_text": "Damages\n\u2022\nLoss of support, companionship, and affection\n\u2022\nPain and suffering not included"
+              }
+            ],
+            "title": "Damages\n\u2022\nLoss of support, companionship, and affection\n\u2022\nPain and suffering not included",
+            "type": "RULE"
+          },
+          {
+            "confidence": 0.65,
+            "depth": 5,
+            "page": 139,
+            "title": "15\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+            "type": "SUBISSUE"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 136,
+        "title": "Remedies",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Remedies Essay Template"
+  }
+}

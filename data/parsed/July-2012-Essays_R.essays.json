@@ -1,0 +1,171 @@
+{
+  "issues": [
+    {
+      "code": "question_without_answers",
+      "message": "Question 1 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    },
+    {
+      "code": "question_without_answers",
+      "message": "Question 2 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    },
+    {
+      "code": "question_without_answers",
+      "message": "Question 3 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    },
+    {
+      "code": "question_without_answers",
+      "message": "Question 4 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    },
+    {
+      "code": "question_without_answers",
+      "message": "Question 5 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    },
+    {
+      "code": "question_without_answers",
+      "message": "Question 6 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    }
+  ],
+  "parser_version": "deterministic-v1",
+  "questions": [
+    {
+      "end_character_offset": 2610,
+      "end_page": 2,
+      "instructions_text": "JULY 2012\n             ESSAY QUESTIONS 1, 2, AND 3\n\n\nCalifornia\nBar\nExamination\n\n\nAnswer all three questions.\n\n\n\n\n\nYour answer should demonstrate your      your proficiency in using and applying\nability to analyze the facts in question, to      them.\ntell the difference between material and\nimmaterial  facts, and  to  discern  the           If your answer contains only a statement\npoints of law and fact upon which the       of your conclusions, you will receive little\ncase turns.  Your answer should show        credit.   State  fully  the  reasons  that\nthat  you know  and  understand  the      support your conclusions, and discuss\npertinent principles and theories of law,         all points thoroughly.\ntheir qualifications and limitations, and\ntheir relationships to each other.             Your answer should be complete, but\n                                       you should not volunteer information or\nYour answer  should   evidence  your      discuss legal doctrines which are not\nability to apply law to the given facts and       pertinent to the solution of the problem.\nto  reason   in  a   logical,  lawyer-like\nmanner from the premises you adopt to      Unless a question expressly asks you to\na sound conclusion.  Do not merely      use California law, you should answer\nshow   that   you  remember   legal      according     to   legal  theories  and\nprinciples.  Instead,  try to demonstrate       principles of general application.",
+      "metadata": {
+        "exam_month": "july",
+        "exam_name": "California Bar Examination",
+        "exam_year": 2012,
+        "heading": "Question 1",
+        "jurisdiction": "California",
+        "preview": "Question 1\n\nPam and Patrick are residents of State A. While visiting State B, they were hit by a\ntruck owned and operated by Corporation, a freight business.\n\nCorporation is incorporated under the laws of Canada and has its headquarters..."
+      },
+      "normalized_text": "Question 1\n\nPam and Patrick are residents of State A. While visiting State B, they were hit by a truck owned and operated by Corporation, a freight business.\n\nCorporation is incorporated under the laws of Canada and has its headquarters there, where its President and Secretary are located. State B is the only state in which Corporation conducts its business. Corporation\u2019s drivers and other employees work out of its warehouse in State B.\n\nPam and Patrick jointly filed a lawsuit against Corporation in federal district court in State A. In their complaint, Pam demanded damages for personal injury in the amount of $70,000 and for property damage in the amount of $10,000; Patrick demanded damages in the amount of $6,000.\n\nCorporation filed a motion to dismiss the complaint for lack of personal jurisdiction. The federal district court denied the motion. After trial, it entered judgment for Pam in the amount of $60,000 and for Patrick in the amount of $4,000.\n\nCorporation has appealed on the grounds of lack of subject matter jurisdiction and lack of personal jurisdiction.\n\nHow should the court of appeals rule on each ground? Discuss.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 1,
+      "raw_text": "Question 1\n\nPam and Patrick are residents of State A.  While visiting State B, they were hit by a\ntruck owned and operated by Corporation, a freight business.\n\nCorporation is incorporated under the laws of Canada and has its headquarters there,\nwhere  its President and Secretary are located.  State B is the only state in which\nCorporation conducts its business. Corporation\u2019s drivers and other employees work out\nof its warehouse in State B.\n\nPam and Patrick jointly filed a lawsuit against Corporation in federal district court in\nState A.  In their complaint, Pam demanded damages for personal injury in the amount\nof $70,000 and for property damage in the amount of $10,000; Patrick demanded\ndamages in the amount of $6,000.\n\nCorporation filed a motion to dismiss the complaint for lack of personal jurisdiction. The\nfederal district court denied the motion.  After trial,  it entered judgment for Pam in the\namount of $60,000 and for Patrick in the amount of $4,000.\n\nCorporation has appealed on the grounds of lack of subject matter jurisdiction and lack\nof personal jurisdiction.\n\nHow should the court of appeals rule on each ground? Discuss.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 1458,
+      "start_page": 2,
+      "title": null
+    },
+    {
+      "end_character_offset": 3845,
+      "end_page": 3,
+      "instructions_text": null,
+      "metadata": {
+        "exam_month": "july",
+        "exam_name": "California Bar Examination",
+        "exam_year": 2012,
+        "heading": "Question 2",
+        "jurisdiction": "California",
+        "preview": "Question 2\n\nWendy and Hal are married and live in California.\n\nA year ago, Wendy told Hal that she would not tolerate his drinking any longer. She\ninsisted that he move out of the family home and not return until he completed an\nalcohol..."
+      },
+      "normalized_text": "Question 2\n\nWendy and Hal are married and live in California.\n\nA year ago, Wendy told Hal that she would not tolerate his drinking any longer. She insisted that he move out of the family home and not return until he completed an alcohol treatment program. He moved out but did not obtain treatment.\n\nLast month, Hal went on a drinking spree, started driving, and struck a pedestrian. When Wendy learned of the accident, she told Hal that she wanted a divorce.\n\nHal has consulted Lawyer about defending him in a civil action filed by the pedestrian. He is currently unemployed. His only asset is his interest in the family home, which he and Wendy purchased during their marriage. Lawyer offered to represent Hal if Hal were to give him a promissory note, secured by a lien on the family home, for his fees. Hal immediately accepted.\n\n1. Is Wendy\u2019s interest in the family home subject to damages recovered for injuries to the pedestrian? Discuss. Answer according to California law.\n\n2. Is Wendy\u2019s interest in the family home subject to payment of Hal\u2019s legal fees? Discuss. Answer according to California Law.\n\n3. What, if any, ethical violations has Lawyer committed? Discuss. Answer according to California and ABA authorities.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 2,
+      "raw_text": "Question 2\n\nWendy and Hal are married and live in California.\n\nA year ago, Wendy told Hal that she would not tolerate his drinking any longer. She\ninsisted that he move out of the family home and not return until he completed an\nalcohol treatment program. He moved out but did not obtain treatment.\n\nLast month, Hal went on a drinking spree, started driving, and struck a pedestrian.\nWhen Wendy learned of the accident, she told Hal that she wanted a divorce.\n\nHal has consulted Lawyer about defending him in a civil action filed by the pedestrian.\nHe is currently unemployed. His only asset is his interest in the family home, which he\nand Wendy purchased during their marriage.  Lawyer offered to represent Hal  if Hal\nwere to give him a promissory note, secured by a lien on the family home, for his fees.\nHal immediately accepted.\n\n1.  Is Wendy\u2019s interest in the family home subject to damages recovered for injuries to\nthe pedestrian? Discuss. Answer according to California law.\n\n2.  Is Wendy\u2019s interest in the family home subject to payment of Hal\u2019s legal fees?\nDiscuss. Answer according to California Law.\n\n3. What, if any, ethical violations has Lawyer committed? Discuss. Answer according\nto California and ABA authorities.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 2610,
+      "start_page": 3,
+      "title": null
+    },
+    {
+      "end_character_offset": 7426,
+      "end_page": 5,
+      "instructions_text": null,
+      "metadata": {
+        "exam_month": "july",
+        "exam_name": "California Bar Examination",
+        "exam_year": 2012,
+        "heading": "Question 3",
+        "jurisdiction": "California",
+        "preview": "Question 3\n\nVicky was killed on a rainy night. The prosecution charged Dean, a business rival, with\nher murder. It alleged that, on the night in question, he hid in the bushes outside her\nhome and shot her when she returned from work.\n\nA..."
+      },
+      "normalized_text": "Question 3\n\nVicky was killed on a rainy night. The prosecution charged Dean, a business rival, with her murder. It alleged that, on the night in question, he hid in the bushes outside her home and shot her when she returned from work.\n\nAt Dean\u2019s trial in a California court, the prosecution called Whitney, Dean\u2019s wife, to testify. One week after the murder, Whitney had found out that Dean had been dating another woman and had moved out, stating the marriage was over. Still angry, Whitney was willing to testify against Dean. After Whitney was called to the stand, the court took a recess. During the recess, Dean and Whitney reconciled. Whitney decided not to testify against Dean. The trial recommenced and the prosecutor asked Whitney if she saw anything on Dean\u2019s shoes the night of the murder. When Whitney refused to answer, the court threatened to hold her in contempt. Reluctantly, Whitney testified that she saw mud on Dean\u2019s shoes.\n\nThe prosecution then called Ella, Dean\u2019s next-door neighbor. Ella testified that, on the night Vicky was killed, she was standing by an open window in her kitchen, which was about 20 feet from an open window in Dean\u2019s kitchen. She also testified that she saw Dean and Whitney and she heard Dean tell Whitney, \u201cI just killed the gal who stole my biggest account.\u201d Dean and Whitney did not know that Ella overheard their conversation.\n\nDean called Fred, a friend, to testify. Fred testified that, on the day after Vicky was killed, he was having lunch in a coffee shop when he saw Hit, a well-known gangster, conversing at the next table with another gangster, Gus. Fred testified that he heard Gus ask Hit if he had \u201ctaken care of the assignment concerning Vicky,\u201d and that Hit then drew his index finger across his own throat.\n\nAssuming all appropriate objections and motions were timely made, did the court properly:\n\n1. Allow the prosecution to call Whitney? Discuss.\n\n2. Admit the testimony of: (a) Whitney? Discuss. (b) Ella? Discuss. (c) Fred? Discuss.\n\nAnswer according to California law.\n\nJULY 2012 ESSAY QUESTIONS 4, 5, AND 6\n\nCalifornia Bar Examination\n\nAnswer all three questions.\n\nYour answer should demonstrate your your proficiency in using and applying ability to analyze the facts in question, to them. tell the difference between material and immaterial facts, and to discern the If your answer contains only a statement points of law and fact upon which the of your conclusions, you will receive little case turns. Your answer should show credit. State fully the reasons that that you know and understand the support your conclusions, and discuss pertinent principles and theories of law, all points thoroughly. their qualifications and limitations, and their relationships to each other. Your answer should be complete, but you should not volunteer information or Your answer should evidence your discuss legal doctrines which are not ability to apply law to the given facts and pertinent to the solution of the problem. to reason in a logical, lawyer-like manner from the premises you adopt to Unless a question expressly asks you a sound conclusion. Do not merely to use California law, you should answer show that you remember legal according to legal theories and principles. Instead, try to demonstrate principles of general application.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 3,
+      "raw_text": "Question 3\n\nVicky was killed on a rainy night. The prosecution charged Dean, a business rival, with\nher murder.   It alleged that, on the night in question, he hid in the bushes outside her\nhome and shot her when she returned from work.\n\nAt Dean\u2019s trial in a California court, the prosecution called Whitney, Dean\u2019s wife, to\ntestify. One week after the murder, Whitney had found out that Dean had been dating\nanother woman and had moved out, stating the marriage was over.  Still angry, Whitney\nwas willing to testify against Dean.   After Whitney was called to the stand, the court\ntook a recess. During the recess, Dean and Whitney reconciled. Whitney decided not\nto testify against Dean. The trial recommenced and the prosecutor asked Whitney  if\nshe saw anything on Dean\u2019s shoes the night of the murder. When Whitney refused to\nanswer, the court threatened to hold her in contempt. Reluctantly, Whitney testified that\nshe saw mud on Dean\u2019s shoes.\n\nThe prosecution then called Ella, Dean\u2019s next-door neighbor.  Ella testified that, on the\nnight Vicky was killed, she was standing by an open window in her kitchen, which was\nabout 20 feet from an open window in Dean\u2019s kitchen. She also testified that she saw\nDean and Whitney and she heard Dean tell Whitney, \u201cI just killed the gal who stole my\nbiggest  account.\u201d   Dean and Whitney  did  not know  that  Ella  overheard  their\nconversation.\n\nDean called Fred, a friend, to testify.  Fred testified that, on the day after Vicky was\nkilled, he was having lunch in a coffee shop when he saw Hit, a well-known gangster,\nconversing at the next table with another gangster, Gus.  Fred testified that he heard\nGus ask Hit if he had \u201ctaken care of the assignment concerning Vicky,\u201d and that Hit then\ndrew his index finger across his own throat.\n\nAssuming  all appropriate objections and motions were timely  made, did the court\nproperly:\n\n       1. Allow the prosecution to call Whitney? Discuss.\n\n       2. Admit the testimony of:\n               (a) Whitney? Discuss.\n               (b) Ella? Discuss.\n               (c) Fred? Discuss.\n\nAnswer according to California law.\n\nJULY 2012\n             ESSAY QUESTIONS 4, 5, AND 6\n\n\nCalifornia\nBar\nExamination\n\n\nAnswer all three questions.\n\n\n\n\n\nYour answer should demonstrate your      your proficiency in using and applying\nability to analyze the facts in question, to      them.\ntell the difference between material and\nimmaterial  facts, and  to  discern  the           If your answer contains only a statement\npoints of law and fact upon which the       of your conclusions, you will receive little\ncase turns.  Your answer should show        credit.   State  fully  the  reasons  that\nthat  you know  and  understand  the      support your conclusions, and discuss\npertinent principles and theories of law,         all points thoroughly.\ntheir qualifications and limitations, and\ntheir relationships to each other.             Your answer should be complete, but\n                                       you should not volunteer information or\nYour  answer  should  evidence  your      discuss legal doctrines which are not\nability to apply law to the given facts and       pertinent to the solution of the problem.\nto  reason   in  a   logical,  lawyer-like\nmanner from the premises you adopt to      Unless a question expressly asks you\na sound conclusion.  Do not merely       to use California law, you should answer\nshow   that   you  remember   legal      according   to   legal   theories  and\nprinciples.   Instead,  try to demonstrate        principles of general application.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 3845,
+      "start_page": 4,
+      "title": null
+    },
+    {
+      "end_character_offset": 8501,
+      "end_page": 6,
+      "instructions_text": null,
+      "metadata": {
+        "exam_month": "july",
+        "exam_name": "California Bar Examination",
+        "exam_year": 2012,
+        "heading": "Question 4",
+        "jurisdiction": "California",
+        "preview": "Question 4\n\nPeter responded to an advertisement placed by Della, a dentist, seeking a dental\nhygienist. After an interview, Della offered Peter the job and said she would either: (1)\npay him $50,000 per year; or (2) pay him $40,000 per y..."
+      },
+      "normalized_text": "Question 4\n\nPeter responded to an advertisement placed by Della, a dentist, seeking a dental hygienist. After an interview, Della offered Peter the job and said she would either: (1) pay him $50,000 per year; or (2) pay him $40,000 per year and agree to convey to him a parcel of land, worth about $50,000, if he would agree to work for her for three consecutive years. Peter accepted the offer and said, \u201cI\u2019d like to go with the second option, but I would like a commitment for an additional three years after the first three.\u201d Della said, \u201cGood, I\u2019d like you to start next week.\u201d\n\nAfter Peter started work, Della handed him a letter she had signed which stated only that he had agreed to work as a dental hygienist at a salary of $40,000 per year.\n\nAfter Peter had worked for two years and nine months, Della decided that she would sell the parcel of land and not convey it to him. Even though she had always been satisfied with his work, she fired him.\n\nWhat rights does Peter have and what remedies might he obtain as to employment and the parcel of land? Discuss.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 4,
+      "raw_text": "Question 4\n\nPeter responded to an advertisement placed by Della, a dentist, seeking a dental\nhygienist.  After an interview, Della offered Peter the job and said she would either: (1)\npay him $50,000 per year; or (2) pay him $40,000 per year and agree to convey to him\na parcel of land, worth about $50,000,  if he would agree to work for her for three\nconsecutive years.  Peter accepted the offer and said, \u201cI\u2019d like to go with the second\noption, but I would like a commitment for an additional three years after the first three.\u201d\nDella said, \u201cGood, I\u2019d like you to start next week.\u201d\n\nAfter Peter started work, Della handed him a letter she had signed which stated only\nthat he had agreed to work as a dental hygienist at a salary of $40,000 per year.\n\nAfter Peter had worked for two years and nine months, Della decided that she would\nsell the parcel of land and not convey  it to him.  Even though she had always been\nsatisfied with his work, she fired him.\n\nWhat rights does Peter have and what remedies might he obtain as to employment and\nthe parcel of land? Discuss.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 7426,
+      "start_page": 6,
+      "title": null
+    },
+    {
+      "end_character_offset": 9427,
+      "end_page": 7,
+      "instructions_text": null,
+      "metadata": {
+        "exam_month": "july",
+        "exam_name": "California Bar Examination",
+        "exam_year": 2012,
+        "heading": "Question 5",
+        "jurisdiction": "California",
+        "preview": "Question 5\n\nIn 2004, Mae, a widow, executed a valid will, intentionally leaving out her daughter, Dot,\nand giving 50 per cent of her estate to her son, Sam, and 50 per cent to Church.\n\nIn 2008, after a serious disagreement with Sam, Mae..."
+      },
+      "normalized_text": "Question 5\n\nIn 2004, Mae, a widow, executed a valid will, intentionally leaving out her daughter, Dot, and giving 50 per cent of her estate to her son, Sam, and 50 per cent to Church.\n\nIn 2008, after a serious disagreement with Sam, Mae announced that she was revoking her will, and then tore it in half in the presence of both Sam and Dot.\n\nIn 2010, after repeated requests by Sam, Mae handwrote and signed a document declaring that she was thereby reviving her will. She attached all of the torn pages of the will to the document. At the time she signed the document, she was entirely dependent on Sam for food and shelter and companionship, and had not been allowed by Sam to see or speak to anyone for months. By this time, Church had gone out of existence.\n\nIn 2011, Mae died. Her sole survivors are Dot and Sam.\n\nWhat rights, if any, do Dot and Sam have in Mae\u2019s estate? Discuss.\n\nAnswer according to California law.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 5,
+      "raw_text": "Question 5\n\nIn 2004, Mae, a widow, executed a valid will, intentionally leaving out her daughter, Dot,\nand giving 50 per cent of her estate to her son, Sam, and 50 per cent to Church.\n\nIn 2008, after a serious disagreement with Sam, Mae announced that she was revoking\nher will, and then tore it in half in the presence of both Sam and Dot.\n\nIn 2010, after repeated requests by Sam, Mae handwrote and signed a document\ndeclaring that she was thereby reviving her will. She attached all of the torn pages of\nthe  will to the document.  At the time she signed the document, she was entirely\ndependent on Sam for food and shelter and companionship, and had not been allowed\nby Sam to see or speak to anyone for months. By this time, Church had gone out of\nexistence.\n\nIn 2011, Mae died. Her sole survivors are Dot and Sam.\n\nWhat rights, if any, do Dot and Sam have in Mae\u2019s estate? Discuss.\n\nAnswer according to California law.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 8501,
+      "start_page": 7,
+      "title": null
+    },
+    {
+      "end_character_offset": 10657,
+      "end_page": 8,
+      "instructions_text": null,
+      "metadata": {
+        "exam_month": "july",
+        "exam_name": "California Bar Examination",
+        "exam_year": 2012,
+        "heading": "Question 6",
+        "jurisdiction": "California",
+        "preview": "Question 6\n\nDan worked at a church. One day a woman came to the church, told Dan she wanted\nto donate some property to the church, and handed him an old book and a handgun.\n\nDan had originally intended to deliver both the book and the gu..."
+      },
+      "normalized_text": "Question 6\n\nDan worked at a church. One day a woman came to the church, told Dan she wanted to donate some property to the church, and handed him an old book and a handgun.\n\nDan had originally intended to deliver both the book and the gun to the church\u2019s administrators, but he changed his mind and delivered only the book. He put the gun on the front seat of his car.\n\nThe next day, as he was driving, Dan was stopped by a police officer at a sobriety checkpoint at which officers stopped all cars and asked their drivers to exit briefly before going on their way. The police officer explained the procedure and asked, \u201cWould you please exit the vehicle?\u201d\n\nBelieving he had no choice, Dan said, \u201cOkay.\u201d\n\nAfter Dan got out of his car, the police officer observed the gun on the front seat and asked Dan if he was the owner. Dan answered, \u201cNo. I stole the gun. But I was planning to give it back.\u201d\n\nDan is charged with theft and moves to suppress the gun and his statement to the police officer under the Fourth Amendment to the United States Constitution and Miranda v. Arizona.\n\n1. Is Dan likely to prevail on his motion? Discuss.\n\n2. If Dan does not prevail on his motion, is he likely to be convicted at trial? Discuss.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 6,
+      "raw_text": "Question 6\n\nDan worked at a church. One day a woman came to the church, told Dan she wanted\nto donate some property to the church, and handed him an old book and a handgun.\n\nDan had originally intended to deliver both the book and the gun to the church\u2019s\nadministrators, but he changed his mind and delivered only the book. He put the gun\non the front seat of his car.\n\nThe next day, as he was driving, Dan was stopped by a police officer at a sobriety\ncheckpoint at which officers stopped all cars and asked their drivers to exit briefly before\ngoing on their way. The police officer explained the procedure and asked, \u201cWould you\nplease exit the vehicle?\u201d\n\nBelieving he had no choice, Dan said, \u201cOkay.\u201d\n\nAfter Dan got out of his car, the police officer observed the gun on the front seat and\nasked Dan  if he was the owner.  Dan answered, \u201cNo.   I stole the gun.  But  I was\nplanning to give it back.\u201d\n\nDan is charged with theft and moves to suppress the gun and his statement to the\npolice  officer under the Fourth Amendment to the United States Constitution and\nMiranda v. Arizona.\n\n1. Is Dan likely to prevail on his motion? Discuss.\n\n2.  If Dan does not prevail on his motion, is he likely to be convicted at trial? Discuss.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 9427,
+      "start_page": 8,
+      "title": null
+    }
+  ],
+  "selected_answers": [],
+  "source_document_id": 65
+}

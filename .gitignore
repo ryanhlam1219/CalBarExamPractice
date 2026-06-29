@@ -11,10 +11,13 @@ __pycache__/
 # Local and generated source material
 data/raw/
 data/extracted/
-data/parsed/
 data/manifests/
 data/input/*.pdf
+data/review/
 CalBarRules/
+
+# Keep parsed data (essays + rules JSON) — committed so users don't need to re-parse
+# data/parsed/ is tracked
 
 # Database/runtime artifacts
 *.sqlite

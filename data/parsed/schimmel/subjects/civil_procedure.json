@@ -1,0 +1,2262 @@
+{
+  "pages": "4-18",
+  "subject": "Civil Procedure",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 4,
+                "title": "Subject Matter Jurisdiction\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "FEDERAL",
+                "page": 4,
+                "title": "SMJ required for federal courts to hear case\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 4,
+                "title": "Exists if\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "FEDERAL",
+                "page": 4,
+                "title": "Federal question\n\u2022\nDiversity of citizenship, or\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 4,
+                "title": "Supplemental jx\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 4,
+                    "title": "California \u2013 Subject Matter Jurisdiction\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 4,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "subject matter jurisdiction over all civil cases unless within exclusive jx of another court\nClassification of Cases",
+                        "raw_text": "SMJ over all civil cases unless within exclusive jx of another court\nClassification of Cases"
+                      }
+                    ],
+                    "title": "SMJ over all civil cases unless within exclusive jx of another court\nClassification of Cases",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "FEDERAL",
+                    "page": 4,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Unlimited\n\u2022\namount in controversy > $25,000\nLimited\n\u2022\namount in controversy \u2264 $25,000\nSmall Claims\n\u2022\nNatural persons and sole proprietors: amount in controversy \u2264 $10,000\n\u2022\nBusiness entities: amount in controversy \u2264 $5,000\nFederal Question",
+                        "raw_text": "Unlimited\n\u2022\nAIC > $25,000\nLimited\n\u2022\nAIC \u2264 $25,000\nSmall Claims\n\u2022\nNatural persons and sole proprietors: AIC \u2264 $10,000\n\u2022\nBusiness entities: AIC \u2264 $5,000\nFederal Question"
+                      }
+                    ],
+                    "title": "Unlimited\n\u2022\nAIC > $25,000\nLimited\n\u2022\nAIC \u2264 $25,000\nSmall Claims\n\u2022\nNatural persons and sole proprietors: AIC \u2264 $10,000\n\u2022\nB",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 4,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "\u2022\nCivil actions arising under Constitution, laws, or treaties of U.S.\n\u2022\nMust appear in P\u2019s cause of action and on face of well-pleaded complaint",
+                        "raw_text": "\u2022\nCivil actions arising under Constitution, laws, or treaties of U.S.\n\u2022\nMust appear in P\u2019s COA and on face of well-pleaded complaint"
+                      }
+                    ],
+                    "title": "\u2022\nCivil actions arising under Constitution, laws, or treaties of U.S.\n\u2022\nMust appear in P\u2019s COA and on face of well-plead",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 4,
+                "title": "Not waivable",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 4,
+                    "title": "Complete Diversity\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 4,
+                    "title": "All Ps citizens of different state than all Ds\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 4,
+                    "title": "Determined at time suit is filed",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 4,
+                "title": "Diversity Jurisdiction\n(1) Complete diversity between parties, and\n(2) AIC > $75,000",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 4,
+                "title": "Natural Persons\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 4,
+                    "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 4,
+                "title": "Citizenship is place of domicile\n(1) Reside in state or U.S. territory, and\n(2) Intent to remain",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 5,
+                "title": "Permanent Resident Aliens\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 5,
+                "title": "Citizenship is place of domicile\n\u2022\nReside in state or U.S. territory, and\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 5,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Non-Permanent Resident Aliens\n\u2022\nAt least 1 foreign citizen vs. at least 1 state citizen",
+                        "raw_text": "Non-Permanent Resident Aliens\n\u2022\nAt least 1 foreign citizen vs. at least 1 state citizen"
+                      }
+                    ],
+                    "title": "Non-Permanent Resident Aliens\n\u2022\nAt least 1 foreign citizen vs. at least 1 state citizen",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 5,
+                "title": "Intent to remain",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 5,
+                "title": "Corporations\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 5,
+                "title": "Citizen of\n(1) Every state in which incorporated, and\n(2) State where maintains PPB",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 5,
+                "title": "Foreign Corporations\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 5,
+                        "title": "Amount in Controversy\n\u2022\nAIC > $75,000\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 5,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Determined at time suit is filed\nAggregation of Claims\nSingle Plaintiff v. Single Defendant\n\u2022",
+                            "raw_text": "Determined at time suit is filed\nAggregation of Claims\nSingle Plaintiff v. Single Defendant\n\u2022"
+                          }
+                        ],
+                        "title": "Determined at time suit is filed\nAggregation of Claims\nSingle Plaintiff v. Single Defendant\n\u2022",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 5,
+                        "title": "P can aggregate all claims against D to satisfy AIC",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 5,
+                        "title": "Single Plaintiff v. Multiple Defendants\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 5,
+                        "title": "P can aggregate claims only if Ds are joint tortfeasors",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 5,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Multiple Plaintiffs v. Single Defendant\n\u2022\nPs may aggregate claims only if \u201cenforcing a single title or right of\ncommon or undivided interest\u201d",
+                            "raw_text": "Multiple Plaintiffs v. Single Defendant\n\u2022\nPs may aggregate claims only if \u201cenforcing a single title or right of\ncommon or undivided interest\u201d"
+                          }
+                        ],
+                        "title": "Multiple Plaintiffs v. Single Defendant\n\u2022\nPs may aggregate claims only if \u201cenforcing a single title or right of\ncommon o",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 5,
+                        "title": "Supplemental Jurisdiction\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "jurisdiction": "FEDERAL",
+                        "page": 5,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Federal courts can hear additional claims as long as same case or controversy as original\nclaim",
+                            "raw_text": "Federal courts can hear additional claims as long as same case or controversy as original\nclaim"
+                          }
+                        ],
+                        "title": "Federal courts can hear additional claims as long as same case or controversy as original\nclaim",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 5,
+                        "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 5,
+                    "title": "Unincorporated Associations\n\u2022\nCitizens of all states of which its partners, members, or owners are\ncitizens",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 5,
+                "title": "Citizen of\n(1) Every country in which incorporated, and\n(2) State where maintains PPB if in U.S.",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "FEDERAL",
+                "page": 6,
+                "title": "Federal Question\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 6,
+                "title": "Supp jx over additional parties or claims if same case or controversy\nDiversity\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 6,
+                "title": "Always supp jx if\n\u2022\nSame case or controversy, and\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 6,
+                "title": "Does not destroy complete diversity\nDiscretion to Decline Jurisdiction\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "FEDERAL",
+                    "page": 6,
+                    "title": "Removal \u2013 State Court to Federal Court",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "FEDERAL",
+                "page": 6,
+                "title": "Federal courts may decline to exercise supp jx\nREMOVAL AND REMAND",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "FEDERAL",
+                    "page": 6,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Ds unanimously consent\nDiversity Jurisdiction\n\u2022\nIf jx based on diversity, removal only proper if no D is citizen of state in which\naction pending\nRemand \u2013 Federal Court to State Court",
+                        "raw_text": "Ds unanimously consent\nDiversity Jurisdiction\n\u2022\nIf jx based on diversity, removal only proper if no D is citizen of state in which\naction pending\nRemand \u2013 Federal Court to State Court"
+                      }
+                    ],
+                    "title": "Ds unanimously consent\nDiversity Jurisdiction\n\u2022\nIf jx based on diversity, removal only proper if no D is citizen of stat",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 6,
+                    "title": "Plaintiff\u2019s Motion to Remand\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 6,
+                    "title": "P may move to remand if removal improper",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "FEDERAL",
+                "page": 6,
+                "title": "D may remove case if\n\u2022\nP\u2019s claims could have been filed in federal court, and\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 6,
+                    "title": "Personal Jurisdiction\n\u2022\nCourt\u2019s authority over particular D or property",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "TRADITIONAL",
+                    "page": 6,
+                    "title": "Traditional Bases",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 6,
+                    "title": "Voluntary Presence\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 6,
+                    "title": "PJ over individual D served while voluntarily present in state\nException\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 6,
+                    "title": "Immunity to Ds in state exclusively for other judicial proceedings",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 6,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 7,
+                    "title": "Domicile\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 7,
+                    "title": "PJ over Ds domiciled in state",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 6,
+                "title": "Timing\n\u2022\nMotion must be made within 30 days after filing notice of removal\nPERSONAL JURISDICTION",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 7,
+                "title": "Corporations\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 7,
+                "title": "Citizen of\n\u2022\nEvery state in which incorporated, and\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 7,
+                "title": "State where maintains PPB\nConsent\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 7,
+                    "title": "Waiver\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 7,
+                    "title": "PJ waived if D voluntarily appears to contest case without objecting to jx",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 7,
+                    "title": "Long-Arm Statutes\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 7,
+                    "title": "Grant courts PJ over out-of-state Ds who engage in some activity in state\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 7,
+                    "title": "Unlimited or limited",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 7,
+                    "title": "California\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 7,
+                    "title": "Unlimited long-arm statute",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 7,
+                "title": "D may consent to PJ",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 7,
+                "title": "Constitutional Requirements\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "TRADITIONAL",
+                    "page": 7,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Maintenance of action does not offend traditional notions of fair play and\nsubstantial justice\nMinimum Contacts\nGeneral Jurisdiction",
+                        "raw_text": "Maintenance of action does not offend traditional notions of fair play and\nsubstantial justice\nMinimum Contacts\nGeneral Jurisdiction"
+                      }
+                    ],
+                    "title": "Maintenance of action does not offend traditional notions of fair play and\nsubstantial justice\nMinimum Contacts\nGeneral ",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 7,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "\u2022\nContacts with forum state so systematic, continuous, and substantial\nthat D at home in that state\nIndividuals\n\u2022",
+                        "raw_text": "\u2022\nContacts with forum state so systematic, continuous, and substantial\nthat D at home in that state\nIndividuals\n\u2022"
+                      }
+                    ],
+                    "title": "\u2022\nContacts with forum state so systematic, continuous, and substantial\nthat D at home in that state\nIndividuals\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 7,
+                    "title": "Must be domiciled in forum state",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 7,
+                "title": "Out-of-state D must\n\u2022\nHave minimum contacts with forum state, and\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 7,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Where incorporated or headquartered\nSpecific Jurisdiction\n(1) D has purposely availed himself to forum state, and\n(2) cause of action arises out of D\u2019s contact in that state",
+                        "raw_text": "Where incorporated or headquartered\nSpecific Jurisdiction\n(1) D has purposely availed himself to forum state, and\n(2) COA arises out of D\u2019s contact in that state"
+                      }
+                    ],
+                    "title": "Where incorporated or headquartered\nSpecific Jurisdiction\n(1) D has purposely availed himself to forum state, and\n(2) CO",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 7,
+                    "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 8,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Purposeful Availment\n\u2022\nD purposely avails himself of state\u2019s benefits and protections",
+                        "raw_text": "Purposeful Availment\n\u2022\nD purposely avails himself of state\u2019s benefits and protections"
+                      }
+                    ],
+                    "title": "Purposeful Availment\n\u2022\nD purposely avails himself of state\u2019s benefits and protections",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 8,
+                    "title": "Foreseeability",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 8,
+                    "title": "\u2022\nD must rxly anticipate he could be haled into court",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 8,
+                    "title": "Fair Play and Substantial Justice\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 8,
+                    "title": "Must be fair and rx\n\u2022\nFactors",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 8,
+                    "title": "(i)",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 8,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Burden on D\n(ii) Interest of forum state\n(iii) P\u2019s interest in obtaining relief\n(iv) Interest of judicial system\n(v) Shared policy interests of states\nNotice",
+                        "raw_text": "Burden on D\n(ii) Interest of forum state\n(iii) P\u2019s interest in obtaining relief\n(iv) Interest of judicial system\n(v) Shared policy interests of states\nNotice"
+                      }
+                    ],
+                    "title": "Burden on D\n(ii) Interest of forum state\n(iii) P\u2019s interest in obtaining relief\n(iv) Interest of judicial system\n(v) Sha",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 7,
+                "title": "Corporations\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 8,
+                "title": "D must be given rx notice for opportunity to be heard\nVENUE",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 8,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Venue is proper\n(i) In judicial district where any D resides, if all Ds reside in same state\n(ii) In judicial district in which substantial part of events occurred, or\n(iii) Where any D is subject to personal jurisdiction",
+                        "raw_text": "Venue is proper\n(i) In judicial district where any D resides, if all Ds reside in same state\n(ii) In judicial district in which substantial part of events occurred, or\n(iii) Where any D is subject to PJ"
+                      }
+                    ],
+                    "title": "Venue is proper\n(i) In judicial district where any D resides, if all Ds reside in same state\n(ii) In judicial district i",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 8,
+                "title": "Venue\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 8,
+                "title": "Any Defendant Resides\nNatural Person\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 8,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Business Entities\n\u2022\nD is entity: Any district where D subject to personal jurisdiction\n\u2022\nP is entity: District where principal place of business\nCorporation\n\u2022",
+                        "raw_text": "Business Entities\n\u2022\nD is entity: Any district where D subject to PJ\n\u2022\nP is entity: District where PPB\nCorporation\n\u2022"
+                      }
+                    ],
+                    "title": "Business Entities\n\u2022\nD is entity: Any district where D subject to PJ\n\u2022\nP is entity: District where PPB\nCorporation\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 8,
+                    "title": "Any district where it would be subject to PJ\nNon-Resident Aliens\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 8,
+                    "title": "Any district",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 8,
+                    "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 9,
+                    "title": "California \u2013 Venue\nLocal Actions\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 9,
+                    "title": "Venue proper in county where property is located",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 9,
+                    "title": "Transitory Actions",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 8,
+                "title": "Residency is place of domicile\n(1) Reside in state or U.S. territory, and\n(2) Intent to remain",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 9,
+                    "title": "Venue proper\n(i) In county where any D resides at commencement of action, or\n(ii) Any county, if no Ds reside in CA",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 9,
+                "title": "Individual\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 9,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Venue proper\n(i) Where personal injury occurred\n(ii) In county where any D resides at commencement of action, or\n(iii) In any county, if no Ds reside in CA",
+                        "raw_text": "Venue proper\n(i) Where personal injury occurred\n(ii) In county where any D resides at commencement of action, or\n(iii) In any county, if no Ds reside in CA"
+                      }
+                    ],
+                    "title": "Venue proper\n(i) Where personal injury occurred\n(ii) In county where any D resides at commencement of action, or\n(iii) I",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 9,
+                "title": "Personal Injury or Wrongful Death\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 9,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Venue proper\n(i) Where contract entered into\n(ii) Where contract to be performed\n(iii) In county where any D resides at commencement of action, or\n(iv) In any county, if no Ds reside in CA\nCorporations\n\u2022",
+                        "raw_text": "Venue proper\n(i) Where K entered into\n(ii) Where K to be performed\n(iii) In county where any D resides at commencement of action, or\n(iv) In any county, if no Ds reside in CA\nCorporations\n\u2022"
+                      }
+                    ],
+                    "title": "Venue proper\n(i) Where K entered into\n(ii) Where K to be performed\n(iii) In county where any D resides at commencement o",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 9,
+                "title": "Contract Claims\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 9,
+                "title": "Venue proper",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 9,
+                    "title": "Venue Transfer",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 9,
+                    "title": "Original Venue Proper\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 9,
+                    "title": "Transfer discretionary",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "cross_references": [
+                      {
+                        "resolution": "UNRESOLVED",
+                        "target": "See above."
+                      }
+                    ],
+                    "depth": 5,
+                    "page": 9,
+                    "title": "Whether New Venue is Proper\nVenue analysis applies.  See above.",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 9,
+                    "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 10,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Interest of Justice\nPublic Factors\n(i) Administrative difficulties\n(ii) Interest in having cases decided locally\n(iii) Familiarity with forum law\n(iv) Avoidance of conflict of laws",
+                        "raw_text": "Interest of Justice\nPublic Factors\n(i) Administrative difficulties\n(ii) Interest in having cases decided locally\n(iii) Familiarity with forum law\n(iv) Avoidance of conflict of laws"
+                      }
+                    ],
+                    "title": "Interest of Justice\nPublic Factors\n(i) Administrative difficulties\n(ii) Interest in having cases decided locally\n(iii) F",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 10,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Private Factors\n(i) Accessibility to evidence\n(ii) Ability to compel attendance of witnesses\n(iii) Cost of attendance for witnesses",
+                        "raw_text": "Private Factors\n(i) Accessibility to evidence\n(ii) Ability to compel attendance of witnesses\n(iii) Cost of attendance for witnesses"
+                      }
+                    ],
+                    "title": "Private Factors\n(i) Accessibility to evidence\n(ii) Ability to compel attendance of witnesses\n(iii) Cost of attendance fo",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 10,
+                    "title": "Venue Transfer \u2013 Original Venue Improper\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 10,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "May transfer case to any district or division where it could have originally been\nbrought\n\u2022",
+                        "raw_text": "May transfer case to any district or division where it could have originally been\nbrought\n\u2022"
+                      }
+                    ],
+                    "title": "May transfer case to any district or division where it could have originally been\nbrought\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 10,
+                    "title": "Timely objection required",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "cross_references": [
+                      {
+                        "resolution": "UNRESOLVED",
+                        "target": "See above."
+                      }
+                    ],
+                    "depth": 5,
+                    "page": 10,
+                    "title": "Whether New Venue is Proper\nVenue analysis applies.  See above.",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "cross_references": [
+                      {
+                        "resolution": "UNRESOLVED",
+                        "target": "See above."
+                      }
+                    ],
+                    "depth": 5,
+                    "page": 10,
+                    "title": "Interest of Justice\nSee above.\nPublic Factors\nSee above.",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "cross_references": [
+                      {
+                        "resolution": "UNRESOLVED",
+                        "target": "See above."
+                      }
+                    ],
+                    "depth": 5,
+                    "page": 10,
+                    "title": "Private Factors\nSee above.",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 10,
+                    "title": "Forum Selection Clause\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 10,
+                    "title": "Generally honored by courts unless against interests of justice",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 10,
+                    "title": "Venue Transfer \u2013 Choice of Law\nDiversity Cases\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "FEDERAL",
+                    "page": 10,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Transferee courts apply substantive law that transferring court would have\napplied\nFederal Question Cases\n\u2022",
+                        "raw_text": "Transferee courts apply substantive law that transferring court would have\napplied\nFederal Question Cases\n\u2022"
+                      }
+                    ],
+                    "title": "Transferee courts apply substantive law that transferring court would have\napplied\nFederal Question Cases\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 10,
+                    "title": "Transferee courts use law they would have applied if case originally filed\nthere",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 10,
+                    "title": "7\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 9,
+                "title": "(i) Where K made or to be performed\n(ii) Where liability arose or breach occurred, or\n(iii) PPB",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 11,
+                "title": "California \u2013 Venue Transfer\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 11,
+                "title": "D may move to transfer if\n(i) Original venue is improper, or\n(ii) D shows actual prejudice",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 4,
+            "title": "CIVIL PROCEDURE\nSUBJECT MATTER JURISDICTION",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 11,
+                "title": "Erie Doctrine\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "FEDERAL",
+                "page": 11,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Case based on diversity jx\n\u2022\nSubstantive issues: State law\n\u2022\nProcedural issues: Federal law",
+                    "raw_text": "Case based on diversity jx\n\u2022\nSubstantive issues: State law\n\u2022\nProcedural issues: Federal law"
+                  }
+                ],
+                "title": "Case based on diversity jx\n\u2022\nSubstantive issues: State law\n\u2022\nProcedural issues: Federal law",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 11,
+                "title": "Nature of Issue Unclear\n\u2022\nTests\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "jurisdiction": "UTC",
+                "page": 11,
+                "title": "Whether rule is outcome determinative\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "jurisdiction": "FEDERAL",
+                "page": 11,
+                "title": "Weigh interests of state and federal judicial authorities\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "CALIFORNIA",
+                "page": 11,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Whether application of federal law will encourage forum shopping\nCalifornia \u2013 Conflicts of Law Rule",
+                    "raw_text": "Whether application of federal law will encourage forum shopping\nCalifornia \u2013 Conflicts of Law Rule"
+                  }
+                ],
+                "title": "Whether application of federal law will encourage forum shopping\nCalifornia \u2013 Conflicts of Law Rule",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 11,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Torts\n\u2022\nCourts determine which state\u2019s law should be applied by evaluating impairment to\neach state\u2019s interest",
+                    "raw_text": "Torts\n\u2022\nCourts determine which state\u2019s law should be applied by evaluating impairment to\neach state\u2019s interest"
+                  }
+                ],
+                "title": "Torts\n\u2022\nCourts determine which state\u2019s law should be applied by evaluating impairment to\neach state\u2019s interest",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 11,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Contracts\n\u2022\nGenerally, choice of law provision applies\n\u2022\nIf no choice of law provision, courts determine which state\u2019s law should be applied\nby evaluating impairment to each state\u2019s interest\nPLEADINGS",
+                    "raw_text": "Contracts\n\u2022\nGenerally, choice of law provision applies\n\u2022\nIf no choice of law provision, courts determine which state\u2019s law should be applied\nby evaluating impairment to each state\u2019s interest\nPLEADINGS"
+                  }
+                ],
+                "title": "Contracts\n\u2022\nGenerally, choice of law provision applies\n\u2022\nIf no choice of law provision, courts determine which state\u2019s l",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 11,
+                "title": "Amendments",
+                "type": "ELEMENT"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 11,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Party may amend\n(i) Once within 21 days of service, or\n(ii) Within 21 days after service of responsive pleading\n\u2022\nOtherwise, leave of court required\nCalifornia \u2013 Amendments\n\u2022",
+                        "raw_text": "Party may amend\n(i) Once within 21 days of service, or\n(ii) Within 21 days after service of responsive pleading\n\u2022\nOtherwise, leave of court required\nCalifornia \u2013 Amendments\n\u2022"
+                      }
+                    ],
+                    "title": "Party may amend\n(i) Once within 21 days of service, or\n(ii) Within 21 days after service of responsive pleading\n\u2022\nOtherw",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 11,
+                "title": "Amendments as a Matter of Course\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 11,
+                    "title": "8\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 12,
+                    "title": "Relation-Back Doctrine",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 11,
+                "title": "Party may amend once without leave of court at any time before responsive\npleading is filed",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 12,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Amendment to pleading relates back if\n(i) Law the provides applicable statute of limitations allows relation back, or\n(ii) Amendment asserts claim or defense that arose out of conduct set out in",
+                        "raw_text": "Amendment to pleading relates back if\n(i) Law the provides applicable SOL allows relation back, or\n(ii) Amendment asserts claim or defense that arose out of conduct set out in"
+                      }
+                    ],
+                    "title": "Amendment to pleading relates back if\n(i) Law the provides applicable SOL allows relation back, or\n(ii) Amendment assert",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 12,
+                "title": "Additional Claim\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 12,
+                "title": "original pleading\nChange of Party or Party Name\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 12,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Amendment asserts claim or defense that arose out of conduct set out in\noriginal pleading\n\u2022\nNew party received notice within 90 days of filing, and\n\u2022\nParty knew that the action would have been brought, but for a mistake re\nidentity\nCalifornia \u2013 Relation Back\nClaims\n\u2022",
+                        "raw_text": "Amendment asserts claim or defense that arose out of conduct set out in\noriginal pleading\n\u2022\nNew party received notice within 90 days of filing, and\n\u2022\nParty knew that the action would have been brought, but for a mistake re\nidentity\nCalifornia \u2013 Relation Back\nClaims\n\u2022"
+                      }
+                    ],
+                    "title": "Amendment asserts claim or defense that arose out of conduct set out in\noriginal pleading\n\u2022\nNew party received notice wi",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 12,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Party may amend even if statute of limitations has run out if additional claim\nconcerns\n(1) Same general facts\n(2) Same injury, and\n(3) Same offending instrumentality\nParties\n\u2022",
+                        "raw_text": "Party may amend even if SOL has run out if additional claim\nconcerns\n(1) Same general facts\n(2) Same injury, and\n(3) Same offending instrumentality\nParties\n\u2022"
+                      }
+                    ],
+                    "title": "Party may amend even if SOL has run out if additional claim\nconcerns\n(1) Same general facts\n(2) Same injury, and\n(3) Sam",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 12,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Party may amend even if statute of limitations has run out if he\n(1) Named Does in original complaint\n(2) Includes charging allegations\n(3) Was truly ignorant of D\u2019s identity\n(4) Acts with reasonable diligence, and\n(5) Amends within 3 years\nMOTIONS",
+                        "raw_text": "Party may amend even if SOL has run out if he\n(1) Named Does in original complaint\n(2) Includes charging allegations\n(3) Was truly ignorant of D\u2019s identity\n(4) Acts with rx diligence, and\n(5) Amends within 3 years\nMOTIONS"
+                      }
+                    ],
+                    "title": "Party may amend even if SOL has run out if he\n(1) Named Does in original complaint\n(2) Includes charging allegations\n(3)",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 12,
+                "title": "Amendment relates back if\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 12,
+                "title": "Motion for Summary Judgment\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 12,
+                    "title": "Discovery\nScope\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 12,
+                    "title": "May discover any",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 12,
+                    "title": "9\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 12,
+                "title": "Granted if no genuine dispute of material fact\nDISCOVERY",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 13,
+                "title": "Non-privileged matter that is\n\u2022\nRelevant to any party\u2019s claim or defense, and\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 13,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Initial Disclosures\n\u2022\nMust be provided to opposing party within 14 days after conference\n\u2022\nInclude\n(i) Names and contact info of individuals likely to have discoverable info\n(ii) Copies or descriptions of relevant docs, ESI, property\n(iii) Calculation of damages\n(iv) Insurance agreements",
+                        "raw_text": "Initial Disclosures\n\u2022\nMust be provided to opposing party within 14 days after conference\n\u2022\nInclude\n(i) Names and contact info of individuals likely to have discoverable info\n(ii) Copies or descriptions of relevant docs, ESI, property\n(iii) Calculation of damages\n(iv) Insurance agreements"
+                      }
+                    ],
+                    "title": "Initial Disclosures\n\u2022\nMust be provided to opposing party within 14 days after conference\n\u2022\nInclude\n(i) Names and contact",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 13,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Expert Testimony Disclosures\n\u2022\nMust disclose identity of any expert witnesses at least 90 days before trial",
+                        "raw_text": "Expert Testimony Disclosures\n\u2022\nMust disclose identity of any expert witnesses at least 90 days before trial"
+                      }
+                    ],
+                    "title": "Expert Testimony Disclosures\n\u2022\nMust disclose identity of any expert witnesses at least 90 days before trial",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 13,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Pretrial Disclosures\n\u2022\nMust be disclosed by each party 30 days before trial\n\u2022\nInclude\n(i) Witnesses\u2019 names and contact info\n(ii) Designation of witnesses expected for deposition\n(iii) Docs or exhibits expected for trial",
+                        "raw_text": "Pretrial Disclosures\n\u2022\nMust be disclosed by each party 30 days before trial\n\u2022\nInclude\n(i) Witnesses\u2019 names and contact info\n(ii) Designation of witnesses expected for deposition\n(iii) Docs or exhibits expected for trial"
+                      }
+                    ],
+                    "title": "Pretrial Disclosures\n\u2022\nMust be disclosed by each party 30 days before trial\n\u2022\nInclude\n(i) Witnesses\u2019 names and contact i",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 13,
+                    "title": "Discovery Devices",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 13,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Depositions\n\u2022\nParty may conduct up to 10 depos limited to 1 day and not to exceed 7 hours\nPhysical or Mental Examinations\n\u2022",
+                        "raw_text": "Depositions\n\u2022\nParty may conduct up to 10 depos limited to 1 day and not to exceed 7 hours\nPhysical or Mental Examinations\n\u2022"
+                      }
+                    ],
+                    "title": "Depositions\n\u2022\nParty may conduct up to 10 depos limited to 1 day and not to exceed 7 hours\nPhysical or Mental Examination",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 13,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "May order party to submit to examination if mental or physical condition in\ncontroversy\nMotion to Compel Disclosure or Discovery\n\u2022",
+                        "raw_text": "May order party to submit to examination if mental or physical condition in\ncontroversy\nMotion to Compel Disclosure or Discovery\n\u2022"
+                      }
+                    ],
+                    "title": "May order party to submit to examination if mental or physical condition in\ncontroversy\nMotion to Compel Disclosure or D",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 13,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Party may move for order compelling disclosure or discovery\n\u2022\nIf party fails to comply, court may impose sanctions",
+                        "raw_text": "Party may move for order compelling disclosure or discovery\n\u2022\nIf party fails to comply, court may impose sanctions"
+                      }
+                    ],
+                    "title": "Party may move for order compelling disclosure or discovery\n\u2022\nIf party fails to comply, court may impose sanctions",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 13,
+                    "title": "10\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 13,
+                "title": "Proportional to needs of case\nMandatory Disclosures",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 11,
+            "title": "ERIE DOCTRINE",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 14,
+                "title": "Privileges",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 14,
+                "title": "Work Product",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 14,
+                "title": "Qualified Immunity\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 14,
+                "title": "Docs prepared in anticipation of litigation not discoverable unless\n\u2022\nSubstantial need, and\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 14,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Absolute Immunity\n\u2022\nLawyer\u2019s mental impressions, research, opinions, etc. not discoverable unless\nimmunity waived",
+                        "raw_text": "Absolute Immunity\n\u2022\nLawyer\u2019s mental impressions, research, opinions, etc. not discoverable unless\nimmunity waived"
+                      }
+                    ],
+                    "title": "Absolute Immunity\n\u2022\nLawyer\u2019s mental impressions, research, opinions, etc. not discoverable unless\nimmunity waived",
+                    "type": "RULE"
+                  },
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 14,
+                        "title": "Joinder of Parties",
+                        "type": "ELEMENT"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 14,
+                    "title": "JOINDER",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 14,
+                "title": "Undue hardship",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 14,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Party must be joined if\n(i) Court cannot grant complete relief to existing parties, or\n(ii) Party claims absence may impair ability to protect interest",
+                        "raw_text": "Party must be joined if\n(i) Court cannot grant complete relief to existing parties, or\n(ii) Party claims absence may impair ability to protect interest"
+                      }
+                    ],
+                    "title": "Party must be joined if\n(i) Court cannot grant complete relief to existing parties, or\n(ii) Party claims absence may imp",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 14,
+                    "title": "Joinder Not Feasible\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 14,
+                    "title": "Court must decide if action should proceed or be dismissed",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 14,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Factors\n(i) Extent to which judgment in party\u2019s absence would prejudice parties\n(ii) Extent to which prejudice could be reduced\n(iii) Whether adequate judgment could be rendered\n(iv) Whether P will have adequate remedy",
+                        "raw_text": "Factors\n(i) Extent to which judgment in party\u2019s absence would prejudice parties\n(ii) Extent to which prejudice could be reduced\n(iii) Whether adequate judgment could be rendered\n(iv) Whether P will have adequate remedy"
+                      }
+                    ],
+                    "title": "Factors\n(i) Extent to which judgment in party\u2019s absence would prejudice parties\n(ii) Extent to which prejudice could be ",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 14,
+                    "title": "Permissive Joinder\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 14,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Ps or Ds can be joined if\n(1) They assert any right jointly, severally, or arising out of same transaction or",
+                        "raw_text": "Ps or Ds can be joined if\n(1) They assert any right jointly, severally, or arising out of same transaction or"
+                      }
+                    ],
+                    "title": "Ps or Ds can be joined if\n(1) They assert any right jointly, severally, or arising out of same transaction or",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 14,
+                "title": "Compulsory Joinder\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 14,
+                    "title": "Supplemental Jurisdiction",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 14,
+                    "title": "\u2022\nPs: Applicable\n\u2022\nDs: Not applicable",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 14,
+                    "title": "11\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 15,
+                    "title": "Intervention",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "FEDERAL",
+                    "page": 15,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Intervention of Right\n\u2022\nthird party intervention must be permitted if\n(i) Unconditional right to intervene by federal statute, or\n(ii) Claims interest that is subject matter of lawsuit, the disposition of which without",
+                        "raw_text": "Intervention of Right\n\u2022\n3P intervention must be permitted if\n(i) Unconditional right to intervene by federal statute, or\n(ii) Claims interest that is subject matter of lawsuit, the disposition of which without"
+                      }
+                    ],
+                    "title": "Intervention of Right\n\u2022\n3P intervention must be permitted if\n(i) Unconditional right to intervene by federal statute, or",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 15,
+                    "title": "3P would impair ability to protect interest",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "FEDERAL",
+                    "page": 15,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Permissive Intervention\n\u2022\nthird party intervention may be permitted if\n(i) Conditional right to intervene by federal statute, or\n(ii) Claim shares common question of law or fact with main action",
+                        "raw_text": "Permissive Intervention\n\u2022\n3P intervention may be permitted if\n(i) Conditional right to intervene by federal statute, or\n(ii) Claim shares common question of law or fact with main action"
+                      }
+                    ],
+                    "title": "Permissive Intervention\n\u2022\n3P intervention may be permitted if\n(i) Conditional right to intervene by federal statute, or\n",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 15,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Interpleader\n\u2022 Allows third party stakeholder to compel parties claiming competing property interests to litigate\nclaim",
+                        "raw_text": "Interpleader\n\u2022 Allows 3P stakeholder to compel parties claiming competing property interests to litigate\nclaim"
+                      }
+                    ],
+                    "title": "Interpleader\n\u2022 Allows 3P stakeholder to compel parties claiming competing property interests to litigate\nclaim",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 15,
+                    "title": "Rule 22 Interpleader\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "FEDERAL",
+                    "page": 15,
+                    "title": "Requires SMJ through federal question or diversity jx",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 15,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Statutory Interpleader\n\u2022\nsubject matter jurisdiction granted if at least 1 claimant diverse from another and amount in controversy > $500",
+                        "raw_text": "Statutory Interpleader\n\u2022\nSMJ granted if at least 1 claimant diverse from another and AIC > $500"
+                      }
+                    ],
+                    "title": "Statutory Interpleader\n\u2022\nSMJ granted if at least 1 claimant diverse from another and AIC > $500",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 15,
+                    "title": "Impleader",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 15,
+                    "title": "\u2022 Allows D to bring in 3PD who may be liable to D for all or part of P\u2019s claim",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 15,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Jurisdiction\n\u2022\nRequires subject matter jurisdiction over claims asserted against third-party defendant and claims brought by third-party defendant against\nother parties",
+                        "raw_text": "Jurisdiction\n\u2022\nRequires SMJ over claims asserted against 3PD and claims brought by 3PD against\nother parties"
+                      }
+                    ],
+                    "title": "Jurisdiction\n\u2022\nRequires SMJ over claims asserted against 3PD and claims brought by 3PD against\nother parties",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 15,
+                    "title": "Joinder of Claims\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 15,
+                    "title": "Party may join as many claims it has against opposing party\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 15,
+                    "title": "Requires SMJ and proper venue",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 15,
+                    "title": "Diversity Jurisdiction\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 15,
+                    "title": "P may aggregate all claims to meet AIC",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 14,
+                "title": "occurrence, and\n(2) Any question of law or fact common to all parties",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 15,
+                        "title": "12\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 16,
+                        "title": "Counterclaims\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 16,
+                        "title": "Claims D brings against P\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 16,
+                        "title": "Requires SMJ",
+                        "type": "ELEMENT"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "jurisdiction": "FEDERAL",
+                    "page": 15,
+                    "title": "State claims may be joined with federal claim if\n(i) Diversity jx, or\n(ii) Same transaction or occurrence",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "FEDERAL",
+                "page": 15,
+                "title": "Federal Question Jurisdiction\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 16,
+                    "title": "Party must state claims that\n(1) Arise out of same transaction or occurrence as facts in opposing party\u2019s claim,",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 16,
+                "title": "Compulsory\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 16,
+                "title": "and\n(2) Do not require adding another party over whom court cannot acquire jx\nPermissive\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 16,
+                "title": "Party may state claims that are not compulsory\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 16,
+                "title": "Requires SMJ",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 16,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "May state claim by one party against co-party if\n(i) Same transaction or occurrence, or\n(ii) Relates to property that is subject of original action",
+                        "raw_text": "May state claim by one party against co-party if\n(i) Same transaction or occurrence, or\n(ii) Relates to property that is subject of original action"
+                      }
+                    ],
+                    "title": "May state claim by one party against co-party if\n(i) Same transaction or occurrence, or\n(ii) Relates to property that is",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 16,
+                "title": "Crossclaims\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 14,
+            "title": "PRIVILEGES",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 16,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Class Actions\nPrerequisites\n(1) Numerosity\n(2) Commonality\n(3) Typicality, and\n(4) Adequacy\nClass Action Fairness Act (2005)\n(1) Any member diverse from any D\n(2) Claims > $5 million, and\n(3) Members \uf0b3 100\nTRIAL",
+                    "raw_text": "Class Actions\nPrerequisites\n(1) Numerosity\n(2) Commonality\n(3) Typicality, and\n(4) Adequacy\nClass Action Fairness Act (2005)\n(1) Any member diverse from any D\n(2) Claims > $5 million, and\n(3) Members \uf0b3 100\nTRIAL"
+                  }
+                ],
+                "title": "Class Actions\nPrerequisites\n(1) Numerosity\n(2) Commonality\n(3) Typicality, and\n(4) Adequacy\nClass Action Fairness Act (2",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 16,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Right to a Jury Trial\n\u2022\nRight to jury trial where amount in controversy > $20\nJudgment as a Matter of Law\n\u2022",
+                    "raw_text": "Right to a Jury Trial\n\u2022\nRight to jury trial where AIC > $20\nJudgment as a Matter of Law\n\u2022"
+                  }
+                ],
+                "title": "Right to a Jury Trial\n\u2022\nRight to jury trial where AIC > $20\nJudgment as a Matter of Law\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 16,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Granted when party fully heard on issue and no reasonable jury would find for party on that issue\n\u2022",
+                    "raw_text": "Granted when party fully heard on issue and no rx jury would find for party on that issue\n\u2022"
+                  }
+                ],
+                "title": "Granted when party fully heard on issue and no rx jury would find for party on that issue\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 16,
+                "title": "Can move any time before case submitted to jury",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 16,
+                "title": "13\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 16,
+            "title": "CLASS ACTIONS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 17,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Renewed Motion for Judgment as a Matter of Law\n\u2022\nIf JMOL not granted, may be renewed no later than 28 days after entry of judgment",
+                    "raw_text": "Renewed Motion for Judgment as a Matter of Law\n\u2022\nIf JMOL not granted, may be renewed no later than 28 days after entry of judgment"
+                  }
+                ],
+                "title": "Renewed Motion for Judgment as a Matter of Law\n\u2022\nIf JMOL not granted, may be renewed no later than 28 days after entry o",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 17,
+                "title": "APPEALS",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 17,
+                "title": "Final Judgement Rule\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 17,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Party may only appeal final judgments\n\u2022\nEnds entire litigation on merits, leaving court nothing to do but execute judgment",
+                    "raw_text": "Party may only appeal final judgments\n\u2022\nEnds entire litigation on merits, leaving court nothing to do but execute judgment"
+                  }
+                ],
+                "title": "Party may only appeal final judgments\n\u2022\nEnds entire litigation on merits, leaving court nothing to do but execute judgme",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 17,
+            "title": "POST-TRIAL",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 17,
+                    "title": "Same Parties\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 17,
+                    "title": "Identical parties or persons in privity with original parties",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 17,
+                    "title": "Same Cause of Action\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 17,
+                    "title": "Same with respect to all or part of claim",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 17,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Valid, Final Judgement on the Merits\nValid\n\u2022\nRendered by court with subject matter jurisdiction, personal jurisdiction, and proper venue\n\u2022",
+                        "raw_text": "Valid, Final Judgement on the Merits\nValid\n\u2022\nRendered by court with SMJ, PJ, and proper venue\n\u2022"
+                      }
+                    ],
+                    "title": "Valid, Final Judgement on the Merits\nValid\n\u2022\nRendered by court with SMJ, PJ, and proper venue\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 17,
+                    "title": "D given proper notice and hearing",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 17,
+                "title": "Claim Preclusion\n(1) Same parties\n(2) Same COA, and\n(3) Valid, final judgment on the merits",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 17,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Based on factual and legal disputes\nIssue Preclusion\n(1) Same issue\n(2) Actually litigated and final judgment\n(3) Essential to judgment, and\n(4) Party against whom preclusion sought was party in previous lawsuit",
+                        "raw_text": "Based on factual and legal disputes\nIssue Preclusion\n(1) Same issue\n(2) Actually litigated and final judgment\n(3) Essential to judgment, and\n(4) Party against whom preclusion sought was party in previous lawsuit"
+                      }
+                    ],
+                    "title": "Based on factual and legal disputes\nIssue Preclusion\n(1) Same issue\n(2) Actually litigated and final judgment\n(3) Essent",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 17,
+                "title": "Final Judgement on the Merits\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 17,
+                "title": "Same Issue\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 17,
+                    "title": "Actually Litigated & Determined by Final Judgment\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 17,
+                    "title": "Presented to judge or jury",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 17,
+                    "title": "14\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 18,
+                    "title": "\u2022\nDetermined by final judgment",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 18,
+                    "title": "Essential to Judgment\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 18,
+                    "title": "Essential to prior judgment",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 18,
+                    "title": "Party in Previous Lawsuit\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 18,
+                    "title": "Party against whom preclusion sought was party in previous lawsuit\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 18,
+                    "title": "Had full and fair opportunity to litigate issue",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 18,
+                    "title": "15\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 17,
+                "title": "Identical to issue in prior claim",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 17,
+            "title": "EFFECT OF JUDGMENT",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 4,
+        "title": "Civil Procedure",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Civil Procedure Essay Template"
+  }
+}

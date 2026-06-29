@@ -1,0 +1,82 @@
+{
+  "abbreviations_detected": 246,
+  "cross_references_found": 0,
+  "cross_references_resolved": 0,
+  "elements_created": 0,
+  "errors": [],
+  "exceptions_created": 0,
+  "jurisdiction_variants_created": 0,
+  "low_confidence_nodes": 0,
+  "review_warnings": 16,
+  "rule_candidates_created": 0,
+  "subjects_detected": 16,
+  "template_nodes_created": 2226,
+  "templates_created": 16,
+  "validation_errors": 0,
+  "warnings": [
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Agency' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Civil Procedure' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Community Property' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Constitutional Law' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Contracts' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Corporations' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Criminal Law' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Criminal Procedure' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Evidence' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Partnerships' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Professional Responsibility' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Real Property' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Legal Remedies' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Torts' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Trusts' has only 1 nodes."
+    },
+    {
+      "code": "low_node_count",
+      "message": "Subject 'Wills' has only 1 nodes."
+    }
+  ]
+}

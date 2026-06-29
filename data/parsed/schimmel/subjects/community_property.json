@@ -1,0 +1,1450 @@
+{
+  "pages": "19-26",
+  "subject": "Community Property",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 19,
+            "title": "COMMUNITY PROPERTY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 19,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "General Community Property Principles\n\u2022\nMarital economic community begins upon marriage and ends upon divorce, death, or\npermanent physical separation\n\u2022\ncommunity property: Acquired during marriage\n\u2022\nseparate property:\n\u2022\nEarned before marriage, during separation, or following divorce\n\u2022\nInheritances, gifts, devises, bequests acquired during marriage\n\u2022\nquasi-community property: Acquired by spouse/couple while domiciled in non-community property state that would have been community property if\nacquired while domiciled in CA",
+                    "raw_text": "General Community Property Principles\n\u2022\nMarital economic community begins upon marriage and ends upon divorce, death, or\npermanent physical separation\n\u2022\nCP: Acquired during marriage\n\u2022\nSP:\n\u2022\nEarned before marriage, during separation, or following divorce\n\u2022\nInheritances, gifts, devises, bequests acquired during marriage\n\u2022\nQCP: Acquired by spouse/couple while domiciled in non-CP state that would have been CP if\nacquired while domiciled in CA"
+                  }
+                ],
+                "title": "General Community Property Principles\n\u2022\nMarital economic community begins upon marriage and ends upon divorce, death, or",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 19,
+            "title": "GENERAL COMMUNITY PROPERTY PRINCIPLES",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 19,
+                "title": "Married Couples",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 19,
+                    "title": "End of the Marital Community",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 19,
+                    "title": "\u2022\nDivorce, death, or permanent separation",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "Domestic Partnerships",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "\u2022\nEntitled to same rights and benefits as married couples",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "Unmarried Cohabitants",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "CP law not applied\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "K law applies",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "Putative Spouses",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "No legal marriage\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "Good faith belief marriage is valid",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "Rights\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "Same rights as spouse of valid marriage",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 19,
+                        "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 20,
+                        "title": "Quasi-Marital Property\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 20,
+                        "title": "Would have been CP or QCP had marriage been valid\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 20,
+                        "title": "Treated same as CP",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 20,
+                        "title": "Separate Property",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 20,
+                        "title": "\u2022\nSame rights as if surviving lawful spouse",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 20,
+                        "title": "Lawful and Putative Spouse\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 20,
+                        "title": "Estate distributed equally between claimants",
+                        "type": "SUBISSUE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 19,
+                    "title": "Permanent Separation\n(1) One or both spouses express intent to end marriage, and\n(2) Actions consistent with intent",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 19,
+                "title": "(1) Consent of both parties\n(2) Parties are at least 18 years old, and\n(3) Parties have capacity",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 19,
+            "title": "MARRIED AND UNMARRIED COUPLES",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 20,
+                "title": "Premarital Agreements",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 20,
+                    "title": "Voluntary",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 20,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "(i) Represented by independent counsel, or\n(ii)\nAdvised to consult counsel at least 7 days before execution and representation\nexpressly waived",
+                        "raw_text": "(i) Represented by independent counsel, or\n(ii)\nAdvised to consult counsel at least 7 days before execution and representation\nexpressly waived"
+                      }
+                    ],
+                    "title": "(i) Represented by independent counsel, or\n(ii)\nAdvised to consult counsel at least 7 days before execution and represen",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 20,
+                    "title": "Unconscionable",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 20,
+                "title": "(1) In writing\n(2) Signed by both parties\n(3) Executed voluntarily, and\n(4) Not unconscionable",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 20,
+                "title": "(1) Not adequately informed re other party\u2019s finances, and\n(2) No waiver of disclosure of finances",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 20,
+            "title": "PREMARITAL AGREEMENTS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 20,
+                "title": "General Community Property Presumption",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 20,
+                "title": "\u2022\nCP: Property acquired during marriage",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 20,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Quasi-Community Property\n\u2022\nAcquired by spouse/couple while domiciled in non-community property state that would have been community property\nif acquired while domiciled in CA\n\u2022",
+                    "raw_text": "Quasi-Community Property\n\u2022\nAcquired by spouse/couple while domiciled in non-CP state that would have been CP\nif acquired while domiciled in CA\n\u2022"
+                  }
+                ],
+                "title": "Quasi-Community Property\n\u2022\nAcquired by spouse/couple while domiciled in non-CP state that would have been CP\nif acquired",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 20,
+                "title": "Characterized as QCP upon divorce or death of spouse holding title",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 20,
+                "title": "Separate Property Presumption",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 20,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "\u2022\nEarned before marriage, during separation, or following divorce\n\u2022\nInheritances, gifts, devises, bequests acquired during marriage\n\u2022",
+                    "raw_text": "\u2022\nEarned before marriage, during separation, or following divorce\n\u2022\nInheritances, gifts, devises, bequests acquired during marriage\n\u2022"
+                  }
+                ],
+                "title": "\u2022\nEarned before marriage, during separation, or following divorce\n\u2022\nInheritances, gifts, devises, bequests acquired duri",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 20,
+                "title": "Income through SP asset",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 20,
+                "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 21,
+                    "title": "Anti-Lucas (Post-1984)\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 21,
+                    "title": "Property held jointly by spouses presumed to be CP at divorce\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 21,
+                    "title": "Rebuttable by express writing\n\u2022\nSP contributions: Not gifts\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 21,
+                    "title": "Contributing spouse entitled to reimbursement",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 21,
+                "title": "Special Community Property Presumption",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 21,
+                "title": "Lucas (Pre-1984)\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 21,
+                "title": "Property held jointly by spouses presumed to be CP at divorce\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 21,
+                "title": "Rebuttable by demonstration that property not intended to be CP\n\u2022\nSP contributions: Gifts\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 21,
+                        "title": "Tracing\nTip: Analyze every change in form or identity of property",
+                        "type": "ELEMENT"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 21,
+                    "title": "TRACING",
+                    "type": "ISSUE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 21,
+                    "title": "ACTIONS",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 21,
+                "title": "Contributing spouse not entitled to reimbursement",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 21,
+                    "title": "Exception \u2013 Gifts\n(1) Gift between spouses\n(2) Limited to clothing, jewelry, or other tangible and personal items\n(3) Us",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 21,
+                    "title": "Title in One Spouse\u2019s Name",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 21,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "\u2022\nWhen source of asset was community property, character not changed even if title taken in one spouse\u2019s name",
+                        "raw_text": "\u2022\nWhen source of asset was CP, character not changed even if title taken in one spouse\u2019s name"
+                      }
+                    ],
+                    "title": "\u2022\nWhen source of asset was CP, character not changed even if title taken in one spouse\u2019s name",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 21,
+                    "title": "Equal Rights and Management Over Community Property",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 21,
+                    "title": "\u2022\nSpouses have equal rights in management of CP",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 21,
+                    "title": "Gifts to Third Parties\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 21,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Consent required for unilateral gift or sale of community property for less than fair market value\n\u2022\nIf no consent, non-consenting spouse can ratify gift or revoke and sue to recover",
+                        "raw_text": "Consent required for unilateral gift or sale of CP for less than FMV\n\u2022\nIf no consent, non-consenting spouse can ratify gift or revoke and sue to recover"
+                      }
+                    ],
+                    "title": "Consent required for unilateral gift or sale of CP for less than FMV\n\u2022\nIf no consent, non-consenting spouse can ratify g",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 21,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 22,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Sale or Lease of Community Real Property\n\u2022\nSale or lease of community property real property for 1+ year requires written agreement signed by\nboth spouses",
+                        "raw_text": "Sale or Lease of Community Real Property\n\u2022\nSale or lease of CP real property for 1+ year requires written agreement signed by\nboth spouses"
+                      }
+                    ],
+                    "title": "Sale or Lease of Community Real Property\n\u2022\nSale or lease of CP real property for 1+ year requires written agreement sign",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 22,
+                    "title": "Sale of Community Business Assets\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 22,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Manager spouse of community property business has sole management rights unless intends to sell\nsubstantial part or all",
+                        "raw_text": "Manager spouse of CP business has sole management rights unless intends to sell\nsubstantial part or all"
+                      }
+                    ],
+                    "title": "Manager spouse of CP business has sole management rights unless intends to sell\nsubstantial part or all",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 22,
+                    "title": "Fiduciary Duties",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 22,
+                    "title": "Duty to fully disclose material facts about community assets and debts\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 22,
+                    "title": "Duty to never seek unfair advantage over the other",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 22,
+                    "title": "Breach",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 22,
+                    "title": "\u2022\nFailure to obtain consent when selling or leasing property or making gifts",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 21,
+                "rule_candidates": [
+                  {
+                    "elements": [
+                      "In writing",
+                      "Signed by party who would be adversely affected, and",
+                      "Express declaration that character of property will be changed"
+                    ],
+                    "exceptions": [],
+                    "normalized_text": "(1) In writing\n(2) Signed by party who would be adversely affected, and\n(3) Express declaration that character of property will be changed",
+                    "raw_text": "(1) In writing\n(2) Signed by party who would be adversely affected, and\n(3) Express declaration that character of property will be changed"
+                  }
+                ],
+                "title": "Transmutation",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 20,
+            "title": "PRESUMPTIONS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 22,
+            "title": "SPECIFIC TYPES OF PROPERTY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 22,
+                "title": "Separate Property Businesses (Community Labor into an SP Business)",
+                "type": "SUBISSUE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 22,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "separate property = separate property business\u2019s value at time of marriage + (separate property business\u2019s value at time\nof marriage \u00d7 rate of return \u00d7 years married)",
+                        "raw_text": "SP = SP business\u2019s value at time of marriage + (SP business\u2019s value at time\nof marriage \u00d7 rate of return \u00d7 years married)"
+                      }
+                    ],
+                    "title": "SP = SP business\u2019s value at time of marriage + (SP business\u2019s value at time\nof marriage \u00d7 rate of return \u00d7 years married",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 22,
+                "title": "Pereira Method\n\u2022\nAppreciation accredited to spouse\u2019s management",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 22,
+                "title": "CP = fair market value of the SP business upon divorce \u2013 SP",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 22,
+                "title": "Van Camp Method\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 22,
+                "title": "Appreciation accredited to market and industry",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 22,
+                "title": "CP = (reasonable salary \u2013 yearly family expenses) x years married",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 22,
+                    "title": "When Community Property Business Increases in Value After Separation",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 22,
+                    "title": "Reverse Pereira Method",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 22,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "community property = the community property business\u2019s value at time of separation + (value of community property at time\nof separation x rate of return x years separated)",
+                        "raw_text": "CP = the CP business\u2019s value at time of separation + (value of CP at time\nof separation x rate of return x years separated)"
+                      }
+                    ],
+                    "title": "CP = the CP business\u2019s value at time of separation + (value of CP at time\nof separation x rate of return x years separat",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 22,
+                "title": "SP = fair market value of the business upon divorce \u2013 CP",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 22,
+                    "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 23,
+                    "title": "Reverse Van Camp Method",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 22,
+                "title": "SP = fair market value of business upon divorce \u2013 CP",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 23,
+                "title": "SP = reasonable salary during separation \u2013 family expenses during\nseparation",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 23,
+                "title": "CP = fair market value of business upon divorce \u2013 SP",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 22,
+            "title": "SEPARATE PROPERTY AND COMMUNITY PROPERTY BUSINESSES",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 23,
+                "title": "Improvements",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 23,
+                "title": "Community Property to Improve Separate Property\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 23,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "community property contribution to separate property\n\u2022\nCommunity reimbursed or appreciation in property value, whichever is\ngreater",
+                    "raw_text": "CP contribution to SP\n\u2022\nCommunity reimbursed or appreciation in property value, whichever is\ngreater"
+                  }
+                ],
+                "title": "CP contribution to SP\n\u2022\nCommunity reimbursed or appreciation in property value, whichever is\ngreater",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 23,
+                "title": "Separate Property to Improve Other Spouse\u2019s Separate Property\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 23,
+                "title": "SP contribution to SP\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 23,
+                "title": "Spouse reimbursed for SP contribution unless transmutation or written\nwaiver",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 23,
+                "title": "Separate Property to Improve Community Property\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 23,
+                "title": "SP contribution to CP\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 23,
+                "title": "Spouse reimbursed for SP contribution if successfully traced",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 23,
+            "title": "IMPROVEMENTS TO REAL PROPERTY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 23,
+                "title": "Credit and Loans\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 23,
+                "title": "Community responsible for loans taken out during marriage",
+                "type": "ELEMENT"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 23,
+            "title": "CREDIT AND LOANS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 23,
+                "title": "Commingled Bank Accounts\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 23,
+                "title": "Presumed CP unless tracing demonstrates otherwise",
+                "type": "ELEMENT"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 23,
+                    "title": "Indirect Tracing Method\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 23,
+                    "title": "Presumed CP funds used first for community expenses",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 23,
+                    "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 23,
+                "title": "Direct Tracing Method\n(1) Adequate SP funds available when asset acquired, and\n(2) Intent to acquire asset using SP",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 23,
+            "title": "COMMINGLED BANK ACCOUNTS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 24,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Community entitled to reimbursement if\n(1) community property or quasi-community property funds used to pay for education\n(2) Education substantially enhances spouse\u2019s earning capacity, and\n(3) No written agreement to the contrary",
+                        "raw_text": "Community entitled to reimbursement if\n(1) CP or QCP funds used to pay for education\n(2) Education substantially enhances spouse\u2019s earning capacity, and\n(3) No written agreement to the contrary"
+                      }
+                    ],
+                    "title": "Community entitled to reimbursement if\n(1) CP or QCP funds used to pay for education\n(2) Education substantially enhance",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 24,
+                    "title": "Defenses\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 24,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Community already substantially benefited\n\u2022\ncommunity property funds also used for other spouse\u2019s education\n\u2022",
+                        "raw_text": "Community already substantially benefited\n\u2022\nCP funds also used for other spouse\u2019s education\n\u2022"
+                      }
+                    ],
+                    "title": "Community already substantially benefited\n\u2022\nCP funds also used for other spouse\u2019s education\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 24,
+                    "title": "Education reduced need for spousal support",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 24,
+                "title": "Educational Degrees\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 24,
+            "title": "EDUCATIONAL DEGREES",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 24,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Cause of Action Against Third Party\n\u2022\ncause of action arose during marriage: Recovery is community property\n\u2022\nUpon divorce: Recovery awarded to injured spouses unless (i) commingled funds or (ii) share\nawarded to non-injured spouse in equity\n\u2022\ncause of action arose before or after marriage: Recovery is separate property",
+                    "raw_text": "Cause of Action Against Third Party\n\u2022\nCOA arose during marriage: Recovery is CP\n\u2022\nUpon divorce: Recovery awarded to injured spouses unless (i) commingled funds or (ii) share\nawarded to non-injured spouse in equity\n\u2022\nCOA arose before or after marriage: Recovery is SP"
+                  }
+                ],
+                "title": "Cause of Action Against Third Party\n\u2022\nCOA arose during marriage: Recovery is CP\n\u2022\nUpon divorce: Recovery awarded to inju",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 24,
+                "title": "Cause of Action Against Spouse\n\u2022\nPersonal injury recovery is injured spouse\u2019s SP",
+                "type": "ELEMENT"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 24,
+            "title": "PERSONAL INJURY RECOVERY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 24,
+                "title": "Stock Options",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 24,
+                "title": "Past Efforts (Hug Formula)\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 24,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "community property = (years between date hired and date separated) y [(years between date\nhired and date options become exercisable) x amount of shares]",
+                        "raw_text": "CP = (years between date hired and date separated) y [(years between date\nhired and date options become exercisable) x amount of shares]"
+                      }
+                    ],
+                    "title": "CP = (years between date hired and date separated) y [(years between date\nhired and date options become exercisable) x a",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 24,
+                "title": "Granted as payment for past services",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 24,
+                "title": "SP = amount of shares \u2013 CP",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 24,
+                "title": "Retention Incentive (Nelson Formula)\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 24,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "community property = (years between date options were granted and date of separation) y\n[(years between date options were granted and date options become\nexercisable) x amount of shares]",
+                        "raw_text": "CP = (years between date options were granted and date of separation) y\n[(years between date options were granted and date options become\nexercisable) x amount of shares]"
+                      }
+                    ],
+                    "title": "CP = (years between date options were granted and date of separation) y\n[(years between date options were granted and da",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 24,
+                "title": "Granted to encourage continued employment",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 24,
+                    "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 24,
+                "title": "SP = amount of shares \u2013 CP",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 24,
+            "title": "STOCK OPTIONS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 25,
+                "title": "Whole Life\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 25,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Commingled policy allocated based on how many community property and separate property funds used to pay for premiums",
+                    "raw_text": "Commingled policy allocated based on how many CP and SP funds used to pay for premiums"
+                  }
+                ],
+                "title": "Commingled policy allocated based on how many CP and SP funds used to pay for premiums",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 25,
+                "title": "Term Life\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 25,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Goodwill\n\u2022\nIf accumulated during marriage, goodwill is community property\n\u2022\nFor value, look to fair market value or business\u2019s excess earnings as result of goodwill",
+                            "raw_text": "Goodwill\n\u2022\nIf accumulated during marriage, goodwill is CP\n\u2022\nFor value, look to FMV or business\u2019s excess earnings as result of goodwill"
+                          }
+                        ],
+                        "title": "Goodwill\n\u2022\nIf accumulated during marriage, goodwill is CP\n\u2022\nFor value, look to FMV or business\u2019s excess earnings as resu",
+                        "type": "RULE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 25,
+                    "title": "GOODWILL",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 25,
+                "title": "Characterized based on whether CP or SP funds used to pay final premium",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 25,
+            "title": "LIFE INSURANCE",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 25,
+                "title": "Division of Property at Divorce\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 25,
+                "title": "Community estate divided equally between spouses\n\u2022\nExceptions\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 25,
+                "title": "Deliberate misappropriation\n\u2022\nLiabilities > assets\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 25,
+                "title": "Education debts\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 25,
+                "title": "Personal injury recovery\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 25,
+                "title": "Domestic violence damages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 25,
+                "title": "Debt incurred before marriage or after separation\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 25,
+                "title": "Parent with custody receives family residence",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "cross_references": [
+                  {
+                    "resolution": "NEEDS_REVIEW",
+                    "target": "See Wills Template."
+                  }
+                ],
+                "depth": 5,
+                "page": 25,
+                "title": "Division of Property at Death \u2013 Probate and Intestacy\nSee Wills Template.",
+                "type": "ELEMENT"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 25,
+                    "title": "Community Property Liability\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 25,
+                    "title": "Marital economic community subject to debts incurred before or during marriage",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 25,
+                    "title": "Separate Property Liability\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 25,
+                    "title": "Creditors may access SP of debtor spouse but not that of non-debtor spouse",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 25,
+                "title": "DEBTS",
+                "type": "ISSUE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 25,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Debtor spouse responsible for debts incurred before marriage and those incurred during\nmarriage that did not benefit community",
+                        "raw_text": "Debtor spouse responsible for debts incurred before marriage and those incurred during\nmarriage that did not benefit community"
+                      }
+                    ],
+                    "title": "Debtor spouse responsible for debts incurred before marriage and those incurred during\nmarriage that did not benefit com",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 25,
+                "title": "Divorce\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 25,
+            "title": "DISTRIBUTION",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 25,
+                "title": "Text",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 25,
+                "title": "7\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 25,
+            "title": "SPECIAL RULES",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 26,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Necessaries of Life\n\u2022\nNon-debtor spouse\u2019s community property and separate property liable for debts incurred by debtor spouse for necessaries of\nlife",
+                    "raw_text": "Necessaries of Life\n\u2022\nNon-debtor spouse\u2019s CP and SP liable for debts incurred by debtor spouse for necessaries of\nlife"
+                  }
+                ],
+                "title": "Necessaries of Life\n\u2022\nNon-debtor spouse\u2019s CP and SP liable for debts incurred by debtor spouse for necessaries of\nlife",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 26,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Separation\n\u2022\nNon-debtor spouse\u2019s community property and separate property still liable for debts incurred by debtor spouse for\nnecessaries of life",
+                    "raw_text": "Separation\n\u2022\nNon-debtor spouse\u2019s CP and SP still liable for debts incurred by debtor spouse for\nnecessaries of life"
+                  }
+                ],
+                "title": "Separation\n\u2022\nNon-debtor spouse\u2019s CP and SP still liable for debts incurred by debtor spouse for\nnecessaries of life",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 26,
+                "title": "Divorce\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 26,
+                "title": "Liability severed",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 26,
+                "title": "Child and Spousal Support\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 26,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Child or spousal support obligation not arising from marriage treated as debt incurred before\nmarriage",
+                    "raw_text": "Child or spousal support obligation not arising from marriage treated as debt incurred before\nmarriage"
+                  }
+                ],
+                "title": "Child or spousal support obligation not arising from marriage treated as debt incurred before\nmarriage",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 26,
+                "title": "Tort Obligations\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 26,
+                "title": "SP and CP liable for torts committed by either spouse during marriage",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 26,
+                "title": "8\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 26,
+            "title": "SPECIAL RULES",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 19,
+        "title": "Community Property",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Community Property Essay Template"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "issues": [
+    {
+      "code": "no_questions",
+      "message": "No essay question boundaries were detected.",
+      "metadata": {},
+      "severity": "error"
+    }
+  ],
+  "parser_version": "deterministic-v1",
+  "questions": [],
+  "selected_answers": [],
+  "source_document_id": 68
+}

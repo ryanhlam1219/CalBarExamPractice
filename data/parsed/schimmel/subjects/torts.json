@@ -1,0 +1,1504 @@
+{
+  "pages": "125-139",
+  "subject": "Torts",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.7,
+            "depth": 5,
+            "page": 125,
+            "title": "TORTS",
+            "type": "SUBISSUE"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 125,
+            "title": "NEGLIGENCE\nNegligence\n(1) Duty\n(2) Breach\n(3) Causation, and\n(4) Damages\nDUTY\nDuty\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 125,
+            "title": "General duty of care owed to prevent fx harm\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "jurisdiction": "MAJORITY",
+            "page": 125,
+            "title": "Rx standard of care\nForeseeability of Plaintiff\nMajority Rule \u2013 Cardozo\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "jurisdiction": "MINORITY",
+            "page": 125,
+            "title": "Duty owed to Ps within zone of fx harm\nMinority Rule \u2013 Andrews\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 125,
+            "title": "D liable to any P\nSpecific Foreseeable Plaintiffs\nRescuers\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 125,
+            "title": "Fx P unless effort to assist unrx\nFirefighter\u2019s Rule\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 125,
+            "title": "Precluded from recovery for risks inherent in occupation\nFetuses\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 125,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Affirmative Duty to Act\n\u2022\nGenerally, no affirmative duty to act\nStandard of Care\nMental Ability\n\u2022",
+                    "raw_text": "Affirmative Duty to Act\n\u2022\nGenerally, no affirmative duty to act\nStandard of Care\nMental Ability\n\u2022"
+                  }
+                ],
+                "title": "Affirmative Duty to Act\n\u2022\nGenerally, no affirmative duty to act\nStandard of Care\nMental Ability\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 125,
+                "title": "Rx prudent person under same circumstances",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 125,
+                "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 126,
+                "title": "Physicality\n\u2022\nD\u2019s physical traits taken into consideration\nIntoxication\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 126,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Voluntarily intoxicated Ds same standard as sober person\nChildren\n\u2022\nSame standard as child of comparable age, education, intelligence,\nexperience\nAdult Activities\n\u2022",
+                    "raw_text": "Voluntarily intoxicated Ds same standard as sober person\nChildren\n\u2022\nSame standard as child of comparable age, education, intelligence,\nexperience\nAdult Activities\n\u2022"
+                  }
+                ],
+                "title": "Voluntarily intoxicated Ds same standard as sober person\nChildren\n\u2022\nSame standard as child of comparable age, education,",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 126,
+                "title": "Same standard as adult\nCustom\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "MAJORITY",
+                "page": 126,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Taken into consideration but not conclusive\nProfessionals\n\u2022\nSame skill, knowledge, judgment, care as professional in good\nstanding within same occupation and community\nPhysicians\nMajority Rule\n\u2022",
+                    "raw_text": "Taken into consideration but not conclusive\nProfessionals\n\u2022\nSame skill, knowledge, judgment, care as professional in good\nstanding within same occupation and community\nPhysicians\nMajority Rule\n\u2022"
+                  }
+                ],
+                "title": "Taken into consideration but not conclusive\nProfessionals\n\u2022\nSame skill, knowledge, judgment, care as professional in goo",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "jurisdiction": "MINORITY",
+                "page": 126,
+                "title": "National standard of care\nMinority Rule\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 126,
+                "title": "Same or similar locale\nInformed Consent\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 126,
+                "title": "Duty to notify patients of potential risks\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 126,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Get informed consent prior to treatment\nNegligence Per Se\n(1) Statute exists imposing duty of care\n(2) D violates statute\n(3) P part of class the statute was created to protect\n(4) D\u2019s violation proximately causes\n(5) P to suffer type of injury statute meant to prevent\nDefenses\n\u2022",
+                    "raw_text": "Get informed consent prior to treatment\nNegligence Per Se\n(1) Statute exists imposing duty of care\n(2) D violates statute\n(3) P part of class the statute was created to protect\n(4) D\u2019s violation proximately causes\n(5) P to suffer type of injury statute meant to prevent\nDefenses\n\u2022"
+                  }
+                ],
+                "title": "Get informed consent prior to treatment\nNegligence Per Se\n(1) Statute exists imposing duty of care\n(2) D violates statut",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 126,
+                "title": "Rx care\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 126,
+                "title": "Impossible compliance\n\u2022\nEmergency",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 126,
+                "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 127,
+                "title": "Vagueness or ambiguity\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 127,
+                "title": "Contributory negligence\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 127,
+                "title": "Assumption of risk\nStandards of Care for Possessors of Land\nTrespassers\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 127,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Landowner must not engage in reckless or intentional misconduct\nagainst trespasser\nDiscovered\n\u2022\nObligated to warn discovered trespassers from hidden,\nhazardous, and artificial conditions\nAnticipated Trespassers\n\u2022",
+                    "raw_text": "Landowner must not engage in reckless or intentional misconduct\nagainst trespasser\nDiscovered\n\u2022\nObligated to warn discovered trespassers from hidden,\nhazardous, and artificial conditions\nAnticipated Trespassers\n\u2022"
+                  }
+                ],
+                "title": "Landowner must not engage in reckless or intentional misconduct\nagainst trespasser\nDiscovered\n\u2022\nObligated to warn discov",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 127,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Duty owed to trespassers the landowner reasonably expects\nto continually enter his land\nUndiscovered\n\u2022",
+                    "raw_text": "Duty owed to trespassers the landowner rxly expects\nto continually enter his land\nUndiscovered\n\u2022"
+                  }
+                ],
+                "title": "Duty owed to trespassers the landowner rxly expects\nto continually enter his land\nUndiscovered\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 127,
+                "title": "No duty\nAttractive Nuisance\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 127,
+                "title": "Landowner owes duty of care to prevent fx harm to child\ntrespassers\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 127,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Duty breached if\n(1) Condition exists known to attract children\n(2) Condition presents unrx risk of serious harm or death\n(3) Children don\u2019t realize condition\u2019s dangerous nature\n(4) Benefit of condition plus cost of remedy minimal",
+                    "raw_text": "Duty breached if\n(1) Condition exists known to attract children\n(2) Condition presents unrx risk of serious harm or death\n(3) Children don\u2019t realize condition\u2019s dangerous nature\n(4) Benefit of condition plus cost of remedy minimal"
+                  }
+                ],
+                "title": "Duty breached if\n(1) Condition exists known to attract children\n(2) Condition presents unrx risk of serious harm or deat",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 125,
+            "title": "Viable fetuses owed duty of care",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 127,
+            "title": "compared to risk, and\n(5) Landowner fails to apply rx care\nInvitee\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 127,
+            "title": "Landowner owes duty to protect invitee from dangerous conditions\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "cross_references": [
+              {
+                "resolution": "NEEDS_REVIEW",
+                "target": "\u2022"
+              }
+            ],
+            "depth": 3,
+            "page": 127,
+            "title": "Duty does not extend beyond scope of invitation\nLicensee\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 127,
+            "title": "Landowner owed duty to remedy or warn of hidden dangers\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 127,
+                "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 127,
+            "title": "No duty to examine land",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 128,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Failure to meet applicable standard of care\nRes Ipsa Loquitur\n(1) Accident would not have occurred in absence of negligence\n(2) D had exclusive control of instrumentality, and\n(3) Injury not attributable to P",
+                    "raw_text": "Failure to meet applicable standard of care\nRes Ipsa Loquitur\n(1) Accident would not have occurred in absence of negligence\n(2) D had exclusive control of instrumentality, and\n(3) Injury not attributable to P"
+                  }
+                ],
+                "title": "Failure to meet applicable standard of care\nRes Ipsa Loquitur\n(1) Accident would not have occurred in absence of neglige",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 128,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "CAUSATION\nCausation\nActual Cause\n\u2022\nBut for D\u2019s conduct, injury would not have occurred\nProximate Cause\n\u2022",
+                    "raw_text": "CAUSATION\nCausation\nActual Cause\n\u2022\nBut for D\u2019s conduct, injury would not have occurred\nProximate Cause\n\u2022"
+                  }
+                ],
+                "title": "CAUSATION\nCausation\nActual Cause\n\u2022\nBut for D\u2019s conduct, injury would not have occurred\nProximate Cause\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 128,
+                "title": "Harm was fx\nEggshell Skull\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 128,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "D takes P as he finds him\nIntervening and Superseding Causes\n\u2022\nIntervening: External contributing factor to P\u2019s harm occurring after\nD\u2019s conduct\n\u2022\nSuperseding: Unfx intervening cause, severs D\u2019s liability\nDAMAGES\nDamages\n\u2022",
+                    "raw_text": "D takes P as he finds him\nIntervening and Superseding Causes\n\u2022\nIntervening: External contributing factor to P\u2019s harm occurring after\nD\u2019s conduct\n\u2022\nSuperseding: Unfx intervening cause, severs D\u2019s liability\nDAMAGES\nDamages\n\u2022"
+                  }
+                ],
+                "title": "D takes P as he finds him\nIntervening and Superseding Causes\n\u2022\nIntervening: External contributing factor to P\u2019s harm occ",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 128,
+                "title": "P must prove actual damages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 128,
+                "title": "Economic harm alone insufficient\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 128,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Nominal damages unavailable\n\u2022\nPunitive damages if D\u2019s conduct reckless or malicious\nDEFENSES\nContributory Negligence\n\u2022",
+                    "raw_text": "Nominal damages unavailable\n\u2022\nPunitive damages if D\u2019s conduct reckless or malicious\nDEFENSES\nContributory Negligence\n\u2022"
+                  }
+                ],
+                "title": "Nominal damages unavailable\n\u2022\nPunitive damages if D\u2019s conduct reckless or malicious\nDEFENSES\nContributory Negligence\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 128,
+                "title": "P precluded from recovery if contributed to cause of injury",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 128,
+                "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 129,
+                "title": "Comparative Negligence",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 129,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Pure Comparative Negligence\n\u2022\nRecovery reduced by proportion of P\u2019s fault\nPartial Comparative Negligence\n\u2022\nP cannot recover if more than 50% at fault\nAssumption of Risk\n\u2022\nContributory negligence jx: P precluded from recovery if voluntarily assumed risk\n\u2022\nComparative fault jx: Recovery reduced by proportion of P\u2019s fault\nINTENTIONAL TORTS\nGENERAL\nElements of a Prima Facie Case\n(1) Voluntary act\n(2) Intent, and\n(3) Causation",
+                    "raw_text": "Pure Comparative Negligence\n\u2022\nRecovery reduced by proportion of P\u2019s fault\nPartial Comparative Negligence\n\u2022\nP cannot recover if more than 50% at fault\nAssumption of Risk\n\u2022\nContributory negligence jx: P precluded from recovery if voluntarily assumed risk\n\u2022\nComparative fault jx: Recovery reduced by proportion of P\u2019s fault\nINTENTIONAL TORTS\nGENERAL\nElements of a Prima Facie Case\n(1) Voluntary act\n(2) Intent, and\n(3) Causation"
+                  }
+                ],
+                "title": "Pure Comparative Negligence\n\u2022\nRecovery reduced by proportion of P\u2019s fault\nPartial Comparative Negligence\n\u2022\nP cannot reco",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 129,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "INTENTIONAL TORTS \u2013 HARM TO PERSON\nAssault (transferred intent)\n(1) Intentional\n(2) Act\n(3) Causing\n(4) P\u2019s reasonable apprehension of imminent harm or offensive contact\nBattery (transferred intent)\n(1) Intentional\n(2) Act\n(3) Causing\n(4) Harmful or offensive contact",
+                    "raw_text": "INTENTIONAL TORTS \u2013 HARM TO PERSON\nAssault (transferred intent)\n(1) Intentional\n(2) Act\n(3) Causing\n(4) P\u2019s rx apprehension of imminent harm or offensive contact\nBattery (transferred intent)\n(1) Intentional\n(2) Act\n(3) Causing\n(4) Harmful or offensive contact"
+                  }
+                ],
+                "title": "INTENTIONAL TORTS \u2013 HARM TO PERSON\nAssault (transferred intent)\n(1) Intentional\n(2) Act\n(3) Causing\n(4) P\u2019s rx apprehens",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 129,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Contact\n\u2022\nIncludes anything connected or close to P\u2019s person\nHarmful or Offensive Contact \u2013 Objective Standard\n\u2022",
+                    "raw_text": "Contact\n\u2022\nIncludes anything connected or close to P\u2019s person\nHarmful or Offensive Contact \u2013 Objective Standard\n\u2022"
+                  }
+                ],
+                "title": "Contact\n\u2022\nIncludes anything connected or close to P\u2019s person\nHarmful or Offensive Contact \u2013 Objective Standard\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 129,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Objective standard\n\u2022\nHarmful: Causes pain or injury\n\u2022\nOffensive: Offends a reasonable person",
+                    "raw_text": "Objective standard\n\u2022\nHarmful: Causes pain or injury\n\u2022\nOffensive: Offends a rx person"
+                  }
+                ],
+                "title": "Objective standard\n\u2022\nHarmful: Causes pain or injury\n\u2022\nOffensive: Offends a rx person",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 129,
+                "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 130,
+                "title": "Hypersensitivity Exception \u2013 Subjective Standard\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 130,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Subjective standard\n\u2022\nHarmful or offensive if D aware of P\u2019s hypersensitivity\nFalse Imprisonment (transferred intent)\n(1) Intentional\n(2) Act\n(3) Causing\n(4) Confinement of P\nDefense \u2013 Shopkeeper\u2019s Privilege\n\u2022",
+                    "raw_text": "Subjective standard\n\u2022\nHarmful or offensive if D aware of P\u2019s hypersensitivity\nFalse Imprisonment (transferred intent)\n(1) Intentional\n(2) Act\n(3) Causing\n(4) Confinement of P\nDefense \u2013 Shopkeeper\u2019s Privilege\n\u2022"
+                  }
+                ],
+                "title": "Subjective standard\n\u2022\nHarmful or offensive if D aware of P\u2019s hypersensitivity\nFalse Imprisonment (transferred intent)\n(1",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 130,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "May detain P for reasonable amount of time using reasonable methods\nIntentional Infliction of Emotional Distress\n(1) Act intentionally or recklessly through\n(2) Extreme and outrageous conduct\n(3) Causing\n(4) P\u2019s severe emotional distress",
+                    "raw_text": "May detain P for rx amount of time using rx methods\nIntentional Infliction of Emotional Distress\n(1) Act intentionally or recklessly through\n(2) Extreme and outrageous conduct\n(3) Causing\n(4) P\u2019s severe emotional distress"
+                  }
+                ],
+                "title": "May detain P for rx amount of time using rx methods\nIntentional Infliction of Emotional Distress\n(1) Act intentionally o",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 130,
+                "title": "Extreme and Outrageous Conduct\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 130,
+                "title": "Exceeds all bounds of human decency",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 130,
+                "title": "Transferred Intent\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 130,
+                "title": "Applicable between Ps but not torts",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 130,
+                "title": "Liability to Third Parties\nImmediate Family\n\u2022\nD liable to immediate family who witnessed D\u2019s conduct\nBystanders\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 128,
+            "title": "BREACH\nBreach\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 130,
+                "title": "Damages for Intentional Torts \u2013 Harm to Person\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 130,
+                "title": "Actual harm not required\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 130,
+                "title": "Punitive damages available if D acts with malice\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 130,
+                "title": "Nominal damages available",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 130,
+                "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 131,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "INTENTIONAL TORTS \u2013 HARM TO PROPERTY\nTrespass to Land (transferred intent)\n(1) Intentional\n(2) Physical invasion of another\u2019s land\n(3) Causing\n(4) Damages",
+                    "raw_text": "INTENTIONAL TORTS \u2013 HARM TO PROPERTY\nTrespass to Land (transferred intent)\n(1) Intentional\n(2) Physical invasion of another\u2019s land\n(3) Causing\n(4) Damages"
+                  }
+                ],
+                "title": "INTENTIONAL TORTS \u2013 HARM TO PROPERTY\nTrespass to Land (transferred intent)\n(1) Intentional\n(2) Physical invasion of anot",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 131,
+                "title": "Damages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 131,
+                "title": "Actual harm not required\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 131,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Nominal damages available\nDefense \u2013 Necessity\nPrivate Necessity\n\u2022\nPermitted to enter another\u2019s land to protect own person or property\nfrom harm\nPublic Necessity\n\u2022\nPermitted to enter or use another\u2019s private property to prevent\nimminent harm to public\nTrespass to Chattels (transferred intent)\n(1) Intentional\n(2) Interference with P\u2019s chattel by dispossession or use\n(3) Causing\n(4) Damages\nDamages\n\u2022",
+                    "raw_text": "Nominal damages available\nDefense \u2013 Necessity\nPrivate Necessity\n\u2022\nPermitted to enter another\u2019s land to protect own person or property\nfrom harm\nPublic Necessity\n\u2022\nPermitted to enter or use another\u2019s private property to prevent\nimminent harm to public\nTrespass to Chattels (transferred intent)\n(1) Intentional\n(2) Interference with P\u2019s chattel by dispossession or use\n(3) Causing\n(4) Damages\nDamages\n\u2022"
+                  }
+                ],
+                "title": "Nominal damages available\nDefense \u2013 Necessity\nPrivate Necessity\n\u2022\nPermitted to enter another\u2019s land to protect own perso",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 131,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Compensation for loss of value or cost of repair\nConversion (transferred intent)\n(1) Intentional\n(2) Serious and substantial interference with P\u2019s possession of his chattel\n(3) Causing\n(4) Damages",
+                    "raw_text": "Compensation for loss of value or cost of repair\nConversion (transferred intent)\n(1) Intentional\n(2) Serious and substantial interference with P\u2019s possession of his chattel\n(3) Causing\n(4) Damages"
+                  }
+                ],
+                "title": "Compensation for loss of value or cost of repair\nConversion (transferred intent)\n(1) Intentional\n(2) Serious and substan",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 131,
+                "title": "Damages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 131,
+                "title": "Full value of property at time of conversion\nDEFENSES\nConsent\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 131,
+                "title": "Defense if voluntary",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 131,
+                "title": "7\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 130,
+            "title": "D liable to bystander who\n(1) Witnessed D\u2019s conduct, and\n(2) Suffers bodily harm as consequence",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 132,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "reasonable force to prevent imminent harmful or offensive contact\nSTRICT LIABILITY\nStrict Liability\n(1) D has absolute duty to make safe\n(2) Breach by D\n(3) Actual and proximate causation, and\n(4) Damages to P\u2019s person or property",
+                    "raw_text": "Rx force to prevent imminent harmful or offensive contact\nSTRICT LIABILITY\nStrict Liability\n(1) D has absolute duty to make safe\n(2) Breach by D\n(3) Actual and proximate causation, and\n(4) Damages to P\u2019s person or property"
+                  }
+                ],
+                "title": "Rx force to prevent imminent harmful or offensive contact\nSTRICT LIABILITY\nStrict Liability\n(1) D has absolute duty to m",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 132,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Abnormally Dangerous Activities\n(1) Involves foreseeable and substantial risk of serious harm\n(2) Cannot be eliminated by reasonable care, and\n(3) Not typical in community",
+                    "raw_text": "Abnormally Dangerous Activities\n(1) Involves fx and substantial risk of serious harm\n(2) Cannot be eliminated by rx care, and\n(3) Not typical in community"
+                  }
+                ],
+                "title": "Abnormally Dangerous Activities\n(1) Involves fx and substantial risk of serious harm\n(2) Cannot be eliminated by rx care",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "cross_references": [
+                  {
+                    "resolution": "NEEDS_REVIEW",
+                    "target": "Products Liability below"
+                  }
+                ],
+                "depth": 5,
+                "page": 132,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Animals\n\u2022\nWild animals: Strictly liable\n\u2022\nDomestic animals: Liable if knowledge or constructive notice of dangerous\npropensities\nProducts Liability\nSee Products Liability below.\nPRODUCTS LIABILITY\nStrict Products Liability\n(1) D is commercial supplier\n(2) Product defective at time sold\n(3) Actual and proximate causation, and\n(4) P\u2019s injuries",
+                    "raw_text": "Animals\n\u2022\nWild animals: Strictly liable\n\u2022\nDomestic animals: Liable if knowledge or constructive notice of dangerous\npropensities\nProducts Liability\nSee Products Liability below.\nPRODUCTS LIABILITY\nStrict Products Liability\n(1) D is commercial supplier\n(2) Product defective at time sold\n(3) Actual and proximate causation, and\n(4) P\u2019s injuries"
+                  }
+                ],
+                "title": "Animals\n\u2022\nWild animals: Strictly liable\n\u2022\nDomestic animals: Liable if knowledge or constructive notice of dangerous\nprop",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 132,
+                "title": "Defendant\u2019s Duty\n\u2022\nD: Manufacturer, retailer, wholesaler, distributor\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 132,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Absolute duty to provide product free of defects\nDefective Product\nManufacturing Defect\n\u2022",
+                    "raw_text": "Absolute duty to provide product free of defects\nDefective Product\nManufacturing Defect\n\u2022"
+                  }
+                ],
+                "title": "Absolute duty to provide product free of defects\nDefective Product\nManufacturing Defect\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 132,
+                "title": "Divergence from intended design",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 132,
+                "title": "8\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 133,
+                "title": "Design Defect\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 133,
+                "title": "Defective due to design\nConsumer-Expectation Test\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 133,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Defect rendered product more dangerous than average consumer\nwould reasonably expect\nRisk-Utility Test\n\u2022",
+                    "raw_text": "Defect rendered product more dangerous than average consumer\nwould rxly expect\nRisk-Utility Test\n\u2022"
+                  }
+                ],
+                "title": "Defect rendered product more dangerous than average consumer\nwould rxly expect\nRisk-Utility Test\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 133,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "reasonable and cost-effective alternative design available to D\n\u2022\nFailure to execute design \u2192 Defective and unsafe product\nFailure to Warn\n\u2022",
+                    "raw_text": "Rx and cost-effective alternative design available to D\n\u2022\nFailure to execute design \u2192 Defective and unsafe product\nFailure to Warn\n\u2022"
+                  }
+                ],
+                "title": "Rx and cost-effective alternative design available to D\n\u2022\nFailure to execute design \u2192 Defective and unsafe product\nFailu",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 133,
+                "title": "Fx risks of danger but no rx warnings",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 133,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Causation\nActual Causation\n\u2022\nBut for defect, injury would not have occurred\nProximate Causation\n\u2022",
+                    "raw_text": "Causation\nActual Causation\n\u2022\nBut for defect, injury would not have occurred\nProximate Causation\n\u2022"
+                  }
+                ],
+                "title": "Causation\nActual Causation\n\u2022\nBut for defect, injury would not have occurred\nProximate Causation\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 133,
+                "title": "Injury occurred while P was using product as intended\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 133,
+                "title": "D still liable if P injured while misusing product if misuse fx\nDamages\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 133,
+                "title": "Personal injury or property damage required",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 133,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Defenses\nPlaintiff\u2019s Negligence\n\u2022\nContributory negligence jx: Absolute preclusion to recovery\n\u2022\nComparative negligence jx: Recovery reduced in proportion to P\u2019s\nnegligence\nAssumption of Risk\n\u2022",
+                    "raw_text": "Defenses\nPlaintiff\u2019s Negligence\n\u2022\nContributory negligence jx: Absolute preclusion to recovery\n\u2022\nComparative negligence jx: Recovery reduced in proportion to P\u2019s\nnegligence\nAssumption of Risk\n\u2022"
+                  }
+                ],
+                "title": "Defenses\nPlaintiff\u2019s Negligence\n\u2022\nContributory negligence jx: Absolute preclusion to recovery\n\u2022\nComparative negligence j",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 133,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "P precluded from recovery if voluntarily assumed risk\nProduct Misuse or Modification\n\u2022",
+                    "raw_text": "P precluded from recovery if voluntarily assumed risk\nProduct Misuse or Modification\n\u2022"
+                  }
+                ],
+                "title": "P precluded from recovery if voluntarily assumed risk\nProduct Misuse or Modification\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 133,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "D not liable if misuse or modification unfx\nSubstantial Change\n\u2022\nSubstantial change to product after leaving D\u2019s control may sever liability",
+                    "raw_text": "D not liable if misuse or modification unfx\nSubstantial Change\n\u2022\nSubstantial change to product after leaving D\u2019s control may sever liability"
+                  }
+                ],
+                "title": "D not liable if misuse or modification unfx\nSubstantial Change\n\u2022\nSubstantial change to product after leaving D\u2019s control",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 133,
+                "title": "9\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 134,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Negligent Products Liability\n(1) Duty\n(2) Breach\n(3) Causation, and\n(4) Damages\nWARRANTIES\nExpress Warranty\n\u2022\nDescription of goods, affirmation of fact, promise made by seller to buyer\nImplied Warranty of Merchantability\n\u2022",
+                    "raw_text": "Negligent Products Liability\n(1) Duty\n(2) Breach\n(3) Causation, and\n(4) Damages\nWARRANTIES\nExpress Warranty\n\u2022\nDescription of goods, affirmation of fact, promise made by seller to buyer\nImplied Warranty of Merchantability\n\u2022"
+                  }
+                ],
+                "title": "Negligent Products Liability\n(1) Duty\n(2) Breach\n(3) Causation, and\n(4) Damages\nWARRANTIES\nExpress Warranty\n\u2022\nDescriptio",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 134,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Merchantability of goods implied in contract if seller is merchant with respect to goods of\nthat kind\nImplied Warranty of Fitness for Particular Purpose\n\u2022",
+                    "raw_text": "Merchantability of goods implied in K if seller is merchant with respect to goods of\nthat kind\nImplied Warranty of Fitness for Particular Purpose\n\u2022"
+                  }
+                ],
+                "title": "Merchantability of goods implied in K if seller is merchant with respect to goods of\nthat kind\nImplied Warranty of Fitne",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 134,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Seller has reason to know buyer relying on expertise to select good for particular\npurpose\nDEFAMATION\nDefamation\n(1) D\u2019s defamatory language\n(2) Of or concerning the P\n(3) Publication by D to third party, and\n(4) Damage to P\u2019s reputation",
+                    "raw_text": "Seller has reason to know buyer relying on expertise to select good for particular\npurpose\nDEFAMATION\nDefamation\n(1) D\u2019s defamatory language\n(2) Of or concerning the P\n(3) Publication by D to 3P, and\n(4) Damage to P\u2019s reputation"
+                  }
+                ],
+                "title": "Seller has reason to know buyer relying on expertise to select good for particular\npurpose\nDEFAMATION\nDefamation\n(1) D\u2019s",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 132,
+            "title": "\u2022\nD must not exceed scope of P\u2019s consent\nSelf-Defense\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 134,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Defamatory Language\n\u2022\nNegatively affects one\u2019s reputation\n\u2022\nIncites hatred, contempt, ridicule, economic injury\nOf or Concerning the Plaintiff\n\u2022",
+                    "raw_text": "Defamatory Language\n\u2022\nNegatively affects one\u2019s reputation\n\u2022\nIncites hatred, contempt, ridicule, economic injury\nOf or Concerning the Plaintiff\n\u2022"
+                  }
+                ],
+                "title": "Defamatory Language\n\u2022\nNegatively affects one\u2019s reputation\n\u2022\nIncites hatred, contempt, ridicule, economic injury\nOf or Co",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 134,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "reasonable person would believe communication was re P\nPublication\n\u2022\nCommunicated to third party who comprehends nature\nRepublication\n\u2022",
+                    "raw_text": "Rx person would believe communication was re P\nPublication\n\u2022\nCommunicated to 3P who comprehends nature\nRepublication\n\u2022"
+                  }
+                ],
+                "title": "Rx person would believe communication was re P\nPublication\n\u2022\nCommunicated to 3P who comprehends nature\nRepublication\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 134,
+                "title": "Republishers may be held liable",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 134,
+                "title": "10\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 135,
+                "title": "Constitutional Requirements\nPublic Person\nPublic Official\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 135,
+                "title": "High-ranking government employee\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 135,
+                "title": "Running for office\nPublic Figure\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 135,
+                "title": "Position of widespread fame or influence",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 135,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Private Person and Matter of Public Concern\n\u2022\nMatter of public concern: Topic of general interest to community\nFalsity\n\u2022",
+                    "raw_text": "Private Person and Matter of Public Concern\n\u2022\nMatter of public concern: Topic of general interest to community\nFalsity\n\u2022"
+                  }
+                ],
+                "title": "Private Person and Matter of Public Concern\n\u2022\nMatter of public concern: Topic of general interest to community\nFalsity\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 135,
+                "title": "P must prove language is false\nFault",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 135,
+                "title": "Public Official or Public Figure\n\u2022\nP must prove D\u2019s actual malice",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 135,
+                "title": "Private Person and Matter of Public Concern\n\u2022\nP must prove D\u2019s negligence or actual malice\nDamages\nLibel\n\u2022",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 134,
+            "title": "Constitutional Requirements\n(5) Falsity, and\n(6) Fault",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 135,
+            "title": "Communicated in writing\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 135,
+            "title": "Damages presumed\nSlander\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 135,
+            "title": "Communicated orally\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 135,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Unfavorably affect P professionally\n\u2022\nAssert P has loathsome disease, has committed crime of moral\nturpitude, has been involved in sexual misconduct\n\u2022",
+                    "raw_text": "Unfavorably affect P professionally\n\u2022\nAssert P has loathsome disease, has committed crime of moral\nturpitude, has been involved in sexual misconduct\n\u2022"
+                  }
+                ],
+                "title": "Unfavorably affect P professionally\n\u2022\nAssert P has loathsome disease, has committed crime of moral\nturpitude, has been i",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 135,
+            "title": "Damages must be proved\nSlander Per Se\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 135,
+                "title": "11\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 135,
+            "title": "Damages presumed",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 136,
+            "title": "Defenses\nTruth\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 136,
+            "title": "Complete defense\nConsent\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 136,
+            "title": "Complete defense unless D exceeds scope of consent\nAbsolute Privilege\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 136,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "May preclude speaker from liability\nNUISANCE\nPRIVATE NUISANCE\nPrivate Nuisance\n\u2022\nSubstantial and unrx interference with another\u2019s use and enjoyment of his land\nSubstantial Interference\n\u2022",
+                    "raw_text": "May preclude speaker from liability\nNUISANCE\nPRIVATE NUISANCE\nPrivate Nuisance\n\u2022\nSubstantial and unrx interference with another\u2019s use and enjoyment of his land\nSubstantial Interference\n\u2022"
+                  }
+                ],
+                "title": "May preclude speaker from liability\nNUISANCE\nPRIVATE NUISANCE\nPrivate Nuisance\n\u2022\nSubstantial and unrx interference with ",
+                "type": "RULE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 136,
+                    "title": "PUBLIC NUISANCE\nPublic Nuisance\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 136,
+                    "title": "Unrx interference with rights of public\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 136,
+                    "title": "P suffers harm unique to that suffered by public\nREMEDIES\nRemedies\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 136,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Monetary damages and injunctive relief\nABATEMENT\nPrivate Nuisance\n\u2022\nP may enter D\u2019s land to abate if P gave D notice and D refused to act",
+                        "raw_text": "Monetary damages and injunctive relief\nABATEMENT\nPrivate Nuisance\n\u2022\nP may enter D\u2019s land to abate if P gave D notice and D refused to act"
+                      }
+                    ],
+                    "title": "Monetary damages and injunctive relief\nABATEMENT\nPrivate Nuisance\n\u2022\nP may enter D\u2019s land to abate if P gave D notice and",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 136,
+                    "title": "12\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 136,
+                "title": "Offensive to average person in community\nUnreasonable Interference\n\u2022\nP\u2019s injury outweighs utility of D\u2019s actions",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 136,
+            "title": "Precludes speaker from liability\nQualified Privilege\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 137,
+            "title": "Public Nuisance\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 137,
+            "title": "P has right to abate by self-help\nDEFENSES\nRegulatory Compliance\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 137,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Not complete defense but may be taken into consideration\nINVASION OF PRIVACY\nMisappropriation\n\u2022\nUnauthorized use of P\u2019s identity for D\u2019s commercial gain\nIntrusion Upon Seclusion\n(1) Prying, invading, intruding upon P\u2019s affairs\n(2) Intrusion would be highly offensive to reasonable person, and\n(3) P\u2019s affairs intruded upon are private",
+                    "raw_text": "Not complete defense but may be taken into consideration\nINVASION OF PRIVACY\nMisappropriation\n\u2022\nUnauthorized use of P\u2019s identity for D\u2019s commercial gain\nIntrusion Upon Seclusion\n(1) Prying, invading, intruding upon P\u2019s affairs\n(2) Intrusion would be highly offensive to rx person, and\n(3) P\u2019s affairs intruded upon are private"
+                  }
+                ],
+                "title": "Not complete defense but may be taken into consideration\nINVASION OF PRIVACY\nMisappropriation\n\u2022\nUnauthorized use of P\u2019s ",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 137,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "False Light\n(1) D published facts about P\n(2) Placing P in false light, and\n(3) False light would be highly offensive to reasonable person",
+                    "raw_text": "False Light\n(1) D published facts about P\n(2) Placing P in false light, and\n(3) False light would be highly offensive to rx person"
+                  }
+                ],
+                "title": "False Light\n(1) D published facts about P\n(2) Placing P in false light, and\n(3) False light would be highly offensive to",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 137,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Publication of Private Facts\n(1) Public disclosure of private info about P, and\n(2) Disclosure would be highly offensive to reasonable person\nMISREPRESENTATION\nIntentional Misrepresentation\n(1) D\u2019s false representation of a material fact\n(2) Scienter\n(3) Intent to induce P\u2019s reliance\n(4) Causation\n(5) Justifiable reliance, and\n(6) Actual damages with possibility of consequential damages",
+                    "raw_text": "Publication of Private Facts\n(1) Public disclosure of private info about P, and\n(2) Disclosure would be highly offensive to rx person\nMISREPRESENTATION\nIntentional Misrepresentation\n(1) D\u2019s false representation of a material fact\n(2) Scienter\n(3) Intent to induce P\u2019s reliance\n(4) Causation\n(5) Justifiable reliance, and\n(6) Actual damages with possibility of consequential damages"
+                  }
+                ],
+                "title": "Publication of Private Facts\n(1) Public disclosure of private info about P, and\n(2) Disclosure would be highly offensive",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 137,
+            "title": "Not complete defense but may be taken into consideration\nComing to the Nuisance\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 137,
+                "title": "13\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 138,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Negligent Misrepresentation\n(1) D\u2019s false representation\n(2) As a result of negligence\n(3) Within a business transaction with P\n(4) Causing\n(5) P\u2019s justifiable reliance, and\n(6) Damages",
+                    "raw_text": "Negligent Misrepresentation\n(1) D\u2019s false representation\n(2) As a result of negligence\n(3) Within a business transaction with P\n(4) Causing\n(5) P\u2019s justifiable reliance, and\n(6) Damages"
+                  }
+                ],
+                "title": "Negligent Misrepresentation\n(1) D\u2019s false representation\n(2) As a result of negligence\n(3) Within a business transaction",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 137,
+            "title": "Duty to Disclose\n\u2022\nGenerally, no duty to disclose",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 138,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "D causes foreseeable harm to foreseeable P\nZone of Danger\n(1) D was negligent\n(2) Placing P within zone of danger, and\n(3) Threat of physical injury caused emotional distress\nBystander\n\u2022",
+                    "raw_text": "D causes fx harm to fx P\nZone of Danger\n(1) D was negligent\n(2) Placing P within zone of danger, and\n(3) Threat of physical injury caused emotional distress\nBystander\n\u2022"
+                  }
+                ],
+                "title": "D causes fx harm to fx P\nZone of Danger\n(1) D was negligent\n(2) Placing P within zone of danger, and\n(3) Threat of physi",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 138,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Bystander outside zone of danger can recover if\n(1) Closely related to injured person\n(2) Was present where injury occurred, and\n(3) Witnessed injury",
+                    "raw_text": "Bystander outside zone of danger can recover if\n(1) Closely related to injured person\n(2) Was present where injury occurred, and\n(3) Witnessed injury"
+                  }
+                ],
+                "title": "Bystander outside zone of danger can recover if\n(1) Closely related to injured person\n(2) Was present where injury occur",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 138,
+            "title": "MISCELLANEOUS CONCEPTS\nLIABILITY\nNegligent Infliction of Emotional Distress\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 138,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "No threat of physical injury or manifestations of emotional distress required\nfor recovery\nVicarious Liability\nEmployee\n\u2022\nEmployer vicariously liable for employee\u2019s torts within scope of employment\nIndependent Contractor\n\u2022\nEmployer not vicariously liable for independent contractor\u2019s torts unless\n(i) Non-delegable duty or\n(ii) Inherently dangerous activity\nLiability for Employer\u2019s Own Negligence\n\u2022",
+                    "raw_text": "No threat of physical injury or manifestations of emotional distress required\nfor recovery\nVicarious Liability\nEmployee\n\u2022\nEmployer vicariously liable for employee\u2019s torts within scope of employment\nIndependent Contractor\n\u2022\nEmployer not vicariously liable for independent contractor\u2019s torts unless\n(i) Non-delegable duty or\n(ii) Inherently dangerous activity\nLiability for Employer\u2019s Own Negligence\n\u2022"
+                  }
+                ],
+                "title": "No threat of physical injury or manifestations of emotional distress required\nfor recovery\nVicarious Liability\nEmployee\n",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 138,
+            "title": "Special Relationship\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 138,
+                "title": "14\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 139,
+                "title": "Multiple Parties\nJoint and Several Liability\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 139,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "P can elect to recover from all Ds or a single D\nContribution\n\u2022\nIf P seeks recovery from single D, that D can seek contribution from other Ds\nIndemnification\n\u2022\nResponsibility of P\u2019s harm shifted from one D to another\nSURVIVAL ACTIONS\nSurvival Actions\n\u2022\nDecedent\u2019s estate representative can assert any cause of action that decedent could have at time\nof death\nWrongful Death\n\u2022\nDecedent\u2019s spouse, kin, or representative can assert cause of action to recover for loss caused\nby decedent\u2019s death",
+                    "raw_text": "P can elect to recover from all Ds or a single D\nContribution\n\u2022\nIf P seeks recovery from single D, that D can seek contribution from other Ds\nIndemnification\n\u2022\nResponsibility of P\u2019s harm shifted from one D to another\nSURVIVAL ACTIONS\nSurvival Actions\n\u2022\nDecedent\u2019s estate representative can assert any COA that decedent could have at time\nof death\nWrongful Death\n\u2022\nDecedent\u2019s spouse, kin, or representative can assert COA to recover for loss caused\nby decedent\u2019s death"
+                  }
+                ],
+                "title": "P can elect to recover from all Ds or a single D\nContribution\n\u2022\nIf P seeks recovery from single D, that D can seek contr",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 139,
+                "title": "Damages\n\u2022\nLoss of support, companionship, and affection\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 139,
+                "title": "Pain and suffering not included",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 139,
+                "title": "15\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 138,
+            "title": "Employer may be liable for negligently hiring or overseeing",
+            "type": "TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 125,
+        "title": "Torts",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Torts Essay Template"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "pages": "144-144",
+  "subject": "Wills",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 144,
+            "title": "WILLS\nVALIDITY OF WILLS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 144,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Attested Will\n(1) Writing\n(2) Signed\n(3) By (i) the testator or (ii) another person at the testator\u2019s direction and in his presence\n(4) 2 witnesses\n(5) Witnesses required to sign during testator\u2019s life, and\n(6) Witnesses must know document is a will",
+                    "raw_text": "Attested Will\n(1) Writing\n(2) Signed\n(3) By (i) the testator or (ii) another person at the testator\u2019s direction and in his presence\n(4) 2 witnesses\n(5) Witnesses required to sign during testator\u2019s life, and\n(6) Witnesses must know document is a will"
+                  }
+                ],
+                "title": "Attested Will\n(1) Writing\n(2) Signed\n(3) By (i) the testator or (ii) another person at the testator\u2019s direction and in h",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 144,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Interested Witnesses\n\u2022\nIf interested witness, 2 disinterested witnesses must be present",
+                    "raw_text": "Interested Witnesses\n\u2022\nIf interested witness, 2 disinterested witnesses must be present"
+                  }
+                ],
+                "title": "Interested Witnesses\n\u2022\nIf interested witness, 2 disinterested witnesses must be present",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 144,
+                "title": "Substantial Compliance\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 144,
+                "title": "Strict compliance not required\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 144,
+                "title": "May still be valid if proponent can show testator intended document to be will",
+                "type": "ELEMENT"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 144,
+                    "title": "Lack of Date\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 144,
+                    "title": "Not invalidated for lack of date",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 144,
+                    "title": "Codicil\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 144,
+                    "title": "Will supplement\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 144,
+                    "title": "Must satisfy will formalities\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 144,
+                    "title": "Republishes will as to date of codicil",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 144,
+                    "title": "Choice of Law\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 144,
+                    "title": "Valid will complies with\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 144,
+                    "title": "CA required formalities\n\u2022\nFormalities of testator\u2019s domicile\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 144,
+                    "title": "Formalities of state where will executed",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 144,
+                "title": "Holographic Will\n(1) Signed by testator\n(2) Testamentary intent, and\n(3) Material provisions in testator\u2019s handwriting",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 144,
+            "title": "EXECUTION OF WILLS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 144,
+                "title": "Capacity\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 144,
+                "title": "Legal age\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 144,
+                "title": "Adequate mental capacity\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 144,
+                "title": "Nature of act\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 144,
+                "title": "Nature and scope of property\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 144,
+                "title": "Natural objects of bounty",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 144,
+                "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 144,
+            "title": "CHALLENGES TO VALIDITY",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 144,
+        "title": "Wills",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Wills Essay Template"
+  }
+}

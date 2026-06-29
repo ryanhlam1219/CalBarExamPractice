@@ -1,0 +1,144 @@
+{
+  "issues": [
+    {
+      "code": "question_without_answers",
+      "message": "Question 1 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    },
+    {
+      "code": "question_without_answers",
+      "message": "Question 2 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    },
+    {
+      "code": "question_without_answers",
+      "message": "Question 3 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    },
+    {
+      "code": "question_without_answers",
+      "message": "Question 4 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    },
+    {
+      "code": "question_without_answers",
+      "message": "Question 5 has no selected answers.",
+      "metadata": {},
+      "severity": "warning"
+    }
+  ],
+  "parser_version": "deterministic-v1",
+  "questions": [
+    {
+      "end_character_offset": 1287,
+      "end_page": 1,
+      "instructions_text": "OCTOBER 2020",
+      "metadata": {
+        "exam_month": null,
+        "exam_name": "California Bar Examination",
+        "exam_year": 2020,
+        "heading": "ESSAY QUESTION 1 OF 5",
+        "jurisdiction": "California",
+        "preview": "ESSAY QUESTION 1 OF 5\nAnswer All 5 Questions\n\n\n\nCalifornia\nBar\nExamination\n\n\n\n\n\nYour answer should demonstrate your ability to analyze the facts in the question, to\ntell the difference between material facts and immaterial facts, and to..."
+      },
+      "normalized_text": "ESSAY QUESTION 1 OF 5 Answer All 5 Questions\n\nCalifornia Bar Examination\n\nYour answer should demonstrate your ability to analyze the facts in the question, to tell the difference between material facts and immaterial facts, and to discern the points of law and fact upon which the case turns. Your answer should show that you know and understand the pertinent principles and theories of law, their qualifications and limitations, and their relationships to each other.\n\nYour answer should evidence your ability to apply the law to the given facts and to reason in a logical, lawyer-like manner from the premises you adopt to a sound conclusion. Do not merely show that you remember legal principles. Instead, try to demonstrate your proficiency in using and applying them.\n\nIf your answer contains only a statement of your conclusions, you will receive little or no credit. State fully the reasons that support your conclusions, and discuss all points thoroughly.\n\nYour answer should be complete, but you should not volunteer information or discuss legal doctrines that are not pertinent to the solution of the problem.\n\nUnless a question expressly asks you to use California law, you should answer according to legal theories and principles of general application.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 1,
+      "raw_text": "ESSAY QUESTION 1 OF 5\nAnswer All 5 Questions\n\n\n\nCalifornia\nBar\nExamination\n\n\n\n\n\nYour answer should demonstrate your ability to analyze the facts in the question, to\ntell the difference between material facts and immaterial facts, and to discern the points\nof law and fact upon which the case turns. Your answer should show that you know\nand understand the pertinent principles and theories of law, their qualifications and\nlimitations, and their relationships to each other.\n\nYour answer should evidence your ability to apply the law to the given facts and to\nreason in a logical, lawyer-like manner from the premises you adopt to a sound\nconclusion. Do not merely show that you remember legal principles. Instead, try to\ndemonstrate your proficiency in using and applying them.\n\nIf your answer contains only a statement of your conclusions, you will receive little or\nno credit. State fully the reasons that support your conclusions, and discuss all points\nthoroughly.\n\nYour answer should be complete, but you should not volunteer information or discuss\nlegal doctrines that are not pertinent to the solution of the problem.\n\nUnless a question expressly asks you to use California law, you should answer\naccording to legal theories and principles of general application.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 14,
+      "start_page": 1,
+      "title": null
+    },
+    {
+      "end_character_offset": 4305,
+      "end_page": 3,
+      "instructions_text": null,
+      "metadata": {
+        "exam_month": null,
+        "exam_name": "California Bar Examination",
+        "exam_year": 2020,
+        "heading": "ESSAY QUESTION 2 OF 5",
+        "jurisdiction": "California",
+        "preview": "ESSAY QUESTION 2 OF 5\nAnswer All 5 Questions\n\n\n\nCalifornia\nBar\nExamination\n\n\n\n\n\nYour answer should demonstrate your ability to analyze the facts in the question, to\ntell the difference between material facts and immaterial facts, and to..."
+      },
+      "normalized_text": "ESSAY QUESTION 2 OF 5 Answer All 5 Questions\n\nCalifornia Bar Examination\n\nYour answer should demonstrate your ability to analyze the facts in the question, to tell the difference between material facts and immaterial facts, and to discern the points of law and fact upon which the case turns. Your answer should show that you know and understand the pertinent principles and theories of law, their qualifications and limitations, and their relationships to each other.\n\nYour answer should evidence your ability to apply the law to the given facts and to reason in a logical, lawyer-like manner from the premises you adopt to a sound conclusion. Do not merely show that you remember legal principles. Instead, try to demonstrate your proficiency in using and applying them.\n\nIf your answer contains only a statement of your conclusions, you will receive little or no credit. State fully the reasons that support your conclusions, and discuss all points thoroughly.\n\nYour answer should be complete, but you should not volunteer information or discuss legal doctrines that are not pertinent to the solution of the problem.\n\nUnless a question expressly asks you to use California law, you should answer according to legal theories and principles of general application.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 2,
+      "raw_text": "ESSAY QUESTION 2 OF 5\nAnswer All 5 Questions\n\n\n\nCalifornia\nBar\nExamination\n\n\n\n\n\nYour answer should demonstrate your ability to analyze the facts in the question, to\ntell the difference between material facts and immaterial facts, and to discern the points\nof law and fact upon which the case turns. Your answer should show that you know\nand understand the pertinent principles and theories of law, their qualifications and\nlimitations, and their relationships to each other.\n\nYour answer should evidence your ability to apply the law to the given facts and to\nreason in a logical, lawyer-like manner from the premises you adopt to a sound\nconclusion. Do not merely show that you remember legal principles. Instead, try to\ndemonstrate your proficiency in using and applying them.\n\nIf your answer contains only a statement of your conclusions, you will receive little or\nno credit. State fully the reasons that support your conclusions, and discuss all points\nthoroughly.\n\nYour answer should be complete, but you should not volunteer information or discuss\nlegal doctrines that are not pertinent to the solution of the problem.\n\nUnless a question expressly asks you to use California law, you should answer\naccording to legal theories and principles of general application.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 3032,
+      "start_page": 3,
+      "title": null
+    },
+    {
+      "end_character_offset": 7691,
+      "end_page": 5,
+      "instructions_text": null,
+      "metadata": {
+        "exam_month": null,
+        "exam_name": "California Bar Examination",
+        "exam_year": 2020,
+        "heading": "ESSAY QUESTION 3 OF 5",
+        "jurisdiction": "California",
+        "preview": "ESSAY QUESTION 3 OF 5\nAnswer All 5 Questions\n\n\n\nCalifornia\nBar\nExamination\n\n\n\n\n\nYour answer should demonstrate your ability to analyze the facts in the question, to\ntell the difference between material facts and immaterial facts, and to..."
+      },
+      "normalized_text": "ESSAY QUESTION 3 OF 5 Answer All 5 Questions\n\nCalifornia Bar Examination\n\nYour answer should demonstrate your ability to analyze the facts in the question, to tell the difference between material facts and immaterial facts, and to discern the points of law and fact upon which the case turns. Your answer should show that you know and understand the pertinent principles and theories of law, their qualifications and limitations, and their relationships to each other.\n\nYour answer should evidence your ability to apply the law to the given facts and to reason in a logical, lawyer-like manner from the premises you adopt to a sound conclusion. Do not merely show that you remember legal principles. Instead, try to demonstrate your proficiency in using and applying them.\n\nIf your answer contains only a statement of your conclusions, you will receive little or no credit. State fully the reasons that support your conclusions, and discuss all points thoroughly.\n\nYour answer should be complete, but you should not volunteer information or discuss legal doctrines that are not pertinent to the solution of the problem.\n\nUnless a question expressly asks you to use California law, you should answer according to legal theories and principles of general application.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 3,
+      "raw_text": "ESSAY QUESTION 3 OF 5\nAnswer All 5 Questions\n\n\n\nCalifornia\nBar\nExamination\n\n\n\n\n\nYour answer should demonstrate your ability to analyze the facts in the question, to\ntell the difference between material facts and immaterial facts, and to discern the points\nof law and fact upon which the case turns. Your answer should show that you know\nand understand the pertinent principles and theories of law, their qualifications and\nlimitations, and their relationships to each other.\n\nYour answer should evidence your ability to apply the law to the given facts and to\nreason in a logical, lawyer-like manner from the premises you adopt to a sound\nconclusion. Do not merely show that you remember legal principles. Instead, try to\ndemonstrate your proficiency in using and applying them.\n\nIf your answer contains only a statement of your conclusions, you will receive little or\nno credit. State fully the reasons that support your conclusions, and discuss all points\nthoroughly.\n\nYour answer should be complete, but you should not volunteer information or discuss\nlegal doctrines that are not pertinent to the solution of the problem.\n\nUnless a question expressly asks you to use California law, you should answer\naccording to legal theories and principles of general application.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 6418,
+      "start_page": 5,
+      "title": null
+    },
+    {
+      "end_character_offset": 10753,
+      "end_page": 7,
+      "instructions_text": null,
+      "metadata": {
+        "exam_month": null,
+        "exam_name": "California Bar Examination",
+        "exam_year": 2020,
+        "heading": "ESSAY QUESTION 4 OF 5",
+        "jurisdiction": "California",
+        "preview": "ESSAY QUESTION 4 OF 5\nAnswer All 5 Questions\n\n\n\nCalifornia\nBar\nExamination\n\n\n\n\n\nYour answer should demonstrate your ability to analyze the facts in the question, to\ntell the difference between material facts and immaterial facts, and to..."
+      },
+      "normalized_text": "ESSAY QUESTION 4 OF 5 Answer All 5 Questions\n\nCalifornia Bar Examination\n\nYour answer should demonstrate your ability to analyze the facts in the question, to tell the difference between material facts and immaterial facts, and to discern the points of law and fact upon which the case turns. Your answer should show that you know and understand the pertinent principles and theories of law, their qualifications and limitations, and their relationships to each other.\n\nYour answer should evidence your ability to apply the law to the given facts and to reason in a logical, lawyer-like manner from the premises you adopt to a sound conclusion. Do not merely show that you remember legal principles. Instead, try to demonstrate your proficiency in using and applying them.\n\nIf your answer contains only a statement of your conclusions, you will receive little or no credit. State fully the reasons that support your conclusions, and discuss all points thoroughly.\n\nYour answer should be complete, but you should not volunteer information or discuss legal doctrines that are not pertinent to the solution of the problem.\n\nUnless a question expressly asks you to use California law, you should answer according to legal theories and principles of general application.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 4,
+      "raw_text": "ESSAY QUESTION 4 OF 5\nAnswer All 5 Questions\n\n\n\nCalifornia\nBar\nExamination\n\n\n\n\n\nYour answer should demonstrate your ability to analyze the facts in the question, to\ntell the difference between material facts and immaterial facts, and to discern the points\nof law and fact upon which the case turns. Your answer should show that you know\nand understand the pertinent principles and theories of law, their qualifications and\nlimitations, and their relationships to each other.\n\nYour answer should evidence your ability to apply the law to the given facts and to\nreason in a logical, lawyer-like manner from the premises you adopt to a sound\nconclusion. Do not merely show that you remember legal principles. Instead, try to\ndemonstrate your proficiency in using and applying them.\n\nIf your answer contains only a statement of your conclusions, you will receive little or\nno credit. State fully the reasons that support your conclusions, and discuss all points\nthoroughly.\n\nYour answer should be complete, but you should not volunteer information or discuss\nlegal doctrines that are not pertinent to the solution of the problem.\n\nUnless a question expressly asks you to use California law, you should answer\naccording to legal theories and principles of general application.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 9480,
+      "start_page": 7,
+      "title": null
+    },
+    {
+      "end_character_offset": 13849,
+      "end_page": 9,
+      "instructions_text": null,
+      "metadata": {
+        "exam_month": null,
+        "exam_name": "California Bar Examination",
+        "exam_year": 2020,
+        "heading": "ESSAY QUESTION 5 OF 5",
+        "jurisdiction": "California",
+        "preview": "ESSAY QUESTION 5 OF 5\nAnswer All 5 Questions\n\n\n\nCalifornia\nBar\nExamination\n\n\n\n\n\nYour answer should demonstrate your ability to analyze the facts in the question, to\ntell the difference between material facts and immaterial facts, and to..."
+      },
+      "normalized_text": "ESSAY QUESTION 5 OF 5 Answer All 5 Questions\n\nCalifornia Bar Examination\n\nYour answer should demonstrate your ability to analyze the facts in the question, to tell the difference between material facts and immaterial facts, and to discern the points of law and fact upon which the case turns. Your answer should show that you know and understand the pertinent principles and theories of law, their qualifications and limitations, and their relationships to each other.\n\nYour answer should evidence your ability to apply the law to the given facts and to reason in a logical, lawyer-like manner from the premises you adopt to a sound conclusion. Do not merely show that you remember legal principles. Instead, try to demonstrate your proficiency in using and applying them.\n\nIf your answer contains only a statement of your conclusions, you will receive little or no credit. State fully the reasons that support your conclusions, and discuss all points thoroughly.\n\nYour answer should be complete, but you should not volunteer information or discuss legal doctrines that are not pertinent to the solution of the problem.\n\nUnless a question expressly asks you to use California law, you should answer according to legal theories and principles of general application.",
+      "parse_confidence": 0.9500000000000001,
+      "question_number": 5,
+      "raw_text": "ESSAY QUESTION 5 OF 5\nAnswer All 5 Questions\n\n\n\nCalifornia\nBar\nExamination\n\n\n\n\n\nYour answer should demonstrate your ability to analyze the facts in the question, to\ntell the difference between material facts and immaterial facts, and to discern the points\nof law and fact upon which the case turns. Your answer should show that you know\nand understand the pertinent principles and theories of law, their qualifications and\nlimitations, and their relationships to each other.\n\nYour answer should evidence your ability to apply the law to the given facts and to\nreason in a logical, lawyer-like manner from the premises you adopt to a sound\nconclusion. Do not merely show that you remember legal principles. Instead, try to\ndemonstrate your proficiency in using and applying them.\n\nIf your answer contains only a statement of your conclusions, you will receive little or\nno credit. State fully the reasons that support your conclusions, and discuss all points\nthoroughly.\n\nYour answer should be complete, but you should not volunteer information or discuss\nlegal doctrines that are not pertinent to the solution of the problem.\n\nUnless a question expressly asks you to use California law, you should answer\naccording to legal theories and principles of general application.",
+      "review_status": "AUTO_ACCEPTED",
+      "start_character_offset": 12576,
+      "start_page": 9,
+      "title": null
+    }
+  ],
+  "selected_answers": [],
+  "source_document_id": 62
+}

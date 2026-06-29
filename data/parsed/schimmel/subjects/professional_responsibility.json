@@ -1,0 +1,2523 @@
+{
+  "pages": "92-106",
+  "subject": "Professional Responsibility",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 92,
+            "title": "PROFESSIONAL RESPONSIBILITY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 92,
+            "title": "LAWYER-CLENT RELATIONSHIP",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 92,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Formation\n(1) Person seeks legal counsel\n(2) L agrees to provide services, and\n(3) L knows person reasonably relies on L to provide services",
+                    "raw_text": "Formation\n(1) Person seeks legal counsel\n(2) L agrees to provide services, and\n(3) L knows person rxly relies on L to provide services"
+                  }
+                ],
+                "title": "Formation\n(1) Person seeks legal counsel\n(2) L agrees to provide services, and\n(3) L knows person rxly relies on L to pr",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 92,
+                "title": "Duty to Accept\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 92,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must reject representation if\n(i)  Result in violation of ethics or law, or\n(ii) L\u2019s physical or mental condition materially impairs ability to represent",
+                        "raw_text": "L must reject representation if\n(i)  Result in violation of ethics or law, or\n(ii) L\u2019s physical or mental condition materially impairs ability to represent"
+                      }
+                    ],
+                    "title": "L must reject representation if\n(i)  Result in violation of ethics or law, or\n(ii) L\u2019s physical or mental condition mate",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 92,
+                "title": "No duty to accept C unless court-appointed\nDuty to Reject\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 92,
+            "title": "FORMATION",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 92,
+                "title": "Client\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 92,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Determines objectives of representation\nLawyer\n\u2022\nDetermines legal strategy to achieve C\u2019s goals",
+                    "raw_text": "Determines objectives of representation\nLawyer\n\u2022\nDetermines legal strategy to achieve C\u2019s goals"
+                  }
+                ],
+                "title": "Determines objectives of representation\nLawyer\n\u2022\nDetermines legal strategy to achieve C\u2019s goals",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 92,
+                "title": "Limiting Scope\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 92,
+                "title": "L can limit if\n(1) C provides informed consent, and\n(2) Limitation rx under circumstances",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 92,
+                "title": "Assisting or Advising Violation of Law Prohibited\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 92,
+                "title": "L shall not assist C in criminal or fraudulent conduct\nTERMINATION",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 92,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must withdraw if\n(i)  Representation will lead to violation of ethics or law\n(ii) L\u2019s mental or physical condition materially impairs ability to represent, or\n(iii) L is discharged",
+                        "raw_text": "L must withdraw if\n(i)  Representation will lead to violation of ethics or law\n(ii) L\u2019s mental or physical condition materially impairs ability to represent, or\n(iii) L is discharged"
+                      }
+                    ],
+                    "title": "L must withdraw if\n(i)  Representation will lead to violation of ethics or law\n(ii) L\u2019s mental or physical condition mat",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 92,
+                "title": "Mandatory Withdrawal\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 92,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must withdraw if\n(i)  Representation will lead to violation of ethics or law\n(ii) L\u2019s mental or physical condition materially impairs ability to represent",
+                        "raw_text": "L must withdraw if\n(i)  Representation will lead to violation of ethics or law\n(ii) L\u2019s mental or physical condition materially impairs ability to represent"
+                      }
+                    ],
+                    "title": "L must withdraw if\n(i)  Representation will lead to violation of ethics or law\n(ii) L\u2019s mental or physical condition mat",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 92,
+                    "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 92,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 93,
+                    "title": "maliciously injure",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 93,
+                "title": "(iii) L is discharged, or\n(iv) L knows C is bringing action without probable cause, to harass, or to",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 93,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L may withdraw if\n(i) Will not cause material harm to C\n(ii) C has used or insists on using L\u2019s services to commit fraud or crime\n(iii) C breaches material term relating to representation and L has given reasonable warning\n(iv) Representation will result in unrx financial burden on L\n(v) C makes representation unrxly difficult, or\n(vi) Other good cause",
+                        "raw_text": "L may withdraw if\n(i) Will not cause material harm to C\n(ii) C has used or insists on using L\u2019s services to commit fraud or crime\n(iii) C breaches material term relating to representation and L has given rx warning\n(iv) Representation will result in unrx financial burden on L\n(v) C makes representation unrxly difficult, or\n(vi) Other good cause"
+                      }
+                    ],
+                    "title": "L may withdraw if\n(i) Will not cause material harm to C\n(ii) C has used or insists on using L\u2019s services to commit fraud",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 93,
+                "title": "Permissive Withdrawal\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 93,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L may withdraw if\n(i)  C\u2019s claims or defenses not supported by good faith\n(ii) C has used or insists on using L\u2019s services to commit fraud or crime\n(iii) C makes representation unrxly difficult\n(iv) L unable to work with co-counsel\n(v) Continued representation likely to violate ethics rules\n(vi) L\u2019s mental or physical condition makes representation difficult\n(vii) C breaches material term relating to representation and L has given reasonable",
+                        "raw_text": "L may withdraw if\n(i)  C\u2019s claims or defenses not supported by good faith\n(ii) C has used or insists on using L\u2019s services to commit fraud or crime\n(iii) C makes representation unrxly difficult\n(iv) L unable to work with co-counsel\n(v) Continued representation likely to violate ethics rules\n(vi) L\u2019s mental or physical condition makes representation difficult\n(vii) C breaches material term relating to representation and L has given rx"
+                      }
+                    ],
+                    "title": "L may withdraw if\n(i)  C\u2019s claims or defenses not supported by good faith\n(ii) C has used or insists on using L\u2019s servic",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 93,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 93,
+                    "title": "Process of Withdrawal\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 93,
+                    "title": "L must give rx notice to C",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 93,
+                "title": "warning, or\n(viii) Other good cause",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 93,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 93,
+                    "title": "Reasonable Fees\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 93,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Fees must be reasonable\n\u2022\nFactors\n(i)  Difficulty of case\n(ii) L\u2019s experience and reputation\n(iii) Fee customarily charged in locality for similar services\n(iv) Preclusion of other employment\n(v) Whether fixed or contingent\n(vi) Nature of relationship with C",
+                        "raw_text": "Fees must be rx\n\u2022\nFactors\n(i)  Difficulty of case\n(ii) L\u2019s experience and reputation\n(iii) Fee customarily charged in locality for similar services\n(iv) Preclusion of other employment\n(v) Whether fixed or contingent\n(vi) Nature of relationship with C"
+                      }
+                    ],
+                    "title": "Fees must be rx\n\u2022\nFactors\n(i)  Difficulty of case\n(ii) L\u2019s experience and reputation\n(iii) Fee customarily charged in lo",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 93,
+                    "title": "California\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 93,
+                    "title": "Fees must not be unconscionable or illegal",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 93,
+                    "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 94,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "\u2022\nFactors\n(i)  Whether L engaged in fraud\n(ii) Whether L failed to disclose material facts\n(iii) Amount of fee in proportion to value of services\n(iv) Relative sophistication of L and C\n(v) Difficulty of case\n(vi) L\u2019s experience and reputation\n(vii) Fee customarily charged in locality for similar services\n(viii) Preclusion of other employment\n(ix) Whether fixed or contingent\n(x) Nature of relationship with C\n(xi) Serviced performed and results obtained\n(xii) Whether C gave informed consent",
+                        "raw_text": "\u2022\nFactors\n(i)  Whether L engaged in fraud\n(ii) Whether L failed to disclose material facts\n(iii) Amount of fee in proportion to value of services\n(iv) Relative sophistication of L and C\n(v) Difficulty of case\n(vi) L\u2019s experience and reputation\n(vii) Fee customarily charged in locality for similar services\n(viii) Preclusion of other employment\n(ix) Whether fixed or contingent\n(x) Nature of relationship with C\n(xi) Serviced performed and results obtained\n(xii) Whether C gave informed consent"
+                      }
+                    ],
+                    "title": "\u2022\nFactors\n(i)  Whether L engaged in fraud\n(ii) Whether L failed to disclose material facts\n(iii) Amount of fee in propor",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 94,
+                    "title": "General Fee Agreements\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 94,
+                    "title": "Need not be in writing",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 94,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "California\n\u2022\nGeneral fee agreements > $1,000 must be in writing and signed by both parties unless\n(i) C is corporation\n(ii) C provides written waiver\n(iii) Services provided in emergency to prevent foreseeable prejudice to C, or\n(iv) Fee is implied based on previous similar services provided by L",
+                        "raw_text": "California\n\u2022\nGeneral fee agreements > $1,000 must be in writing and signed by both parties unless\n(i) C is corporation\n(ii) C provides written waiver\n(iii) Services provided in emergency to prevent fx prejudice to C, or\n(iv) Fee is implied based on previous similar services provided by L"
+                      }
+                    ],
+                    "title": "California\n\u2022\nGeneral fee agreements > $1,000 must be in writing and signed by both parties unless\n(i) C is corporation\n(",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 93,
+                "title": "L must give rx notice to C\nFEES",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 94,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Fee agreement must include\n(1) Basis of compensation\n(2) General nature of legal services provided, and\n(3) Responsibilities of L and C",
+                        "raw_text": "Fee agreement must include\n(1) Basis of compensation\n(2) General nature of legal services provided, and\n(3) Responsibilities of L and C"
+                      }
+                    ],
+                    "title": "Fee agreement must include\n(1) Basis of compensation\n(2) General nature of legal services provided, and\n(3) Responsibili",
+                    "type": "RULE"
+                  },
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "jurisdiction": "CALIFORNIA",
+                        "page": 94,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "California\n(1) Writing signed by both C and L\n(2) Method of determination\n(3) Explain how disbursements and costs will affect fee and C\u2019s recovery\n(4) State fee is negotiable, and\n(5) Clearly notify C of fees",
+                            "raw_text": "California\n(1) Writing signed by both C and L\n(2) Method of determination\n(3) Explain how disbursements and costs will affect fee and C\u2019s recovery\n(4) State fee is negotiable, and\n(5) Clearly notify C of fees"
+                          }
+                        ],
+                        "title": "California\n(1) Writing signed by both C and L\n(2) Method of determination\n(3) Explain how disbursements and costs will a",
+                        "type": "RULE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 94,
+                    "title": "Contingent Fees\n(1) Writing signed by C\n(2) Method of determination, and\n(3) Clearly notify C of fees",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 94,
+                "title": "Contents of Fee Agreement\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 94,
+                "title": "Limitation on Contingent Fees\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 94,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 94,
+                "title": "Prohibited in criminal cases and domestic relations matters",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 95,
+                    "title": "Allowed in domestic relations matters if not contingent upon securing\ndivorce or amount of spousal or child support",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 95,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 92,
+            "title": "SCOPE OF LAWYER-CLIENT RELATIONSHIP",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 95,
+                "title": "Lawyers at Same Firm\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 95,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Ls at different firms cannot split fees unless\n(1) C consents to division in writing\n(2) Total fee is reasonable, and\n(3) Division proportionate to services by each L or each L jointly responsible",
+                        "raw_text": "Ls at different firms cannot split fees unless\n(1) C consents to division in writing\n(2) Total fee is rx, and\n(3) Division proportionate to services by each L or each L jointly responsible"
+                      }
+                    ],
+                    "title": "Ls at different firms cannot split fees unless\n(1) C consents to division in writing\n(2) Total fee is rx, and\n(3) Divisi",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 95,
+                    "title": "California\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 95,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Ls at different firms cannot split fees unless\n(1) Ls enter into written agreement\n(2) C consents in writing at time of agreement or after full written disclosure,",
+                        "raw_text": "Ls at different firms cannot split fees unless\n(1) Ls enter into written agreement\n(2) C consents in writing at time of agreement or after full written disclosure,"
+                      }
+                    ],
+                    "title": "Ls at different firms cannot split fees unless\n(1) Ls enter into written agreement\n(2) C consents in writing at time of ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 95,
+                "title": "Ls at same firm may share fees\nLawyers at Different Firms\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 95,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Ls prohibited from\n(i) Sharing legal fees with non-L, or\n(ii) Forming partnership with non-L if any partnership activities involve practice of",
+                        "raw_text": "Ls prohibited from\n(i) Sharing legal fees with non-L, or\n(ii) Forming partnership with non-L if any partnership activities involve practice of"
+                      }
+                    ],
+                    "title": "Ls prohibited from\n(i) Sharing legal fees with non-L, or\n(ii) Forming partnership with non-L if any partnership activiti",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 95,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "law\n\u2022\nExceptions\n(i)  Agreement to distribute fees to L\u2019s estate after L\u2019s death\n(ii) Agreed-upon purchase price from practice of deceased or disabled L\n(iii) Fees to non-L employees through compensation or retirement plan, or\n(iv) Court-awarded legal fees shared with nonprofit organization that employed,",
+                        "raw_text": "law\n\u2022\nExceptions\n(i)  Agreement to distribute fees to L\u2019s estate after L\u2019s death\n(ii) Agreed-upon purchase price from practice of deceased or disabled L\n(iii) Fees to non-L employees through compensation or retirement plan, or\n(iv) Court-awarded legal fees shared with nonprofit organization that employed,"
+                      }
+                    ],
+                    "title": "law\n\u2022\nExceptions\n(i)  Agreement to distribute fees to L\u2019s estate after L\u2019s death\n(ii) Agreed-upon purchase price from pr",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 95,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "retained, recommended L\nReferral Fees\n\u2022\nL prohibited from compensating or giving anything of value for recommending L\u2019s\nservices",
+                        "raw_text": "retained, recommended L\nReferral Fees\n\u2022\nL prohibited from compensating or giving anything of value for recommending L\u2019s\nservices"
+                      }
+                    ],
+                    "title": "retained, recommended L\nReferral Fees\n\u2022\nL prohibited from compensating or giving anything of value for recommending L\u2019s\n",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 95,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "California\n\u2022\nL allowed to give gift or gratuity for recommending L\u2019s services as long as\nnot offered in consideration of agreement that\n(i)  Referral would be expected, or\n(ii) Person would make future referrals",
+                        "raw_text": "California\n\u2022\nL allowed to give gift or gratuity for recommending L\u2019s services as long as\nnot offered in consideration of agreement that\n(i)  Referral would be expected, or\n(ii) Person would make future referrals"
+                      }
+                    ],
+                    "title": "California\n\u2022\nL allowed to give gift or gratuity for recommending L\u2019s services as long as\nnot offered in consideration of",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 95,
+                    "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 95,
+                "title": "and\n(3) Total fee not increased solely because of agreement to share\nNon-Lawyers\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 96,
+                    "title": "Allowed if\n(1) Not exclusive, and\n(2) C aware of existence and nature of agreement\nCLIENT\u2019S FUND ACCOUNTS AND PROPERTY",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 96,
+                "title": "Reciprocal Referral Agreements\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 96,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L may not commingle funds\n\u2022\nL must put any money connected with C\u2019s representation in separate trust account\nDispute Over Funds\n\u2022",
+                        "raw_text": "L may not commingle funds\n\u2022\nL must put any money connected with C\u2019s representation in separate trust account\nDispute Over Funds\n\u2022"
+                      }
+                    ],
+                    "title": "L may not commingle funds\n\u2022\nL must put any money connected with C\u2019s representation in separate trust account\nDispute Ove",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 96,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Disputed portion shall be safeguarded and kept separately from that of L\nDuty to Safeguard Client\u2019s Property\n\u2022\nC\u2019s property shall be safeguarded and kept separately from that of L\nRecordkeeping\n\u2022",
+                        "raw_text": "Disputed portion shall be safeguarded and kept separately from that of L\nDuty to Safeguard Client\u2019s Property\n\u2022\nC\u2019s property shall be safeguarded and kept separately from that of L\nRecordkeeping\n\u2022"
+                      }
+                    ],
+                    "title": "Disputed portion shall be safeguarded and kept separately from that of L\nDuty to Safeguard Client\u2019s Property\n\u2022\nC\u2019s prope",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 96,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Complete records of account funds shall be\n(1) Kept by L, and\n(2) Preserved for 5 years after termination of representation",
+                        "raw_text": "Complete records of account funds shall be\n(1) Kept by L, and\n(2) Preserved for 5 years after termination of representation"
+                      }
+                    ],
+                    "title": "Complete records of account funds shall be\n(1) Kept by L, and\n(2) Preserved for 5 years after termination of representat",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 96,
+                "title": "Duty to Safeguard Client\u2019s Money\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 95,
+            "title": "DIVISION OF FEES",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 96,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Communications between L and C re representation protected if\n(1) C intended for communication to be confidential, and\n(2) Communication is for purpose of obtaining legal advice\n\u2022",
+                        "raw_text": "Communications between L and C re representation protected if\n(1) C intended for communication to be confidential, and\n(2) Communication is for purpose of obtaining legal advice\n\u2022"
+                      }
+                    ],
+                    "title": "Communications between L and C re representation protected if\n(1) C intended for communication to be confidential, and\n(",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 96,
+                "title": "Lawyer-Client Privilege\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 96,
+                "title": "Waivable only by C\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 96,
+                "title": "Lasts indefinitely",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 96,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Communications between L and C re representation protected if\n(1) C intended for communication to be confidential, and\n(2) Communication is for purpose of obtaining legal advice\n\u2022",
+                        "raw_text": "Communications between L and C re representation protected if\n(1) C intended for communication to be confidential, and\n(2) Communication is for purpose of obtaining legal advice\n\u2022"
+                      }
+                    ],
+                    "title": "Communications between L and C re representation protected if\n(1) C intended for communication to be confidential, and\n(",
+                    "type": "RULE"
+                  },
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 96,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "L-C privilege does not apply if\n(i) C\u2019s objective is to engage in future crime or fraud\n(ii) Communication relevant to issue in malpractice action against L, or\n(iii) Civil litigation between formerly joint Cs of L",
+                            "raw_text": "L-C privilege does not apply if\n(i) C\u2019s objective is to engage in future crime or fraud\n(ii) Communication relevant to issue in malpractice action against L, or\n(iii) Civil litigation between formerly joint Cs of L"
+                          }
+                        ],
+                        "title": "L-C privilege does not apply if\n(i) C\u2019s objective is to engage in future crime or fraud\n(ii) Communication relevant to i",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 96,
+                        "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 96,
+                    "title": "Waivable only by C\n\u2022\nEnds when C\u2019s estate fully distributed and representative discharged\nModel Rule Exception\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 96,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 97,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L-C privilege does not apply if\n(i)  C\u2019s objective is to engage in future crime or fraud\n(ii) Communication relevant to issue in malpractice action against L\n(iii) Civil litigation between formerly joint Cs of L, or\n(iv) L reasonably believes disclosure necessary to prevent criminal act likely to",
+                        "raw_text": "L-C privilege does not apply if\n(i)  C\u2019s objective is to engage in future crime or fraud\n(ii) Communication relevant to issue in malpractice action against L\n(iii) Civil litigation between formerly joint Cs of L, or\n(iv) L rxly believes disclosure necessary to prevent criminal act likely to"
+                      }
+                    ],
+                    "title": "L-C privilege does not apply if\n(i)  C\u2019s objective is to engage in future crime or fraud\n(ii) Communication relevant to ",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 97,
+                    "title": "result in death or substantial bodily harm\nWork Product",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 97,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 97,
+                    "title": "Docs prepared in anticipation of litigation not discoverable unless\n(1) Substantial need, and\n(2) Undue hardship",
+                    "type": "ISSUE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 97,
+                    "title": "Absolute Immunity\n\u2022\nL\u2019s mental impressions, research, opinions, etc. not discoverable unless immunity\nwaived",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 97,
+                "title": "Qualified Immunity\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 97,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not reveal info about representation unless\n(i)  C gives informed consent, or\n(ii) Disclosure impliedly authorized to fulfill representation\n\u2022",
+                        "raw_text": "L must not reveal info about representation unless\n(i)  C gives informed consent, or\n(ii) Disclosure impliedly authorized to fulfill representation\n\u2022"
+                      }
+                    ],
+                    "title": "L must not reveal info about representation unless\n(i)  C gives informed consent, or\n(ii) Disclosure impliedly authorize",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 97,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L may reveal info if\n(i)  Disclosure required by law or court order\n(ii) Prevent reasonably certain death or substantial bodily harm\n(iii) Prevent C from committing crime reasonably certain to result in substantial injury to another\u2019s",
+                        "raw_text": "L may reveal info if\n(i)  Disclosure required by law or court order\n(ii) Prevent rxly certain death or substantial bodily harm\n(iii) Prevent C from committing crime rxly certain to result in substantial injury to another\u2019s"
+                      }
+                    ],
+                    "title": "L may reveal info if\n(i)  Disclosure required by law or court order\n(ii) Prevent rxly certain death or substantial bodil",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 97,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "financial or property interests\n(iv) Secure legal advice about L\u2019s compliance with rules of ethics, or\n(v) Establish claim or defense in action between L and C",
+                        "raw_text": "financial or property interests\n(iv) Secure legal advice about L\u2019s compliance with rules of ethics, or\n(v) Establish claim or defense in action between L and C"
+                      }
+                    ],
+                    "title": "financial or property interests\n(iv) Secure legal advice about L\u2019s compliance with rules of ethics, or\n(v) Establish cla",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 97,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "California\n\u2022\nL must not reveal info about representation without C\u2019s informed consent\n\u2022\nL may disclose C\u2019s confidential info if reasonably believes it will prevent criminal act likely\nto result in death or substantial bodily harm\n\u2022\nBefore disclosure, L must\n(1) Make good faith effort to persuade C not to commit crime, and\n(2) Inform C of L\u2019s ability or decision to disclose",
+                        "raw_text": "California\n\u2022\nL must not reveal info about representation without C\u2019s informed consent\n\u2022\nL may disclose C\u2019s confidential info if rxly believes it will prevent criminal act likely\nto result in death or substantial bodily harm\n\u2022\nBefore disclosure, L must\n(1) Make good faith effort to persuade C not to commit crime, and\n(2) Inform C of L\u2019s ability or decision to disclose"
+                      }
+                    ],
+                    "title": "California\n\u2022\nL must not reveal info about representation without C\u2019s informed consent\n\u2022\nL may disclose C\u2019s confidential ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 97,
+                "title": "Duty of Confidentiality\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 96,
+            "title": "PRIVILEGE AND CONFIDENTIALITY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 97,
+                "title": "Duty to Communicate\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 97,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "L must\n(i)  Keep C reasonably informed re status of matter\n(ii) Provide prompt responses to C\u2019s requests for info\n(iii) Promptly inform C re situations where C\u2019s consent is necessary",
+                    "raw_text": "L must\n(i)  Keep C rxly informed re status of matter\n(ii) Provide prompt responses to C\u2019s requests for info\n(iii) Promptly inform C re situations where C\u2019s consent is necessary"
+                  }
+                ],
+                "title": "L must\n(i)  Keep C rxly informed re status of matter\n(ii) Provide prompt responses to C\u2019s requests for info\n(iii) Prompt",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 97,
+                "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 98,
+                    "title": "Duty of Competence\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 98,
+                    "title": "L must provide competent representation to C",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 98,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "California\n\u2022\nL shall not intentionally, recklessly, or repeatedly fail to perform with competence",
+                        "raw_text": "California\n\u2022\nL shall not intentionally, recklessly, or repeatedly fail to perform with competence"
+                      }
+                    ],
+                    "title": "California\n\u2022\nL shall not intentionally, recklessly, or repeatedly fail to perform with competence",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 98,
+                    "title": "Exception\n\u2022\nIn emergency, L allowed to provide assistance even if lacking requisite competence if\nconsulting with anothe",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 98,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L lacking competence must\n(i)  Become competent through preparation and study\n(ii) Associate with reasonably competent L\n(iii) Decline representation, or\n(iv) Withdraw",
+                        "raw_text": "L lacking competence must\n(i)  Become competent through preparation and study\n(ii) Associate with rxly competent L\n(iii) Decline representation, or\n(iv) Withdraw"
+                      }
+                    ],
+                    "title": "L lacking competence must\n(i)  Become competent through preparation and study\n(ii) Associate with rxly competent L\n(iii)",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 98,
+                "title": "(iv) Consult with C re relevant limitation on L\u2019s conduct\nCOMPETENCE & DILIGENCE",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 98,
+                "title": "Duty of Diligence\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 98,
+                "title": "L must act with rx diligence and promptness",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 98,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 98,
+                "title": "L shall not intentionally or recklessly fail to act with rx diligence\nDUTY OF LOYALTY",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 98,
+                "title": "Duty of Loyalty\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 98,
+                "title": "L must act in best interest of C\nCONFLICTING INTERESTS",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 98,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not represent C whose interests are directly adverse to another C or if significant risk\nthat representation will be materially limited by L\u2019s responsibilities to another C, former C, or\nthird party unless\n(1) L reasonably believes he will be able to provide competent and diligent representation\n(2) Representation not prohibited by law\n(3) L not representing adversaries of same litigation, and\n(4) Each C gives informed consent, confirmed in writing",
+                        "raw_text": "L must not represent C whose interests are directly adverse to another C or if significant risk\nthat representation will be materially limited by L\u2019s responsibilities to another C, former C, or\n3P unless\n(1) L rxly believes he will be able to provide competent and diligent representation\n(2) Representation not prohibited by law\n(3) L not representing adversaries of same litigation, and\n(4) Each C gives informed consent, confirmed in writing"
+                      }
+                    ],
+                    "title": "L must not represent C whose interests are directly adverse to another C or if significant risk\nthat representation will",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 98,
+                    "title": "7\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 98,
+                "title": "Current Clients\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 99,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not represent C whose interests are directly adverse to another C or if\nsignificant risk that representation will be materially limited by L\u2019s responsibilities to\nanother C, former C, or third party unless\n(1) L reasonably believes he will be able to provide competent and diligent representation\n(2) Representation not prohibited by law\n(3) L not representing adversaries of same litigation, and\n(4) Each C gives informed written consent",
+                        "raw_text": "L must not represent C whose interests are directly adverse to another C or if\nsignificant risk that representation will be materially limited by L\u2019s responsibilities to\nanother C, former C, or 3P unless\n(1) L rxly believes he will be able to provide competent and diligent representation\n(2) Representation not prohibited by law\n(3) L not representing adversaries of same litigation, and\n(4) Each C gives informed written consent"
+                      }
+                    ],
+                    "title": "L must not represent C whose interests are directly adverse to another C or if\nsignificant risk that representation will",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 99,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 99,
+                    "title": "Civil Cases\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 99,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L representing multiple parties required to get informed written consent from each C\nCriminal Cases\n\u2022",
+                        "raw_text": "L representing multiple parties required to get informed written consent from each C\nCriminal Cases\n\u2022"
+                      }
+                    ],
+                    "title": "L representing multiple parties required to get informed written consent from each C\nCriminal Cases\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 99,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L representing multiple parties required to get informed written consent from each C\nFormer Clients",
+                        "raw_text": "L representing multiple parties required to get informed written consent from each C\nFormer Clients"
+                      }
+                    ],
+                    "title": "L representing multiple parties required to get informed written consent from each C\nFormer Clients",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 99,
+                    "title": "Former Clients of Lawyer\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 99,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not represent new C in same or substantially related matter in which he\nrepresented former C when new C\u2019s interests are materially adverse\n\u2022\nUnless former C gives informed consent, confirmed in writing\nFormer Clients of Lawyer\u2019s Law Firm\n\u2022",
+                        "raw_text": "L must not represent new C in same or substantially related matter in which he\nrepresented former C when new C\u2019s interests are materially adverse\n\u2022\nUnless former C gives informed consent, confirmed in writing\nFormer Clients of Lawyer\u2019s Law Firm\n\u2022"
+                      }
+                    ],
+                    "title": "L must not represent new C in same or substantially related matter in which he\nrepresented former C when new C\u2019s interes",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 99,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not\n(i)  Represent C whose interests materially adverse to former C previously",
+                        "raw_text": "L must not\n(i)  Represent C whose interests materially adverse to former C previously"
+                      }
+                    ],
+                    "title": "L must not\n(i)  Represent C whose interests materially adverse to former C previously",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 99,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "represented by L\u2019s law firm in same or substantially related matter, or\n(ii) Use or reveal info re representation of former C\u2019s disadvantage\n\u2022\nUnless former C gives informed consent, confirmed in writing\nFormer Government Employee\n\u2022",
+                        "raw_text": "represented by L\u2019s law firm in same or substantially related matter, or\n(ii) Use or reveal info re representation of former C\u2019s disadvantage\n\u2022\nUnless former C gives informed consent, confirmed in writing\nFormer Government Employee\n\u2022"
+                      }
+                    ],
+                    "title": "represented by L\u2019s law firm in same or substantially related matter, or\n(ii) Use or reveal info re representation of for",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 99,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L who formerly served as public officer or government employee must not represent\nC in connection with matter in which L participated\n\u2022\nUnless government agency gives informed consent, confirmed in writing\nProspective Client\n\u2022",
+                        "raw_text": "L who formerly served as public officer or government employee must not represent\nC in connection with matter in which L participated\n\u2022\nUnless government agency gives informed consent, confirmed in writing\nProspective Client\n\u2022"
+                      }
+                    ],
+                    "title": "L who formerly served as public officer or government employee must not represent\nC in connection with matter in which L",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 99,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "P must not represent C with interests materially adverse to those of prospective C in same or\nsubstantially related matter if L received info from prospective C that could be significantly\nharmful unless\n(i)  Both C and prospective C give informed consent, confirmed in writing, or\n(ii) L who received info took reasonable measures to avoid exposure to more info, was timely",
+                        "raw_text": "P must not represent C with interests materially adverse to those of prospective C in same or\nsubstantially related matter if L received info from prospective C that could be significantly\nharmful unless\n(i)  Both C and prospective C give informed consent, confirmed in writing, or\n(ii) L who received info took rx measures to avoid exposure to more info, was timely"
+                      }
+                    ],
+                    "title": "P must not represent C with interests materially adverse to those of prospective C in same or\nsubstantially related matt",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 99,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "screened, received no share of fee, and promptly gave written notice to prospective C\nOrganizational Client\n\u2022",
+                        "raw_text": "screened, received no share of fee, and promptly gave written notice to prospective C\nOrganizational Client\n\u2022"
+                      }
+                    ],
+                    "title": "screened, received no share of fee, and promptly gave written notice to prospective C\nOrganizational Client\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 99,
+                    "title": "L must act in best interests of organization",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 99,
+                    "title": "8\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 99,
+                "title": "Aggregate Settlements Between Co-Clients",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 100,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L can concurrently represent organization and its constituents if\n(1) Conflict of interest rules satisfied, and\n(2) L gets consent by organization official other than person to be individually",
+                        "raw_text": "L can concurrently represent organization and its constituents if\n(1) Conflict of interest rules satisfied, and\n(2) L gets consent by organization official other than person to be individually"
+                      }
+                    ],
+                    "title": "L can concurrently represent organization and its constituents if\n(1) Conflict of interest rules satisfied, and\n(2) L ge",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 100,
+                "title": "Dual Representation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 100,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must report action of constituents to higher authority if L knows actions\n(1) Likely to cause substantial harm to organization, and\n(2) Violate law or legal obligation\n\u2022",
+                        "raw_text": "L must report action of constituents to higher authority if L knows actions\n(1) Likely to cause substantial harm to organization, and\n(2) Violate law or legal obligation\n\u2022"
+                      }
+                    ],
+                    "title": "L must report action of constituents to higher authority if L knows actions\n(1) Likely to cause substantial harm to orga",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 100,
+                "title": "represented\nReporting Misconduct\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 100,
+                "title": "Unless L rxly believes not in best interest of organization to do so",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 100,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L may report outside organization if action\n(1) Clearly violation of law, and\n(2) L reasonably believes violation will cause substantial injury to organization",
+                        "raw_text": "L may report outside organization if action\n(1) Clearly violation of law, and\n(2) L rxly believes violation will cause substantial injury to organization"
+                      }
+                    ],
+                    "title": "L may report outside organization if action\n(1) Clearly violation of law, and\n(2) L rxly believes violation will cause s",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 100,
+                "title": "Higher Authority\u2019s Failure to Act\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 100,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 100,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Business Transactions with Clients\n(1) Terms are fair and fully disclosed in writing in manner C can reasonably understand\n(2) C is advised in writing to consult independent counsel and is given reasonable opportunity to do so,",
+                            "raw_text": "Business Transactions with Clients\n(1) Terms are fair and fully disclosed in writing in manner C can rxly understand\n(2) C is advised in writing to consult independent counsel and is given rx opportunity to do so,"
+                          }
+                        ],
+                        "title": "Business Transactions with Clients\n(1) Terms are fair and fully disclosed in writing in manner C can rxly understand\n(2)",
+                        "type": "RULE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 100,
+                    "title": "L may try to convince highest authority to reconsider or resign\nCONFLICTED INTERESTS CONTINUED \u2013 VARIOUS ISSUES",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 100,
+                "title": "L must not report violation outside organization\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 100,
+                "title": "and\n(3) C gives informed consent, in writing signed by C",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 100,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not have sexual relations with C unless consensual sexual relationship existed prior to\nL-C relationship\nProprietary Interest in Cause of Action\n\u2022",
+                        "raw_text": "L must not have sexual relations with C unless consensual sexual relationship existed prior to\nL-C relationship\nProprietary Interest in Cause of Action\n\u2022"
+                      }
+                    ],
+                    "title": "L must not have sexual relations with C unless consensual sexual relationship existed prior to\nL-C relationship\nPropriet",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 100,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not obtain proprietary interest in cause of action\n\u2022\nL may\n(i)  Obtain lien to secure L\u2019s fees or expenses, or\n(ii) Contract with C for reasonable contingency fee in civil case",
+                        "raw_text": "L must not obtain proprietary interest in COA\n\u2022\nL may\n(i)  Obtain lien to secure L\u2019s fees or expenses, or\n(ii) Contract with C for rx contingency fee in civil case"
+                      }
+                    ],
+                    "title": "L must not obtain proprietary interest in COA\n\u2022\nL may\n(i)  Obtain lien to secure L\u2019s fees or expenses, or\n(ii) Contract ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 100,
+                "title": "Sexual Relations\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 100,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not make agreement giving L literary or media rights to account based on info relating\nto representation before conclusion of representation",
+                        "raw_text": "L must not make agreement giving L literary or media rights to account based on info relating\nto representation before conclusion of representation"
+                      }
+                    ],
+                    "title": "L must not make agreement giving L literary or media rights to account based on info relating\nto representation before c",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 100,
+                    "title": "9\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 101,
+                    "title": "Solicited Gifts\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 101,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not solicit substantial gift from C or prepare instrument giving substantial gift to L or\nL\u2019s relative unless L or recipient is related to C",
+                        "raw_text": "L must not solicit substantial gift from C or prepare instrument giving substantial gift to L or\nL\u2019s relative unless L or recipient is related to C"
+                      }
+                    ],
+                    "title": "L must not solicit substantial gift from C or prepare instrument giving substantial gift to L or\nL\u2019s relative unless L o",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 100,
+                "title": "Literary or Media Rights\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 101,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not solicit substantial gift from C or prepare instrument giving substantial gift\nto L or L\u2019s relative unless\n(i) L or recipient is related to C, or\n(ii) C is advised by independent counsel",
+                        "raw_text": "L must not solicit substantial gift from C or prepare instrument giving substantial gift\nto L or L\u2019s relative unless\n(i) L or recipient is related to C, or\n(ii) C is advised by independent counsel"
+                      }
+                    ],
+                    "title": "L must not solicit substantial gift from C or prepare instrument giving substantial gift\nto L or L\u2019s relative unless\n(i)",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 101,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 101,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not provide financial assistance to C unless\n(i)  L is advancing court costs and litigation expenses\n(ii) L is advancing court costs and litigation expenses for indigent C, or\n(iii) L is representing indigent C pro bono",
+                        "raw_text": "L must not provide financial assistance to C unless\n(i)  L is advancing court costs and litigation expenses\n(ii) L is advancing court costs and litigation expenses for indigent C, or\n(iii) L is representing indigent C pro bono"
+                      }
+                    ],
+                    "title": "L must not provide financial assistance to C unless\n(i)  L is advancing court costs and litigation expenses\n(ii) L is ad",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 101,
+                    "title": "California\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 101,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not provide financial assistance to C unless\n(i)  L is paying such expenses to third party from funds collected for C as result of",
+                        "raw_text": "L must not provide financial assistance to C unless\n(i)  L is paying such expenses to 3P from funds collected for C as result of"
+                      }
+                    ],
+                    "title": "L must not provide financial assistance to C unless\n(i)  L is paying such expenses to 3P from funds collected for C as r",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 101,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "representation\n(ii) L agrees to lend money to C based on C\u2019s written promise to repay loan\n(iii)L is advancing court costs and litigation expenses, or\n(iv)L is advancing court costs and litigation expenses for indigent C",
+                        "raw_text": "representation\n(ii) L agrees to lend money to C based on C\u2019s written promise to repay loan\n(iii)L is advancing court costs and litigation expenses, or\n(iv)L is advancing court costs and litigation expenses for indigent C"
+                      }
+                    ],
+                    "title": "representation\n(ii) L agrees to lend money to C based on C\u2019s written promise to repay loan\n(iii)L is advancing court cos",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 101,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Third-Party Compensation to Lawyer\n\u2022\nL must not accept third party compensation on behalf of C unless\n(1) C gives informed consent\n(2) No interference with L\u2019s professional judgment, and\n(3) Info re representation of C is protected",
+                        "raw_text": "Third-Party Compensation to Lawyer\n\u2022\nL must not accept 3P compensation on behalf of C unless\n(1) C gives informed consent\n(2) No interference with L\u2019s professional judgment, and\n(3) Info re representation of C is protected"
+                      }
+                    ],
+                    "title": "Third-Party Compensation to Lawyer\n\u2022\nL must not accept 3P compensation on behalf of C unless\n(1) C gives informed consen",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 101,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "California\n\u2022\nL must not accept third party compensation on behalf of C unless\n(1) C gives informed written consent\n(2) No interference with L\u2019s professional judgment, and\n(3) Info re representation of C is protected",
+                        "raw_text": "California\n\u2022\nL must not accept 3P compensation on behalf of C unless\n(1) C gives informed written consent\n(2) No interference with L\u2019s professional judgment, and\n(3) Info re representation of C is protected"
+                      }
+                    ],
+                    "title": "California\n\u2022\nL must not accept 3P compensation on behalf of C unless\n(1) C gives informed written consent\n(2) No interfe",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 101,
+                "title": "Providing Financial Assistance\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 101,
+                    "title": "Prospective Limitation on Liability\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 101,
+                    "title": "L may not contract to prospectively limit unless C is independently represented",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 101,
+                    "title": "California\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 101,
+                    "title": "L must not contract with client to prospectively limit",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 101,
+                    "title": "10\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 101,
+                "title": "Malpractice Liability",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 102,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L may not settle claim unless\n(1) C advised in writing to seek advice of independent counsel, and\n(2) C is given reasonable opportunity to do so",
+                        "raw_text": "L may not settle claim unless\n(1) C advised in writing to seek advice of independent counsel, and\n(2) C is given rx opportunity to do so"
+                      }
+                    ],
+                    "title": "L may not settle claim unless\n(1) C advised in writing to seek advice of independent counsel, and\n(2) C is given rx oppo",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 102,
+                "title": "Settling a Malpractice Claim\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 102,
+                "title": "Opposing Lawyers Related\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 102,
+                "title": "Related Ls may not represent opposing parties in same manner unless each C provides\ninformed consent",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 102,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L cannot represent C without providing C written disclosure if L knows that another\nparty in matter\n(i)  Is related to L\n(ii) Lives with L\n(iii) Is C of L or another L in his firm, or\n(iv) Has intimate personal relationship with L",
+                        "raw_text": "L cannot represent C without providing C written disclosure if L knows that another\nparty in matter\n(i)  Is related to L\n(ii) Lives with L\n(iii) Is C of L or another L in his firm, or\n(iv) Has intimate personal relationship with L"
+                      }
+                    ],
+                    "title": "L cannot represent C without providing C written disclosure if L knows that another\nparty in matter\n(i)  Is related to L",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 102,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 102,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L cannot represent C in manner in which L likely to be necessary witness unless\n(i)  Testimony related to uncontested issue\n(ii) Testimony relates to nature or value of legal services rendered, or\n(iii) Disqualification of L would result in substantial hardship to L",
+                        "raw_text": "L cannot represent C in manner in which L likely to be necessary witness unless\n(i)  Testimony related to uncontested issue\n(ii) Testimony relates to nature or value of legal services rendered, or\n(iii) Disqualification of L would result in substantial hardship to L"
+                      }
+                    ],
+                    "title": "L cannot represent C in manner in which L likely to be necessary witness unless\n(i)  Testimony related to uncontested is",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 102,
+                "title": "Lawyer as Witness\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 102,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L cannot represent C in manner in which L likely to be necessary witness unless\n(i)  Testimony related to uncontested issue\n(ii) Testimony relates to nature or value of legal services rendered, or\n(iii) C provides informed written consent",
+                        "raw_text": "L cannot represent C in manner in which L likely to be necessary witness unless\n(i)  Testimony related to uncontested issue\n(ii) Testimony relates to nature or value of legal services rendered, or\n(iii) C provides informed written consent"
+                      }
+                    ],
+                    "title": "L cannot represent C in manner in which L likely to be necessary witness unless\n(i)  Testimony related to uncontested is",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 102,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 102,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Conflict of interest as to L imputed onto entire firm unless\n(i)  Conflict is personal in nature and does not present significant risk of representation",
+                        "raw_text": "Conflict of interest as to L imputed onto entire firm unless\n(i)  Conflict is personal in nature and does not present significant risk of representation"
+                      }
+                    ],
+                    "title": "Conflict of interest as to L imputed onto entire firm unless\n(i)  Conflict is personal in nature and does not present si",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 102,
+                    "title": "materially limited, or\n(ii) Conflict relates to former C of L\u2019s prior firm, L is timely screened, written notice",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 102,
+                "title": "Imputed Disqualification\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 102,
+                    "title": "California\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 102,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Conflict of interest as to L imputed onto entire firm unless\n(i)  Conflict is personal in nature and does not present significant risk of",
+                        "raw_text": "Conflict of interest as to L imputed onto entire firm unless\n(i)  Conflict is personal in nature and does not present significant risk of"
+                      }
+                    ],
+                    "title": "Conflict of interest as to L imputed onto entire firm unless\n(i)  Conflict is personal in nature and does not present si",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 102,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "representation materially limited,\n(ii) L did not substantially participate\n(iii)Conflict relates to former C of L\u2019s prior firm, L is timely screened, written notice",
+                        "raw_text": "representation materially limited,\n(ii) L did not substantially participate\n(iii)Conflict relates to former C of L\u2019s prior firm, L is timely screened, written notice"
+                      }
+                    ],
+                    "title": "representation materially limited,\n(ii) L did not substantially participate\n(iii)Conflict relates to former C of L\u2019s pri",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 102,
+                "title": "provided to former C\n\u2022\nC may waive with informed consent, confirmed in writing",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 102,
+                "title": "provided to former C, or\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 102,
+                    "title": "11\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 102,
+                "title": "C may waive with informed written consent",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 97,
+            "title": "COMMUNICATION WITH CLIENT",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 103,
+            "title": "PROFESSIONAL INTEGRITY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 103,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not\n(i)  Make or fail to correct false statement of law or fact\n(ii) Fail to disclose legal authority in controlling jx that is adverse to C\u2019s position, or\n(iii) Offer false evidence",
+                        "raw_text": "L must not\n(i)  Make or fail to correct false statement of law or fact\n(ii) Fail to disclose legal authority in controlling jx that is adverse to C\u2019s position, or\n(iii) Offer false evidence"
+                      }
+                    ],
+                    "title": "L must not\n(i)  Make or fail to correct false statement of law or fact\n(ii) Fail to disclose legal authority in controll",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 103,
+                "title": "Duty of Candor to the Court\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 103,
+                "title": "Duty to Avoid Frivolous Claims\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 103,
+                    "title": "Duty to Expedite Litigation\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 103,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must make reasonable efforts to expedite litigation\nDuty of Fairness to Opposing Party or Counsel",
+                        "raw_text": "L must make rx efforts to expedite litigation\nDuty of Fairness to Opposing Party or Counsel"
+                      }
+                    ],
+                    "title": "L must make rx efforts to expedite litigation\nDuty of Fairness to Opposing Party or Counsel",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 103,
+                    "title": "Discovery\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 103,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not make frivolous discovery requests or fail to reasonably comply with\nlegally proper discovery requests\nEvidence",
+                        "raw_text": "L must not make frivolous discovery requests or fail to rxly comply with\nlegally proper discovery requests\nEvidence"
+                      }
+                    ],
+                    "title": "L must not make frivolous discovery requests or fail to rxly comply with\nlegally proper discovery requests\nEvidence",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 103,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Access to Evidence\n\u2022\nL must not unlawfully obstruct access to evidence or alter, destroy,\nor conceal docs and other evidence\nFalse Evidence\n\u2022",
+                        "raw_text": "Access to Evidence\n\u2022\nL must not unlawfully obstruct access to evidence or alter, destroy,\nor conceal docs and other evidence\nFalse Evidence\n\u2022"
+                      }
+                    ],
+                    "title": "Access to Evidence\n\u2022\nL must not unlawfully obstruct access to evidence or alter, destroy,\nor conceal docs and other evid",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 103,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not\n(i)  Falsify evidence\n(ii) Counsel or assist witness to give false testimony, or\n(iii)Unlawfully offer inducement to witness",
+                        "raw_text": "L must not\n(i)  Falsify evidence\n(ii) Counsel or assist witness to give false testimony, or\n(iii)Unlawfully offer inducement to witness"
+                      }
+                    ],
+                    "title": "L must not\n(i)  Falsify evidence\n(ii) Counsel or assist witness to give false testimony, or\n(iii)Unlawfully offer induce",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 103,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Reasonable Belief\n\u2022\nIf L, C, or witness has offered evidence L comes to know is\nfalse, L must take reasonable remedial measures",
+                        "raw_text": "Reasonable Belief\n\u2022\nIf L, C, or witness has offered evidence L comes to know is\nfalse, L must take rx remedial measures"
+                      }
+                    ],
+                    "title": "Reasonable Belief\n\u2022\nIf L, C, or witness has offered evidence L comes to know is\nfalse, L must take rx remedial measures",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 103,
+                    "title": "Criminal Defendants\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 103,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L cannot prohibit criminal D from testifying on own\nbehalf\n\u2022\nIf D will testify falsely, L must attempt to dissuade\nC from giving false testimony \u2192 Attempt to\nwithdraw \u2192 Make disclosure to court",
+                        "raw_text": "L cannot prohibit criminal D from testifying on own\nbehalf\n\u2022\nIf D will testify falsely, L must attempt to dissuade\nC from giving false testimony \u2192 Attempt to\nwithdraw \u2192 Make disclosure to court"
+                      }
+                    ],
+                    "title": "L cannot prohibit criminal D from testifying on own\nbehalf\n\u2022\nIf D will testify falsely, L must attempt to dissuade\nC fro",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 103,
+                    "title": "12\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 104,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "California\n\u2022\nIf C will testify falsely, L must attempt to\ndissuade C from giving false testimony \u2192\nAttempt to withdraw \u2192 Offer testimony in\nnarrative form\nLearning of Falsity After the Fact\n\u2022\nIf L learns of false testimony after the fact, L must attempt to\ndissuade C from giving false testimony or convince C to\ncorrect \u2192 Attempt to withdraw \u2192 Make disclosure to court\nas reasonably necessary",
+                        "raw_text": "California\n\u2022\nIf C will testify falsely, L must attempt to\ndissuade C from giving false testimony \u2192\nAttempt to withdraw \u2192 Offer testimony in\nnarrative form\nLearning of Falsity After the Fact\n\u2022\nIf L learns of false testimony after the fact, L must attempt to\ndissuade C from giving false testimony or convince C to\ncorrect \u2192 Attempt to withdraw \u2192 Make disclosure to court\nas rxly necessary"
+                      }
+                    ],
+                    "title": "California\n\u2022\nIf C will testify falsely, L must attempt to\ndissuade C from giving false testimony \u2192\nAttempt to withdraw \u2192",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 104,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "California\n\u2022\nIf L learns of false testimony after the fact, L must\nattempt to dissuade C from giving false testimony or\nconvince C to correct \u2192 Attempt to withdraw \u2192\nMake disclosure to court but no confidential C info\nEx Parte Communications\n\u2022",
+                        "raw_text": "California\n\u2022\nIf L learns of false testimony after the fact, L must\nattempt to dissuade C from giving false testimony or\nconvince C to correct \u2192 Attempt to withdraw \u2192\nMake disclosure to court but no confidential C info\nEx Parte Communications\n\u2022"
+                      }
+                    ],
+                    "title": "California\n\u2022\nIf L learns of false testimony after the fact, L must\nattempt to dissuade C from giving false testimony or\n",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 103,
+                "title": "L must not file frivolous claims and defenses",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 104,
+                "title": "L must not seek to influence or communicate ex parte with jurors or judge\nPayments to Witnesses",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 104,
+                "title": "Lay Witnesses\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 104,
+                "title": "L may pay for rx costs incurred\nExpert Witnesses\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 104,
+                "title": "L may pay according to fee schedule and other rx costs\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 104,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not communicate with persons L knows are represented by another L\nunless\n(i) Party\u2019s L has consented, or\n(ii) Communication authorized by law or court order",
+                        "raw_text": "L must not communicate with persons L knows are represented by another L\nunless\n(i) Party\u2019s L has consented, or\n(ii) Communication authorized by law or court order"
+                      }
+                    ],
+                    "title": "L must not communicate with persons L knows are represented by another L\nunless\n(i) Party\u2019s L has consented, or\n(ii) Com",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 104,
+                "title": "L may not provide contingency fee\nCommunications with Represented Parties\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 104,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L participating in investigation or litigation must not make out-of-court\nstatement he knows will be publicly distributed and have substantial\nlikelihood of material prejudice",
+                        "raw_text": "L participating in investigation or litigation must not make out-of-court\nstatement he knows will be publicly distributed and have substantial\nlikelihood of material prejudice"
+                      }
+                    ],
+                    "title": "L participating in investigation or litigation must not make out-of-court\nstatement he knows will be publicly distribute",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 104,
+                    "title": "Exceptions\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 104,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Making statements to protect C from prejudice\n\u2022\nStating claim, offense, defense, persons involved\n\u2022",
+                        "raw_text": "Making statements to protect C from prejudice\n\u2022\nStating claim, offense, defense, persons involved\n\u2022"
+                      }
+                    ],
+                    "title": "Making statements to protect C from prejudice\n\u2022\nStating claim, offense, defense, persons involved\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 104,
+                    "title": "Sharing info in public record\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 104,
+                    "title": "Stating investigation in progress",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 104,
+                    "title": "13\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 104,
+                "title": "Trial Publicity\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 105,
+                "title": "Requesting assistance in obtaining evidence\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 105,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Prosecutors must\n(i)  Refrain from proceeding with case unsupported by probable cause\n(ii)  Make reasonable efforts to assure that accused has been advised to obtain counsel and",
+                            "raw_text": "Prosecutors must\n(i)  Refrain from proceeding with case unsupported by probable cause\n(ii)  Make rx efforts to assure that accused has been advised to obtain counsel and"
+                          }
+                        ],
+                        "title": "Prosecutors must\n(i)  Refrain from proceeding with case unsupported by probable cause\n(ii)  Make rx efforts to assure th",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 105,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "given opportunity to do so\n(iii) Not pursue waiver of important pretrial rights from unrepresented accused\n(iv) Make timely disclosure of exculpatory evidence, and\n(v) Refrain from making out-of-court comments substantially likely to heighten",
+                            "raw_text": "given opportunity to do so\n(iii) Not pursue waiver of important pretrial rights from unrepresented accused\n(iv) Make timely disclosure of exculpatory evidence, and\n(v) Refrain from making out-of-court comments substantially likely to heighten"
+                          }
+                        ],
+                        "title": "given opportunity to do so\n(iii) Not pursue waiver of important pretrial rights from unrepresented accused\n(iv) Make tim",
+                        "type": "RULE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 105,
+                    "title": "L cannot attempt to obtain advantage in civil case by threatening charges\nSpecial Responsibilities of Prosecutors\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 105,
+                "title": "Statements re those involved in criminal case\nCalifornia \u2013 Threats\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 105,
+                    "title": "Lawyer\u2019s Responsibility Regarding Non-Lawyers",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 105,
+                "title": "public condemnation of accused\nPROFESSIONAL INTEGRITY CONTINUED",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 105,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L having direct supervisory authority over non-L responsible for ethics violations if\n(i)  L ordered or ratified conduct, or\n(ii) L is partner at firm or directly supervised non-L and could have mitigated",
+                        "raw_text": "L having direct supervisory authority over non-L responsible for ethics violations if\n(i)  L ordered or ratified conduct, or\n(ii) L is partner at firm or directly supervised non-L and could have mitigated"
+                      }
+                    ],
+                    "title": "L having direct supervisory authority over non-L responsible for ethics violations if\n(i)  L ordered or ratified conduct",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 105,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "consequences\nCalifornia \u2013 Employment of Disbarred, Suspended, Resigned, or Involuntarily Inactive Lawyer\n\u2022\nL must not employ, associate with, or assist person L knows is member who is disbarred,\nsuspended, resigned, or involuntarily inactive",
+                        "raw_text": "consequences\nCalifornia \u2013 Employment of Disbarred, Suspended, Resigned, or Involuntarily Inactive Lawyer\n\u2022\nL must not employ, associate with, or assist person L knows is member who is disbarred,\nsuspended, resigned, or involuntarily inactive"
+                      }
+                    ],
+                    "title": "consequences\nCalifornia \u2013 Employment of Disbarred, Suspended, Resigned, or Involuntarily Inactive Lawyer\n\u2022\nL must not em",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 105,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "California \u2013 Exceptions\n\u2022\nL may employ, associate with, or assist ineligible person to perform research,\ndrafting or clerical activities\n\u2022",
+                        "raw_text": "California \u2013 Exceptions\n\u2022\nL may employ, associate with, or assist ineligible person to perform research,\ndrafting or clerical activities\n\u2022"
+                      }
+                    ],
+                    "title": "California \u2013 Exceptions\n\u2022\nL may employ, associate with, or assist ineligible person to perform research,\ndrafting or cle",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 105,
+                    "title": "L must serve written notice to State Bar\nProfessional Misconduct of Lawyer\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 105,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Violate ethics rules\n\u2022\nCommit crime that reflects adversely on L\u2019s honesty, trustworthiness, fitness\n\u2022",
+                        "raw_text": "Violate ethics rules\n\u2022\nCommit crime that reflects adversely on L\u2019s honesty, trustworthiness, fitness\n\u2022"
+                      }
+                    ],
+                    "title": "Violate ethics rules\n\u2022\nCommit crime that reflects adversely on L\u2019s honesty, trustworthiness, fitness\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 105,
+                    "title": "Engage in fraudulent conduct\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 105,
+                    "title": "Engage in conduct prejudicial to administration of justice\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 105,
+                    "title": "State or imply ability to improperly influence government agency or official\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 105,
+                    "title": "Knowingly assist judge or judicial officer in violation of ethics or law\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 105,
+                    "title": "Engage in harassment or discrimination",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 105,
+                    "title": "14\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 105,
+                "title": "Non-Lawyers Within Firm\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 106,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must report to appropriate authority when L knows another L or judge has violated ethics in\nmanner that raises substantial question re honesty, trustworthiness, fitness\nUnauthorized Practice of Law\n\u2022",
+                        "raw_text": "L must report to appropriate authority when L knows another L or judge has violated ethics in\nmanner that raises substantial question re honesty, trustworthiness, fitness\nUnauthorized Practice of Law\n\u2022"
+                      }
+                    ],
+                    "title": "L must report to appropriate authority when L knows another L or judge has violated ethics in\nmanner that raises substan",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 106,
+                "title": "Reporting Professional Misconduct\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 106,
+                    "title": "L may be permitted to temporarily practice in jx if\n(i)  Pro hac vice, or\n(ii) In association with licensed L",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 106,
+                "title": "L must not practice law in state where not licensed or assist another in doing so\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 103,
+            "title": "LAWYER\u2019S CONDUCT DURING LITIGATION",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 106,
+                "title": "Truth in Communication\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 106,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L can advertise services if\n(1) Ad provides name and contact info for at least 1 L or firm responsible for content, and\n(2) If L states or implies certification, L has indeed been certified and identifies certifying",
+                        "raw_text": "L can advertise services if\n(1) Ad provides name and contact info for at least 1 L or firm responsible for content, and\n(2) If L states or implies certification, L has indeed been certified and identifies certifying"
+                      }
+                    ],
+                    "title": "L can advertise services if\n(1) Ad provides name and contact info for at least 1 L or firm responsible for content, and\n",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 106,
+                    "title": "organization\nSolicitation of Clients",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 106,
+                "title": "L must not make false or materially misleading communication re himself or services\nContents of Ad\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 106,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not solicit prospective Cs through live person-to-person contact unless\nprospective C is\n(i)  L\n(ii) Person with familial, close, professional relationship with L or firm, or\n(iii) Person routinely using type of services offered by L for business purposes\nTargeted Mailings, Recordings, or Ads\n\u2022\nWritten, recorded, electronic communications must include \u201cAdvertisement\u201d on\noutside envelope and at beginning and ending of communication unless ad apparent\nfrom context\nLimitation on Soliciting Prospective Clients\n\u2022",
+                        "raw_text": "L must not solicit prospective Cs through live person-to-person contact unless\nprospective C is\n(i)  L\n(ii) Person with familial, close, professional relationship with L or firm, or\n(iii) Person routinely using type of services offered by L for business purposes\nTargeted Mailings, Recordings, or Ads\n\u2022\nWritten, recorded, electronic communications must include \u201cAdvertisement\u201d on\noutside envelope and at beginning and ending of communication unless ad apparent\nfrom context\nLimitation on Soliciting Prospective Clients\n\u2022"
+                      }
+                    ],
+                    "title": "L must not solicit prospective Cs through live person-to-person contact unless\nprospective C is\n(i)  L\n(ii) Person with ",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 106,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "L must not solicit employment if\n(i)  Prospective C has communicated desire not to be solicited, or\n(ii) Involves coercion, duress, harassment",
+                        "raw_text": "L must not solicit employment if\n(i)  Prospective C has communicated desire not to be solicited, or\n(ii) Involves coercion, duress, harassment"
+                      }
+                    ],
+                    "title": "L must not solicit employment if\n(i)  Prospective C has communicated desire not to be solicited, or\n(ii) Involves coerci",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 106,
+                    "title": "15\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 106,
+                "title": "Direct Solicitation Prohibited\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 106,
+            "title": "ADVERTISING AND SOLICITATION",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 92,
+        "title": "Professional Responsibility",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Professional Responsibility Essay Template"
+  }
+}

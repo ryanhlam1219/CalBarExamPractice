@@ -1,0 +1,1257 @@
+{
+  "pages": "69-75",
+  "subject": "Criminal Procedure",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 69,
+            "title": "CRIMINAL PROCEDURE",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 69,
+                "title": "Fourth Amendment\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Government Conduct\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Actions by government or its agents",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Standing\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "D must prove REOP",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Locations Searched",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Home\n\u2022\nAlways REOP where one resides, owns, possesses, or overnight\nguest",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 69,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Curtilage\n\u2022\nreasonable expectation of privacy\n\u2022\nFactors\n(i) Proximity\n(ii) Enclosure\n(iii) Nature of use\n(iv) Steps taken to protect from observation",
+                        "raw_text": "Curtilage\n\u2022\nREOP\n\u2022\nFactors\n(i) Proximity\n(ii) Enclosure\n(iii) Nature of use\n(iv) Steps taken to protect from observation"
+                      }
+                    ],
+                    "title": "Curtilage\n\u2022\nREOP\n\u2022\nFactors\n(i) Proximity\n(ii) Enclosure\n(iii) Nature of use\n(iv) Steps taken to protect from observation",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Open Fields\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "No REOP",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Business Premises\n\u2022\nREOP\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Subject to administrative searches",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Prison\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "No REOP",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Automobile\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Limited REOP",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Overheard Conversations\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "No REOP if naturally overheard",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Government Informants",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "Informants and Undercovers\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "No REOP",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 69,
+                    "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Wiretapping and Recorded Calls\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "No REOP if one party consents",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Third-Party Disclosure",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "\u2022\nNo REOP in info knowingly shared with 3Ps who may disclose",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Inherently Public Objects and Characteristics\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "No REOP",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Search\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Violation of REOP\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Must be rx and pursuant to valid warrant unless warrant exception applies",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Methods",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Fly Over\n\u2022\nNot search if viewed from at least 400 ft in the air",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Ladders\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Not search even if used to view contents protected by REOP",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Technology\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Search if technology not used by general public",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Canine Sniff\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Search if accompanied with trespass",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Search and Arrest Warrant",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 70,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Validity of Search Warrant\n(1) Issued by neutral and detached magistrate\n(2) Based upon probable cause, and\n(3) Describes with reasonable particularity",
+                        "raw_text": "Validity of Search Warrant\n(1) Issued by neutral and detached magistrate\n(2) Based upon probable cause, and\n(3) Describes with rx particularity"
+                      }
+                    ],
+                    "title": "Validity of Search Warrant\n(1) Issued by neutral and detached magistrate\n(2) Based upon probable cause, and\n(3) Describe",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "(i) Places to be searched\n(ii) Things to be seized",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Knock and Announce Rule\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Must knock and announce presence when executing warrant",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 69,
+                "title": "Prohibits unrx searches and seizures\n\u2022\n4A violation requires (1) government conduct and (2) standing",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 70,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Not required if exigent circumstances or reasonable suspicion that\nannouncing would be dangerous or allow destruction of\nevidence",
+                        "raw_text": "Not required if exigent circumstances or rx suspicion that\nannouncing would be dangerous or allow destruction of\nevidence"
+                      }
+                    ],
+                    "title": "Not required if exigent circumstances or rx suspicion that\nannouncing would be dangerous or allow destruction of\nevidenc",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Good Faith Exception to An Invalid Warrant\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "Evidence obtained not excluded if officer acted in good faith reliance",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 70,
+                    "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 71,
+                    "title": "Warrant Exceptions",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 71,
+                    "title": "Stop and Frisk",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 71,
+                    "title": "Terry Stop\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 71,
+                    "title": "Requires rx suspicion",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 71,
+                    "title": "Frisk of Persons\n\u2022\nOnce stopped, protective frisk for weapons allowed\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 71,
+                    "title": "Requires rx suspicion that person may be armed",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 71,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Plain Feel Exception\n\u2022\nDuring frisk, police may seize if reasonable belief item is contraband\n\u2022",
+                        "raw_text": "Plain Feel Exception\n\u2022\nDuring frisk, police may seize if rx belief item is contraband\n\u2022"
+                      }
+                    ],
+                    "title": "Plain Feel Exception\n\u2022\nDuring frisk, police may seize if rx belief item is contraband\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 71,
+                    "title": "Nature of item must be immediately obvious",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 71,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Stop and Frisk of Automobiles\n\u2022\nStop: Requires reasonable suspicion of traffic violation\n\u2022\nFrisk: Requires reasonable suspicion that weapon is inside vehicle, may only\nfrisk passenger compartment where weapons may be",
+                        "raw_text": "Stop and Frisk of Automobiles\n\u2022\nStop: Requires rx suspicion of traffic violation\n\u2022\nFrisk: Requires rx suspicion that weapon is inside vehicle, may only\nfrisk passenger compartment where weapons may be"
+                      }
+                    ],
+                    "title": "Stop and Frisk of Automobiles\n\u2022\nStop: Requires rx suspicion of traffic violation\n\u2022\nFrisk: Requires rx suspicion that wea",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 71,
+                    "title": "Search Incident to a Lawful Arrest\n\u2022\nIf lawful arrest, may search arrestee",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 71,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Scope of Search \u2013 Person\n\u2022\nMay search arrestee\u2019s person and wingspan\nScope of Search \u2013 Homes\n\u2022\nMay search arrestee\u2019s wingspan and conduct protective sweep where\naccomplice may be hiding\nScope of Search \u2013 Automobiles\n\u2022\nMay search car only if arrestee is (i) unsecured and within reach of passenger\ncompartment or (ii) reasonable belief evidence contained therein",
+                        "raw_text": "Scope of Search \u2013 Person\n\u2022\nMay search arrestee\u2019s person and wingspan\nScope of Search \u2013 Homes\n\u2022\nMay search arrestee\u2019s wingspan and conduct protective sweep where\naccomplice may be hiding\nScope of Search \u2013 Automobiles\n\u2022\nMay search car only if arrestee is (i) unsecured and within reach of passenger\ncompartment or (ii) rx belief evidence contained therein"
+                      }
+                    ],
+                    "title": "Scope of Search \u2013 Person\n\u2022\nMay search arrestee\u2019s person and wingspan\nScope of Search \u2013 Homes\n\u2022\nMay search arrestee\u2019s win",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 71,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Automobile Exception\n\u2022\nIf probable cause that automobile contains contraband, may search entire vehicle",
+                        "raw_text": "Automobile Exception\n\u2022\nIf probable cause that automobile contains contraband, may search entire vehicle"
+                      }
+                    ],
+                    "title": "Automobile Exception\n\u2022\nIf probable cause that automobile contains contraband, may search entire vehicle",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 70,
+                "title": "Exception\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 71,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "May seize evidence in plain view if\n(1) Police lawfully in location\n(2) Nature of evidence immediately apparent, and\n(3) Police may lawfully access item",
+                        "raw_text": "May seize evidence in plain view if\n(1) Police lawfully in location\n(2) Nature of evidence immediately apparent, and\n(3) Police may lawfully access item"
+                      }
+                    ],
+                    "title": "May seize evidence in plain view if\n(1) Police lawfully in location\n(2) Nature of evidence immediately apparent, and\n(3)",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 71,
+                    "title": "Exigent Circumstances\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 71,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Immediate action required\n(i) Administer emergency aid\n(ii) Prevent destruction of evidence\n(iii) Hot pursuit",
+                        "raw_text": "Immediate action required\n(i) Administer emergency aid\n(ii) Prevent destruction of evidence\n(iii) Hot pursuit"
+                      }
+                    ],
+                    "title": "Immediate action required\n(i) Administer emergency aid\n(ii) Prevent destruction of evidence\n(iii) Hot pursuit",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 71,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 72,
+                    "title": "Consent\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 72,
+                    "title": "Must have authority to give consent\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 72,
+                    "title": "Must be voluntary",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 72,
+                    "title": "Scope\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 72,
+                    "title": "Consenting party may limit scope or withdraw consent",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Seizure of Persons\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Rx person would not feel free to leave",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Arrest",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Arrest Warrants",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 72,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Requirements\n(1) Neutral and detached magistrate\n(2) Based upon probable cause, and\n(3) Crime committed by person identified in warrant",
+                            "raw_text": "Requirements\n(1) Neutral and detached magistrate\n(2) Based upon probable cause, and\n(3) Crime committed by person identified in warrant"
+                          }
+                        ],
+                        "title": "Requirements\n(1) Neutral and detached magistrate\n(2) Based upon probable cause, and\n(3) Crime committed by person identi",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Arrest Within Arrestee\u2019s Home\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 72,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Warrant mandatory unless exigent circumstances or valid\nconsent\nArrest Within Third Party\u2019s Home\n\u2022",
+                            "raw_text": "Warrant mandatory unless exigent circumstances or valid\nconsent\nArrest Within Third Party\u2019s Home\n\u2022"
+                          }
+                        ],
+                        "title": "Warrant mandatory unless exigent circumstances or valid\nconsent\nArrest Within Third Party\u2019s Home\n\u2022",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 72,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Requires arrest warrant for suspect and search warrant for\nthird party\u2019s home unless exigent circumstances or third party\u2019s valid\nconsent",
+                            "raw_text": "Requires arrest warrant for suspect and search warrant for\n3P\u2019s home unless exigent circumstances or 3P\u2019s valid\nconsent"
+                          }
+                        ],
+                        "title": "Requires arrest warrant for suspect and search warrant for\n3P\u2019s home unless exigent circumstances or 3P\u2019s valid\nconsent",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Warrantless Arrests",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Public Place\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Warrant not required",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Felonies Outside Officer\u2019s Presence\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Warrant not required if probable cause to believe felony\ncommitted",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Felonies and Misdemeanors Within Officer\u2019s Presence\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Warrant not required if felony or misdemeanor committed",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "cross_references": [
+                          {
+                            "resolution": "UNRESOLVED",
+                            "target": "See above."
+                          },
+                          {
+                            "resolution": "NEEDS_REVIEW",
+                            "target": "above under Warrant Exceptions"
+                          }
+                        ],
+                        "depth": 5,
+                        "page": 72,
+                        "title": "Terry Stop and Frisk\nSee above under Warrant Exceptions.",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 72,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Police Checkpoints\n(1) Non-discriminatory in execution, and\n(2) Articulable purpose other than investigation of criminal activity",
+                            "raw_text": "Police Checkpoints\n(1) Non-discriminatory in execution, and\n(2) Articulable purpose other than investigation of criminal activity"
+                          }
+                        ],
+                        "title": "Police Checkpoints\n(1) Non-discriminatory in execution, and\n(2) Articulable purpose other than investigation of criminal",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 72,
+                        "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 73,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Exclusionary Rule\n\u2022\nfruit of the poisonous tree: Evidence gathered in violation of D\u2019s 4A, 5A, or 6A rights,\n\u2022",
+                            "raw_text": "Exclusionary Rule\n\u2022\nFOPT: Evidence gathered in violation of D\u2019s 4A, 5A, or 6A rights,\n\u2022"
+                          }
+                        ],
+                        "title": "Exclusionary Rule\n\u2022\nFOPT: Evidence gathered in violation of D\u2019s 4A, 5A, or 6A rights,\n\u2022",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 73,
+                        "title": "FOPT may not be introduced at trial unless exception applies",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 73,
+                        "title": "Exceptions",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 73,
+                        "title": "Inevitable Discovery\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 73,
+                        "title": "Evidence would have been inevitably and lawfully discovered",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 73,
+                        "title": "Independent Source\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 73,
+                        "title": "Legal discovery through independent source",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 73,
+                        "title": "Attenuation of the Taint\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 73,
+                        "title": "Causal connection has been attenuated",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 73,
+                        "title": "Good Faith Reliance\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 73,
+                        "title": "Search or arrest pursuant to defective warrant but relied on in good faith",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 73,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Invalid Reliance\n(i) Warrant so deficient that no reasonable officer could have relied in good faith\n(ii) Biased magistrate, or\n(iii) Warrant secured through fraudulent means",
+                            "raw_text": "Invalid Reliance\n(i) Warrant so deficient that no rx officer could have relied in good faith\n(ii) Biased magistrate, or\n(iii) Warrant secured through fraudulent means"
+                          }
+                        ],
+                        "title": "Invalid Reliance\n(i) Warrant so deficient that no rx officer could have relied in good faith\n(ii) Biased magistrate, or\n",
+                        "type": "RULE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 72,
+                    "title": "Shared Property\n\u2022\nD present: Co-occupant\u2019s consent invalid\n\u2022\nD not present: Co-occupant\u2019s consent valid",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 71,
+                "title": "Plain View\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 69,
+            "title": "FOURTH AMENDMENT",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 73,
+                "title": "Fifth Amendment\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 73,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "No person shall be compelled in any criminal case to be a witness against himself",
+                    "raw_text": "No person shall be compelled in any criminal case to be a witness against himself"
+                  }
+                ],
+                "title": "No person shall be compelled in any criminal case to be a witness against himself",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 73,
+                "title": "Miranda Warnings\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 73,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Must be provided prior to any custodial interrogation\n(1) Right to remain silent\n(2) Anything D says can be used against him in court of law\n(3) Right to attorney during interrogation\n(4) If he cannot afford attorney, one will be provided",
+                    "raw_text": "Must be provided prior to any custodial interrogation\n(1) Right to remain silent\n(2) Anything D says can be used against him in court of law\n(3) Right to attorney during interrogation\n(4) If he cannot afford attorney, one will be provided"
+                  }
+                ],
+                "title": "Must be provided prior to any custodial interrogation\n(1) Right to remain silent\n(2) Anything D says can be used against",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 73,
+                "title": "Custody\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 73,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Formally arrested or deprived of movement\n\u2022\nTest: Whether a reasonable person in same circumstance would believe he is not free\nto leave\nInterrogation\n\u2022",
+                    "raw_text": "Formally arrested or deprived of movement\n\u2022\nTest: Whether a rx person in same circumstance would believe he is not free\nto leave\nInterrogation\n\u2022"
+                  }
+                ],
+                "title": "Formally arrested or deprived of movement\n\u2022\nTest: Whether a rx person in same circumstance would believe he is not free\n",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 73,
+                "title": "Express questioning likely to elicit incriminating response",
+                "type": "ELEMENT"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 73,
+                    "title": "Invoking Miranda\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 73,
+                    "title": "Clear and unequivocal assertion required",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 73,
+                    "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Right to Counsel\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 74,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "All questioning must cease until counsel is present unless suspect\nre-instigates or at least 2 weeks have passed since release and fresh\nMiranda warnings provided\nRight to Silence\n\u2022\nMust \u201cscrupulously honor\u201d unless suspect re-instigates\n\u2022",
+                        "raw_text": "All questioning must cease until counsel is present unless suspect\nre-instigates or at least 2 weeks have passed since release and fresh\nMiranda warnings provided\nRight to Silence\n\u2022\nMust \u201cscrupulously honor\u201d unless suspect re-instigates\n\u2022"
+                      }
+                    ],
+                    "title": "All questioning must cease until counsel is present unless suspect\nre-instigates or at least 2 weeks have passed since r",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "May still question re unrelated crimes",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Voluntary Statements\n\u2022\nNot protected by 5A",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 73,
+                "title": "Waiver of Miranda Rights\n(1) Knowingly and intelligently made\n(2) Voluntary, and\n(3) Uncoerced",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 74,
+                "title": "Exclusionary Rule and Miranda\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 74,
+                "title": "Statements obtained in violation of Miranda\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 74,
+                "title": "Subject to Exclusionary Rule\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 74,
+                "title": "May be admitted for impeachment purposes\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Sixth Amendment",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Right to Assistance of Counsel\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Attaches automatically once formal adversarial judicial proceedings begin\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Remains throughout all critical stages\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Ends at sentencing",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Exclusionary Rule and Sixth Amendment\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Subject to FOPT consequences unless Exclusionary Rule exception applies",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Offense Specific\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Applies to specific offenses that D has been formally charged with",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Ineffective Assistance of Counsel\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "D may appeal case on basis of ineffective assistance of counsel",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 74,
+                "title": "Not subject to FOPT doctrine\nSIXTH AMENDMENT",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 74,
+                "title": "Waiver\n(1) Knowingly and intelligently made, and\n(2) Voluntary",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 74,
+                "title": "Pro Se\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "Right to a Speedy Trial\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "D has right to a speedy trial",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 74,
+                    "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 75,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Balancing Test\n\u2022\nFactors\n(i) Length of delay\n(ii) Reason for delay\n(iii) Whether D objected to delay\n(iv) Prejudice to D",
+                        "raw_text": "Balancing Test\n\u2022\nFactors\n(i) Length of delay\n(ii) Reason for delay\n(iii) Whether D objected to delay\n(iv) Prejudice to D"
+                      }
+                    ],
+                    "title": "Balancing Test\n\u2022\nFactors\n(i) Length of delay\n(ii) Reason for delay\n(iii) Whether D objected to delay\n(iv) Prejudice to D",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 75,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Right to a Jury Trial\n\u2022\nD has right to jury trial for offenses that carry potential sentences for more than 6\nmonths\nRight to Testify\n\u2022",
+                        "raw_text": "Right to a Jury Trial\n\u2022\nD has right to jury trial for offenses that carry potential sentences for more than 6\nmonths\nRight to Testify\n\u2022"
+                      }
+                    ],
+                    "title": "Right to a Jury Trial\n\u2022\nD has right to jury trial for offenses that carry potential sentences for more than 6\nmonths\nRig",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 75,
+                    "title": "D has right to testify his own trial",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 75,
+                    "title": "Right to Confront Witnesses \u2013 Confrontation Clause\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 75,
+                    "title": "D has right to confront all witnesses testifying against him",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 75,
+                    "title": "7\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 74,
+                "title": "D may waive right to counsel\n(1) Knowingly and intelligently made, and\n(2)  Voluntary",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 73,
+            "title": "FIFTH AMENDMENT",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 69,
+        "title": "Criminal Procedure",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Criminal Procedure Essay Template"
+  }
+}

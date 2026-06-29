@@ -1,0 +1,2550 @@
+{
+  "pages": "40-54",
+  "subject": "Contracts",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 40,
+                "title": "Contract\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 40,
+                "title": "Bargained-for exchange for which law provides remedy upon breach\nApplicable Law",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "COMMON_LAW",
+                "page": 40,
+                "title": "Common Law\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 40,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "contracts involving sale of goods\nMixed Contracts \u2013 Predominant Purpose Test\n\u2022\ncontracts involving both services and sale of goods, courts determine contract\u2019s predominant purpose\nCONTRACT FORMATION",
+                        "raw_text": "Ks involving sale of goods\nMixed Contracts \u2013 Predominant Purpose Test\n\u2022\nKs involving both services and sale of goods, courts determine K\u2019s predominant purpose\nCONTRACT FORMATION"
+                      }
+                    ],
+                    "title": "Ks involving sale of goods\nMixed Contracts \u2013 Predominant Purpose Test\n\u2022\nKs involving both services and sale of goods, co",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 40,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Formation\n(1) Mutual assent\n(2) Consideration, and\n(3) No defenses to formation\nOffer\n(1) Manifest intent to contract\n(2) Definite and certain terms, and\n(3) Communication of offer to offeree",
+                        "raw_text": "Formation\n(1) Mutual assent\n(2) Consideration, and\n(3) No defenses to formation\nOffer\n(1) Manifest intent to contract\n(2) Definite and certain terms, and\n(3) Communication of offer to offeree"
+                      }
+                    ],
+                    "title": "Formation\n(1) Mutual assent\n(2) Consideration, and\n(3) No defenses to formation\nOffer\n(1) Manifest intent to contract\n(2",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 40,
+                    "title": "Intent\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 40,
+                    "title": "Words or conduct must show present intent\nDefinite and Certain Terms",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "COMMON_LAW",
+                    "page": 40,
+                    "title": "Common Law\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 40,
+                    "title": "Requires all essential terms\n\u2022\nParties\n\u2022\nPurpose\n\u2022\nQuantity\n\u2022\nCost\nUCC\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 40,
+                    "title": "Only essential term is quantity\nCommunication to the Offeree\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 40,
+                    "title": "Offer must be communicated to offeree",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 40,
+                    "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "UCC",
+                "page": 40,
+                "title": "Ks involving services or real estate\nUniform Commercial Code (UCC)\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 41,
+                    "title": "Considered an offer if\n(i)  Clear and definite terms and limits who may accept, or\n(ii) Includes stated reward",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 41,
+                "title": "Advertisements\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 40,
+            "title": "CONTRACTS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 41,
+                "title": "Termination\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 41,
+                "title": "Offer can be terminated prior to acceptance",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 41,
+                "title": "Revocation",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 41,
+                "title": "Direct\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 41,
+                "title": "Expressly communicating revocation to offeree\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 41,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Effective upon receipt\nIndirect\n(1) Conduct takes definite action inconsistent with intent to contract,",
+                    "raw_text": "Effective upon receipt\nIndirect\n(1) Conduct takes definite action inconsistent with intent to contract,"
+                  }
+                ],
+                "title": "Effective upon receipt\nIndirect\n(1) Conduct takes definite action inconsistent with intent to contract,",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 41,
+                "title": "and\n(2) Offeree knows about conduct from reliable source\nRejection\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 41,
+                "title": "Effective upon receipt\nCounteroffer\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 41,
+                    "title": "Lapse of Time\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 41,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Terminated if not accepted within reasonable time or by deadline\nDeath or Mental Incapacity\n\u2022",
+                        "raw_text": "Terminated if not accepted within rx time or by deadline\nDeath or Mental Incapacity\n\u2022"
+                      }
+                    ],
+                    "title": "Terminated if not accepted within rx time or by deadline\nDeath or Mental Incapacity\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 41,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Terminated if offeror dies or loses capacity before acceptance\nDestruction of Illegality\n\u2022",
+                        "raw_text": "Terminated if offeror dies or loses capacity before acceptance\nDestruction of Illegality\n\u2022"
+                      }
+                    ],
+                    "title": "Terminated if offeror dies or loses capacity before acceptance\nDestruction of Illegality\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 41,
+                    "title": "Terminated if subject matter destroyed or illegal\nIrrevocable Offers",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 41,
+                "title": "Operates as rejection and creates new offer",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 41,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Consideration paid to offeror to keep offer open for specified time\nUCC \u2013 Firm Offer\n(1) Offer by merchant to buy or sell goods\n(2) Signed writing, and\n(3) Assures offer held open for time stated, not to exceed 3 months",
+                        "raw_text": "Consideration paid to offeror to keep offer open for specified time\nUCC \u2013 Firm Offer\n(1) Offer by merchant to buy or sell goods\n(2) Signed writing, and\n(3) Assures offer held open for time stated, not to exceed 3 months"
+                      }
+                    ],
+                    "title": "Consideration paid to offeror to keep offer open for specified time\nUCC \u2013 Firm Offer\n(1) Offer by merchant to buy or sel",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 41,
+                    "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Promissory Estoppel\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Offeree detrimentally relies on offer\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Reliance rxly fx\nPartial Performance",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Unilateral Contracts\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Accepted by rendering performance\nBilateral Contracts\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Accepted by promise or performance\nACCEPTANCE OF OFFER",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Acceptance\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Objective manifestation of assent to terms",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Unilateral Contracts\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Accepted upon completion of performance\nBilateral Contracts\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Accepted by promise or starting performance\nMeans of Acceptance",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 41,
+                "title": "Option Contracts\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 42,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Not valid unless\n(1) History of silence, and\n(2) Offeror has given offeree reason to believe he may accept by silence, and",
+                        "raw_text": "Not valid unless\n(1) History of silence, and\n(2) Offeror has given offeree reason to believe he may accept by silence, and"
+                      }
+                    ],
+                    "title": "Not valid unless\n(1) History of silence, and\n(2) Offeror has given offeree reason to believe he may accept by silence, a",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 42,
+                    "title": "offeree, in remaining silent, intends to accept\nUCC \u2013 Shipment of Goods\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Accepted by promise to ship or shipment of goods",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "jurisdiction": "UCC",
+                    "page": 42,
+                    "title": "UCC \u2013 Non-Conforming Goods\n\u2022\nSeller ships non-conforming goods \u2192 Offer accepted and K\nbreached\nMailbox Rule\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 42,
+                "title": "Silence\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "Exceptions \u2013 Mailbox Rule\n\u2022\nOfferee sends rejection first, but then sends acceptance \u2192 Communication\nreceived first cont",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 42,
+                "title": "Acceptance effective upon dispatch",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 42,
+                "title": "Option Ks\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 42,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "Additional or Different Terms",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "Mirror Image Rule\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "Acceptance must mirror the offer\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 43,
+                    "title": "Additional or different terms creates counteroffer\nUCC \u2013 Battle of the Forms\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "Additional or different terms generally considered acceptance",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 43,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "UCC \u2013 Both Parties are Merchants\n\u2022\nOne or both parties not merchants \u2192 New terms deemed proposals,\nbecome part of contract upon other party\u2019s approval",
+                        "raw_text": "UCC \u2013 Both Parties are Merchants\n\u2022\nOne or both parties not merchants \u2192 New terms deemed proposals,\nbecome part of K upon other party\u2019s approval"
+                      }
+                    ],
+                    "title": "UCC \u2013 Both Parties are Merchants\n\u2022\nOne or both parties not merchants \u2192 New terms deemed proposals,\nbecome part of K upon",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 43,
+                    "title": "UCC \u2013 Both Parties are Merchants",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 43,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "UCC \u2013 Additional Terms\n\u2022 Both parties merchants \u2192 New terms become part of contract\nunless\n(i)  Materially alter contract\n(ii) Offer expressly limits acceptance to terms, or\n(ii) Offeror objects within reasonable time",
+                        "raw_text": "UCC \u2013 Additional Terms\n\u2022 Both parties merchants \u2192 New terms become part of K\nunless\n(i)  Materially alter K\n(ii) Offer expressly limits acceptance to terms, or\n(ii) Offeror objects within rx time"
+                      }
+                    ],
+                    "title": "UCC \u2013 Additional Terms\n\u2022 Both parties merchants \u2192 New terms become part of K\nunless\n(i)  Materially alter K\n(ii) Offer e",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 42,
+                "title": "Firm offers",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "UCC",
+                "page": 43,
+                "title": "UCC \u2013 Conflicting Terms\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "Consideration\n\u2022 Bargained-for exchange of legal detriment or benefit",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "Sufficient Consideration",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 43,
+                    "title": "UCC \u2013 Requirement Contracts\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "Seller agrees to supply buyer with as much of item as buyer needs",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 43,
+                    "title": "UCC \u2013 Output Contracts\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "Seller agrees to sell entire production of item to buyer",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "Promise Not to Sue\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "P must have good faith belief of valid claim",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 43,
+                "title": "Conflicting terms cancel each other out\nCONSIDERATION",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 43,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Not adequate consideration unless\n(i)  New or different consideration\n(ii) third party\u2019s promise based upon performance of original contract, or\n(iii) Unexpected circumstances",
+                        "raw_text": "Not adequate consideration unless\n(i)  New or different consideration\n(ii) 3P\u2019s promise based upon performance of original K, or\n(iii) Unexpected circumstances"
+                      }
+                    ],
+                    "title": "Not adequate consideration unless\n(i)  New or different consideration\n(ii) 3P\u2019s promise based upon performance of origin",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 43,
+                    "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 44,
+                    "title": "Insufficient Consideration",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 44,
+                    "title": "Illusory Promise\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 44,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Unenforceable due to indefiniteness and option of whether to be bound\nGifts\n\u2022\nUnenforceable\nPast Consideration\n\u2022\nUnenforceable\nConsideration Substitutes",
+                        "raw_text": "Unenforceable due to indefiniteness and option of whether to be bound\nGifts\n\u2022\nUnenforceable\nPast Consideration\n\u2022\nUnenforceable\nConsideration Substitutes"
+                      }
+                    ],
+                    "title": "Unenforceable due to indefiniteness and option of whether to be bound\nGifts\n\u2022\nUnenforceable\nPast Consideration\n\u2022\nUnenfor",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 44,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Promissory Estoppel\n(1) Promisor reasonably expects promise to induce other party to act or refrain from",
+                        "raw_text": "Promissory Estoppel\n(1) Promisor rxly expects promise to induce other party to act or refrain from"
+                      }
+                    ],
+                    "title": "Promissory Estoppel\n(1) Promisor rxly expects promise to induce other party to act or refrain from",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 44,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "acting\n(2) Other party relies on promise and acts in accordance with reliance, and\n(3) Injustice cannot be avoided unless promise enforced",
+                        "raw_text": "acting\n(2) Other party relies on promise and acts in accordance with reliance, and\n(3) Injustice cannot be avoided unless promise enforced"
+                      }
+                    ],
+                    "title": "acting\n(2) Other party relies on promise and acts in accordance with reliance, and\n(3) Injustice cannot be avoided unles",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 43,
+                "title": "Preexisting Duty\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 41,
+            "title": "TERMINATION OF OFFER",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 44,
+                "title": "Mistake",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 44,
+                "title": "Mutual Mistake\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 44,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "May reform or rescind contract if\n(1) Mistake present at time of contract formation\n(2) Mistake pertained to material assumption, and\n(3) Party did not assume risk",
+                        "raw_text": "May reform or rescind K if\n(1) Mistake present at time of K formation\n(2) Mistake pertained to material assumption, and\n(3) Party did not assume risk"
+                      }
+                    ],
+                    "title": "May reform or rescind K if\n(1) Mistake present at time of K formation\n(2) Mistake pertained to material assumption, and\n",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 44,
+                "title": "Both parties mistaken about essential element of K\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 44,
+                "title": "Unilateral Mistake\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 44,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "May avoid contract if\n(1) Mistake present at time of contract formation, and\n(2) Mistake pertained to material assumption\n(3) Party did not assume risk, and\n(4) Mistake would make contract unconscionable",
+                        "raw_text": "May avoid K if\n(1) Mistake present at time of K formation, and\n(2) Mistake pertained to material assumption\n(3) Party did not assume risk, and\n(4) Mistake would make K unconscionable"
+                      }
+                    ],
+                    "title": "May avoid K if\n(1) Mistake present at time of K formation, and\n(2) Mistake pertained to material assumption\n(3) Party di",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 44,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Misrepresentation\n(1) Fraudulent or material\n(2) Relied upon for assent, and\n(3) Justified reliance\nIncapacity\n\u2022\nCapacity required to contract, otherwise contract voidable",
+                        "raw_text": "Misrepresentation\n(1) Fraudulent or material\n(2) Relied upon for assent, and\n(3) Justified reliance\nIncapacity\n\u2022\nCapacity required to contract, otherwise K voidable"
+                      }
+                    ],
+                    "title": "Misrepresentation\n(1) Fraudulent or material\n(2) Relied upon for assent, and\n(3) Justified reliance\nIncapacity\n\u2022\nCapacit",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 44,
+                    "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 44,
+                "title": "One party mistaken about essential element of K\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 45,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Incapacitated individuals required to pay fair value\nMisunderstanding\n(1) Material term in contract can have 2+ interpretations\n(2) Each party interpreted term differently, and\n(3) Either (i) neither party aware, or (ii) both parties aware of misunderstanding",
+                        "raw_text": "Incapacitated individuals required to pay fair value\nMisunderstanding\n(1) Material term in K can have 2+ interpretations\n(2) Each party interpreted term differently, and\n(3) Either (i) neither party aware, or (ii) both parties aware of misunderstanding"
+                      }
+                    ],
+                    "title": "Incapacitated individuals required to pay fair value\nMisunderstanding\n(1) Material term in K can have 2+ interpretations",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 45,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Duress\n\u2022\nImproper threat \u2192 Deprive free will and induce to contract\nDEFENSES TO CONTRACT ENFORCEMENT",
+                        "raw_text": "Duress\n\u2022\nImproper threat \u2192 Deprive free will and induce to contract\nDEFENSES TO CONTRACT ENFORCEMENT"
+                      }
+                    ],
+                    "title": "Duress\n\u2022\nImproper threat \u2192 Deprive free will and induce to contract\nDEFENSES TO CONTRACT ENFORCEMENT",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 45,
+                "title": "Necessities\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 45,
+                "title": "Illegality\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 45,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Courts may\n(i)  Refuse to enforce contract\n(ii) Enforce remainder of contract without unconscionable term, or\n(iii) Limit application to avoid unconscionable result",
+                        "raw_text": "Courts may\n(i)  Refuse to enforce K\n(ii) Enforce remainder of K without unconscionable term, or\n(iii) Limit application to avoid unconscionable result"
+                      }
+                    ],
+                    "title": "Courts may\n(i)  Refuse to enforce K\n(ii) Enforce remainder of K without unconscionable term, or\n(iii) Limit application ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 45,
+                "title": "K unenforceable\nUnconscionability\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 45,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Surprise or unequal bargaining power\nSubstantive Unconscionability\n\u2022\nSubstance of contract \u2192 One-sided results\nStatute of Frauds\n(1) Writing\n(2) Signed by party to be charged, and\n(3) Essential elements of transaction",
+                        "raw_text": "Surprise or unequal bargaining power\nSubstantive Unconscionability\n\u2022\nSubstance of K \u2192 One-sided results\nStatute of Frauds\n(1) Writing\n(2) Signed by party to be charged, and\n(3) Essential elements of transaction"
+                      }
+                    ],
+                    "title": "Surprise or unequal bargaining power\nSubstantive Unconscionability\n\u2022\nSubstance of K \u2192 One-sided results\nStatute of Fraud",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 45,
+                    "title": "Contracts Within the Statute of Frauds",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 45,
+                    "title": "Marriage\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 45,
+                    "title": "In consideration of marriage",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 45,
+                    "title": "Suretyship\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 45,
+                    "title": "Promise to pay debt of another",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 45,
+                    "title": "Real Property\n\u2022\nCreate interest in real property for 1+ year",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 45,
+                    "title": "Exception \u2013 Part Performance\n\u2022\nSOF satisfied if at least 2 of following occurred\n(i) Possession\n(ii) Payment",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 45,
+                    "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 46,
+                    "title": "(iii) Improvements",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 46,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "One Year\n\u2022\nCannot be fully performed within 1 year\nUCC \u2013 Sale of Goods\n\u2022\nSale of goods for $500+",
+                        "raw_text": "One Year\n\u2022\nCannot be fully performed within 1 year\nUCC \u2013 Sale of Goods\n\u2022\nSale of goods for $500+"
+                      }
+                    ],
+                    "title": "One Year\n\u2022\nCannot be fully performed within 1 year\nUCC \u2013 Sale of Goods\n\u2022\nSale of goods for $500+",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 46,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "UCC \u2013 Exception \u2013 Merchants Confirmatory Memo\n\u2022\nIf both parties merchants, writing sent by party within reasonable\ntime to confirm contract unless objection within 10 days of receipt\nExceptions \u2013 Statute of Frauds",
+                        "raw_text": "UCC \u2013 Exception \u2013 Merchants Confirmatory Memo\n\u2022\nIf both parties merchants, writing sent by party within rx\ntime to confirm K unless objection within 10 days of receipt\nExceptions \u2013 Statute of Frauds"
+                      }
+                    ],
+                    "title": "UCC \u2013 Exception \u2013 Merchants Confirmatory Memo\n\u2022\nIf both parties merchants, writing sent by party within rx\ntime to confi",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 46,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Promissory Estoppel\n(1) Promisor reasonably expects promise to induce other party to act or refrain",
+                        "raw_text": "Promissory Estoppel\n(1) Promisor rxly expects promise to induce other party to act or refrain"
+                      }
+                    ],
+                    "title": "Promissory Estoppel\n(1) Promisor rxly expects promise to induce other party to act or refrain",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 46,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "from acting\n(2) Other party relies on promise and acts in accordance with reliance,",
+                        "raw_text": "from acting\n(2) Other party relies on promise and acts in accordance with reliance,"
+                      }
+                    ],
+                    "title": "from acting\n(2) Other party relies on promise and acts in accordance with reliance,",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 45,
+                "title": "Procedural Unconscionability\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 46,
+                "title": "and\n(3) Injustice cannot be avoided unless promise enforced",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 46,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Party admits to existence of contract in pleadings or testimony\nFrustration of Purpose\n(1) Both parties know contract\u2019s purpose at time of formation\n(2) Purpose becomes frustrated through no fault of party, and\n(3) Purpose becomes frustrated due to unexpected supervening event outside party\u2019s",
+                        "raw_text": "Party admits to existence of K in pleadings or testimony\nFrustration of Purpose\n(1) Both parties know K\u2019s purpose at time of formation\n(2) Purpose becomes frustrated through no fault of party, and\n(3) Purpose becomes frustrated due to unexpected supervening event outside party\u2019s"
+                      }
+                    ],
+                    "title": "Party admits to existence of K in pleadings or testimony\nFrustration of Purpose\n(1) Both parties know K\u2019s purpose at tim",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 46,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "control\nImpossibility\n\u2022\nUnforeseen circumstances after contract formation \u2192 Performance impossible\nImpracticability\n(1) Occurrence of unfx event after contract formation\n(2) Event not caused by party seeking discharge\n(3) Neither party anticipated event at time of formation, and\n(4) Performance unrxly difficult",
+                        "raw_text": "control\nImpossibility\n\u2022\nUnforeseen circumstances after K formation \u2192 Performance impossible\nImpracticability\n(1) Occurrence of unfx event after K formation\n(2) Event not caused by party seeking discharge\n(3) Neither party anticipated event at time of formation, and\n(4) Performance unrxly difficult"
+                      }
+                    ],
+                    "title": "control\nImpossibility\n\u2022\nUnforeseen circumstances after K formation \u2192 Performance impossible\nImpracticability\n(1) Occurre",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 46,
+                "title": "Judicial Acknowledgment\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 44,
+            "title": "DEFENSES TO CONTRACT FORMATION",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 46,
+                "title": "Conditions",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 46,
+                "title": "Timing of Conditions",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 46,
+                "title": "Condition Precedent\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 46,
+                "title": "Must be satisfied before obligation to perform arises",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 46,
+                "title": "7\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 47,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Condition Subsequent\n\u2022\nOccurrence will discharge other party\u2019s duty to perform\nConcurrent Conditions\n\u2022\nOne party\u2019s performance predicated upon other\u2019s\nSatisfaction of Conditions",
+                    "raw_text": "Condition Subsequent\n\u2022\nOccurrence will discharge other party\u2019s duty to perform\nConcurrent Conditions\n\u2022\nOne party\u2019s performance predicated upon other\u2019s\nSatisfaction of Conditions"
+                  }
+                ],
+                "title": "Condition Subsequent\n\u2022\nOccurrence will discharge other party\u2019s duty to perform\nConcurrent Conditions\n\u2022\nOne party\u2019s perfo",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 47,
+                "title": "Objective Standard\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 47,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Deemed satisfied if reasonable person would be satisfied\nSubjective Standard \u2013 Aesthetic Taste\n\u2022",
+                    "raw_text": "Deemed satisfied if rx person would be satisfied\nSubjective Standard \u2013 Aesthetic Taste\n\u2022"
+                  }
+                ],
+                "title": "Deemed satisfied if rx person would be satisfied\nSubjective Standard \u2013 Aesthetic Taste\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 47,
+                "title": "Subjective standard\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 47,
+                "title": "Dissatisfaction must be in good faith\nWaiver of Conditions\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 47,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Party may waive condition prior to satisfaction and retract waiver unless\nother party detrimentally relied\nParol Evidence Rule\n\u2022",
+                    "raw_text": "Party may waive condition prior to satisfaction and retract waiver unless\nother party detrimentally relied\nParol Evidence Rule\n\u2022"
+                  }
+                ],
+                "title": "Party may waive condition prior to satisfaction and retract waiver unless\nother party detrimentally relied\nParol Evidenc",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 47,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Evidence of communications prior to or contemporaneous with contract inadmissible for\npurpose of contradicting terms",
+                    "raw_text": "Evidence of communications prior to or contemporaneous with K inadmissible for\npurpose of contradicting terms"
+                  }
+                ],
+                "title": "Evidence of communications prior to or contemporaneous with K inadmissible for\npurpose of contradicting terms",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 47,
+                "title": "Total Integration\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 47,
+                "title": "Parol evidence inadmissible\nPartial Integration\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 47,
+                "title": "Parties can introduce evidence consistent with terms of K",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 47,
+                "title": "UCC\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 47,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Presumes all writings to be partially integrated\nExceptions \u2013 Parol Evidence Rule\n\u2022",
+                    "raw_text": "Presumes all writings to be partially integrated\nExceptions \u2013 Parol Evidence Rule\n\u2022"
+                  }
+                ],
+                "title": "Presumes all writings to be partially integrated\nExceptions \u2013 Parol Evidence Rule\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 47,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Admissible to\n(i)  Clarify ambiguity\n(ii) Prove condition precedent\n(iii) Raise defense to contract formation\n(iv) Resolve mistake\n(v) Establish other contract",
+                    "raw_text": "Admissible to\n(i)  Clarify ambiguity\n(ii) Prove condition precedent\n(iii) Raise defense to K formation\n(iv) Resolve mistake\n(v) Establish other K"
+                  }
+                ],
+                "title": "Admissible to\n(i)  Clarify ambiguity\n(ii) Prove condition precedent\n(iii) Raise defense to K formation\n(iv) Resolve mist",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 47,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "UCC\n\u2022\nEvidence of course of dealing, usage of trade, course of performance may be\nintroduced to explain or supplement terms of contract",
+                    "raw_text": "UCC\n\u2022\nEvidence of course of dealing, usage of trade, course of performance may be\nintroduced to explain or supplement terms of K"
+                  }
+                ],
+                "title": "UCC\n\u2022\nEvidence of course of dealing, usage of trade, course of performance may be\nintroduced to explain or supplement te",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 47,
+                "title": "8\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 48,
+                "title": "Modification",
+                "type": "SUBISSUE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Independent consideration required unless modification\n(i)  Is fair due to unanticipated circumstances, or\n(ii) Creates new contract obligations for each party\nUCC\n\u2022",
+                        "raw_text": "Independent consideration required unless modification\n(i)  Is fair due to unanticipated circumstances, or\n(ii) Creates new K obligations for each party\nUCC\n\u2022"
+                      }
+                    ],
+                    "title": "Independent consideration required unless modification\n(i)  Is fair due to unanticipated circumstances, or\n(ii) Creates ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "COMMON_LAW",
+                "page": 48,
+                "title": "Common Law\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "UCC \u2013 Express Warranty\n\u2022\nDescription of goods, affirmation of fact, promise made by seller to buyer",
+                        "raw_text": "UCC \u2013 Express Warranty\n\u2022\nDescription of goods, affirmation of fact, promise made by seller to buyer"
+                      }
+                    ],
+                    "title": "UCC \u2013 Express Warranty\n\u2022\nDescription of goods, affirmation of fact, promise made by seller to buyer",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "title": "UCC \u2013 Express Warranty \u2013 Disclaimer\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "title": "Invalid if unrxly negates or limits\nUCC \u2013 Implied Warranty of Merchantability\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 48,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Merchantability of goods implied in contract if seller is merchant with respect to\ngoods of that kind",
+                        "raw_text": "Merchantability of goods implied in K if seller is merchant with respect to\ngoods of that kind"
+                      }
+                    ],
+                    "title": "Merchantability of goods implied in K if seller is merchant with respect to\ngoods of that kind",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "UCC \u2013 Implied Warranty of Merchantability \u2013 Disclaimer\n\u2022\nLanguage: \u201cAs is,\u201d \u201cwith all faults,\u201d etc.\n\u2022",
+                        "raw_text": "UCC \u2013 Implied Warranty of Merchantability \u2013 Disclaimer\n\u2022\nLanguage: \u201cAs is,\u201d \u201cwith all faults,\u201d etc.\n\u2022"
+                      }
+                    ],
+                    "title": "UCC \u2013 Implied Warranty of Merchantability \u2013 Disclaimer\n\u2022\nLanguage: \u201cAs is,\u201d \u201cwith all faults,\u201d etc.\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Oral or written\n\u2022\nMust expressly use \u201cmerchantability\u201d\nUCC \u2013 Implied Warranty of Fitness for Particular Purpose\n\u2022",
+                        "raw_text": "Oral or written\n\u2022\nMust expressly use \u201cmerchantability\u201d\nUCC \u2013 Implied Warranty of Fitness for Particular Purpose\n\u2022"
+                      }
+                    ],
+                    "title": "Oral or written\n\u2022\nMust expressly use \u201cmerchantability\u201d\nUCC \u2013 Implied Warranty of Fitness for Particular Purpose\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 48,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Seller has reason to know buyer relying on expertise to select good for\nparticular purpose",
+                        "raw_text": "Seller has reason to know buyer relying on expertise to select good for\nparticular purpose"
+                      }
+                    ],
+                    "title": "Seller has reason to know buyer relying on expertise to select good for\nparticular purpose",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "title": "UCC \u2013 Implied Warranty of Fitness for Particular Purpose \u2013 Disclaimer\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "title": "Must be conspicuous and written\nUCC \u2013 PERFORMANCE OF SALE OF GOODS CONTRACT",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "title": "UCC \u2013 Perfect Tender Rule\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 48,
+                    "title": "Requires seller to render perfect goods and perfect delivery\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 48,
+                    "title": "Any non-conformity constitutes breach",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "title": "UCC \u2013 Conforming Tender\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 48,
+                    "title": "Buyer has duty to accept goods and pay for them\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 48,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Rejection is effectively a breach\nUCC \u2013 Non-Conforming Tender \u2013 Buyer\u2019s Right of Rejection\n\u2022",
+                        "raw_text": "Rejection is effectively a breach\nUCC \u2013 Non-Conforming Tender \u2013 Buyer\u2019s Right of Rejection\n\u2022"
+                      }
+                    ],
+                    "title": "Rejection is effectively a breach\nUCC \u2013 Non-Conforming Tender \u2013 Buyer\u2019s Right of Rejection\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 48,
+                    "title": "Non-conformity is breach\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 48,
+                    "title": "Buyer may",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 48,
+                    "title": "9\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "UCC",
+                "page": 48,
+                "title": "Independent consideration not required as long as good faith\nUCC \u2013 Warranties",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 49,
+                "title": "(i)  Reject whole\n(ii) Accept whole, or\n(iii) Accept any commercial unit and reject rest",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 49,
+                    "title": "UCC \u2013 Seller\u2019s Right to Cure\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 49,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "If time for performance has not expired and seller notified buyer of intention\nto cure\nUCC \u2013 Installment Contracts\n\u2022",
+                        "raw_text": "If time for performance has not expired and seller notified buyer of intention\nto cure\nUCC \u2013 Installment Contracts\n\u2022"
+                      }
+                    ],
+                    "title": "If time for performance has not expired and seller notified buyer of intention\nto cure\nUCC \u2013 Installment Contracts\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 49,
+                    "title": "Perfect Tender Rule not applicable\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 49,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Buyer may reject only if non-conformity substantially impairs value and time\nto cure expired\nUCC \u2013 Risk of Loss",
+                        "raw_text": "Buyer may reject only if non-conformity substantially impairs value and time\nto cure expired\nUCC \u2013 Risk of Loss"
+                      }
+                    ],
+                    "title": "Buyer may reject only if non-conformity substantially impairs value and time\nto cure expired\nUCC \u2013 Risk of Loss",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 49,
+                    "title": "UCC \u2013 Shipment Contract\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 49,
+                    "title": "Seller must\n(1) Put goods in possession of common carrier and make rx K for",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "UCC",
+                "page": 49,
+                "title": "UCC \u2013 Exceptions \u2013 Perfect Tender Rule",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 49,
+                "title": "transportation\n(2) Arrange for delivery, and\n(3) Notify buyer of shipment\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 49,
+                    "title": "UCC \u2013 Destination Contract\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 49,
+                    "title": "Seller must deliver goods to destination in K\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 49,
+                    "title": "Seller bears risk of loss\nTHIRD-PARTY ISSUES",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 49,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Intended Beneficiary\n\u2022\n2 parties enter into contract with mutual understanding and intent that contract benefits third party",
+                        "raw_text": "Intended Beneficiary\n\u2022\n2 parties enter into K with mutual understanding and intent that K benefits 3P"
+                      }
+                    ],
+                    "title": "Intended Beneficiary\n\u2022\n2 parties enter into K with mutual understanding and intent that K benefits 3P",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 49,
+                    "title": "Enforcement of Rights\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 49,
+                    "title": "Can sue to enforce K only if rights vested\nIncidental Beneficiary\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 49,
+                    "title": "Party benefits from K even though parties did not intend for him to benefit\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 49,
+                    "title": "Cannot sue to enforce K\nASSIGNMENT OF RIGHTS",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 49,
+                    "title": "Assignment\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 49,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Assignee assumes all rights and obligations and is subject to same defenses as\nassignor",
+                        "raw_text": "Assignee assumes all rights and obligations and is subject to same defenses as\nassignor"
+                      }
+                    ],
+                    "title": "Assignee assumes all rights and obligations and is subject to same defenses as\nassignor",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 49,
+                    "title": "10\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 49,
+                "title": "Risk of loss shifts to buyer",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 50,
+                "title": "Revocability\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 50,
+                    "title": "Not allowed if\n(i)  Materially alters duty or risk\n(ii) Forbidden by law, or\n(iii) Forbidden by K provision",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 50,
+                "title": "Consideration not required\n\u2022\nIf consideration, assignment irrevocable\nExceptions\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 50,
+                "title": "Multiple Assignments\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 50,
+                    "title": "Delegation\n\u2022\nParty may delegate duties to 3P\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 50,
+                    "title": "Delegator remains liable under K",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 50,
+                "title": "Last assignment revokes any preexisting revocable assignment\nDELEGATION OF DUTIES",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 50,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Not allowed if\n(i)  Non-delegating party\u2019s personal skill or judgment required\n(ii) Forbidden by law, or\n(iii) Forbidden by contract provision\nNovation\n\u2022",
+                        "raw_text": "Not allowed if\n(i)  Non-delegating party\u2019s personal skill or judgment required\n(ii) Forbidden by law, or\n(iii) Forbidden by K provision\nNovation\n\u2022"
+                      }
+                    ],
+                    "title": "Not allowed if\n(i)  Non-delegating party\u2019s personal skill or judgment required\n(ii) Forbidden by law, or\n(iii) Forbidden",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 50,
+                "title": "Exceptions\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 50,
+                "title": "All parties agree to replace delegator with delegatee\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 50,
+                "title": "Delegator released from liability under K\nBREACH OF CONTRACT",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 46,
+            "title": "TERMS OF CONTRACT",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "jurisdiction": "COMMON_LAW",
+                "page": 50,
+                "title": "Common Law",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 50,
+                "title": "Material Breach\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 50,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Nonbreaching party does not obtain substantial benefit of bargain because\nother party failed to perform\n\u2022\nExcuses nonbreaching party\u2019s performance",
+                    "raw_text": "Nonbreaching party does not obtain substantial benefit of bargain because\nother party failed to perform\n\u2022\nExcuses nonbreaching party\u2019s performance"
+                  }
+                ],
+                "title": "Nonbreaching party does not obtain substantial benefit of bargain because\nother party failed to perform\n\u2022\nExcuses nonbre",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 50,
+                "title": "Time is of the Essence Clause\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 50,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Failure to perform by specific date not material breach unless time is\nof the essence clause\nMinor Breach\n\u2022",
+                    "raw_text": "Failure to perform by specific date not material breach unless time is\nof the essence clause\nMinor Breach\n\u2022"
+                  }
+                ],
+                "title": "Failure to perform by specific date not material breach unless time is\nof the essence clause\nMinor Breach\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 50,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Party substantially performed under contract\n\u2022\nDoes not excuse nonbreaching party\u2019s performance",
+                    "raw_text": "Party substantially performed under K\n\u2022\nDoes not excuse nonbreaching party\u2019s performance"
+                  }
+                ],
+                "title": "Party substantially performed under K\n\u2022\nDoes not excuse nonbreaching party\u2019s performance",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 50,
+                "title": "11\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 51,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Minor Breach with Anticipatory Repudiation\n\u2022\nMinor breach + anticipatory repudiation \u2192 Material breach",
+                    "raw_text": "Minor Breach with Anticipatory Repudiation\n\u2022\nMinor breach + anticipatory repudiation \u2192 Material breach"
+                  }
+                ],
+                "title": "Minor Breach with Anticipatory Repudiation\n\u2022\nMinor breach + anticipatory repudiation \u2192 Material breach",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 51,
+                "title": "UCC",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 51,
+                "title": "UCC \u2013 Breach\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 51,
+                "title": "Strict compliance required",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "cross_references": [
+                  {
+                    "resolution": "UNRESOLVED",
+                    "target": "See above."
+                  },
+                  {
+                    "resolution": "NEEDS_REVIEW",
+                    "target": "above for Perfect Tender Rule"
+                  }
+                ],
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 51,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "UCC \u2013 Perfect Tender Rule\nSee above for Perfect Tender Rule.\nANTICIPATORY REPUDIATION",
+                    "raw_text": "UCC \u2013 Perfect Tender Rule\nSee above for Perfect Tender Rule.\nANTICIPATORY REPUDIATION"
+                  }
+                ],
+                "title": "UCC \u2013 Perfect Tender Rule\nSee above for Perfect Tender Rule.\nANTICIPATORY REPUDIATION",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 51,
+                "title": "Anticipatory Repudiation\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 51,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Unequivocal manifestation of unwillingness or inability to perform prior to time of\nperformance",
+                    "raw_text": "Unequivocal manifestation of unwillingness or inability to perform prior to time of\nperformance"
+                  }
+                ],
+                "title": "Unequivocal manifestation of unwillingness or inability to perform prior to time of\nperformance",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 51,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Nonbreaching Party\u2019s Options\n(i) Sue immediately\n(ii) Suspend own performance and wait until performance date to sue, or\n(iii) Urge repudiating party to perform",
+                    "raw_text": "Nonbreaching Party\u2019s Options\n(i) Sue immediately\n(ii) Suspend own performance and wait until performance date to sue, or\n(iii) Urge repudiating party to perform"
+                  }
+                ],
+                "title": "Nonbreaching Party\u2019s Options\n(i) Sue immediately\n(ii) Suspend own performance and wait until performance date to sue, or",
+                "type": "RULE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 51,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "May retract unless\n(i)  Materially change position based upon reliance\n(ii) Accept repudiation, or\n(iii) File cause of action for breach",
+                        "raw_text": "May retract unless\n(i)  Materially change position based upon reliance\n(ii) Accept repudiation, or\n(iii) File COA for breach"
+                      }
+                    ],
+                    "title": "May retract unless\n(i)  Materially change position based upon reliance\n(ii) Accept repudiation, or\n(iii) File COA for br",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 51,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Adequate Assurances\n\u2022\nreasonable grounds for insecurity re other party\u2019s performance, may suspend own\nperformance and demand adequate assurances in writing",
+                        "raw_text": "Adequate Assurances\n\u2022\nRx grounds for insecurity re other party\u2019s performance, may suspend own\nperformance and demand adequate assurances in writing"
+                      }
+                    ],
+                    "title": "Adequate Assurances\n\u2022\nRx grounds for insecurity re other party\u2019s performance, may suspend own\nperformance and demand ade",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 51,
+                    "title": "UCC\n\u2022\nMust be provided within 30 days",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 51,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Accord and Satisfaction\n\u2022\nAccord: Promise to accept stated performance in satisfaction of existing duty\n\u2022\nSatisfaction: Accord contract performed",
+                        "raw_text": "Accord and Satisfaction\n\u2022\nAccord: Promise to accept stated performance in satisfaction of existing duty\n\u2022\nSatisfaction: Accord K performed"
+                      }
+                    ],
+                    "title": "Accord and Satisfaction\n\u2022\nAccord: Promise to accept stated performance in satisfaction of existing duty\n\u2022\nSatisfaction: ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 51,
+                "title": "Retraction\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 51,
+                "title": "Breach\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 51,
+                    "title": "Duty to Mitigate\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 51,
+                    "title": "P has duty to mitigate damages",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 51,
+                    "title": "12\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 52,
+                    "title": "\u2022\nRecovery reduced for failing to mitigate",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 51,
+                "title": "May enforce original K or accord K\nREMEDIES",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 50,
+            "title": "MATERIAL OR MINOR",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Expectation Damages\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Result directly from breach of K\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Put P in position he would have been in had K been performed",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 52,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Result indirectly from breach of contract\n\u2022\nDamages\n(1) foreseeable at time of contract formation\n(2) Caused by D\u2019s breach, and\n(3) Calculated with reasonable certainty",
+                        "raw_text": "Result indirectly from breach of K\n\u2022\nDamages\n(1) Fx at time of K formation\n(2) Caused by D\u2019s breach, and\n(3) Calculated with rx certainty"
+                      }
+                    ],
+                    "title": "Result indirectly from breach of K\n\u2022\nDamages\n(1) Fx at time of K formation\n(2) Caused by D\u2019s breach, and\n(3) Calculated ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Consequential Damages\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Incidental Damages\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Rxly incurred expenses by P to remedy breach of K",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Reliance Damages\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Alternative to expectation damages\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Expenditures made in fx reliance of K\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Put P in position he would have been in had K never existed\nLiquidated Damages\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Specified at K formation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Rx estimate of actual damages\nNominal Damages\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Elements of COA established but not substantial loss\nPunitive Damages\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Generally unavailable\nNON-MONETARY DAMAGES",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 52,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "D ordered to perform contract\n(1) Valid contract exists\n(2) P performed or is able to perform\n(3) Monetary damages inadequate\n(4) Feasibility of court\u2019s enforcement, and\n(5) No defenses exist",
+                        "raw_text": "D ordered to perform K\n(1) Valid K exists\n(2) P performed or is able to perform\n(3) Monetary damages inadequate\n(4) Feasibility of court\u2019s enforcement, and\n(5) No defenses exist"
+                      }
+                    ],
+                    "title": "D ordered to perform K\n(1) Valid K exists\n(2) P performed or is able to perform\n(3) Monetary damages inadequate\n(4) Feas",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "cross_references": [
+                      {
+                        "resolution": "UNRESOLVED",
+                        "target": "See above."
+                      }
+                    ],
+                    "depth": 5,
+                    "page": 52,
+                    "title": "Valid Contract\nSee above.",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 52,
+                    "title": "13\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 53,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Plaintiff\u2019s Performance\nMonetary Damages Inadequate\n\u2022\nInadequate when (i) rare or unique personal property or (ii) real property\nCourt\u2019s Enforcement\n\u2022\nSpecific performance not ordered if (i) extensive supervision or (ii)\nenforcement too difficult\nNo Defenses\n\u2022",
+                        "raw_text": "Plaintiff\u2019s Performance\nMonetary Damages Inadequate\n\u2022\nInadequate when (i) rare or unique personal property or (ii) real property\nCourt\u2019s Enforcement\n\u2022\nSpecific performance not ordered if (i) extensive supervision or (ii)\nenforcement too difficult\nNo Defenses\n\u2022"
+                      }
+                    ],
+                    "title": "Plaintiff\u2019s Performance\nMonetary Damages Inadequate\n\u2022\nInadequate when (i) rare or unique personal property or (ii) real ",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 53,
+                    "title": "No specific performance if D asserts equitable defenses",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 52,
+                "title": "Specific Performance\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 53,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Unclean Hands\n\u2022\nP engaged in unethical, illegal, or improper conduct\nQuasi-Contract\n(1) No valid contract\n(2) P conferred benefit upon D\n(3) P reasonably expected to get paid\n(4) D asked for benefit, and\n(5) D unjustly enriched if allowed to retain benefit",
+                        "raw_text": "Unclean Hands\n\u2022\nP engaged in unethical, illegal, or improper conduct\nQuasi-Contract\n(1) No valid K\n(2) P conferred benefit upon D\n(3) P rxly expected to get paid\n(4) D asked for benefit, and\n(5) D unjustly enriched if allowed to retain benefit"
+                      }
+                    ],
+                    "title": "Unclean Hands\n\u2022\nP engaged in unethical, illegal, or improper conduct\nQuasi-Contract\n(1) No valid K\n(2) P conferred benef",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 53,
+                "title": "Laches\n(1) P unrxly delayed filing COA, and\n(2) Delay causes prejudice to D",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 53,
+                "title": "Replevin\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 53,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Recover real property wrongfully possessed by D\nReformation\n\u2022\nRe-writing of contract to accurately reflect parties\u2019 original intent",
+                        "raw_text": "Recover real property wrongfully possessed by D\nReformation\n\u2022\nRe-writing of K to accurately reflect parties\u2019 original intent"
+                      }
+                    ],
+                    "title": "Recover real property wrongfully possessed by D\nReformation\n\u2022\nRe-writing of K to accurately reflect parties\u2019 original in",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 53,
+                "title": "Recover personal property wrongfully taken by D\nEjectment\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 53,
+                "title": "Mutual Mistake\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 53,
+                "title": "Both parties mistaken about essential element of K\nUnilateral Mistake\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 53,
+                "title": "One party mistaken about essential element of K\nRecission\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 53,
+                "title": "Cancels K due to invalid formation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 53,
+                    "title": "14\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 53,
+                "title": "P must\n(1) Give notice, and\n(2) Return benefits received from D",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 52,
+            "title": "MONETARY DAMAGES",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 54,
+                "title": "UCC \u2013 Buyer\u2019s Remedies for Failure to Tender Goods",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 54,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "UCC \u2013 Damages\n\u2022\n(Market price \u2013 contract price) + (incidental and/or consequential damages) \u2013\n(expenses saved)",
+                    "raw_text": "UCC \u2013 Damages\n\u2022\n(Market price \u2013 K price) + (incidental and/or consequential damages) \u2013\n(expenses saved)"
+                  }
+                ],
+                "title": "UCC \u2013 Damages\n\u2022\n(Market price \u2013 K price) + (incidental and/or consequential damages) \u2013\n(expenses saved)",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 54,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "UCC \u2013 Cover\n\u2022\n(Cost of cover \u2013 contract Price) + (incidental and/or consequential damages) \u2013\n(expenses saved)",
+                    "raw_text": "UCC \u2013 Cover\n\u2022\n(Cost of cover \u2013 K Price) + (incidental and/or consequential damages) \u2013\n(expenses saved)"
+                  }
+                ],
+                "title": "UCC \u2013 Cover\n\u2022\n(Cost of cover \u2013 K Price) + (incidental and/or consequential damages) \u2013\n(expenses saved)",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "cross_references": [
+                  {
+                    "resolution": "UNRESOLVED",
+                    "target": "See above."
+                  },
+                  {
+                    "resolution": "NEEDS_REVIEW",
+                    "target": "above for Specific Performance"
+                  }
+                ],
+                "depth": 5,
+                "jurisdiction": "UCC",
+                "page": 54,
+                "title": "Specific Performance\nSee above for Specific Performance.\nUCC \u2013 Seller\u2019s Remedies",
+                "type": "SUBISSUE"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 54,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "May recover full contract price if\n(i)  Goods accepted\n(ii) Conforming goods lost or damaged, or\n(iii) Seller unable, after reasonable effort, to resell goods\nUCC \u2013 Buyer\u2019s Insolvency\n\u2022",
+                        "raw_text": "May recover full K price if\n(i)  Goods accepted\n(ii) Conforming goods lost or damaged, or\n(iii) Seller unable, after rx effort, to resell goods\nUCC \u2013 Buyer\u2019s Insolvency\n\u2022"
+                      }
+                    ],
+                    "title": "May recover full K price if\n(i)  Goods accepted\n(ii) Conforming goods lost or damaged, or\n(iii) Seller unable, after rx ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "UCC",
+                "page": 54,
+                "title": "UCC \u2013 Right to Price\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 54,
+                "title": "May refuse to deliver goods\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 54,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "UCC \u2013 Credit\n\u2022\nIf discover good received on credit while insolvent, may reclaim\ngoods upon demand within 10 days after receipt\nUCC \u2013 Wrongful Rejection by Buyer\n\u2022",
+                        "raw_text": "UCC \u2013 Credit\n\u2022\nIf discover good received on credit while insolvent, may reclaim\ngoods upon demand within 10 days after receipt\nUCC \u2013 Wrongful Rejection by Buyer\n\u2022"
+                      }
+                    ],
+                    "title": "UCC \u2013 Credit\n\u2022\nIf discover good received on credit while insolvent, may reclaim\ngoods upon demand within 10 days after r",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 54,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Seller may\n(i)  Withhold or stop delivery\n(ii) Resell goods and recover damages\n(iii) Recover damages for non-acceptance, or\n(iv) Cancel contract",
+                        "raw_text": "Seller may\n(i)  Withhold or stop delivery\n(ii) Resell goods and recover damages\n(iii) Recover damages for non-acceptance, or\n(iv) Cancel K"
+                      }
+                    ],
+                    "title": "Seller may\n(i)  Withhold or stop delivery\n(ii) Resell goods and recover damages\n(iii) Recover damages for non-acceptance",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 54,
+                "title": "May stop delivery in transit",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "UCC",
+                "page": 54,
+                "title": "UCC \u2013 Lost Volume Seller\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 54,
+                        "title": "15\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 54,
+                    "title": "Entitled to profit which seller would have made from full\nperformance by buyer + any incidental damages",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 54,
+                "title": "Seller would have been able to sell to both breaching buyer and\nbuyer to which goods were resold\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "jurisdiction": "UCC",
+            "page": 54,
+            "title": "UCC REMEDIES",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 40,
+        "title": "Contracts",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Contracts Essay Template"
+  }
+}

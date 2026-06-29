@@ -1,0 +1,359 @@
+{
+  "pages": "89-91",
+  "subject": "Partnerships",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "confidence": 0.5,
+            "depth": 5,
+            "page": 89,
+            "rule_candidates": [
+              {
+                "elements": [],
+                "exceptions": [],
+                "normalized_text": "PARTNERSHIPS\nFORMATION AND MANAGEMENT\nPartnership Formation\n\u2022\nAssociation of 2+ persons to carry on for-profit business as co-owners who share profits\nAgreement\n\u2022",
+                "raw_text": "PARTNERSHIPS\nFORMATION AND MANAGEMENT\nPartnership Formation\n\u2022\nAssociation of 2+ persons to carry on for-profit business as co-owners who share profits\nAgreement\n\u2022"
+              }
+            ],
+            "title": "PARTNERSHIPS\nFORMATION AND MANAGEMENT\nPartnership Formation\n\u2022\nAssociation of 2+ persons to carry on for-profit business ",
+            "type": "RULE"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 89,
+            "title": "Agreement required\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 89,
+            "title": "No writing required unless SOF\nSharing of Profits\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 89,
+            "title": "Partnership presumed if profits shared\nIntent\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 89,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Each partner receives equal profits and losses unless agreement states otherwise\nManagement Rights and Termination of Authority\n\u2022",
+                    "raw_text": "Each partner receives equal profits and losses unless agreement states otherwise\nManagement Rights and Termination of Authority\n\u2022"
+                  }
+                ],
+                "title": "Each partner receives equal profits and losses unless agreement states otherwise\nManagement Rights and Termination of Au",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "jurisdiction": "MAJORITY",
+                "page": 89,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Each partner has equal management rights unless agreement states otherwise\n\u2022\nMatters within ordinary course of business: Majority\n\u2022\nMatters outside course of business: Unanimous consent\nRELATIONSHIPS WITH THIRD PARTIES\nPower to Bind Partnership\n\u2022",
+                    "raw_text": "Each partner has equal management rights unless agreement states otherwise\n\u2022\nMatters within ordinary course of business: Majority\n\u2022\nMatters outside course of business: Unanimous consent\nRELATIONSHIPS WITH THIRD PARTIES\nPower to Bind Partnership\n\u2022"
+                  }
+                ],
+                "title": "Each partner has equal management rights unless agreement states otherwise\n\u2022\nMatters within ordinary course of business:",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 89,
+            "title": "Must intend to do business as co-owners\nProfits and Losses\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 89,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Created through\n\u2022\nAgreement\n\u2022\nStatement of authority, or\n\u2022\nAuthorization\nImplied Actual Authority\n\u2022\nLook to partner\u2019s reasonable understanding of partnership\u2019s objective\nApparent Actual Authority\n\u2022\nthird party reasonably believes partner has authority\nPartnership\u2019s Liability for Partner\u2019s Torts\n\u2022",
+                    "raw_text": "Created through\n\u2022\nAgreement\n\u2022\nStatement of authority, or\n\u2022\nAuthorization\nImplied Actual Authority\n\u2022\nLook to partner\u2019s rx understanding of partnership\u2019s objective\nApparent Actual Authority\n\u2022\n3P rxly believes partner has authority\nPartnership\u2019s Liability for Partner\u2019s Torts\n\u2022"
+                  }
+                ],
+                "title": "Created through\n\u2022\nAgreement\n\u2022\nStatement of authority, or\n\u2022\nAuthorization\nImplied Actual Authority\n\u2022\nLook to partner\u2019s rx",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 89,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Partnership liable for torts committed by partner within ordinary course of business or with\npartnership authority\nLiability to Third Parties\n\u2022",
+                    "raw_text": "Partnership liable for torts committed by partner within ordinary course of business or with\npartnership authority\nLiability to Third Parties\n\u2022"
+                  }
+                ],
+                "title": "Partnership liable for torts committed by partner within ordinary course of business or with\npartnership authority\nLiabi",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 89,
+            "title": "Partner with actual or apparent authority may bind partnership to K\nExpress Actual Authority\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 89,
+            "title": "Partnership can sue or be sued\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 89,
+                "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 89,
+            "title": "All partners jointly and severally liable",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Incoming Partners\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 90,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Liable for partnership obligation incurred while still partner\n\u2022\nRelease, payment, or novation absolves liability\nIndemnification\n\u2022",
+                    "raw_text": "Liable for partnership obligation incurred while still partner\n\u2022\nRelease, payment, or novation absolves liability\nIndemnification\n\u2022"
+                  }
+                ],
+                "title": "Liable for partnership obligation incurred while still partner\n\u2022\nRelease, payment, or novation absolves liability\nIndemn",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 90,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "May seek indemnification for excess payment\nEffect of Judgment\n\u2022\nCreditor must deplete partnership\u2019s assets before seizing individual partner\u2019s assets\nFIDUCIARY DUTIES\nDuty of Loyalty\n\u2022",
+                    "raw_text": "May seek indemnification for excess payment\nEffect of Judgment\n\u2022\nCreditor must deplete partnership\u2019s assets before seizing individual partner\u2019s assets\nFIDUCIARY DUTIES\nDuty of Loyalty\n\u2022"
+                  }
+                ],
+                "title": "May seek indemnification for excess payment\nEffect of Judgment\n\u2022\nCreditor must deplete partnership\u2019s assets before seizi",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Not liable for partnership obligation incurred before admission\nOutgoing Partners\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Partner must not\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Compete with partnership\n\u2022\nAdvance interest adverse to partnership, or\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Engage in self-dealing\nUsurping partnership Opportunity\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Partners must disclose all partnership opportunities\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "May only personally pursue opportunity after rejected by co-partners\nDuty of Care\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Partner must not engage in\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Grossly negligent or reckless conduct\n\u2022\nIntentional misconduct, or\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Knowing violations of the law\nPARTNERSHIP CHANGES AND TERMINATION\nDissociation\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Partner ceases to be associated\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Voluntary or involuntary\nDissolution\nAt Will\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "No fixed term or undertaking\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 90,
+                    "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 90,
+                "title": "Dissolves when term expires or partners agree\nWinding Up\n\u2022\nAfter dissolution, partnership exists only to wind up",
+                "type": "ISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 90,
+            "title": "Dissolves when partner dissociates by giving notice\nFor a Term or Undertaking\n\u2022",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 91,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "OTHER PARTNERSHIP FORMS\nLimited Partnership (LP)\n\u2022\nFormed by 2+ persons\n\u2022\nRequires at least 1 general partner and at least 1 limited partner\nLiability of Partners\nLimited Partners\n\u2022",
+                    "raw_text": "OTHER PARTNERSHIP FORMS\nLimited Partnership (LP)\n\u2022\nFormed by 2+ persons\n\u2022\nRequires at least 1 general partner and at least 1 limited partner\nLiability of Partners\nLimited Partners\n\u2022"
+                  }
+                ],
+                "title": "OTHER PARTNERSHIP FORMS\nLimited Partnership (LP)\n\u2022\nFormed by 2+ persons\n\u2022\nRequires at least 1 general partner and at lea",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 91,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Liable if participates in control of business or is general partner\nGeneral Partners\n\u2022\nLiable to third parties\nFailure to File\n\u2022\nIf LP not validly formed, person who, in good faith, believes she is limited partner\nmay be liable to third parties\nLimited Liability Partnership (limited liability partnership)\n\u2022",
+                    "raw_text": "Liable if participates in control of business or is general partner\nGeneral Partners\n\u2022\nLiable to 3Ps\nFailure to File\n\u2022\nIf LP not validly formed, person who, in good faith, believes she is limited partner\nmay be liable to 3Ps\nLimited Liability Partnership (LLP)\n\u2022"
+                  }
+                ],
+                "title": "Liable if participates in control of business or is general partner\nGeneral Partners\n\u2022\nLiable to 3Ps\nFailure to File\n\u2022\nI",
+                "type": "RULE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 91,
+            "title": "Order of Distribution of Assets\n(1) Pay off creditors\n(2) Repay partners\n(3) Allocate profits",
+            "type": "TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 91,
+                "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              }
+            ],
+            "confidence": 0.8,
+            "depth": 3,
+            "page": 91,
+            "title": "Partners not liable for partnership obligations but liable for own misconduct",
+            "type": "TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 89,
+        "title": "Partnerships",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Partnerships Essay Template"
+  }
+}

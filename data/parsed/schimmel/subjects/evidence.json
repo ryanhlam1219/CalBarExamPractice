@@ -1,0 +1,2118 @@
+{
+  "pages": "76-88",
+  "subject": "Evidence",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 76,
+                "title": "Relevance\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 76,
+                "title": "Evidence must be relevant",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 76,
+                "title": "Logical Relevance\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 76,
+                "title": "Tendency to make fact more or less probable than without evidence\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 76,
+                "title": "Of consequence in determining action",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "jurisdiction": "CALIFORNIA",
+                "page": 76,
+                "title": "California\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 76,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Tendency to prove or disprove a disputed fact of consequence in determining\naction\nLegal Relevance\n\u2022",
+                    "raw_text": "Tendency to prove or disprove a disputed fact of consequence in determining\naction\nLegal Relevance\n\u2022"
+                  }
+                ],
+                "title": "Tendency to prove or disprove a disputed fact of consequence in determining\naction\nLegal Relevance\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 76,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Relevant evidence excluded if probative value substantially outweighed by risk of\nunfair prejudice, confusing issues, misleading jury, wasting time, or cumulative\nevidence",
+                    "raw_text": "Relevant evidence excluded if probative value substantially outweighed by risk of\nunfair prejudice, confusing issues, misleading jury, wasting time, or cumulative\nevidence"
+                  }
+                ],
+                "title": "Relevant evidence excluded if probative value substantially outweighed by risk of\nunfair prejudice, confusing issues, mi",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 76,
+                "title": "California \u2013 Proposition 8\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 76,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Relevant evidence excluded if probative value substantially outweighed by\ndanger of unfair prejudice, confusing issues, or misleading jury\nCHARACTER EVIDENCE",
+                        "raw_text": "Relevant evidence excluded if probative value substantially outweighed by\ndanger of unfair prejudice, confusing issues, or misleading jury\nCHARACTER EVIDENCE"
+                      }
+                    ],
+                    "title": "Relevant evidence excluded if probative value substantially outweighed by\ndanger of unfair prejudice, confusing issues, ",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 76,
+                    "title": "Character Evidence\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 76,
+                    "title": "Not admissible to prove that person acted in accordance with character or trait",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 76,
+                    "title": "Civil Cases",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 76,
+                    "title": "Character at Issue\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 76,
+                    "title": "Admissible when essential element of claim or defense\n\u2022\nSI, O, R\nCriminal Cases",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 76,
+                    "title": "Evidence of Defendant\u2019s Character",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 76,
+                    "title": "Defendant Offers Character Evidence of His Own Good Character\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 76,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Can be introduced to negate charge or criminal conduct\n\u2022\nRelevance: Conduct for which D is accused\n\u2022\nO, R",
+                        "raw_text": "Can be introduced to negate charge or criminal conduct\n\u2022\nRelevance: Conduct for which D is accused\n\u2022\nO, R"
+                      }
+                    ],
+                    "title": "Can be introduced to negate charge or criminal conduct\n\u2022\nRelevance: Conduct for which D is accused\n\u2022\nO, R",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 76,
+                    "title": "Prosecution\u2019s Response\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 76,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Introduce O or R to rebut through direct examination of own\ncharacter witness\n\u2022\nCross-examine D\u2019s character witness through SI, O, R",
+                        "raw_text": "Introduce O or R to rebut through direct examination of own\ncharacter witness\n\u2022\nCross-examine D\u2019s character witness through SI, O, R"
+                      }
+                    ],
+                    "title": "Introduce O or R to rebut through direct examination of own\ncharacter witness\n\u2022\nCross-examine D\u2019s character witness thro",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 76,
+                    "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 77,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Defendant Attacks the Victim\u2019s Character\n\u2022\nD may offer O, R of victim\u2019s pertinent character trait",
+                        "raw_text": "Defendant Attacks the Victim\u2019s Character\n\u2022\nD may offer O, R of victim\u2019s pertinent character trait"
+                      }
+                    ],
+                    "title": "Defendant Attacks the Victim\u2019s Character\n\u2022\nD may offer O, R of victim\u2019s pertinent character trait",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 77,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "California\n\u2022\nD may offer SI, O, R of victim\u2019s pertinent character trait\nProsecution\u2019s Response\n\u2022\nP may offer O, R of victim\u2019s good character or D\u2019s same\ntrait\nSex Offense Cases\n\u2022\nEvidence of victim\u2019s sexual predisposition inadmissible",
+                        "raw_text": "California\n\u2022\nD may offer SI, O, R of victim\u2019s pertinent character trait\nProsecution\u2019s Response\n\u2022\nP may offer O, R of victim\u2019s good character or D\u2019s same\ntrait\nSex Offense Cases\n\u2022\nEvidence of victim\u2019s sexual predisposition inadmissible"
+                      }
+                    ],
+                    "title": "California\n\u2022\nD may offer SI, O, R of victim\u2019s pertinent character trait\nProsecution\u2019s Response\n\u2022\nP may offer O, R of vic",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 77,
+                    "title": "Exceptions \u2013 Civil Cases\n\u2022\nEvidence of victim\u2019s sexual predisposition admissible if\n(1) Probative value substantially ou",
+                    "type": "RULE"
+                  },
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 77,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "\u2022\nD: To prove consent\n\u2022\nP: For any reason\n(iii) Evidence whose exclusion would violate D\u2019s rights",
+                            "raw_text": "\u2022\nD: To prove consent\n\u2022\nP: For any reason\n(iii) Evidence whose exclusion would violate D\u2019s rights"
+                          }
+                        ],
+                        "title": "\u2022\nD: To prove consent\n\u2022\nP: For any reason\n(iii) Evidence whose exclusion would violate D\u2019s rights",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 77,
+                        "title": "Specific Acts\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 77,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Inadmissible to prove character and person acted in accordance with that character",
+                            "raw_text": "Inadmissible to prove character and person acted in accordance with that character"
+                          }
+                        ],
+                        "title": "Inadmissible to prove character and person acted in accordance with that character",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 77,
+                        "title": "Exceptions\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 77,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Admissible to prove\n(i)  Motive\n(ii) Opportunity\n(iii) Intent\n(iv) Preparation\n(v)  Plan\n(vi) Knowledge\n(vii) Identity\n(viii) Absence of mistake\n(ix)  Lack of accident",
+                            "raw_text": "Admissible to prove\n(i)  Motive\n(ii) Opportunity\n(iii) Intent\n(iv) Preparation\n(v)  Plan\n(vi) Knowledge\n(vii) Identity\n(viii) Absence of mistake\n(ix)  Lack of accident"
+                          }
+                        ],
+                        "title": "Admissible to prove\n(i)  Motive\n(ii) Opportunity\n(iii) Intent\n(iv) Preparation\n(v)  Plan\n(vi) Knowledge\n(vii) Identity\n(",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 77,
+                        "title": "Evidence of Habit\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 77,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Admissible to prove person or organization acted in accordance with habit or routine",
+                            "raw_text": "Admissible to prove person or organization acted in accordance with habit or routine"
+                          }
+                        ],
+                        "title": "Admissible to prove person or organization acted in accordance with habit or routine",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 77,
+                        "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 77,
+                    "title": "SI admissible to demonstrate\n(i) 3P source of semen, injury, physical evidence\n(ii) Past sexual relations",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 76,
+                "title": "Applicable to criminal proceedings\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 78,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Admissible for impeachment\nMethods of Proving Character\n\u2022\nIf admissible, may be proved by O or R\n\u2022\nCross-examination: May allow SI\nTRIAL",
+                        "raw_text": "Admissible for impeachment\nMethods of Proving Character\n\u2022\nIf admissible, may be proved by O or R\n\u2022\nCross-examination: May allow SI\nTRIAL"
+                      }
+                    ],
+                    "title": "Admissible for impeachment\nMethods of Proving Character\n\u2022\nIf admissible, may be proved by O or R\n\u2022\nCross-examination: Ma",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 78,
+                "title": "Impeachment\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 76,
+            "title": "EVIDENCE\nRELEVANCE",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 78,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "O testimony admissible when\n(1) Rationally based on witness\u2019s perception\n(2) Helpful to understand witness\u2019s testimony or determine fact in issue, and\n(3) Not based on specialized knowledge",
+                            "raw_text": "O testimony admissible when\n(1) Rationally based on witness\u2019s perception\n(2) Helpful to understand witness\u2019s testimony or determine fact in issue, and\n(3) Not based on specialized knowledge"
+                          }
+                        ],
+                        "title": "O testimony admissible when\n(1) Rationally based on witness\u2019s perception\n(2) Helpful to understand witness\u2019s testimony o",
+                        "type": "RULE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 78,
+                    "title": "May testify only if evidence sufficient to support finding that he has personal\nknowledge of a matter\nLay Witnesses\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 78,
+                "title": "Competency\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 78,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "fact in issue\n(2) Based on sufficient facts or data\n(3) Product of reliable principles and methods, and\n(4) Reliably applied principles and methods to facts of case",
+                            "raw_text": "fact in issue\n(2) Based on sufficient facts or data\n(3) Product of reliable principles and methods, and\n(4) Reliably applied principles and methods to facts of case"
+                          }
+                        ],
+                        "title": "fact in issue\n(2) Based on sufficient facts or data\n(3) Product of reliable principles and methods, and\n(4) Reliably app",
+                        "type": "RULE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 78,
+                    "title": "O testimony admissible when\n(1) Specialized knowledge will help trier of fact understand evidence or determine",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 78,
+                "title": "Expert Witnesses\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 78,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Reliability of theory or technique determined by\n(i)  Whether subjected to peer review and publication\n(ii) Whether tested\n(iii) Rate of error\n(iv) Whether accepted in scientific community\nCalifornia \u2013 Kelly/Frye Standard\n\u2022",
+                        "raw_text": "Reliability of theory or technique determined by\n(i)  Whether subjected to peer review and publication\n(ii) Whether tested\n(iii) Rate of error\n(iv) Whether accepted in scientific community\nCalifornia \u2013 Kelly/Frye Standard\n\u2022"
+                      }
+                    ],
+                    "title": "Reliability of theory or technique determined by\n(i)  Whether subjected to peer review and publication\n(ii) Whether test",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 78,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Required to prove new theory or technique has been accepted in scientific\ncommunity\nCriminal Cases\n\u2022\nO re D\u2019s mental state that constitutes element of crime is inadmissible\nPresent Recollection Refreshed\n\u2022",
+                        "raw_text": "Required to prove new theory or technique has been accepted in scientific\ncommunity\nCriminal Cases\n\u2022\nO re D\u2019s mental state that constitutes element of crime is inadmissible\nPresent Recollection Refreshed\n\u2022"
+                      }
+                    ],
+                    "title": "Required to prove new theory or technique has been accepted in scientific\ncommunity\nCriminal Cases\n\u2022\nO re D\u2019s mental sta",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 78,
+                "title": "Daubert Standard \u2013 Reliable Principles and Methods\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 78,
+                "title": "Witness may inspect object to refresh recollection re any matter about which he\ntestifies\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 78,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 78,
+                "title": "Object not admitted or read into evidence",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 78,
+            "title": "WITNESSES",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 79,
+                "title": "Leading\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 79,
+                "title": "Presents answer within question\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 79,
+                "title": "Allowed on cross-examination or against hostile witness\nNonresponsive\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 79,
+                "title": "Answer goes beyond scope or evades question\nAssumes Facts Not in Evidence\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 79,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Assumes as true facts not introduced into evidence\nNarrative\n\u2022\nOpen-ended, giving witness opportunity to narrate\nSpeculative\n\u2022",
+                    "raw_text": "Assumes as true facts not introduced into evidence\nNarrative\n\u2022\nOpen-ended, giving witness opportunity to narrate\nSpeculative\n\u2022"
+                  }
+                ],
+                "title": "Assumes as true facts not introduced into evidence\nNarrative\n\u2022\nOpen-ended, giving witness opportunity to narrate\nSpecula",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 79,
+                "title": "Requires witness to speculate\nCompound\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 79,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Multiple questions combined within single question\nVagueness\n\u2022\nNon-specific\nLegal Conclusion\n\u2022",
+                    "raw_text": "Multiple questions combined within single question\nVagueness\n\u2022\nNon-specific\nLegal Conclusion\n\u2022"
+                  }
+                ],
+                "title": "Multiple questions combined within single question\nVagueness\n\u2022\nNon-specific\nLegal Conclusion\n\u2022",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 79,
+                "title": "Asks lay witness to provide legal opinion\nJUDICIAL NOTICE",
+                "type": "ELEMENT"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 79,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Accepts fact as true without presentation of evidence because\n(i)  Generally known within jx, or\n(ii) Can be determined from sources whose accuracy cannot reasonably be questioned",
+                        "raw_text": "Accepts fact as true without presentation of evidence because\n(i)  Generally known within jx, or\n(ii) Can be determined from sources whose accuracy cannot rxly be questioned"
+                      }
+                    ],
+                    "title": "Accepts fact as true without presentation of evidence because\n(i)  Generally known within jx, or\n(ii) Can be determined ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 79,
+                "title": "Judicial Notice\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 79,
+            "title": "OBJECTIONS",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 79,
+                "title": "Authentication\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 79,
+                "title": "Required before being admitted",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 79,
+                "title": "Physical Evidence\n(i) Personal knowledge\n(ii) Distinctive characteristics, or\n(iii) Chain of custody",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 79,
+                "title": "Documentary Evidence",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 79,
+                    "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 79,
+                "title": "Handwriting\n(i) Expert witness\n(ii) Jury comparing to sample, or",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 80,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Voice Recordings\n\u2022\nO evidence identifying speaker\u2019s voice\nAncient Documents\n(1) At least 20 years old\n(2) In a condition that creates no suspicion re authenticity, and\n(3) In a place where it would likely be",
+                        "raw_text": "Voice Recordings\n\u2022\nO evidence identifying speaker\u2019s voice\nAncient Documents\n(1) At least 20 years old\n(2) In a condition that creates no suspicion re authenticity, and\n(3) In a place where it would likely be"
+                      }
+                    ],
+                    "title": "Voice Recordings\n\u2022\nO evidence identifying speaker\u2019s voice\nAncient Documents\n(1) At least 20 years old\n(2) In a condition",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 80,
+                "title": "(iii) Lay witness\u2019s opinion handwriting is genuine, based on familiarity",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 80,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Writings containing identifying info\nCompleteness Doctrine\n\u2022\nIf all or part of writing is introduced, adverse party may require introduction of any other part\nBEST EVIDENCE RULE",
+                        "raw_text": "Writings containing identifying info\nCompleteness Doctrine\n\u2022\nIf all or part of writing is introduced, adverse party may require introduction of any other part\nBEST EVIDENCE RULE"
+                      }
+                    ],
+                    "title": "Writings containing identifying info\nCompleteness Doctrine\n\u2022\nIf all or part of writing is introduced, adverse party may ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 80,
+                "title": "Self-Authenticating Evidence\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 80,
+                "title": "Best Evidence Rule\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 80,
+                "title": "Original required to prove its contents\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 80,
+                "title": "Applicable only when\n(i) Contents of doc at issue, or\n(ii) Witness depends on doc\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 80,
+                "title": "Handwritten duplicates inadmissible",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 80,
+                "title": "California \u2013 Secondary Evidence Rule\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 80,
+                "title": "Original required to prove its contents\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 80,
+                "title": "Applicable only when\n(i) Contents of doc at issue, or\n(ii) Witness depends on doc\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 80,
+                    "title": "Impeachment\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 80,
+                    "title": "Any party may impeach any witness",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 80,
+                    "title": "Methods of Impeachment",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 80,
+                    "title": "Prior Inconsistent Statements\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 80,
+                    "title": "Prior statements inconsistent with prior testimony\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 80,
+                    "title": "Cross-examination or extrinsic evidence",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 80,
+                "title": "Handwritten duplicates admissible\nIMPEACHMENT",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 80,
+                        "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 81,
+                        "title": "Bias or Interest\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "jurisdiction": "UTC",
+                        "page": 81,
+                        "title": "Bias or interest in outcome of case\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 81,
+                        "title": "Cross-examination or extrinsic evidence",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 81,
+                        "title": "Extrinsic Evidence\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 81,
+                        "title": "Admissible if foundation laid\nPrior Conviction of a Crime\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 81,
+                        "title": "Cross-examination or record of conviction",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 81,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Crimes Involving Dishonesty\n\u2022\nAlways admissible unless more than 10 years old\nCrimes Not Involving Dishonesty\n\u2022",
+                            "raw_text": "Crimes Involving Dishonesty\n\u2022\nAlways admissible unless more than 10 years old\nCrimes Not Involving Dishonesty\n\u2022"
+                          }
+                        ],
+                        "title": "Crimes Involving Dishonesty\n\u2022\nAlways admissible unless more than 10 years old\nCrimes Not Involving Dishonesty\n\u2022",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 81,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Admissible unless probative value is substantially outweighed by prejudicial\neffect",
+                            "raw_text": "Admissible unless probative value is substantially outweighed by prejudicial\neffect"
+                          }
+                        ],
+                        "title": "Admissible unless probative value is substantially outweighed by prejudicial\neffect",
+                        "type": "SUBISSUE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 80,
+                    "title": "Admissible if\n(1) Witness given opportunity to explain or deny, and\n(2) Adverse party has opportunity to examine",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 80,
+                "title": "Extrinsic Evidence\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 81,
+                    "title": "Must be admitted if probative value substantially outweighs\nprejudicial effect\nWitness is Not the Defendant\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 81,
+                "title": "Witness is the Defendant\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 81,
+                "title": "Generally admissible\nCalifornia\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 81,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Admissible if\n(1) Probative value substantially outweighs prejudicial effect, and\n(2) Proponent gives adverse party reasonable notice",
+                        "raw_text": "Admissible if\n(1) Probative value substantially outweighs prejudicial effect, and\n(2) Proponent gives adverse party rx notice"
+                      }
+                    ],
+                    "title": "Admissible if\n(1) Probative value substantially outweighs prejudicial effect, and\n(2) Proponent gives adverse party rx n",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 81,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Specific Instances of Misconduct\n\u2022\nInadmissible to attack or support witness\u2019s character for truthfulness\n\u2022",
+                        "raw_text": "Specific Instances of Misconduct\n\u2022\nInadmissible to attack or support witness\u2019s character for truthfulness\n\u2022"
+                      }
+                    ],
+                    "title": "Specific Instances of Misconduct\n\u2022\nInadmissible to attack or support witness\u2019s character for truthfulness\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 81,
+                    "title": "May be allowed on cross-examination",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 81,
+                    "title": "California",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 81,
+                    "title": "Civil Cases\n\u2022\nInadmissible\nCriminal Cases\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 81,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Admissible unless probative value substantially outweighed\nby prejudicial effect\n\u2022",
+                        "raw_text": "Admissible unless probative value substantially outweighed\nby prejudicial effect\n\u2022"
+                      }
+                    ],
+                    "title": "Admissible unless probative value substantially outweighed\nby prejudicial effect\n\u2022",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 81,
+                    "title": "Cross-examination and extrinsic evidence",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 81,
+                    "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 82,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Reputation or Opinion\n\u2022\nMay be used to attack witness\u2019s credibility re character for truthfulness\n\u2022",
+                        "raw_text": "Reputation or Opinion\n\u2022\nMay be used to attack witness\u2019s credibility re character for truthfulness\n\u2022"
+                      }
+                    ],
+                    "title": "Reputation or Opinion\n\u2022\nMay be used to attack witness\u2019s credibility re character for truthfulness\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 82,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Evidence of truthfulness admissible only after character attacked\nSensory Deficiencies\n\u2022",
+                        "raw_text": "Evidence of truthfulness admissible only after character attacked\nSensory Deficiencies\n\u2022"
+                      }
+                    ],
+                    "title": "Evidence of truthfulness admissible only after character attacked\nSensory Deficiencies\n\u2022",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 82,
+                    "title": "Establishing mental or physical capabilities were impaired\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 82,
+                    "title": "Cross-examination and extrinsic evidence",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 82,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Rehabilitating an Impeached Witness\n(i) Redirect examination\n(ii) Another witness\u2019s testimony re impeached witness\u2019s truthfulness through O, R, or\n(iii) Introducing prior consistent statement\nHEARSAY",
+                        "raw_text": "Rehabilitating an Impeached Witness\n(i) Redirect examination\n(ii) Another witness\u2019s testimony re impeached witness\u2019s truthfulness through O, R, or\n(iii) Introducing prior consistent statement\nHEARSAY"
+                      }
+                    ],
+                    "title": "Rehabilitating an Impeached Witness\n(i) Redirect examination\n(ii) Another witness\u2019s testimony re impeached witness\u2019s tru",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 81,
+                "title": "Admissible only if crime involved moral turpitude\nConvictions More Than Ten Years Old\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 82,
+                "title": "Hearsay\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 82,
+                "title": "Out-of-court statement offered to prove TOMA\nHearsay Within Hearsay\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 82,
+                "title": "Not excluded if each part conforms with exception",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 79,
+            "title": "TANGIBLE EVIDENCE",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 82,
+                "title": "Legally Operative Facts\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 82,
+                "title": "Non-hearsay if offered to prove statement was made\nEffect on Listener\n\u2022",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 82,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Non-hearsay if offered to show effect on person who heard statement\nDeclarant\u2019s State of Mind\n\u2022\nNon-hearsay if offered as circumstantial evidence of declarant\u2019s state of mind\nNon-Human Declarations\n\u2022",
+                    "raw_text": "Non-hearsay if offered to show effect on person who heard statement\nDeclarant\u2019s State of Mind\n\u2022\nNon-hearsay if offered as circumstantial evidence of declarant\u2019s state of mind\nNon-Human Declarations\n\u2022"
+                  }
+                ],
+                "title": "Non-hearsay if offered to show effect on person who heard statement\nDeclarant\u2019s State of Mind\n\u2022\nNon-hearsay if offered a",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.6,
+                "depth": 5,
+                "page": 82,
+                "title": "Non-hearsay if asserted by non-human\nHEARSAY EXEMPTIONS",
+                "type": "ELEMENT"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 82,
+                "title": "Testifying Witness\u2019s Prior Statements",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 82,
+                "title": "Prior Inconsistent Statements\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 82,
+                "title": "Admissible as substantive evidence and for impeachment",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 82,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 82,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Not hearsay if offered to\n(i)  Rebut charge of recent fabrication or improper motive, or\n(ii) Rehabilitate declarant\u2019s credibility",
+                        "raw_text": "Not hearsay if offered to\n(i)  Rebut charge of recent fabrication or improper motive, or\n(ii) Rehabilitate declarant\u2019s credibility"
+                      }
+                    ],
+                    "title": "Not hearsay if offered to\n(i)  Rebut charge of recent fabrication or improper motive, or\n(ii) Rehabilitate declarant\u2019s c",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 82,
+                    "title": "7\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 82,
+                "title": "Admissible as substantive evidence and for impeachment\nPrior Consistent Statements\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 83,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Not hearsay if offered to\n(i)  Rebut charge of recent fabrication or improper motive, or\n(ii) Rehabilitate declarant\u2019s credibility",
+                        "raw_text": "Not hearsay if offered to\n(i)  Rebut charge of recent fabrication or improper motive, or\n(ii) Rehabilitate declarant\u2019s credibility"
+                      }
+                    ],
+                    "title": "Not hearsay if offered to\n(i)  Rebut charge of recent fabrication or improper motive, or\n(ii) Rehabilitate declarant\u2019s c",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 83,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 83,
+                "title": "Prior Statements of Identification\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 83,
+                "title": "Admissible if identifying declarant testifies and is subject to crossexamination",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 83,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Admissible if\n(i)  Identifying declarant testifies and is subject to cross-examination\n(ii) Identification is of person who participated in crime\n(iii) Statement made when crime was fresh in declarant\u2019s memory, or\n(iv) Declarant testifies identification was true reflection",
+                        "raw_text": "Admissible if\n(i)  Identifying declarant testifies and is subject to cross-examination\n(ii) Identification is of person who participated in crime\n(iii) Statement made when crime was fresh in declarant\u2019s memory, or\n(iv) Declarant testifies identification was true reflection"
+                      }
+                    ],
+                    "title": "Admissible if\n(i)  Identifying declarant testifies and is subject to cross-examination\n(ii) Identification is of person ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 83,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 83,
+                "title": "Party Opponent Statements\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 83,
+                "title": "Not hearsay if made by party to litigation and offered by opposing party\nAdoptive Admissions\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 83,
+                "title": "Offered by opposing party against party who adopted statement",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 83,
+                "title": "Adoption by Silence\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 83,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Offered by opposing party made by\n(i)  Person whom party authorized to make statement\n(ii) Party\u2019s agent or employee within scope of relationship, or\n(iii) Co-conspirator during and in furtherance of conspiracy",
+                        "raw_text": "Offered by opposing party made by\n(i)  Person whom party authorized to make statement\n(ii) Party\u2019s agent or employee within scope of relationship, or\n(iii) Co-conspirator during and in furtherance of conspiracy"
+                      }
+                    ],
+                    "title": "Offered by opposing party made by\n(i)  Person whom party authorized to make statement\n(ii) Party\u2019s agent or employee wit",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 83,
+                "title": "Rx person under same circumstances would have denied statement if not true\nVicarious Admissions\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 82,
+            "title": "NON-HEARSAY",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 83,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Unavailable Declarant Requirement\n(i) Court privilege applies\n(ii) Refusal to testify despite court order\n(iii) Testimony of not remembering subject\n(iv) Death or illness, or\n(v) Absence and proponent unable to obtain attendance or testimony",
+                    "raw_text": "Unavailable Declarant Requirement\n(i) Court privilege applies\n(ii) Refusal to testify despite court order\n(iii) Testimony of not remembering subject\n(iv) Death or illness, or\n(v) Absence and proponent unable to obtain attendance or testimony"
+                  }
+                ],
+                "title": "Unavailable Declarant Requirement\n(i) Court privilege applies\n(ii) Refusal to testify despite court order\n(iii) Testimon",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 83,
+                "title": "Unavailable Declarant Exceptions",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 83,
+                "title": "Former Testimony\n\u2022",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 83,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Admissible if party against whom offered had opportunity and similar motive\nto develop testimony",
+                    "raw_text": "Admissible if party against whom offered had opportunity and similar motive\nto develop testimony"
+                  }
+                ],
+                "title": "Admissible if party against whom offered had opportunity and similar motive\nto develop testimony",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.65,
+                "depth": 5,
+                "page": 83,
+                "title": "8\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                "type": "SUBISSUE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 84,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 84,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Admissible if\n(1) Contrary to declarant\u2019s interest at time made, and\n(2) reasonable person would not have made statement unless true",
+                        "raw_text": "Admissible if\n(1) Contrary to declarant\u2019s interest at time made, and\n(2) Rx person would not have made statement unless true"
+                      }
+                    ],
+                    "title": "Admissible if\n(1) Contrary to declarant\u2019s interest at time made, and\n(2) Rx person would not have made statement unless ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 84,
+                "title": "No privity requirement between parties\nStatement Against Interest\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 84,
+                    "title": "Presenting party required to offer corroborating circumstances\nindicating trustworthiness\nDying Declaration\n\u2022",
+                    "type": "ISSUE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 84,
+                    "title": "Admissible if\n(1) Made while believing death was imminent, and\n(2) Was about the cause or circumstances of death",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 84,
+                "title": "Criminal Cases Only\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 84,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Admissible if made by relative or individual intimately associated with\nfamily\nStatements Offered Against Party That Wrongfully Caused Unavailability\n\u2022",
+                        "raw_text": "Admissible if made by relative or individual intimately associated with\nfamily\nStatements Offered Against Party That Wrongfully Caused Unavailability\n\u2022"
+                      }
+                    ],
+                    "title": "Admissible if made by relative or individual intimately associated with\nfamily\nStatements Offered Against Party That Wro",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 84,
+                "title": "Statements of Personal or Family History\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 84,
+                "title": "Admissible if declarant unavailable because opposing party wrongfully\ncaused unavailability",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 83,
+            "title": "HEARSAY EXCEPTIONS \u2013 UNAVAILABLE DECLARANT",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "confidence": 0.5,
+                "depth": 5,
+                "page": 84,
+                "rule_candidates": [
+                  {
+                    "elements": [],
+                    "exceptions": [],
+                    "normalized_text": "Then Existing Mental, Emotional, and Physical Condition\n\u2022\nStates declarant\u2019s then-existing state of mind or emotional or physical condition\nPresent Sense Impression\n\u2022",
+                    "raw_text": "Then Existing Mental, Emotional, and Physical Condition\n\u2022\nStates declarant\u2019s then-existing state of mind or emotional or physical condition\nPresent Sense Impression\n\u2022"
+                  }
+                ],
+                "title": "Then Existing Mental, Emotional, and Physical Condition\n\u2022\nStates declarant\u2019s then-existing state of mind or emotional or",
+                "type": "RULE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 84,
+                "title": "Describes or explains event or condition while or immediately after perceiving it",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 84,
+                "title": "California \u2013 Contemporaneous Statement\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 84,
+                "title": "Explains conduct of declarant\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 84,
+                "title": "Made while declarant engaged in conduct\nExcited Utterance\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 84,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Made while declarant under stress or excitement of event\nMedical Diagnosis or Treatment\n\u2022\nDescribes medical history, past or present symptoms, or general cause\nRecorded Recollection\n\u2022",
+                        "raw_text": "Made while declarant under stress or excitement of event\nMedical Diagnosis or Treatment\n\u2022\nDescribes medical history, past or present symptoms, or general cause\nRecorded Recollection\n\u2022"
+                      }
+                    ],
+                    "title": "Made while declarant under stress or excitement of event\nMedical Diagnosis or Treatment\n\u2022\nDescribes medical history, pas",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 84,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Permitted to read record to jury if record\n(1) On a matter the witness once knew about but now cannot recall\n(2) Was made or adopted by witness when matter was fresh in memory, and",
+                        "raw_text": "Permitted to read record to jury if record\n(1) On a matter the witness once knew about but now cannot recall\n(2) Was made or adopted by witness when matter was fresh in memory, and"
+                      }
+                    ],
+                    "title": "Permitted to read record to jury if record\n(1) On a matter the witness once knew about but now cannot recall\n(2) Was mad",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 84,
+                    "title": "9\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 84,
+                "title": "Relates to startling event\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 85,
+                "title": "(3) Accurately reflects knowledge\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 85,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "May be admitted as exhibit only if offered by adverse party\nBusiness Records\n(1) Made at or near time by someone with knowledge\n(2) Kept in course of regularly conducted business\n(3) Making record was regular practice, and\n(4) Source or method was trustworthy",
+                        "raw_text": "May be admitted as exhibit only if offered by adverse party\nBusiness Records\n(1) Made at or near time by someone with knowledge\n(2) Kept in course of regularly conducted business\n(3) Making record was regular practice, and\n(4) Source or method was trustworthy"
+                      }
+                    ],
+                    "title": "May be admitted as exhibit only if offered by adverse party\nBusiness Records\n(1) Made at or near time by someone with kn",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 85,
+                "title": "May be read into evidence if admitted\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 85,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "(i) Office\u2019s activities\n(ii) Matter observed while under legal duty to report\n(iii) Factual findings from legally authorized investigation, and\n(2) Source or method was trustworthy",
+                        "raw_text": "(i) Office\u2019s activities\n(ii) Matter observed while under legal duty to report\n(iii) Factual findings from legally authorized investigation, and\n(2) Source or method was trustworthy"
+                      }
+                    ],
+                    "title": "(i) Office\u2019s activities\n(ii) Matter observed while under legal duty to report\n(iii) Factual findings from legally author",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 85,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Learned Treatises\n(1) Statement called to attention of expert witness on cross-examination or relied on",
+                        "raw_text": "Learned Treatises\n(1) Statement called to attention of expert witness on cross-examination or relied on"
+                      }
+                    ],
+                    "title": "Learned Treatises\n(1) Statement called to attention of expert witness on cross-examination or relied on",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 85,
+                "title": "Public Records\n(1) Sets out",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 85,
+                "title": "during direct examination, and\n(2) Publication is established as reliable authority\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 85,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Residual Catch-All\n\u2022\nIf no other exception applies, still admitted if\n(1) Supported by sufficient guarantees of trustworthiness\n(2) Offered as evidence of material fact, and\n(3) More probative on point for which it\u2019s offered than any other evidence that",
+                        "raw_text": "Residual Catch-All\n\u2022\nIf no other exception applies, still admitted if\n(1) Supported by sufficient guarantees of trustworthiness\n(2) Offered as evidence of material fact, and\n(3) More probative on point for which it\u2019s offered than any other evidence that"
+                      }
+                    ],
+                    "title": "Residual Catch-All\n\u2022\nIf no other exception applies, still admitted if\n(1) Supported by sufficient guarantees of trustwor",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 85,
+                "title": "May be read into evidence but not admitted as exhibit",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 85,
+                "title": "proponent can obtain through rx efforts\nPRIVILEGES",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 85,
+                "title": "Lawyer-Client Privilege\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 85,
+                "title": "Communications between lawyer and client related to representation are protected\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 85,
+                "title": "Lasts indefinitely",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 85,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Communications between lawyer and client related to representation\nare protected\n\u2022\nEnds when client\u2019s estate fully distributed and representative discharged",
+                        "raw_text": "Communications between lawyer and client related to representation\nare protected\n\u2022\nEnds when client\u2019s estate fully distributed and representative discharged"
+                      }
+                    ],
+                    "title": "Communications between lawyer and client related to representation\nare protected\n\u2022\nEnds when client\u2019s estate fully distr",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 85,
+                    "title": "Exceptions\n(i) Client\u2019s objective to engage in future crime or fraud\n(ii) Communication relevant in malpractice action a",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 85,
+                    "title": "10\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 86,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "California\n(i) Client\u2019s objective to engage in future crime or fraud\n(ii) Communication relevant in malpractice action against lawyer\n(iii) Civil litigation between formerly joint clients of lawyer, or\n(iv) Lawyer reasonably believes disclosure necessary to prevent criminal act likely to result in",
+                        "raw_text": "California\n(i) Client\u2019s objective to engage in future crime or fraud\n(ii) Communication relevant in malpractice action against lawyer\n(iii) Civil litigation between formerly joint clients of lawyer, or\n(iv) Lawyer rxly believes disclosure necessary to prevent criminal act likely to result in"
+                      }
+                    ],
+                    "title": "California\n(i) Client\u2019s objective to engage in future crime or fraud\n(ii) Communication relevant in malpractice action a",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 86,
+                    "title": "death or substantial bodily harm\nAttorney Work Product Doctrine",
+                    "type": "ELEMENT"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 85,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "jurisdiction": "CALIFORNIA",
+                        "page": 86,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Absolute Immunity\n\u2022\nLawyer\u2019s mental impressions, research, opinions, etc. not discoverable unless\nimmunity waived\nCalifornia \u2013 Physician-Patient Privilege\n\u2022",
+                            "raw_text": "Absolute Immunity\n\u2022\nLawyer\u2019s mental impressions, research, opinions, etc. not discoverable unless\nimmunity waived\nCalifornia \u2013 Physician-Patient Privilege\n\u2022"
+                          }
+                        ],
+                        "title": "Absolute Immunity\n\u2022\nLawyer\u2019s mental impressions, research, opinions, etc. not discoverable unless\nimmunity waived\nCalifo",
+                        "type": "RULE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 86,
+                    "title": "Docs prepared in anticipation of litigation not discoverable unless\n(1) Substantial need, and\n(2) Undue hardship",
+                    "type": "ISSUE"
+                  },
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Exceptions\n(i) Patient puts condition into issue\n(ii) Communication for illegal purpose\n(iii) Dispute between physician ",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Psychotherapist-Patient or Social-Worker Patient Privilege\n\u2022",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Communications between psychotherapist or social worker and client are protected",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Exceptions\n(i) Patient puts condition into issue\n(ii) Communication for illegal purpose\n(iii)  Dispute between physician",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.6,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Spousal Privileges",
+                        "type": "ELEMENT"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Spousal Immunity\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Criminal cases\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Spouse of criminal D may not be called to testify against D\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Spouses may not be compelled to testify against each other\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Only applicable while in valid marriage\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 86,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Covers testimony re matters prior to and during marriage\nConfidential Marital Communications\n\u2022",
+                            "raw_text": "Covers testimony re matters prior to and during marriage\nConfidential Marital Communications\n\u2022"
+                          }
+                        ],
+                        "title": "Covers testimony re matters prior to and during marriage\nConfidential Marital Communications\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Communications between spouses during marriage are protected\n\u2022",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "Survives after marriage is over",
+                        "type": "SUBISSUE"
+                      },
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 86,
+                        "title": "11\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 86,
+                    "title": "Communications between licensed physician and patient for purpose of diagnosis or\ntreatment are protected",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 86,
+                "title": "Qualified Immunity\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 84,
+            "title": "HEARSAY EXCEPTIONS \u2013 DECLARANT AVAILABILITY IMMATERIAL",
+            "type": "MAJOR_TOPIC"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 87,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Inadmissible to prove\n(i) Negligence\n(ii) Culpable conduct\n(iii) Need for warning or instruction, or\n(iv) Defect in product or design\n\u2022",
+                        "raw_text": "Inadmissible to prove\n(i) Negligence\n(ii) Culpable conduct\n(iii) Need for warning or instruction, or\n(iv) Defect in product or design\n\u2022"
+                      }
+                    ],
+                    "title": "Inadmissible to prove\n(i) Negligence\n(ii) Culpable conduct\n(iii) Need for warning or instruction, or\n(iv) Defect in prod",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 87,
+                    "title": "Admissible to prove\n(i)  Ownership\n(ii) Control\n(iii) Feasibility of precautionary measures, or\n(iv) For impeachment",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 87,
+                "title": "Subsequent Remedial Measures\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 87,
+                "title": "Liability Insurance\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 87,
+                "title": "Inadmissible to prove whether person acted negligently or wrongfully\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 87,
+                "title": "Admissible to prove\n(i)  Bias or prejudice\n(ii) Agency\n(iii) Ownership, or\n(iv) Control",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 87,
+                "title": "Compromise Offers and Negotiations\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 87,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Admissible to\n(i) Prove bias or prejudice\n(ii) Negate contention of undue delay, or\n(iii) Prove effort to obstruct criminal investigation or prosecution",
+                        "raw_text": "Admissible to\n(i) Prove bias or prejudice\n(ii) Negate contention of undue delay, or\n(iii) Prove effort to obstruct criminal investigation or prosecution"
+                      }
+                    ],
+                    "title": "Admissible to\n(i) Prove bias or prejudice\n(ii) Negate contention of undue delay, or\n(iii) Prove effort to obstruct crimi",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 87,
+                "title": "Inadmissible to prove or disprove validity or amount of disputed claim\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 87,
+                "title": "Offers to Pay Medical Expenses\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 87,
+                "title": "Inadmissible to prove liability for injury",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "CALIFORNIA",
+                    "page": 87,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Inadmissible to prove liability for injury\nPleas and Related Statements\n\u2022\nInadmissible to prove D\u2019s guilt\nCalifornia \u2013 Expressions of Sympathy\n\u2022",
+                        "raw_text": "Inadmissible to prove liability for injury\nPleas and Related Statements\n\u2022\nInadmissible to prove D\u2019s guilt\nCalifornia \u2013 Expressions of Sympathy\n\u2022"
+                      }
+                    ],
+                    "title": "Inadmissible to prove liability for injury\nPleas and Related Statements\n\u2022\nInadmissible to prove D\u2019s guilt\nCalifornia \u2013 E",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "CALIFORNIA",
+                "page": 87,
+                "title": "California\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 87,
+                "title": "Inadmissible as evidence of admission in civil actions\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 87,
+                    "title": "Confrontation Clause\n\u2022",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.6,
+                    "depth": 5,
+                    "page": 87,
+                    "title": "D has right to confront all witnesses testifying against him",
+                    "type": "ELEMENT"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 87,
+                    "title": "12\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 88,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "\u2022\nOut-of-court statements may violate 6A if\n(1) Testimonial\n(2) Declarant unavailable, and\n(3) D did not have opportunity to cross-examine declarant before trial",
+                        "raw_text": "\u2022\nOut-of-court statements may violate 6A if\n(1) Testimonial\n(2) Declarant unavailable, and\n(3) D did not have opportunity to cross-examine declarant before trial"
+                      }
+                    ],
+                    "title": "\u2022\nOut-of-court statements may violate 6A if\n(1) Testimonial\n(2) Declarant unavailable, and\n(3) D did not have opportunit",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 88,
+                    "title": "13\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 87,
+                "title": "Statements of fault accompanying expression of sympathy admissible\nCONFRONTATION CLAUSE",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 87,
+            "title": "PUBLIC POLICY EXCLUSIONS",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 76,
+        "title": "Evidence",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Evidence Essay Template"
+  }
+}

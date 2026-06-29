@@ -1,0 +1,865 @@
+{
+  "pages": "61-68",
+  "subject": "Criminal Law",
+  "template": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "confidence": 0.75,
+                "depth": 4,
+                "page": 61,
+                "title": "GENERAL PRINCIPALS\nElements of a Crime\n(1) Actus reus\n(2) Mens rea\n(3) Concurrence, and\n(4) Causation",
+                "type": "ISSUE"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Actus Reus\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Voluntary and physical act or failure to act\nVoluntary\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Exercise free will\nFailure to Act\n\u2022\nGeneral rule: No duty\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Duty may be created by\n\u2022\nStatute\n\u2022\nContract\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Special relationship\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Assumption of duty\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Creation of peril\nMens Rea\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Guilty state of mind\nSpecific Intent\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Specific purpose of accomplishing unlawful result\nSpecific Intent Crimes\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "First-Degree Murder\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Inchoate Crimes\n\u2022\nConspiracy\n\u2022\nAttempt\n\u2022\nSolicitation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Assault with Intent to Commit a Battery\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Theft Crimes\n\u2022\nLarceny\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Larceny by Trick\n\u2022\nRobbery\n\u2022\nBurglary\n\u2022\nEmbezzlement\n\u2022\nForgery\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "False Pretenses\nGeneral Intent\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 61,
+                    "title": "1\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 61,
+                "title": "Intent to commit unlawful act",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 62,
+                "title": "General Intent Crimes\n\u2022\nBattery\n\u2022\nKidnapping\n\u2022\nRape\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 62,
+                "title": "False Imprisonment\nMalice\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 62,
+                "title": "Reckless disregard of obvious or high risk of harm\nMalice Crimes\n\u2022\nArson\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "COMMON_LAW",
+                "page": 62,
+                "title": "Common Law Murder\nStrict Liability\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 62,
+                "title": "No mens rea required\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 62,
+                "title": "Merely committing crime is enough\nStrict Liability Crimes\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 62,
+                "title": "Statutory Offenses\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 62,
+                    "title": "Intending to commit crime against one victim but unintentionally committing\ncrime against another instead\nConcurrence\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 62,
+                "title": "Morality Crimes\nTransferred Intent Doctrine\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 62,
+                    "title": "Actual and proximate cause\nNo Defenses\n\u2022\nAll elements of crime met, and no defenses exist\nMerger Doctrine\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 62,
+                "title": "Actus reus and mens rea must exist concurrently\nCausation\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 62,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Inchoate crimes merge into completed crimes\nCRIMES AGAINST THE PERSON\nAssault\n(i) Attempt to commit battery, or\n(ii) Intentionally causing another\u2019s reasonable apprehension of imminent bodily harm\nBattery\n(i) Unlawful application of force to another\u2019s person causing bodily harm, or\n(ii) An offensive touching",
+                        "raw_text": "Inchoate crimes merge into completed crimes\nCRIMES AGAINST THE PERSON\nAssault\n(i) Attempt to commit battery, or\n(ii) Intentionally causing another\u2019s rx apprehension of imminent bodily harm\nBattery\n(i) Unlawful application of force to another\u2019s person causing bodily harm, or\n(ii) An offensive touching"
+                      }
+                    ],
+                    "title": "Inchoate crimes merge into completed crimes\nCRIMES AGAINST THE PERSON\nAssault\n(i) Attempt to commit battery, or\n(ii) Int",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 62,
+                    "title": "2\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "COMMON_LAW",
+                    "page": 63,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Kidnapping\n(1) Unlawful confinement of\n(2) Non-consenting person, and\n(3) Involving either (i) movement or (ii) concealment of that person\nHomicide\nCommon Law Murder\n\u2022",
+                        "raw_text": "Kidnapping\n(1) Unlawful confinement of\n(2) Non-consenting person, and\n(3) Involving either (i) movement or (ii) concealment of that person\nHomicide\nCommon Law Murder\n\u2022"
+                      }
+                    ],
+                    "title": "Kidnapping\n(1) Unlawful confinement of\n(2) Non-consenting person, and\n(3) Involving either (i) movement or (ii) concealm",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 62,
+                "title": "Lesser-included crimes merge into greater crimes\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 63,
+                "title": "Unlawful killing committed with malice aforethought\nMalice Aforethought\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 63,
+                "title": "Intent to Kill\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 63,
+                "title": "Intent to Inflict Great Bodily Injury\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 63,
+                "title": "Reckless Indifference or Depraved Heart Murder\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 63,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Unintended yet foreseeable killing actually or proximately caused by\nattempted commission of an inherently dangerous felony\nDeath of a Co-Felon\n\u2022",
+                        "raw_text": "Unintended yet fx killing actually or proximately caused by\nattempted commission of an inherently dangerous felony\nDeath of a Co-Felon\n\u2022"
+                      }
+                    ],
+                    "title": "Unintended yet fx killing actually or proximately caused by\nattempted commission of an inherently dangerous felony\nDeath",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 63,
+                "title": "Felony Murder\nFelony Murder\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 63,
+                "title": "D not liable if co-felon killed by victim or police\nAgency Theory\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 63,
+                "title": "Felon liable for death caused by his agent\nPoint of Safety\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 63,
+                    "title": "Premeditated and deliberate\nPremeditated\n\u2022 Enough time to reflect on killing\nDeliberate\n\u2022 Cool and dispassionate manner",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 63,
+                "title": "Commission of felony concludes when D reaches point of\nsafety\nFirst-Degree Murder\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 63,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Murder committed without premeditation and deliberation\nVoluntary Manslaughter\n(1) Provocation causing sudden and intense passion in ordinary reasonable person\n(2) D was actually provoked\n(3) Insufficient time for reasonable person to cool off, and\n(4) D did not cool off",
+                        "raw_text": "Murder committed without premeditation and deliberation\nVoluntary Manslaughter\n(1) Provocation causing sudden and intense passion in ordinary rx person\n(2) D was actually provoked\n(3) Insufficient time for rx person to cool off, and\n(4) D did not cool off"
+                      }
+                    ],
+                    "title": "Murder committed without premeditation and deliberation\nVoluntary Manslaughter\n(1) Provocation causing sudden and intens",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 63,
+                    "title": "3\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 64,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Involuntary Manslaughter\n\u2022\nUnintentional killing committed (i) with criminal negligence or (ii) during an\nunlawful act\nCRIMES AGAINST PROPERTY\nLarceny\n(1) Trespassory taking and\n(2) Carrying away of\n(3) Tangible personal property of another, and\n(4) Intent to permanently deprive",
+                        "raw_text": "Involuntary Manslaughter\n\u2022\nUnintentional killing committed (i) with criminal negligence or (ii) during an\nunlawful act\nCRIMES AGAINST PROPERTY\nLarceny\n(1) Trespassory taking and\n(2) Carrying away of\n(3) Tangible personal property of another, and\n(4) Intent to permanently deprive"
+                      }
+                    ],
+                    "title": "Involuntary Manslaughter\n\u2022\nUnintentional killing committed (i) with criminal negligence or (ii) during an\nunlawful act\nC",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 63,
+                "title": "Second-Degree Murder\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 64,
+                "title": "Trespassory Taking\n\u2022\nD exercises control over owner\u2019s property without consent\nCarrying Away\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 64,
+                "title": "Requires movement\nPersonal Property of Another\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 64,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Concurrence of taking and specific intent to permanently deprive\nRobbery\n(1) Larceny involving\n(2) Use of force or intimidation to take property\n(3) From another\u2019s person or presence",
+                        "raw_text": "Concurrence of taking and specific intent to permanently deprive\nRobbery\n(1) Larceny involving\n(2) Use of force or intimidation to take property\n(3) From another\u2019s person or presence"
+                      }
+                    ],
+                    "title": "Concurrence of taking and specific intent to permanently deprive\nRobbery\n(1) Larceny involving\n(2) Use of force or intim",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 64,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Force or Intimidation\n\u2022\nViolence, threats, or fear of imminent physical injury or death\nPerson or Presence\n\u2022\nTake within victim\u2019s person, presence, or control\nReceiving Stolen Property\n(1) Receipt of\n(2) Stolen personal property\n(3) Knowledge that property was stolen, and\n(4) Intent to permanently deprive\nBurglary\n(1) Breaking\n(2) Entering\n(3) Dwelling\n(4) Of another\n(5) At night, and\n(6) Specific intent to commit felony therein",
+                        "raw_text": "Force or Intimidation\n\u2022\nViolence, threats, or fear of imminent physical injury or death\nPerson or Presence\n\u2022\nTake within victim\u2019s person, presence, or control\nReceiving Stolen Property\n(1) Receipt of\n(2) Stolen personal property\n(3) Knowledge that property was stolen, and\n(4) Intent to permanently deprive\nBurglary\n(1) Breaking\n(2) Entering\n(3) Dwelling\n(4) Of another\n(5) At night, and\n(6) Specific intent to commit felony therein"
+                      }
+                    ],
+                    "title": "Force or Intimidation\n\u2022\nViolence, threats, or fear of imminent physical injury or death\nPerson or Presence\n\u2022\nTake within",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 64,
+                    "title": "4\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "jurisdiction": "COMMON_LAW",
+                        "page": 65,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Placement of object or body part inside structure\nDwelling\n\u2022\nCommon law: Must be a dwelling\n\u2022\nModern law: Other structures can satisfy\nOf Another\n\u2022",
+                            "raw_text": "Placement of object or body part inside structure\nDwelling\n\u2022\nCommon law: Must be a dwelling\n\u2022\nModern law: Other structures can satisfy\nOf Another\n\u2022"
+                          }
+                        ],
+                        "title": "Placement of object or body part inside structure\nDwelling\n\u2022\nCommon law: Must be a dwelling\n\u2022\nModern law: Other structur",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "jurisdiction": "COMMON_LAW",
+                        "page": 65,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Dwelling or structure must belong to another\nAt Night\n\u2022\nCommon law: Must occur at night\n\u2022\nModern law: No nighttime requirement\nIntent to Commit a Felony\n\u2022",
+                            "raw_text": "Dwelling or structure must belong to another\nAt Night\n\u2022\nCommon law: Must occur at night\n\u2022\nModern law: No nighttime requirement\nIntent to Commit a Felony\n\u2022"
+                          }
+                        ],
+                        "title": "Dwelling or structure must belong to another\nAt Night\n\u2022\nCommon law: Must occur at night\n\u2022\nModern law: No nighttime requi",
+                        "type": "RULE"
+                      },
+                      {
+                        "confidence": 0.5,
+                        "depth": 5,
+                        "page": 65,
+                        "rule_candidates": [
+                          {
+                            "elements": [],
+                            "exceptions": [],
+                            "normalized_text": "Specific intent to commit a felony inside dwelling or structure\nArson\n(1) Malicious\n(2) Burning\n(3) Of another\u2019s\n(4) Dwelling\nMalice\n\u2022\nAct with knowledge that action would cause burning, or\n\u2022",
+                            "raw_text": "Specific intent to commit a felony inside dwelling or structure\nArson\n(1) Malicious\n(2) Burning\n(3) Of another\u2019s\n(4) Dwelling\nMalice\n\u2022\nAct with knowledge that action would cause burning, or\n\u2022"
+                          }
+                        ],
+                        "title": "Specific intent to commit a felony inside dwelling or structure\nArson\n(1) Malicious\n(2) Burning\n(3) Of another\u2019s\n(4) Dwe",
+                        "type": "RULE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 65,
+                    "title": "Breaking\n\u2022\nUse of force to create an opening, or\n\u2022\nGain entry by fraud, threat, force, or intimidation\nEntering\n\u2022",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 64,
+                "title": "Must be tangible personal property of another\nWith Intent to Permanently Deprive\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "COMMON_LAW",
+                    "page": 65,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Charring or damage to structure required\nAnother Person\n\u2022\nCommon law: Dwelling must belong to another\n\u2022\nModern law: Ownership is insignificant\nDwelling\n\u2022\nCommon law: Must be a dwelling\n\u2022\nModern law: Other structures can satisfy\nINCHOATE CRIMES\nSolicitation\n(1) Tempting, inciting, persuading, requesting, or commanding another\n(2) To commit a crime\n(3) With specific intent that the solicited person commits the crime",
+                        "raw_text": "Charring or damage to structure required\nAnother Person\n\u2022\nCommon law: Dwelling must belong to another\n\u2022\nModern law: Ownership is insignificant\nDwelling\n\u2022\nCommon law: Must be a dwelling\n\u2022\nModern law: Other structures can satisfy\nINCHOATE CRIMES\nSolicitation\n(1) Tempting, inciting, persuading, requesting, or commanding another\n(2) To commit a crime\n(3) With specific intent that the solicited person commits the crime"
+                      }
+                    ],
+                    "title": "Charring or damage to structure required\nAnother Person\n\u2022\nCommon law: Dwelling must belong to another\n\u2022\nModern law: Owne",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 65,
+                    "title": "5\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "COMMON_LAW",
+                    "page": 66,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Solicitation Defenses\nRenunciation\n\u2022\nCommon law: Not a defense\n\u2022\nModel Penal Code: may be a defense if D also prevents commission of\nsolicited crime\nFactual Impossibility\n\u2022",
+                        "raw_text": "Solicitation Defenses\nRenunciation\n\u2022\nCommon law: Not a defense\n\u2022\nModel Penal Code: may be a defense if D also prevents commission of\nsolicited crime\nFactual Impossibility\n\u2022"
+                      }
+                    ],
+                    "title": "Solicitation Defenses\nRenunciation\n\u2022\nCommon law: Not a defense\n\u2022\nModel Penal Code: may be a defense if D also prevents c",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 66,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Not a defense\nConspiracy\n(1) Agreement between 2 or more people with\n(2) Specific intent to enter into agreement\n(3) Specific intent to achieve criminal objective, and\n(4) Overt act\nAgreement\n\u2022",
+                        "raw_text": "Not a defense\nConspiracy\n(1) Agreement between 2 or more people with\n(2) Specific intent to enter into agreement\n(3) Specific intent to achieve criminal objective, and\n(4) Overt act\nAgreement\n\u2022"
+                      }
+                    ],
+                    "title": "Not a defense\nConspiracy\n(1) Agreement between 2 or more people with\n(2) Specific intent to enter into agreement\n(3) Spe",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 65,
+                "title": "Act with reckless disregard of a substantial risk of burning\nBurning\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "COMMON_LAW",
+                    "page": 66,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "To agree and to achieve criminal objective\nOvert Act\n\u2022\nCommon law: Not required\n\u2022\nModern law: Requires overt act in furtherance of conspiracy\nMerger Doctrine\n\u2022",
+                        "raw_text": "To agree and to achieve criminal objective\nOvert Act\n\u2022\nCommon law: Not required\n\u2022\nModern law: Requires overt act in furtherance of conspiracy\nMerger Doctrine\n\u2022"
+                      }
+                    ],
+                    "title": "To agree and to achieve criminal objective\nOvert Act\n\u2022\nCommon law: Not required\n\u2022\nModern law: Requires overt act in furt",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "UCC",
+                    "page": 66,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Inapplicable to Conspiracy\nScope of Liability\nMajority Rule\n\u2022\nConspirator can be liable for conspiracy and co-conspirator\u2019s foreseeable crimes in\nfurtherance of conspiracy\nMinority Rule\n\u2022\nConspirator not liable for co-conspirator\u2019s crimes unless he aids and abets in\ncommission\nConspiracy Defenses\nWithdrawal\nLiability for Conspiracy\n\u2022\nGenerally, not a defense\n\u2022\nModel Penal Code: Can be a defense if D thwarts conspiracy\u2019s success\nLiability for Substantive Crimes\n\u2022\nD may limit liability for co-conspirator\u2019s crimes by\n(i) Notifying conspiracy members of intent to withdraw, or",
+                        "raw_text": "Inapplicable to Conspiracy\nScope of Liability\nMajority Rule\n\u2022\nConspirator can be liable for conspiracy and co-conspirator\u2019s fx crimes in\nfurtherance of conspiracy\nMinority Rule\n\u2022\nConspirator not liable for co-conspirator\u2019s crimes unless he aids and abets in\ncommission\nConspiracy Defenses\nWithdrawal\nLiability for Conspiracy\n\u2022\nGenerally, not a defense\n\u2022\nModel Penal Code: Can be a defense if D thwarts conspiracy\u2019s success\nLiability for Substantive Crimes\n\u2022\nD may limit liability for co-conspirator\u2019s crimes by\n(i) Notifying conspiracy members of intent to withdraw, or"
+                      }
+                    ],
+                    "title": "Inapplicable to Conspiracy\nScope of Liability\nMajority Rule\n\u2022\nConspirator can be liable for conspiracy and co-conspirato",
+                    "type": "RULE"
+                  },
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 66,
+                    "title": "6\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  },
+                  {
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 67,
+                    "title": "(ii) Timely contacting authorities\nAttempt\n(1) Specific intent to achieve unlawful result, and\n(2) Substantial step",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 66,
+                "title": "Can be either explicit or implicit\nSpecific Intent\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 67,
+                "title": "Specific Intent\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 67,
+                "title": "Specific intent to commit a crime\nSubstantial Step\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 67,
+                "title": "Substantial step toward committing the crime\nMerger Doctrine\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 67,
+                "title": "Applicable to Attempt\nAttempt Defenses\nWithdrawal\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 67,
+                "title": "Not a defense\nFactual Impossibility\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 67,
+                "title": "Not a defense\nLegal Impossibility\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 67,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Accomplice liable for crime itself and all foreseeable crimes\nAccessory After-the-Fact\n\u2022\nAccessory only liable for obstruction of justice, not principal\u2019s committed crime\nDEFENSES\nInsanity\nM\u2019Naghten Rule\n\u2022\nD not guilty if established that because of (1) defect of reason (2) due to mental\ndisease, D (3) did not know either the wrongfulness or nature and quality of act\nIrresistible Impulse Test\n\u2022",
+                        "raw_text": "Accomplice liable for crime itself and all fx crimes\nAccessory After-the-Fact\n\u2022\nAccessory only liable for obstruction of justice, not principal\u2019s committed crime\nDEFENSES\nInsanity\nM\u2019Naghten Rule\n\u2022\nD not guilty if established that because of (1) defect of reason (2) due to mental\ndisease, D (3) did not know either the wrongfulness or nature and quality of act\nIrresistible Impulse Test\n\u2022"
+                      }
+                    ],
+                    "title": "Accomplice liable for crime itself and all fx crimes\nAccessory After-the-Fact\n\u2022\nAccessory only liable for obstruction of",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 67,
+                "title": "Complete defense\nPARTY LIABILITY\nAccomplice Liability\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 67,
+                "title": "D not guilty if unable to control conduct to conform to the law due to mental disease\nDurham Rule\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.65,
+                    "depth": 5,
+                    "page": 67,
+                    "title": "7\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                    "type": "SUBISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 67,
+                "title": "D not guilty if criminal act was product of mental disease or defect",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 68,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "D not guilty if lacked capacity to appreciate wrongfulness of act or conform conduct\nto the law\nIntoxication\nVoluntary Intoxication\n\u2022",
+                        "raw_text": "D not guilty if lacked capacity to appreciate wrongfulness of act or conform conduct\nto the law\nIntoxication\nVoluntary Intoxication\n\u2022"
+                      }
+                    ],
+                    "title": "D not guilty if lacked capacity to appreciate wrongfulness of act or conform conduct\nto the law\nIntoxication\nVoluntary I",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "jurisdiction": "MODEL_PENAL_CODE",
+                "page": 68,
+                "title": "Model Penal Code Test\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 68,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Involuntarily consuming intoxicating substance\n(i) Without knowledge of its nature\n(ii) Under duress, or\n(iii) Pursuant to prescription or medical advice\nMistake\nMistake of Fact\n\u2022",
+                        "raw_text": "Involuntarily consuming intoxicating substance\n(i) Without knowledge of its nature\n(ii) Under duress, or\n(iii) Pursuant to prescription or medical advice\nMistake\nMistake of Fact\n\u2022"
+                      }
+                    ],
+                    "title": "Involuntarily consuming intoxicating substance\n(i) Without knowledge of its nature\n(ii) Under duress, or\n(iii) Pursuant ",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 68,
+                "title": "Voluntarily consuming intoxicating substance\nInvoluntary Intoxication\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "page": 68,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "D unaware that actions are unlawful\nEntrapment\n(1) Criminal activity induced by law enforcement, and\n(2) D not otherwise predisposed\nJUSTIFICATIONS\nSelf-Defense\nNon-Deadly Force\n\u2022",
+                        "raw_text": "D unaware that actions are unlawful\nEntrapment\n(1) Criminal activity induced by law enforcement, and\n(2) D not otherwise predisposed\nJUSTIFICATIONS\nSelf-Defense\nNon-Deadly Force\n\u2022"
+                      }
+                    ],
+                    "title": "D unaware that actions are unlawful\nEntrapment\n(1) Criminal activity induced by law enforcement, and\n(2) D not otherwise",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 68,
+                "title": "Must negate requisite state of mind\nMistake of Law\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "confidence": 0.5,
+                    "depth": 5,
+                    "jurisdiction": "MAJORITY",
+                    "page": 68,
+                    "rule_candidates": [
+                      {
+                        "elements": [],
+                        "exceptions": [],
+                        "normalized_text": "Deadly force OK to protect against death or great bodily harm\n\u2022\nMajority: No duty to retreat\n\u2022\nMinority: Duty to retreat if may be accomplished safely\nImperfect Self-Defense\n\u2022",
+                        "raw_text": "Deadly force OK to protect against death or great bodily harm\n\u2022\nMajority: No duty to retreat\n\u2022\nMinority: Duty to retreat if may be accomplished safely\nImperfect Self-Defense\n\u2022"
+                      }
+                    ],
+                    "title": "Deadly force OK to protect against death or great bodily harm\n\u2022\nMajority: No duty to retreat\n\u2022\nMinority: Duty to retreat",
+                    "type": "RULE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 68,
+                "title": "Rx force OK to protect against imminent danger or injury unless initial aggressor\nDeadly Force\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 68,
+                "title": "Unrx self-defense and unjustifiably killing another\n\u2022",
+                "type": "TOPIC"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "confidence": 0.65,
+                        "depth": 5,
+                        "page": 68,
+                        "title": "8\nProf. Sarah Schimmel\nsschimmel@swlaw.edu",
+                        "type": "SUBISSUE"
+                      }
+                    ],
+                    "confidence": 0.75,
+                    "depth": 4,
+                    "page": 68,
+                    "title": "Using same amount of force that one rxly believes victim would be legally justified to use to\ndefend herself",
+                    "type": "ISSUE"
+                  }
+                ],
+                "confidence": 0.8,
+                "depth": 3,
+                "page": 68,
+                "title": "Must be used in good faith\nDefense of Others\n\u2022",
+                "type": "TOPIC"
+              }
+            ],
+            "confidence": 0.85,
+            "depth": 2,
+            "page": 61,
+            "title": "CRIMINAL LAW",
+            "type": "MAJOR_TOPIC"
+          }
+        ],
+        "confidence": 0.95,
+        "depth": 0,
+        "page": 61,
+        "title": "Criminal Law",
+        "type": "SUBJECT"
+      }
+    ],
+    "title": "Criminal Law Essay Template"
+  }
+}
