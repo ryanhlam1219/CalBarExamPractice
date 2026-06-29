@@ -1,0 +1,256 @@
+{% extends "base.html" %}
+{% block title %}User Guide{% endblock %}
+
+{% block extra_css %}
+<style>
+.guide { max-width: 820px; margin: 0 auto; }
+.guide h2 { font-size: 18px; font-weight: 700; margin: 32px 0 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent); }
+.guide h3 { font-size: 15px; font-weight: 700; margin: 20px 0 8px; color: var(--accent); }
+.guide p, .guide li { font-size: 14px; line-height: 1.7; margin-bottom: 8px; }
+.guide ul, .guide ol { padding-left: 24px; margin-bottom: 16px; }
+.guide .tip { padding: 12px 16px; background: #f0fdf4; border-left: 3px solid var(--good); border-radius: 0 6px 6px 0; margin: 12px 0; font-size: 13px; }
+
+.guide-flow { display: flex; flex-direction: column; align-items: center; gap: 0; padding: 20px 0; }
+.guide-flow-node { width: 100%; max-width: 480px; padding: 14px 18px; border-radius: 8px; border: 1px solid var(--line); display: flex; align-items: center; gap: 14px; }
+.guide-flow-node .icon { font-size: 24px; flex-shrink: 0; width: 36px; text-align: center; }
+.guide-flow-node .label { font-weight: 700; font-size: 14px; }
+.guide-flow-node .desc { font-size: 12px; color: var(--muted); }
+.guide-flow-arrow { width: 2px; height: 18px; background: var(--accent); opacity: .4; position: relative; }
+.guide-flow-arrow::after { content: ''; position: absolute; bottom: -5px; left: -4px; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 6px solid var(--accent); opacity: .6; }
+
+.guide-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+.guide-grid-item { padding: 14px; border-radius: 8px; border: 1px solid var(--line); }
+.guide-grid-item h4 { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+.guide-grid-item p { font-size: 12px; color: var(--muted); margin: 0; }
+
+.score-guide { display: grid; grid-template-columns: 80px 1fr; gap: 8px 16px; margin: 12px 0; font-size: 13px; }
+.score-guide .range { font-weight: 700; font-variant-numeric: tabular-nums; }
+.score-guide .range.good { color: var(--good); }
+.score-guide .range.ok { color: var(--warn); }
+.score-guide .range.low { color: var(--bad); }
+
+.tab-legend { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; margin: 16px 0; }
+.tab-legend-item { padding: 12px; border-radius: 8px; border: 1px solid var(--line); }
+.tab-legend-item h4 { font-size: 13px; font-weight: 700; margin-bottom: 4px; color: var(--accent); }
+.tab-legend-item p { font-size: 12px; color: var(--muted); margin: 0; line-height: 1.5; }
+
+.highlight-legend { display: flex; gap: 12px; flex-wrap: wrap; margin: 12px 0; }
+.highlight-sample { padding: 6px 12px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+.highlight-sample.strength { background: #dcfce7; color: var(--good); }
+.highlight-sample.improvement { background: #ffedd5; color: var(--warn); }
+.highlight-sample.missing { background: #fee2e2; color: var(--bad); }
+.highlight-sample.structure { background: #e0e7ff; color: #6366f1; }
+
+@media (max-width: 700px) {
+  .guide-grid { grid-template-columns: 1fr; }
+  .tab-legend { grid-template-columns: 1fr; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container guide">
+  <div class="page-header">
+    <h1>User Guide</h1>
+    <p>Everything you need to know to practice California Bar Exam essays with AI analysis.</p>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <h2>Quick Start</h2>
+  <ol>
+    <li>Go to <a href="/">Practice</a> and pick an essay question (or click <strong>Random Question</strong>)</li>
+    <li>Write your essay in the editor — you have <strong>1 hour</strong> on the timer</li>
+    <li>Click <strong>Submit Essay</strong> — the AI scores your essay in two phases</li>
+    <li>Review your results across six tabs of detailed feedback</li>
+  </ol>
+
+  <div class="tip">
+    <strong>Tip:</strong> Use headings in your essay (H1/H2/H3 buttons in the toolbar) to label each issue.
+    The AI detects your headings and checks them against the expected issues from the grading template.
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <h2>How the AI Grades Your Essay</h2>
+  <p>When you submit an essay, the system assembles grading context from multiple sources and sends it to a local AI model in two phases.</p>
+
+  <div class="guide-flow">
+    <div class="guide-flow-node" style="background: #f8fafc;">
+      <span class="icon">&#x270E;</span>
+      <div><div class="label">Your Essay</div><div class="desc">Submitted from the timed exam page</div></div>
+    </div>
+    <div class="guide-flow-arrow"></div>
+    <div class="guide-flow-node" style="background: #f0fdf4;">
+      <span class="icon">&#x1F4DA;</span>
+      <div><div class="label">Subject Matching</div><div class="desc">Question mapped to one of 16 legal subjects via official CalBar labels</div></div>
+    </div>
+    <div class="guide-flow-arrow"></div>
+    <div class="guide-flow-node" style="background: #eff6ff;">
+      <span class="icon">&#x1F50D;</span>
+      <div><div class="label">Context Assembly</div><div class="desc">Schimmel template + BM25-ranked rules + selected answer passages + essay structure</div></div>
+    </div>
+    <div class="guide-flow-arrow"></div>
+    <div class="guide-flow-node" style="background: #faf5ff;">
+      <span class="icon">&#x1F916;</span>
+      <div><div class="label">Phase 1: Scoring</div><div class="desc">Quick pass — scores + high-level feedback (~30 seconds)</div></div>
+    </div>
+    <div class="guide-flow-arrow"></div>
+    <div class="guide-flow-node" style="background: #fdf4ff;">
+      <span class="icon">&#x1F9E0;</span>
+      <div><div class="label">Phase 2: Deep Analysis</div><div class="desc">Issues, rule funnels, essay review with suggested rewrites (~2-5 minutes)</div></div>
+    </div>
+    <div class="guide-flow-arrow"></div>
+    <div class="guide-flow-node" style="background: white; border: 2px solid var(--accent);">
+      <span class="icon">&#x2705;</span>
+      <div><div class="label">Results Page</div><div class="desc">Six tabs of detailed analysis and feedback</div></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <h2>Understanding Your Score</h2>
+  <p>Your essay is scored across four dimensions that reflect the CalBar grading criteria:</p>
+
+  <div class="guide-grid">
+    <div class="guide-grid-item">
+      <h4>Issue Spotting (0–35)</h4>
+      <p>Did you identify the key legal issues in the question? Each missed issue costs points.</p>
+    </div>
+    <div class="guide-grid-item">
+      <h4>Rule Statements (0–25)</h4>
+      <p>Did you state the applicable legal rules precisely, with correct elements?</p>
+    </div>
+    <div class="guide-grid-item">
+      <h4>Fact Application (0–30)</h4>
+      <p>Did you apply the facts from the question to each element of the rule?</p>
+    </div>
+    <div class="guide-grid-item">
+      <h4>Organization (0–10)</h4>
+      <p>Is your essay structured with clear IRAC format, headings, and logical flow?</p>
+    </div>
+  </div>
+
+  <h3>Score Ranges</h3>
+  <div class="score-guide">
+    <span class="range good">75–100</span><span>Passing quality — strong analysis with most issues addressed</span>
+    <span class="range ok">50–74</span><span>Needs improvement — some issues missed or rules stated imprecisely</span>
+    <span class="range low">0–49</span><span>Significant gaps — major issues missed, rules absent, or conclusory analysis</span>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <h2>Results Page Tabs</h2>
+  <p>After analysis, your results are organized into six tabs:</p>
+
+  <div class="tab-legend">
+    <div class="tab-legend-item">
+      <h4>Issue Analysis</h4>
+      <p>Table showing each issue: was it spotted, rule stated, facts applied? With per-issue feedback.</p>
+    </div>
+    <div class="tab-legend-item">
+      <h4>Essay Review</h4>
+      <p>Your essay with highlighted passages. Click a highlight to see the note; click a note to jump to the passage.</p>
+    </div>
+    <div class="tab-legend-item">
+      <h4>Rule Funnel</h4>
+      <p>Visual breakdown: issue &rarr; rule statement &rarr; elements. Shows which question facts map to which legal elements.</p>
+    </div>
+    <div class="tab-legend-item">
+      <h4>Feedback</h4>
+      <p>Strengths, areas for improvement, and overall summary from the AI grader.</p>
+    </div>
+    <div class="tab-legend-item">
+      <h4>Grading Context</h4>
+      <p>Full transparency: see exactly what the AI received — template hierarchy, rules, selected answer passages, essay structure.</p>
+    </div>
+    <div class="tab-legend-item">
+      <h4>Ask AI</h4>
+      <p>Chat follow-up. Ask about a missed issue, how to rewrite a section, or why you got a specific score.</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <h2>Essay Review Highlights</h2>
+  <p>The AI marks passages in your essay with four types of highlights:</p>
+
+  <div class="highlight-legend">
+    <span class="highlight-sample strength">Strength</span>
+    <span class="highlight-sample improvement">Needs Improvement</span>
+    <span class="highlight-sample missing">Missing Issue</span>
+    <span class="highlight-sample structure">Structure</span>
+  </div>
+
+  <ul>
+    <li><strong>Strength</strong> (green) — Passages with strong rule statements or thorough fact application</li>
+    <li><strong>Needs Improvement</strong> (orange) — Passages that need better rule precision or deeper analysis. Includes a <em>suggested rewrite</em> showing how a passing answer would state it</li>
+    <li><strong>Missing Issue</strong> (red) — Issues you didn't address at all. The feedback explains what should have been discussed</li>
+    <li><strong>Structure</strong> (purple) — Organizational feedback on IRAC structure, headings, and transitions</li>
+  </ul>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <h2>Data Sources</h2>
+  <p>The AI grader uses three layers of legal context to evaluate your essay:</p>
+
+  <div class="guide-grid">
+    <div class="guide-grid-item" style="border-left: 3px solid var(--accent);">
+      <h4>Schimmel Templates (Primary)</h4>
+      <p>Prof. Sarah Schimmel's essay templates break each subject into issues, sub-issues, and required elements. This is the controlling structure for grading.</p>
+    </div>
+    <div class="guide-grid-item" style="border-left: 3px solid #3b82f6;">
+      <h4>Supplemental Rules (Precision)</h4>
+      <p>5,400+ rules from MyThemis outlines, BM25-ranked by relevance to your specific question. Provides precise rule statements and elements.</p>
+    </div>
+    <div class="guide-grid-item" style="border-left: 3px solid #f59e0b;">
+      <h4>Selected Answers (Calibration)</h4>
+      <p>Official passing CalBar essays for the same question. Key passages are extracted and used to calibrate scoring and suggest rewrites.</p>
+    </div>
+    <div class="guide-grid-item" style="border-left: 3px solid #8b5cf6;">
+      <h4>Essay Structure (Pre-processing)</h4>
+      <p>Your essay's headings, IRAC patterns, and word count are analyzed before the AI sees it. Missed issues are flagged by comparing against selected answers.</p>
+    </div>
+  </div>
+
+  <p>You can see exactly what was sent to the AI on the <strong>Grading Context</strong> tab of any results page, including the visual flow diagram at the bottom.</p>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <h2>Navigation</h2>
+
+  <div class="guide-grid">
+    <div class="guide-grid-item">
+      <h4><a href="/">Practice</a></h4>
+      <p>Browse 156 essay questions. Filter by year/month. See which of the 16 subjects you've practiced.</p>
+    </div>
+    <div class="guide-grid-item">
+      <h4><a href="/history/">History</a></h4>
+      <p>All past submissions with score trends, radar charts, per-subject performance cards, and a subject filter.</p>
+    </div>
+    <div class="guide-grid-item">
+      <h4><a href="/data">Data Browser</a></h4>
+      <p>Inspect parsed Schimmel templates and supplemental rules. Click any rule to see its full statement in a modal.</p>
+    </div>
+    <div class="guide-grid-item">
+      <h4>Results Page</h4>
+      <p>Each submission has its own results page with six tabs. Use the <strong>Re-analyze</strong> button to re-run with the latest prompts.</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <h2>Tips for Higher Scores</h2>
+  <ol>
+    <li><strong>Use headings</strong> — Label each issue clearly (e.g., "Holographic Will Validity"). The AI checks your headings against expected issues.</li>
+    <li><strong>State rules precisely</strong> — Don't just name the rule; state its elements. "A holographic will requires: (1) signed by testator, (2) testamentary intent, (3) material provisions in testator's handwriting."</li>
+    <li><strong>Apply facts to each element</strong> — For every element, explain how the question's facts satisfy or fail it. Don't be conclusory.</li>
+    <li><strong>Address counterarguments</strong> — Acknowledge the opposing side before concluding.</li>
+    <li><strong>Use IRAC consistently</strong> — Issue, Rule, Application, Conclusion for each issue.</li>
+    <li><strong>Check the Rule Funnel tab</strong> — It shows exactly which question facts the AI mapped to each legal element. Use this to understand what you missed.</li>
+    <li><strong>Read the selected answers</strong> — The Grading Context tab shows passages from official passing essays. Study how they handle the same issues.</li>
+  </ol>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <h2>Technical Details</h2>
+  <ul>
+    <li><strong>AI Model</strong>: Ollama running locally (default: gemma4:31b-cloud). No data leaves your machine.</li>
+    <li><strong>Database</strong>: PostgreSQL 16 stores questions, templates, rules, and analysis results.</li>
+    <li><strong>Retrieval</strong>: BM25Okapi ranks supplemental rules and selected answer passages by relevance to each question.</li>
+    <li><strong>Two-phase analysis</strong>: Phase 1 (scoring, temperature=0 for consistency) and Phase 2 (deep analysis, temperature=0.3 for nuance).</li>
+    <li><strong>Privacy</strong>: Everything runs locally. Your essays are stored in your local PostgreSQL database only.</li>
+  </ul>
+</div>
+{% endblock %}

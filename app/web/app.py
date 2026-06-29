@@ -12,6 +12,7 @@ from app.db.models.essays import EssayQuestion
 from app.db.models.templates import EssayTemplate
 from app.db.session import SessionLocal
 from app.web.routes.data import router as data_router
+from app.web.routes.guide import router as guide_router
 from app.web.routes.history import router as history_router
 from app.web.routes.practice import router as practice_router
 
@@ -99,6 +100,7 @@ def create_app() -> FastAPI:
     application.include_router(practice_router)
     application.include_router(history_router)
     application.include_router(data_router)
+    application.include_router(guide_router)
 
     @application.on_event("startup")
     def _startup_check() -> None:
