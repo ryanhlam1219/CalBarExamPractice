@@ -61,6 +61,8 @@ SUBJECT_LABEL_ALIASES: dict[str, list[str]] = {
     "torts": ["Torts"],
     "trusts": ["Trusts"],
     "wills": ["Wills"],
+    "wills and succession": ["Wills"],
+    "wills and trusts": ["Wills", "Trusts"],
 }
 
 
