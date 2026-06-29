@@ -333,7 +333,7 @@ if command -v ollama &>/dev/null; then
             echo -e "        Runs entirely on your computer — no account needed."
             echo -e "        Slower, but works completely offline."
             echo ""
-            local ai_choice
+            ai_choice=""
             while true; do
                 read -rp "    Enter 1 or 2: " ai_choice
                 case "$ai_choice" in
