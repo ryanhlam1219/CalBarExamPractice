@@ -1,173 +1,116 @@
 # CalBar Exam Tutor
 
-Local California Bar essay practice app for ingesting official exam PDFs, parsing questions and selected answers, mapping questions to Schimmel essay templates and supplemental rules, grading user essays with AI, and supporting follow-up tutoring chat.
+AI-powered California Bar Exam essay practice and analysis system. Browse 156 real CalBar essay questions (2012–2026), write timed essays with a rich text editor, and receive detailed AI-graded feedback with rule funnels, essay highlights, and suggested rewrites.
 
-## What Exists
+## Quick Start
 
-- CalBar past-exams crawler with PDF classification and dry-run manifest output.
-- Safe downloader with retries, PDF validation, SHA-256, atomic writes, and JSONL manifests.
-- SQLAlchemy/Alembic schema for source documents, pages, layout blocks, essays, answers, legal subjects/topics/rules/components, and source spans.
-- PyMuPDF page/block extraction with extraction-quality scores.
-- Deterministic essay/selected-answer parser supporting interleaved question/answer PDFs.
-- Schimmel template parser and question-to-template mapper.
-- Deterministic Trusts outline parser using headings, font/layout signals, bullets, and rule cues.
-- Practice web UI with question filtering, random-question selection, timed essay submission, processing status, score breakdowns, rule funnels, essay-highlight feedback, and analysis-grounded AI chat.
-- Typer CLI commands for discovery, downloading, extraction, parsing, validation, review export, static data browser export, and serving the web app.
-- Synthetic pytest coverage. No official PDFs or proprietary outline text are committed.
+```bash
+./start.sh
+```
 
-## End-to-End Flow
+That's it. The startup script handles everything:
+1. Installs Homebrew, Python 3.12, PostgreSQL, and Ollama (if not already installed)
+2. Creates a virtual environment and installs dependencies
+3. Sets up the database and loads pre-parsed data (156 questions, 16 Schimmel templates, 5,400+ supplemental rules)
+4. Starts the web server at **http://localhost:8000**
 
-![CalBar Exam Tutor end-to-end flow](docs/calbar-exam-tutor-flow.svg)
+No engineering background required — just run the script and open the browser.
 
-At a high level, the system does three linked jobs:
+## Features
 
-1. Ingest source material: official CalBar PDFs, Schimmel templates, and local rule outlines are extracted, parsed, deduped, and stored in Postgres.
-2. Build analysis context: when a user submits an essay, the app maps the question to the official subject and Schimmel template, then adds Schimmel rule candidates, supplemental parsed rules, and selected-answer issue headings where available.
-3. Tutor the user: the AI returns structured JSON for scores, issue analysis, rule funnels, essay-passage highlights, and follow-up chat grounded in the saved analysis.
+### Practice
+- **156 essay questions** from CalBar exams (2012–2026) with official selected answers
+- **Rich text editor** (Quill.js) with headings, bold, italic, lists, and blockquotes
+- **1-hour countdown timer** with auto-submit
+- **Random question** selector with year/month filters
 
-## Setup
+### AI Analysis
+- **Two-phase grading**: fast scoring (~30s) then deep analysis (~2-5 min)
+- **Scoring rubric**: Issue Spotting /35, Rule Statements /25, Fact Application /30, Organization /10
+- **Rule Funnel**: maps question facts to legal elements, shows which the student addressed
+- **Essay Review**: passage-level highlights (strength/improvement/missing/structure) with suggested rewrites
+- **BM25 RAG retrieval**: finds the most relevant rules for each specific question
+- **Selected answer calibration**: compares student work against official passing essays
+- **Ask AI**: follow-up chat grounded in the saved analysis
+
+### Data
+- **16 Schimmel templates** parsed from Prof. Schimmel's essay template PDF (510 template rules)
+- **5,400+ supplemental rules** parsed from MyThemis Learners outlines (all 16 subjects)
+- **312 official selected answers** (2 per question) used for scoring calibration
+- **BM25 indexes** for question-specific rule and passage retrieval
+
+### Tracking
+- **Analysis History** with score trend charts, radar breakdowns, and per-subject performance cards
+- **Subject gap tracker** showing which of the 16 subjects you've practiced
+- **Re-analyze button** to re-run analysis with the latest prompts
+- **Data Browser** to inspect templates, nodes, and rules with clickable modals
+- **Grading Context tab** showing exactly what the AI received (template hierarchy, rules, selected answer passages, essay structure)
+
+## Architecture
+
+```
+Question → Subject Mapper → Schimmel Template + BM25 Rules + Selected Answer Passages
+                                        ↓
+                              Phase 1: Scoring (temperature=0)
+                                        ↓
+                              Phase 2: Issues, Rule Funnels, Essay Review
+                                        ↓
+                              Results Page (6 tabs)
+```
+
+- **Backend**: Python 3.12, FastAPI, SQLAlchemy 2.0, PostgreSQL 16
+- **AI**: Ollama (local LLM, default: gemma4:31b-cloud) with mock fallback
+- **Frontend**: Server-rendered Jinja2 templates, Chart.js, Quill.js
+- **Retrieval**: BM25Okapi (rank_bm25) for rule and passage relevance ranking
+
+## Manual Setup (alternative to start.sh)
 
 ```bash
 python3.12 -m venv .venv
 source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -e '.[dev]'
+pip install -e '.[dev]'
 cp .env.example .env
-```
 
-With Docker:
-
-```bash
+# Start PostgreSQL (Docker or Homebrew)
 docker compose up -d postgres
-alembic upgrade head
+# or: brew install postgresql@16 && brew services start postgresql@16
+
+# Initialize database and load pre-parsed data
+python -m app.cli init-db
+python -m app.cli load-seed
+
+# Start Ollama (optional, for AI analysis)
+ollama serve &
+ollama pull gemma4:31b-cloud
+
+# Launch
+python -m app.cli serve --port 8000 --reload
 ```
 
-Without Docker, point `DATABASE_URL` at any PostgreSQL 16 database.
+## CLI Commands
 
-## Entity Relationships
+| Command | Description |
+|---------|-------------|
+| `init-db` | Create database tables |
+| `load-seed` | Load pre-parsed questions, templates, and rules from JSON |
+| `serve` | Start the web server |
+| `run-pipeline` | Download and parse CalBar PDFs |
+| `parse-essay-template` | Parse a Schimmel template PDF |
+| `parse-all-rules` | Parse all MyThemis outline PDFs from CalBarRules/ |
+| `discover-calbar` | List available CalBar PDFs |
+| `download-calbar` | Download CalBar PDFs |
 
-```text
-source_documents
-  -> document_pages
-       -> page_blocks
-  -> essay_questions
-       -> selected_answers
-  -> source_spans
-
-legal_subjects
-  -> legal_topics (self-referential parent_topic_id)
-       -> legal_rules
-            -> rule_components
-
-source_spans polymorphically reference:
-  legal_subject, legal_topic, legal_rule, rule_component,
-  essay_question, selected_answer
-```
-
-## Commands
-
-Discover February 2017 without downloading:
+## Tests
 
 ```bash
-python -m app.cli discover-calbar \
-  --dry-run \
-  --year 2017 \
-  --month february \
-  --category ESSAY_QUESTIONS_AND_SELECTED_ANSWERS
+python -m pytest tests/ -q
+# 76 passed
 ```
-
-Download the February 2017 selected essay PDF:
-
-```bash
-python -m app.cli download-calbar \
-  --year 2017 \
-  --month february \
-  --category ESSAY_QUESTIONS_AND_SELECTED_ANSWERS \
-  --limit 1
-```
-
-Run the first full vertical slice:
-
-```bash
-python -m app.cli run-pipeline \
-  --year 2017 \
-  --month february \
-  --limit 1 \
-  --trusts-file "data/input/trusts-outline.pdf"
-```
-
-If you keep the outline in the existing local folder, use:
-
-```bash
-python -m app.cli run-pipeline \
-  --year 2017 \
-  --month february \
-  --limit 1 \
-  --trusts-file "CalBarRules/FINAL REVIEW OUTLINES & FREQUENCY CHARTS/MEE.o.FRO.Trusts (2).pdf"
-```
-
-Inspect and export:
-
-```bash
-python -m app.cli validate-document --document-id 1
-python -m app.cli export-review --document-id 1 --output data/parsed/feb2017.review.json
-python -m app.cli export-review-html --document-id 1 --output data/parsed/feb2017.review.html
-python -m app.cli export-data-browser-html --output data/parsed/parsed-data-browser.html
-```
-
-The HTML exports are static, local files. They provide a read-only review workbench with searchable essay questions, selected answers, legal rules, components, extraction quality, review status, confidence, and source-span quotes.
-
-## Idempotency
-
-- `source_documents` are keyed by source URL plus SHA-256 when a URL exists, otherwise local path plus SHA-256.
-- Download manifests record status: `downloaded`, `unchanged`, `changed`, or `failed`.
-- The downloader skips unchanged files when response validators match and writes changed same-URL content to a SHA-suffixed filename.
-- Page, essay, answer, rule, component, and span records are replaced for the current parser version during reruns.
-- Approved review data is not overwritten by the source-document registration helper.
-
-## Verification Run
-
-On this machine I verified:
-
-```text
-pytest: 11 passed
-ruff: all checks passed
-mypy: no issues found
-```
-
-I also ran the full vertical slice against a temporary PostgreSQL 16 cluster:
-
-```text
-Eligible essay documents: 1
-Documents downloaded: 0
-Documents unchanged: 1
-Download failures: 0
-Pages extracted: 104
-Essay questions parsed: 6
-Selected answers parsed: 12
-Rule topics parsed: 61
-Rules parsed: 239
-Rule components parsed: 12
-```
-
-Validation summaries:
-
-```text
-Official February 2017 document:
-  pages: 92
-  essay_questions: 6
-  selected_answers: 12
-  source_spans: 18
-
-Trusts outline:
-  pages: 12
-  legal_rules: 239
-  rule_components: 12
-  source_spans: 312
-```
-
-The Trusts parser marks 94 low-confidence rule records for review; that is expected for the first deterministic pass.
 
 ## Data Policy
 
-Generated downloads, extracted JSON, parsed JSON, manifests, local outline PDFs, and `CalBarRules/` are gitignored. Commercial/user-provided outlines default to `PRIVATE_USE_ONLY` with `redistribution_allowed = false`.
+- Official CalBar PDFs are public documents downloaded from the CalBar website
+- Pre-parsed JSON data (questions + selected answers) is included in the repo
+- Schimmel template PDF and MyThemis outline PDFs are gitignored (private use only)
+- Student essay submissions are stored locally in PostgreSQL, never transmitted
+- The `.env` file with database credentials is gitignored
