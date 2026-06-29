@@ -1,0 +1,1071 @@
+{% extends "base.html" %}
+{% block title %}Analysis Results{% endblock %}
+
+{% block extra_css %}
+<style>
+.results-header { display: flex; align-items: center; gap: 32px; margin-bottom: 24px; flex-wrap: wrap; }
+.score-circle { width: 130px; height: 130px; border-radius: 50%; border: 6px solid var(--accent); display: flex; flex-direction: column; align-items: center; justify-content: center; flex-shrink: 0; }
+.score-circle .score-value { font-size: 40px; font-weight: 800; line-height: 1; }
+.score-circle .score-label { font-size: 13px; color: var(--muted); font-weight: 600; }
+.score-breakdown { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; min-width: 280px; }
+.score-item .score-name { font-size: 13px; font-weight: 650; margin-bottom: 4px; display: flex; justify-content: space-between; }
+.score-item .score-name span { color: var(--muted); }
+.progress-bar { height: 8px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }
+.progress-bar .fill { height: 100%; border-radius: 4px; transition: width .4s ease; }
+.fill-good { background: var(--good); } .fill-ok { background: var(--warn); } .fill-low { background: var(--bad); }
+.check { color: var(--good); font-weight: 700; } .miss { color: var(--bad); font-weight: 700; }
+
+/* Tabs */
+.tab-bar { display: flex; gap: 0; border-bottom: 2px solid var(--line); margin-bottom: 0; }
+.tab-btn { padding: 10px 20px; font: inherit; font-weight: 650; font-size: 14px; background: none; border: none; cursor: pointer; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -2px; transition: color .15s, border-color .15s; }
+.tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+.tab-btn:hover { color: var(--text); }
+.tab-panel { display: none; padding: 20px 0; }
+.tab-panel.active { display: block; }
+
+/* Issue analysis table */
+.section { margin-top: 20px; }
+.section h2 { font-size: 16px; font-weight: 700; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.section h3 { font-size: 14px; font-weight: 700; margin: 16px 0 8px; }
+.issue-table { width: 100%; border-collapse: collapse; }
+.issue-table th, .issue-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; font-size: 13px; }
+.issue-table th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .05em; background: #f8fafc; }
+.issue-table td.feedback { max-width: 350px; }
+.feedback-list { list-style: none; padding: 0; }
+.feedback-list li { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.feedback-list li:last-child { border-bottom: none; }
+.strength::before { content: "\2714\00a0"; color: var(--good); }
+.improvement::before { content: "\26A0\00a0"; color: var(--warn); }
+.overall-feedback { padding: 16px; background: #f1f5f9; border-radius: 8px; font-size: 14px; line-height: 1.7; margin-top: 12px; }
+
+/* Rule Funnel */
+.funnel-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 0; height: 70vh; min-height: 500px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.funnel-essay { padding: 20px; overflow-y: auto; border-right: 1px solid var(--line); background: #fafbfc; font-size: 14px; line-height: 1.8; }
+.funnel-essay .essay-text { white-space: pre-wrap; font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif; }
+.funnel-rules { padding: 20px; overflow-y: auto; }
+
+/* Issue selector pills */
+.issue-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.issue-pill { padding: 6px 14px; border-radius: 999px; font-size: 12px; font-weight: 650; cursor: pointer; border: 2px solid var(--line); background: white; color: var(--text); transition: all .15s; }
+.issue-pill.active { border-color: var(--accent); background: var(--accent); color: white; }
+.issue-pill.spotted { border-color: var(--good); }
+.issue-pill.missed { border-color: var(--bad); }
+
+/* Funnel card */
+.funnel-card { display: none; }
+.funnel-card.active { display: block; }
+.funnel-card h3 { font-size: 15px; font-weight: 700; margin: 0 0 4px; }
+.funnel-card .rule-statement { font-size: 13px; color: var(--muted); margin-bottom: 16px; font-style: italic; padding: 10px 14px; background: #f8fafc; border-left: 3px solid var(--accent); border-radius: 4px; }
+
+/* Funnel shape */
+.funnel-shape { display: flex; flex-direction: column; align-items: center; }
+.funnel-tier { padding: 14px 18px; border-radius: 8px; text-align: left; }
+.funnel-tier-issue { width: 100%; background: var(--accent); color: white; display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 15px; border-radius: 8px 8px 4px 4px; }
+.funnel-tier-issue .tier-num { width: 28px; height: 28px; border-radius: 50%; background: rgba(255,255,255,0.25); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 800; flex-shrink: 0; }
+.funnel-connector { width: 2px; height: 20px; background: var(--accent); position: relative; }
+.funnel-connector::after { content: ''; position: absolute; bottom: -5px; left: -4px; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 6px solid var(--accent); }
+.funnel-tier-rule { width: 88%; background: #f0f4f8; border-left: 3px solid var(--accent); font-size: 13px; font-style: italic; color: var(--muted); line-height: 1.6; }
+.funnel-connector-sm { width: 2px; height: 14px; background: var(--line); position: relative; }
+.funnel-connector-sm::after { content: ''; position: absolute; bottom: -4px; left: -3px; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 5px solid var(--line); }
+.funnel-tier-elements { width: 76%; display: flex; flex-direction: column; gap: 8px; }
+.funnel-element { display: flex; gap: 10px; align-items: flex-start; padding: 10px 14px; border: 1px solid var(--line); border-radius: 8px; background: white; }
+.funnel-el-num { width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: white; flex-shrink: 0; }
+.funnel-el-num.met { background: var(--good); }
+.funnel-el-num.not-met { background: var(--bad); }
+.funnel-el-body { flex: 1; min-width: 0; }
+.funnel-el-label { font-weight: 650; font-size: 14px; margin-bottom: 2px; }
+.funnel-el-quote { font-size: 13px; color: #92400e; font-style: italic; margin-top: 4px; padding: 6px 10px; background: #fef3c7; border-radius: 4px; border-left: 3px solid #f59e0b; }
+.funnel-el-quote.empty { background: #fee2e2; border-left-color: var(--bad); color: var(--bad); font-style: normal; }
+.funnel-el-status { font-size: 12px; font-weight: 600; }
+.funnel-el-status.met { color: var(--good); }
+.funnel-el-status.not-met { color: var(--bad); }
+
+/* Highlighted quotes in question */
+.essay-highlight { background: #fef3c7; border-radius: 2px; padding: 1px 2px; position: relative; }
+.essay-highlight .marker { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; border-radius: 50%; background: var(--accent); color: white; font-size: 10px; font-weight: 700; line-height: 1; margin-right: 1px; vertical-align: super; }
+
+.essay-review-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; height: 70vh; min-height: 440px; }
+.student-essay-panel { overflow-y: auto; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: #fbfcfe; }
+.review-notes-panel { overflow-y: auto; padding: 0 2px; }
+.student-essay-text { white-space: pre-wrap; font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif; font-size: 15px; line-height: 1.85; }
+.student-highlight { border-radius: 3px; padding: 1px 3px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.student-highlight.strength { background: #dcfce7; }
+.student-highlight.improvement { background: #ffedd5; }
+.student-highlight.missing { background: #fee2e2; }
+.student-highlight.structure { background: #e0e7ff; }
+.student-highlight { cursor: pointer; transition: outline .15s; }
+.student-highlight:hover, .student-highlight.focused { outline: 2px solid var(--accent); outline-offset: 1px; }
+.review-note { cursor: pointer; transition: box-shadow .15s; }
+.review-note:hover, .review-note.focused { box-shadow: 0 0 0 2px var(--accent); }
+.review-note.focused { animation: note-flash .6s ease; }
+@keyframes note-flash { 0%,100% { background: white; } 30% { background: #f0f9ff; } }
+.essay-highlight { cursor: pointer; transition: outline .15s; }
+.essay-highlight:hover, .essay-highlight.focused { outline: 2px solid var(--accent); outline-offset: 1px; }
+.funnel-el-quote[data-highlight-quote] { cursor: pointer; transition: box-shadow .15s; }
+.funnel-el-quote[data-highlight-quote]:hover { box-shadow: 0 0 0 2px #f59e0b; }
+.review-list { display: grid; gap: 10px; }
+.review-note { border: 1px solid var(--line); border-left-width: 5px; border-radius: 8px; padding: 12px 14px; background: white; }
+.review-note.strength { border-left-color: var(--good); }
+.review-note.improvement { border-left-color: var(--warn); }
+.review-note.missing { border-left-color: var(--bad); }
+.review-note.structure { border-left-color: #6366f1; }
+.review-note h3 { margin: 0 0 6px; font-size: 13px; }
+.review-note .quote { margin-top: 8px; color: var(--muted); font-style: italic; font-size: 13px; }
+.review-note .rewrite { margin-top: 8px; padding: 8px 10px; background: #f0fdf4; border: 1px dashed var(--good); border-radius: 4px; font-size: 13px; line-height: 1.5; }
+.review-note .rewrite-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--good); margin-bottom: 4px; }
+.review-type-badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; padding: 2px 6px; border-radius: 3px; margin-right: 6px; }
+.review-type-badge.strength { background: #dcfce7; color: var(--good); }
+.review-type-badge.improvement { background: #ffedd5; color: var(--warn); }
+.review-type-badge.missing { background: #fee2e2; color: var(--bad); }
+.review-type-badge.structure { background: #e0e7ff; color: #6366f1; }
+.context-strip { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+.context-chip { border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; font-size: 12px; font-weight: 650; color: var(--muted); background: #f8fafc; }
+.context-chip.good { border-color: #86efac; color: var(--good); background: #f0fdf4; }
+.context-chip.warn { border-color: #fbbf24; color: var(--warn); background: #fffbeb; }
+
+.chat-layout { display: grid; grid-template-rows: minmax(320px, 52vh) auto; gap: 12px; }
+.chat-log { overflow-y: auto; border: 1px solid var(--line); border-radius: 8px; padding: 16px; background: #fbfcfe; display: flex; flex-direction: column; gap: 10px; }
+.chat-message { max-width: 82%; padding: 10px 12px; border-radius: 8px; font-size: 14px; line-height: 1.55; white-space: pre-wrap; }
+.chat-message.user { align-self: flex-end; background: var(--accent); color: white; }
+.chat-message.ai { align-self: flex-start; background: white; border: 1px solid var(--line); white-space: normal; }
+.chat-message.ai h1, .chat-message.ai h2, .chat-message.ai h3 { margin: 4px 0 8px; font-size: 14px; }
+.chat-message.ai p { margin: 0 0 8px; }
+.chat-message.ai p:last-child { margin-bottom: 0; }
+.chat-message.ai ul, .chat-message.ai ol { margin: 6px 0 8px 20px; padding: 0; }
+.chat-message.ai code { background: #f1f5f9; border-radius: 4px; padding: 1px 4px; font-size: 13px; }
+.chat-message.ai pre { background: #0f172a; color: #f8fafc; border-radius: 6px; padding: 10px; overflow-x: auto; margin: 8px 0; }
+.chat-message.ai pre code { background: transparent; color: inherit; padding: 0; }
+.chat-form { display: flex; gap: 10px; }
+.chat-form input { flex: 1; }
+
+/* Grading flow diagram */
+.flow-node { width: 100%; padding: 14px 18px; border-radius: 8px; border: 1px solid var(--line); display: flex; align-items: center; gap: 14px; }
+.flow-icon { font-size: 24px; flex-shrink: 0; width: 36px; text-align: center; }
+.flow-label { font-weight: 700; font-size: 14px; }
+.flow-sub { font-size: 12px; color: var(--muted); line-height: 1.4; }
+.flow-arrow { display: flex; flex-direction: column; align-items: center; padding: 2px 0; }
+.flow-arrow-line { width: 2px; height: 16px; background: var(--accent); opacity: .4; }
+.flow-arrow-head { width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 7px solid var(--accent); opacity: .4; }
+.flow-arrow-text { font-size: 11px; color: var(--muted); font-weight: 600; margin-top: 2px; }
+.flow-merge { width: 100%; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.flow-merge-item { padding: 10px 12px; border-radius: 6px; text-align: center; border: 1px solid var(--line); }
+.flow-merge-label { font-size: 12px; font-weight: 700; }
+.flow-merge-count { font-size: 11px; color: var(--muted); }
+.flow-result { width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.flow-result-score { padding: 12px; border-radius: 6px; background: white; border: 2px solid var(--accent); text-align: center; }
+.flow-result-stats { padding: 12px; border-radius: 6px; background: white; border: 1px solid var(--line); }
+
+.meta-bar { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--line); display: flex; gap: 24px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+@media (max-width: 800px) {
+  .essay-review-layout { grid-template-columns: 1fr; }
+  .chat-message { max-width: 94%; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="page-header">
+    <h1>Analysis Results</h1>
+    <p>
+      {% if submission.essay_question %}
+        {% if submission.essay_question.exam_month %}{{ submission.essay_question.exam_month | capitalize }}{% endif %}
+        {% if submission.essay_question.exam_year %}{{ submission.essay_question.exam_year }}{% endif %}
+        &mdash; Question {{ submission.essay_question.question_number }}
+      {% endif %}
+    </p>
+  </div>
+
+  <!-- Score Summary -->
+  <div class="card">
+    <div class="results-header">
+      <div class="score-circle">
+        <span class="score-value">{{ analysis.overall_score | round | int }}</span>
+        <span class="score-label">/ 100</span>
+      </div>
+      <div class="score-breakdown">
+        {% set categories = [
+          ("Issue Spotting", analysis.issue_spotting_score, 35),
+          ("Rule Statements", analysis.rule_statements_score, 25),
+          ("Fact Application", analysis.fact_application_score, 30),
+          ("Organization", analysis.organization_score, 10),
+        ] %}
+        {% for name, score, max_score in categories %}
+        <div class="score-item">
+          <div class="score-name">{{ name }} <span>{{ score | round(1) }} / {{ max_score }}</span></div>
+          <div class="progress-bar">
+            {% set pct = (score / max_score * 100) if max_score > 0 else 0 %}
+            {% if pct >= 70 %}{% set fill_class = "fill-good" %}{% elif pct >= 40 %}{% set fill_class = "fill-ok" %}{% else %}{% set fill_class = "fill-low" %}{% endif %}
+            <div class="fill {{ fill_class }}" style="width: {{ pct | round }}%"></div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabbed Content -->
+  <div class="card" style="margin-top: 20px; padding: 0;">
+    <div class="tab-bar">
+      <button class="tab-btn active" onclick="switchTab('issues', this)">Issue Analysis</button>
+      <button class="tab-btn" onclick="switchTab('essay-review', this)">Essay Review</button>
+      <button class="tab-btn" onclick="switchTab('funnel', this)">Rule Funnel</button>
+      <button class="tab-btn" onclick="switchTab('feedback', this)">Feedback</button>
+      <button class="tab-btn" onclick="switchTab('context', this)">Grading Context</button>
+      <button class="tab-btn" onclick="switchTab('chat', this)">Ask AI</button>
+    </div>
+
+    <!-- Tab: Issue Analysis -->
+    <div class="tab-panel active" id="tab-issues" style="padding: 20px;">
+      {% if feedback.get('issues') %}
+      <table class="issue-table">
+        <thead>
+          <tr><th>Issue</th><th>Spotted</th><th>Rule</th><th>Facts</th><th>Feedback</th></tr>
+        </thead>
+        <tbody>
+          {% for issue in feedback['issues'] %}
+          <tr>
+            <td><strong>{{ issue.issue_name }}</strong></td>
+            <td>{% if issue.spotted %}<span class="check">Yes</span>{% else %}<span class="miss">No</span>{% endif %}</td>
+            <td>{% if issue.rule_stated %}<span class="check">Yes</span>{% else %}<span class="miss">No</span>{% endif %}</td>
+            <td>{% if issue.facts_applied %}<span class="check">Yes</span>{% else %}<span class="miss">No</span>{% endif %}</td>
+            <td class="feedback">{{ issue.feedback }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% endif %}
+    </div>
+
+    <!-- Tab: Essay Review -->
+    <div class="tab-panel" id="tab-essay-review" style="padding: 20px;">
+      <div class="context-strip">
+        <span class="context-chip {% if analysis_context.get('schimmel_template_used') %}good{% else %}warn{% endif %}">
+          {% if analysis_context.get('schimmel_template_used') %}Schimmel template used{% else %}No Schimmel template{% endif %}
+        </span>
+        <span class="context-chip">
+          {{ analysis_context.get('template_name') or 'Template pending' }}
+        </span>
+        <span class="context-chip {% if analysis_context.get('schimmel_rule_candidates_count', 0) > 0 %}good{% else %}warn{% endif %}">
+          {{ analysis_context.get('schimmel_rule_candidates_count', 0) }} Schimmel rules
+        </span>
+        <span class="context-chip {% if analysis_context.get('supplemental_rules_count', 0) > 0 %}good{% else %}warn{% endif %}">
+          {{ analysis_context.get('supplemental_rules_count', 0) }} supplemental parsed rules
+        </span>
+        <span class="context-chip {% if analysis_context.get('selected_answer_outline_used') %}good{% else %}warn{% endif %}">
+          {% if analysis_context.get('selected_answer_outline_used') %}Selected-answer outline used{% else %}No selected-answer outline{% endif %}
+        </span>
+      </div>
+
+      <div class="essay-review-layout">
+        <div class="student-essay-panel">
+          <div class="eyebrow" style="margin-bottom: 10px;">Your Essay</div>
+          <div
+            class="student-essay-text"
+            id="student-essay-text"
+            data-highlights='{{ essay_highlights | tojson }}'
+          >{{ submission.essay_text | format_essay }}</div>
+        </div>
+        <div class="review-notes-panel" id="review-notes-panel">
+          <div class="eyebrow" style="margin-bottom: 10px; position: sticky; top: 0; background: var(--bg); padding: 4px 0; z-index: 1;">Passage Notes ({{ essay_highlights | length }})</div>
+          {% if essay_highlights %}
+          <div class="review-list" id="review-list">
+            {% for item in essay_highlights %}
+            {% set htype = item.get('type', 'improvement') %}
+            <div class="review-note {{ htype }}" data-note-index="{{ loop.index }}" onclick="scrollToHighlight({{ loop.index }})">
+              <h3>
+                <span class="review-type-badge {{ htype }}">
+                  {% if htype == 'strength' %}Strength{% elif htype == 'missing' %}Missing Issue{% elif htype == 'structure' %}Structure{% else %}Improve{% endif %}
+                </span>
+                {% if item.get('issue_name') %}<span class="muted">{{ item.get('issue_name') }}</span>{% endif %}
+              </h3>
+              <div style="font-size:14px; line-height:1.6;">{{ item.get('feedback') }}</div>
+              {% if item.get('quote') %}
+              <div class="quote">"{{ item.get('quote') }}"</div>
+              {% endif %}
+              {% if item.get('suggested_rewrite') %}
+              <div class="rewrite">
+                <div class="rewrite-label">Suggested rewrite</div>
+                {{ item.get('suggested_rewrite') }}
+              </div>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+          {% else %}
+          <div class="overall-feedback">No passage-level essay highlights were returned for this analysis. Re-running the analysis will use the newest prompt format.</div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab: Rule Funnel -->
+    <div class="tab-panel" id="tab-funnel">
+      {% set has_funnels = feedback.get('issues', []) | selectattr('rule_funnel') | list %}
+
+      {% if has_funnels %}
+      <div class="funnel-layout">
+        <!-- Left: Question prompt with highlights -->
+        <div class="funnel-essay">
+          <div class="eyebrow" style="margin-bottom: 12px;">Question Prompt</div>
+          <div class="essay-text" id="question-text">{{ submission.essay_question.normalized_text if submission.essay_question else '' }}</div>
+        </div>
+
+        <!-- Right: One rule funnel at a time -->
+        <div class="funnel-rules">
+          <div class="eyebrow" style="margin-bottom: 12px;">Rule Funnel</div>
+
+          <div class="issue-pills" style="margin-bottom: 20px;">
+            {% set pill_num = [1] %}
+            {% for issue in feedback['issues'] %}
+              {% if issue.get('rule_funnel') %}
+              <span class="issue-pill {% if pill_num[0] == 1 %}active{% endif %} {% if issue.spotted %}spotted{% else %}missed{% endif %}"
+                    onclick="selectFunnel({{ pill_num[0] }})" data-issue-num="{{ pill_num[0] }}">
+                {{ pill_num[0] }}
+              </span>
+              {% if pill_num.append(pill_num.pop() + 1) %}{% endif %}
+              {% endif %}
+            {% endfor %}
+          </div>
+
+          {% set funnel_num = [1] %}
+          {% for issue in feedback['issues'] %}
+            {% if issue.get('rule_funnel') %}
+            {% set funnel = issue['rule_funnel'] %}
+            <div class="funnel-card {% if funnel_num[0] == 1 %}active{% endif %}" data-issue-num="{{ funnel_num[0] }}">
+              <div class="funnel-shape">
+                <div class="funnel-tier funnel-tier-issue">
+                  <span class="tier-num">{{ funnel_num[0] }}</span>
+                  {{ issue.issue_name }}
+                </div>
+                <div class="funnel-connector"></div>
+                <div class="funnel-tier funnel-tier-rule">{{ funnel.get('rule_statement', '') }}</div>
+                <div class="funnel-connector-sm"></div>
+                <div class="funnel-tier-elements">
+                  {% for el in funnel.get('elements', []) %}
+                  <div class="funnel-element">
+                    <span class="funnel-el-num {% if el.met %}met{% else %}not-met{% endif %}">{{ loop.index }}</span>
+                    <div class="funnel-el-body">
+                      <div class="funnel-el-label">{{ el.label }}</div>
+                      <div class="funnel-el-status {% if el.met %}met{% else %}not-met{% endif %}">
+                        {% if el.met %}Addressed in essay{% else %}Not addressed{% endif %}
+                      </div>
+                      {% if el.quote %}
+                      <div class="funnel-el-quote" data-highlight-quote="{{ el.quote }}" onclick="scrollToFunnelHighlight(this)">"{{ el.quote }}"</div>
+                      {% else %}
+                      <div class="funnel-el-quote empty">No supporting fact in question prompt</div>
+                      {% endif %}
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+            {% if funnel_num.append(funnel_num.pop() + 1) %}{% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% else %}
+      <div style="padding: 40px; text-align: center; color: var(--muted);">
+        <p>No rule funnel data available for this analysis.</p>
+        <p style="font-size: 13px;">Rule funnels are generated when the AI can map question facts to specific legal elements.</p>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Tab: Feedback -->
+    <div class="tab-panel" id="tab-feedback" style="padding: 20px;">
+      {% if feedback.get('strengths') %}
+      <h3>Strengths</h3>
+      <ul class="feedback-list">
+        {% for s in feedback['strengths'] %}<li class="strength">{{ s }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+      {% if feedback.get('areas_for_improvement') %}
+      <h3>Areas for Improvement</h3>
+      <ul class="feedback-list">
+        {% for s in feedback['areas_for_improvement'] %}<li class="improvement">{{ s }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+      {% if feedback.get('overall_feedback') %}
+      <h3>Overall Feedback</h3>
+      <div class="overall-feedback">{{ feedback['overall_feedback'] }}</div>
+      {% endif %}
+    </div>
+
+    <!-- Tab: Grading Context -->
+    <div class="tab-panel" id="tab-context" style="padding: 20px;">
+      {% set gc = grading_context %}
+
+      <!-- Overview chips -->
+      <div class="context-strip" style="margin-bottom: 20px;">
+        {% if gc.template %}
+        <span class="context-chip good">Schimmel Template: {{ gc.template.name }}</span>
+        {% else %}
+        <span class="context-chip warn">No Schimmel Template</span>
+        {% endif %}
+        <span class="context-chip {% if gc.template_rules %}good{% else %}warn{% endif %}">{{ gc.template_rules | length }} Template Rules</span>
+        <span class="context-chip {% if gc.supplemental_rules %}good{% else %}warn{% endif %}">{{ gc.supplemental_rules | length }} Supplemental Rules</span>
+        <span class="context-chip {% if gc.selected_answer_headings %}good{% else %}warn{% endif %}">{{ gc.selected_answer_headings | length }} Selected Answers</span>
+        {% if gc.model_id %}<span class="context-chip">Model: {{ gc.model_id }}</span>{% endif %}
+      </div>
+
+      <p class="muted" style="margin-bottom: 20px; font-size: 13px; line-height: 1.6;">
+        This tab shows exactly what context the AI grader received when scoring your essay.
+        The Schimmel template provides the issue hierarchy, template rules supply specific legal standards,
+        supplemental rules add depth from parsed outlines, and selected-answer headings calibrate issue coverage.
+      </p>
+
+      <!-- Schimmel Template Hierarchy -->
+      <div class="section">
+        <h2>Schimmel Template Hierarchy</h2>
+        {% if gc.template %}
+        <p class="muted" style="font-size: 13px; margin-bottom: 12px;">
+          Subject: <strong>{{ gc.subject.display_name if gc.subject else 'Unknown' }}</strong> &mdash;
+          The AI uses this hierarchy as the controlling structure for breaking the question prompt into issues, sub-issues, and analysis targets.
+        </p>
+        <div style="max-height: 320px; overflow-y: auto; border: 1px solid var(--line); border-radius: 6px; padding: 12px; background: #fafbfc;">
+          {% for node in gc.template_nodes %}
+          <div style="margin-left: {{ (node.depth - 1) * 16 }}px; padding: 2px 0; font-size: 13px;">
+            <span style="font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); margin-right: 6px;">{{ node.type | replace('_', ' ') }}</span>
+            <span style="font-weight: 600;">{{ node.title }}</span>
+          </div>
+          {% endfor %}
+        </div>
+        {% else %}
+        <p class="muted">No Schimmel template was matched for this question. The analysis was performed without a structured issue hierarchy.</p>
+        {% endif %}
+      </div>
+
+      <!-- Template Rules -->
+      <div class="section">
+        <h2>Template Rules Applied</h2>
+        {% if gc.template_rules %}
+        <p class="muted" style="font-size: 13px; margin-bottom: 12px;">
+          These {{ gc.template_rules | length }} rule candidates were extracted from the Schimmel template and sent to the AI
+          as the legal standards each issue should be evaluated against.
+        </p>
+        <table class="issue-table" style="font-size: 13px;">
+          <thead><tr><th>Rule</th><th style="text-align:right">Confidence</th><th style="text-align:right">Pages</th></tr></thead>
+          <tbody>
+            {% for r in gc.template_rules %}
+            <tr>
+              <td>{{ r.text }}</td>
+              <td style="text-align:right">{{ r.confidence }}%</td>
+              <td style="text-align:right; color: var(--muted);">{{ r.pages }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% else %}
+        <p class="muted">No template rule candidates were available.</p>
+        {% endif %}
+      </div>
+
+      <!-- Supplemental Rules -->
+      <div class="section">
+        <h2>Supplemental Rules</h2>
+        {% if gc.supplemental_rules %}
+        <p class="muted" style="font-size: 13px; margin-bottom: 12px;">
+          These {{ gc.supplemental_rules | length }} rules from the MyThemis outline provide additional rule precision
+          beyond the Schimmel template. They are sampled across the topic hierarchy to cover the full subject.
+        </p>
+        <table class="issue-table" style="font-size: 13px;">
+          <thead><tr><th>Rule Name</th><th>Topic</th><th style="text-align:right">Confidence</th></tr></thead>
+          <tbody>
+            {% for r in gc.supplemental_rules %}
+            <tr>
+              <td style="font-weight: 600;">{{ r.name }}</td>
+              <td style="color: var(--muted);">{{ r.topic }}</td>
+              <td style="text-align:right">{{ r.confidence }}%</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% else %}
+        <p class="muted">No supplemental rules were loaded for this subject.</p>
+        {% endif %}
+      </div>
+
+      <!-- Selected Answer Outline -->
+      <div class="section">
+        <h2>Selected Answer Outline</h2>
+        {% if gc.selected_answer_headings %}
+        <p class="muted" style="font-size: 13px; margin-bottom: 12px;">
+          These headings were extracted from the official CalBar selected answers for this question.
+          The AI uses them to catch question-specific issues that may be missing from the subject-wide Schimmel template.
+        </p>
+        {% for answer in gc.selected_answer_headings %}
+        <div style="margin-bottom: 12px;">
+          <div class="eyebrow" style="margin-bottom: 6px;">Selected Answer {{ answer.label }}</div>
+          <ul style="list-style: none; padding: 0;">
+            {% for heading in answer.headings %}
+            <li style="padding: 4px 0; font-size: 13px; border-bottom: 1px solid var(--line);">{{ heading }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+        {% else %}
+        <p class="muted">No selected-answer headings were available for this question.</p>
+        {% endif %}
+      </div>
+
+      <!-- Visual: How It All Connects -->
+      <div class="section" style="margin-top: 28px;">
+        <h2>How Your Essay Was Graded</h2>
+        <div style="
+          display: flex; flex-direction: column; align-items: center; gap: 0;
+          padding: 24px 0; max-width: 600px; margin: 0 auto;
+        ">
+          {% set essay_words = (submission.essay_text or "").split() | length %}
+          {% set tmpl_name = gc.template.name if gc.template else "No Template" %}
+          {% set subj_name = gc.subject.display_name if gc.subject else "Unknown" %}
+          {% set node_count = gc.template_nodes | length %}
+          {% set tr_count = gc.template_rules | length %}
+          {% set sr_count = gc.supplemental_rules | length %}
+          {% set sa_count = gc.selected_answer_headings | length %}
+          {% set model = gc.model_id or "unknown" %}
+          {% set issue_count = feedback.get('issues', []) | length %}
+          {% set hl_count = essay_highlights | length %}
+          {% set funnel_count = feedback.get('issues', []) | selectattr('rule_funnel') | list | length %}
+
+          <div class="flow-node" style="background: #f8fafc;">
+            <div class="flow-icon">&#x270E;</div>
+            <div><div class="flow-label">Your Essay</div><div class="flow-sub">{{ essay_words }} words submitted</div></div>
+          </div>
+          <div class="flow-arrow"><div class="flow-arrow-line"></div><div class="flow-arrow-head"></div><div class="flow-arrow-text">matched to</div></div>
+          <div class="flow-node" style="background: #f0fdf4;">
+            <div class="flow-icon">&#x1F4DA;</div>
+            <div><div class="flow-label">{{ tmpl_name }}</div><div class="flow-sub">{{ subj_name }} subject &mdash; {{ node_count }} node hierarchy</div></div>
+          </div>
+          <div class="flow-arrow"><div class="flow-arrow-line"></div><div class="flow-arrow-head"></div><div class="flow-arrow-text">combined with</div></div>
+          <div class="flow-merge">
+            <div class="flow-merge-item" style="background: #f0fdf4;"><div class="flow-merge-label">Template Rules</div><div class="flow-merge-count">{{ tr_count }} rules</div></div>
+            <div class="flow-merge-item" style="background: #eff6ff;"><div class="flow-merge-label">Supplemental Rules</div><div class="flow-merge-count">{{ sr_count }} rules</div></div>
+            <div class="flow-merge-item" style="background: #fefce8;"><div class="flow-merge-label">Selected Answers</div><div class="flow-merge-count">{{ sa_count }} answers</div></div>
+          </div>
+          <div class="flow-arrow"><div class="flow-arrow-line"></div><div class="flow-arrow-head"></div><div class="flow-arrow-text">sent to</div></div>
+          <div class="flow-node" style="background: #faf5ff;">
+            <div class="flow-icon">&#x1F916;</div>
+            <div><div class="flow-label">AI Grader ({{ model }})</div><div class="flow-sub">Phase 1: Scoring &rarr; Phase 2: Issues, Rule Funnels, Essay Review</div></div>
+          </div>
+          <div class="flow-arrow"><div class="flow-arrow-line"></div><div class="flow-arrow-head"></div><div class="flow-arrow-text">produces</div></div>
+          <div class="flow-result">
+            <div class="flow-result-score">
+              <div style="font-size: 28px; font-weight: 800; color: var(--accent);">{{ analysis.overall_score | round | int }}</div>
+              <div style="font-size: 11px; color: var(--muted); font-weight: 600;">Overall Score</div>
+            </div>
+            <div class="flow-result-stats">
+              <div style="font-size: 13px; font-weight: 600; margin-bottom: 4px;">Analysis Output</div>
+              <div style="font-size: 11px; color: var(--muted); line-height: 1.5;">
+                {{ issue_count }} issues analyzed<br>
+                {{ hl_count }} essay highlights<br>
+                {{ funnel_count }} rule funnels
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab: Ask AI -->
+    <div class="tab-panel" id="tab-chat" style="padding: 20px;">
+      <div class="chat-layout">
+        <div class="chat-log" id="chat-log">
+          <div class="chat-message ai">Ask a follow-up about your score, a missed issue, a highlighted passage, or how to rewrite a section.</div>
+        </div>
+        <form class="chat-form" id="chat-form">
+          <input type="text" id="chat-input" placeholder="Ask about this analysis..." autocomplete="off">
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="meta-bar">
+    {% if submission.time_spent_seconds %}
+    <span>Time spent: {{ (submission.time_spent_seconds // 60) }}m {{ submission.time_spent_seconds % 60 }}s</span>
+    {% endif %}
+    <span>Submitted: {{ submission.submitted_at.strftime('%b %d, %Y %I:%M %p') if submission.submitted_at else 'N/A' }}</span>
+    {% if analysis.model_id %}<span>Model: {{ analysis.model_id }}</span>{% endif %}
+    <form method="post" action="/results/{{ submission.id }}/reanalyze" style="margin-left:auto; display:flex; gap:8px; align-items:center;">
+      <button type="submit" class="btn btn-outline">Re-analyze</button>
+    </form>
+    <a href="/" class="btn btn-outline">Back to Practice</a>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function switchTab(name, button) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('tab-' + name).classList.add('active');
+    if (button) button.classList.add('active');
+    if (name === 'funnel') highlightActiveFunnel();
+    if (name === 'essay-review') highlightStudentEssay();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    highlightStudentEssay();
+    setupAnalysisChat();
+});
+
+function selectFunnel(num) {
+    document.querySelectorAll('.issue-pill[data-issue-num]').forEach(p => p.classList.remove('active'));
+    document.querySelector('.issue-pill[data-issue-num="' + num + '"]').classList.add('active');
+    document.querySelectorAll('.funnel-card').forEach(c => c.classList.remove('active'));
+    document.querySelector('.funnel-card[data-issue-num="' + num + '"]').classList.add('active');
+    highlightActiveFunnel();
+}
+
+function highlightActiveFunnel() {
+    var questionEl = document.getElementById('question-text');
+    if (!questionEl) return;
+
+    var originalText = questionEl.getAttribute('data-original');
+    if (!originalText) {
+        originalText = questionEl.textContent;
+        questionEl.setAttribute('data-original', originalText);
+    }
+
+    var activeCard = document.querySelector('.funnel-card.active');
+    if (!activeCard) { questionEl.textContent = originalText; return; }
+
+    /* Gather quotes with their element numbers */
+    var entries = [];
+    var elNum = 1;
+    activeCard.querySelectorAll('[data-highlight-quote]').forEach(function(el) {
+        var q = el.getAttribute('data-highlight-quote').trim();
+        if (q.length > 8) entries.push({ text: q, num: elNum });
+        elNum++;
+    });
+
+    if (entries.length === 0) { questionEl.textContent = originalText; return; }
+
+    /*
+     * Find each quote's character range in the original text, then merge
+     * overlapping ranges so multiple markers appear on the same passage.
+     */
+    var ranges = [];
+    var normalizedPrompt = buildSearchIndex(originalText);
+
+    function findQuoteRange(quote) {
+        var candidates = quoteCandidates(quote);
+
+        for (var c = 0; c < candidates.length; c++) {
+            var q = normalizeForSearch(candidates[c]);
+            if (!q || q.length < 3) continue;
+            var idx = normalizedPrompt.text.indexOf(q);
+            if (idx !== -1) return normalizedRangeToOriginal(normalizedPrompt, idx, idx + q.length);
+        }
+
+        for (var t = 0; t < candidates.length; t++) {
+            var s = normalizeForSearch(candidates[t]);
+            if (!s) continue;
+            for (var len = s.length; len >= Math.min(20, s.length); len -= 5) {
+                var snippet = s.substring(0, len).trim();
+                if (snippet.length < 8) continue;
+                var idx = normalizedPrompt.text.indexOf(snippet);
+                if (idx !== -1) return normalizedRangeToOriginal(normalizedPrompt, idx, idx + snippet.length);
+            }
+        }
+
+        var words = normalizeForSearch(quote).split(/\s+/).filter(Boolean);
+        for (var wlen = words.length; wlen >= 3; wlen--) {
+            for (var ws = 0; ws <= words.length - wlen; ws++) {
+                var sub = words.slice(ws, ws + wlen).join(' ');
+                var idx = normalizedPrompt.text.indexOf(sub);
+                if (idx !== -1) return normalizedRangeToOriginal(normalizedPrompt, idx, idx + sub.length);
+            }
+        }
+        return null;
+    }
+
+    entries.forEach(function(entry) {
+        var result = findQuoteRange(entry.text);
+        if (result) {
+            ranges.push({ start: result.start, end: result.end, num: entry.num });
+        }
+    });
+
+    if (ranges.length === 0) { questionEl.textContent = originalText; return; }
+
+    /* Group overlapping ranges: if two ranges overlap, merge their markers */
+    ranges.sort(function(a, b) { return a.start - b.start || b.end - a.end; });
+
+    var merged = [];
+    ranges.forEach(function(r) {
+        if (merged.length > 0) {
+            var last = merged[merged.length - 1];
+            if (r.start < last.end) {
+                /* Overlapping — extend and add marker */
+                last.end = Math.max(last.end, r.end);
+                last.nums.push(r.num);
+                return;
+            }
+        }
+        merged.push({ start: r.start, end: r.end, nums: [r.num] });
+    });
+
+    /* Build HTML from the original prompt so highlight indices remain stable. */
+    var html = '';
+    var cursor = 0;
+    for (var i = 0; i < merged.length; i++) {
+        var m = merged[i];
+        html += escapeHtml(originalText.substring(cursor, m.start));
+        var match = escapeHtml(originalText.substring(m.start, m.end));
+        var markers = m.nums.map(function(n) {
+            return '<span class="marker">' + n + '</span>';
+        }).join('');
+        html += '<span class="essay-highlight" data-el-nums="' + m.nums.join(',') + '" onclick="scrollToFunnelElement(' + m.nums[0] + ')">' + markers + match + '</span>';
+        cursor = m.end;
+    }
+    html += escapeHtml(originalText.substring(cursor));
+
+    questionEl.innerHTML = html;
+}
+
+function scrollToFunnelElement(elNum) {
+    var activeCard = document.querySelector('.funnel-card.active');
+    if (!activeCard) return;
+    var elements = activeCard.querySelectorAll('.funnel-element');
+    var target = elements[elNum - 1];
+    if (!target) return;
+    var panel = document.querySelector('.funnel-rules');
+    if (panel) panel.scrollTo({ top: target.offsetTop - panel.offsetTop - 40, behavior: 'smooth' });
+    target.style.boxShadow = '0 0 0 2px var(--accent)';
+    target.style.borderRadius = '8px';
+    setTimeout(function() { target.style.boxShadow = ''; }, 2000);
+}
+
+function scrollToFunnelHighlight(quoteEl) {
+    var elIndex = 0;
+    var parent = quoteEl.closest('.funnel-element');
+    if (parent) {
+        var siblings = parent.parentElement.querySelectorAll('.funnel-element');
+        for (var i = 0; i < siblings.length; i++) {
+            if (siblings[i] === parent) { elIndex = i + 1; break; }
+        }
+    }
+    if (!elIndex) return;
+    var match = document.querySelector('.essay-highlight[data-el-nums]');
+    var allHighlights = document.querySelectorAll('.essay-highlight[data-el-nums]');
+    for (var h = 0; h < allHighlights.length; h++) {
+        var nums = allHighlights[h].getAttribute('data-el-nums').split(',');
+        if (nums.indexOf(String(elIndex)) !== -1) { match = allHighlights[h]; break; }
+    }
+    if (!match) return;
+    var panel = document.querySelector('.funnel-essay');
+    if (panel) panel.scrollTo({ top: match.offsetTop - panel.offsetTop - 60, behavior: 'smooth' });
+    document.querySelectorAll('.essay-highlight.focused').forEach(function(e) { e.classList.remove('focused'); });
+    match.classList.add('focused');
+    setTimeout(function() { match.classList.remove('focused'); }, 2000);
+}
+
+function quoteCandidates(quote) {
+    var raw = (quote || '').trim();
+    var withoutWrappingQuotes = raw.replace(/^[\s"'“”‘’]+|[\s"'“”‘’]+$/g, '');
+    var withoutSpeaker = withoutWrappingQuotes.replace(
+        /^[a-z][a-z0-9.'-]*\s+(?:wrote|said|stated|states|mentions|indicates|asks)[:\s"“”'‘’]+/i,
+        ''
+    );
+    var splitOnEllipsis = withoutSpeaker.split(/\.{3,}|…/).map(function(part) { return part.trim(); });
+    var candidates = [raw, withoutWrappingQuotes, withoutSpeaker].concat(splitOnEllipsis);
+    var seen = {};
+    return candidates.filter(function(candidate) {
+        var key = candidate.toLowerCase();
+        if (!candidate || candidate.length < 4 || seen[key]) return false;
+        seen[key] = true;
+        return true;
+    });
+}
+
+function buildSearchIndex(text) {
+    var normalized = '';
+    var map = [];
+    var previousWasSpace = true;
+
+    for (var i = 0; i < text.length; i++) {
+        var ch = normalizeChar(text[i]);
+        if (!ch) continue;
+
+        if (/\s/.test(ch)) {
+            if (!previousWasSpace) {
+                normalized += ' ';
+                map.push({ start: i, end: i + 1 });
+                previousWasSpace = true;
+            }
+            continue;
+        }
+
+        normalized += ch;
+        map.push({ start: i, end: i + 1 });
+        previousWasSpace = false;
+    }
+
+    return { text: normalized.trim(), map: map, originalLength: text.length };
+}
+
+function normalizeForSearch(text) {
+    return buildSearchIndex(text).text;
+}
+
+function normalizeChar(ch) {
+    var lower = ch.toLowerCase();
+    if (/[a-z0-9]/.test(lower)) return lower;
+    if (/\s/.test(lower)) return ' ';
+    if (lower === '&') return ' and ';
+    if ("’‘`´".indexOf(lower) !== -1) return '';
+    if ('"“”'.indexOf(lower) !== -1) return '';
+    if (/[.,;:!?()[\]{}<>/\\|-]/.test(lower)) return ' ';
+    return ' ';
+}
+
+function normalizedRangeToOriginal(index, start, end) {
+    var startEntry = index.map[start];
+    var endEntry = index.map[Math.max(start, end - 1)];
+    if (!startEntry || !endEntry) return null;
+    return { start: startEntry.start, end: Math.min(index.originalLength, endEntry.end) };
+}
+
+function escapeHtml(text) {
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function highlightStudentEssay() {
+    var essayEl = document.getElementById('student-essay-text');
+    if (!essayEl) return;
+
+    var originalText = essayEl.getAttribute('data-original');
+    if (!originalText) {
+        originalText = essayEl.textContent;
+        essayEl.setAttribute('data-original', originalText);
+    }
+
+    var highlights = [];
+    try {
+        highlights = JSON.parse(essayEl.getAttribute('data-highlights') || '[]');
+    } catch (_err) {
+        highlights = [];
+    }
+    if (!highlights.length) {
+        essayEl.textContent = originalText;
+        return;
+    }
+
+    var normalizedEssay = buildSearchIndex(originalText);
+    var ranges = [];
+    var validTypes = {'strength':1, 'improvement':1, 'missing':1, 'structure':1};
+    highlights.forEach(function(item, index) {
+        var quote = (item.quote || '').trim();
+        if (quote.length < 8) return;
+        var htype = (item.type || 'improvement').toLowerCase();
+        if (!validTypes[htype]) htype = 'improvement';
+        var candidates = quoteCandidates(quote);
+        for (var c = 0; c < candidates.length; c++) {
+            var q = normalizeForSearch(candidates[c]);
+            var idx = normalizedEssay.text.indexOf(q);
+            if (idx !== -1) {
+                var range = normalizedRangeToOriginal(normalizedEssay, idx, idx + q.length);
+                if (range) {
+                    ranges.push({ start: range.start, end: range.end, type: htype, num: index + 1 });
+                }
+                break;
+            }
+        }
+        /* Fallback: try matching individual sentences from the quote */
+        if (!ranges.some(function(r) { return r.num === index + 1; })) {
+            var sentences = quote.split(/[.!?]\s+/).filter(function(s) { return s.length >= 15; });
+            for (var si = 0; si < sentences.length; si++) {
+                var sq = normalizeForSearch(sentences[si]);
+                var sidx = normalizedEssay.text.indexOf(sq);
+                if (sidx !== -1) {
+                    var srange = normalizedRangeToOriginal(normalizedEssay, sidx, sidx + sq.length);
+                    if (srange) {
+                        ranges.push({ start: srange.start, end: srange.end, type: htype, num: index + 1 });
+                        break;
+                    }
+                }
+            }
+        }
+    });
+
+    if (!ranges.length) {
+        essayEl.textContent = originalText;
+        return;
+    }
+
+    ranges.sort(function(a, b) { return a.start - b.start || b.end - a.end; });
+    var html = '';
+    var cursor = 0;
+    ranges.forEach(function(range) {
+        if (range.start < cursor) return;
+        html += escapeHtml(originalText.substring(cursor, range.start));
+        html += '<span class="student-highlight ' + range.type + '" data-note-index="' + range.num + '" onclick="scrollToNote(' + range.num + ')">' +
+            escapeHtml(originalText.substring(range.start, range.end)) +
+            '</span>';
+        cursor = range.end;
+    });
+    html += escapeHtml(originalText.substring(cursor));
+    essayEl.innerHTML = html;
+}
+
+function scrollToHighlight(noteIndex) {
+    var el = document.querySelector('.student-highlight[data-note-index="' + noteIndex + '"]');
+    if (!el) return;
+    var panel = document.querySelector('.student-essay-panel');
+    if (panel) panel.scrollTo({ top: el.offsetTop - panel.offsetTop - 60, behavior: 'smooth' });
+    document.querySelectorAll('.student-highlight.focused').forEach(function(e) { e.classList.remove('focused'); });
+    el.classList.add('focused');
+    setTimeout(function() { el.classList.remove('focused'); }, 2000);
+}
+
+function scrollToNote(noteIndex) {
+    var note = document.querySelector('.review-note[data-note-index="' + noteIndex + '"]');
+    if (!note) return;
+    var panel = document.getElementById('review-notes-panel');
+    if (panel) panel.scrollTo({ top: note.offsetTop - panel.offsetTop - 40, behavior: 'smooth' });
+    document.querySelectorAll('.review-note.focused').forEach(function(e) { e.classList.remove('focused'); });
+    note.classList.add('focused');
+    setTimeout(function() { note.classList.remove('focused'); }, 2000);
+}
+
+function setupAnalysisChat() {
+    var form = document.getElementById('chat-form');
+    var input = document.getElementById('chat-input');
+    var log = document.getElementById('chat-log');
+    if (!form || !input || !log) return;
+
+    var submissionId = {{ submission.id }};
+    var history = [];
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var message = input.value.trim();
+        if (!message) return;
+        input.value = '';
+        appendChatMessage('user', message);
+        history.push({ role: 'user', content: message });
+        appendChatMessage('ai', 'Thinking...');
+        var pending = log.lastElementChild;
+
+        fetch('/api/analysis-chat/' + submissionId, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: message, history: history.slice(-8) })
+        })
+            .then(function(response) {
+                if (!response.ok) throw new Error('Chat request failed');
+                return response.json();
+            })
+            .then(function(data) {
+                var reply = data.reply || 'I could not generate a response.';
+                pending.innerHTML = renderMarkdown(reply);
+                history.push({ role: 'assistant', content: reply });
+            })
+            .catch(function() {
+                var reply = 'I could not reach the chat model. Try again in a moment.';
+                pending.textContent = reply;
+                history.push({ role: 'assistant', content: reply });
+            });
+    });
+
+    function appendChatMessage(role, content) {
+        var div = document.createElement('div');
+        div.className = 'chat-message ' + (role === 'user' ? 'user' : 'ai');
+        if (role === 'user') {
+            div.textContent = content;
+        } else {
+            div.innerHTML = renderMarkdown(content);
+        }
+        log.appendChild(div);
+        log.scrollTop = log.scrollHeight;
+    }
+}
+
+function renderMarkdown(markdown) {
+    var text = String(markdown || '');
+    var codeBlocks = [];
+    text = text.replace(/```([\s\S]*?)```/g, function(_match, code) {
+        var token = '%%CODEBLOCK' + codeBlocks.length + '%%';
+        codeBlocks.push('<pre><code>' + escapeHtml(code.replace(/^\n|\n$/g, '')) + '</code></pre>');
+        return token;
+    });
+
+    var lines = text.split(/\n/);
+    var html = '';
+    var listType = null;
+    var paragraph = [];
+
+    function flushParagraph() {
+        if (!paragraph.length) return;
+        html += '<p>' + inlineMarkdown(paragraph.join(' ')) + '</p>';
+        paragraph = [];
+    }
+
+    function closeList() {
+        if (!listType) return;
+        html += '</' + listType + '>';
+        listType = null;
+    }
+
+    lines.forEach(function(line) {
+        var trimmed = line.trim();
+        if (!trimmed) {
+            flushParagraph();
+            closeList();
+            return;
+        }
+        if (/^%%CODEBLOCK\d+%%$/.test(trimmed)) {
+            flushParagraph();
+            closeList();
+            var idx = Number(trimmed.replace(/\D/g, ''));
+            html += codeBlocks[idx] || '';
+            return;
+        }
+        var heading = /^(#{1,3})\s+(.+)$/.exec(trimmed);
+        if (heading) {
+            flushParagraph();
+            closeList();
+            var level = Math.min(3, heading[1].length);
+            html += '<h' + level + '>' + inlineMarkdown(heading[2]) + '</h' + level + '>';
+            return;
+        }
+        var unordered = /^[-*]\s+(.+)$/.exec(trimmed);
+        var ordered = /^\d+\.\s+(.+)$/.exec(trimmed);
+        if (unordered || ordered) {
+            flushParagraph();
+            var desired = unordered ? 'ul' : 'ol';
+            if (listType !== desired) {
+                closeList();
+                listType = desired;
+                html += '<' + listType + '>';
+            }
+            html += '<li>' + inlineMarkdown((unordered || ordered)[1]) + '</li>';
+            return;
+        }
+        closeList();
+        paragraph.push(trimmed);
+    });
+    flushParagraph();
+    closeList();
+    return html;
+}
+
+function inlineMarkdown(text) {
+    var escaped = escapeHtml(text);
+    escaped = escaped.replace(/`([^`]+)`/g, '<code>$1</code>');
+    escaped = escaped.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    escaped = escaped.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    return escaped;
+}
+</script>
+{% endblock %}

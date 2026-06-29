@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: calbar_exam_tutor_postgres
+    environment:
+      POSTGRES_DB: calbar_tutor
+      POSTGRES_USER: calbar
+      POSTGRES_PASSWORD: calbar
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U calbar -d calbar_tutor"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  postgres_data:
+

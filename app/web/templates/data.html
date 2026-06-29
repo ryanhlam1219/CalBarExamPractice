@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block title %}Data Browser{% endblock %}
+
+{% block extra_css %}
+<style>
+.data-table { width: 100%; border-collapse: collapse; }
+.data-table th, .data-table td { padding: 10px 14px; border-bottom: 1px solid var(--line); text-align: left; font-size: 13px; }
+.data-table th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .05em; background: #f8fafc; position: sticky; top: 52px; z-index: 1; }
+.data-table tr:hover td { background: #f8fafc; }
+.data-table td.num { font-variant-numeric: tabular-nums; text-align: right; }
+.coverage-bar { display: inline-block; height: 6px; border-radius: 3px; background: var(--good); min-width: 2px; }
+.coverage-bar.low { background: var(--bad); }
+.coverage-bar.mid { background: var(--warn); }
+.subject-name { font-weight: 650; }
+.template-link { font-weight: 600; }
+.stat-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 24px; }
+.stat-card { text-align: center; padding: 20px 12px; }
+.stat-card .stat-value { font-size: 32px; font-weight: 800; line-height: 1; color: var(--accent); }
+.stat-card .stat-label { font-size: 12px; color: var(--muted); font-weight: 600; margin-top: 6px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="page-header">
+    <h1>Data Browser</h1>
+    <p>Schimmel templates, parsed rules, and supplemental rule outlines loaded in the database.</p>
+  </div>
+
+  {% set total_templates = subject_data | map(attribute='templates') | map('length') | sum %}
+  {% set total_nodes = subject_data | map(attribute='node_count') | sum %}
+  {% set total_rules = subject_data | map(attribute='rule_count') | sum %}
+  {% set total_supp = subject_data | map(attribute='supp_rule_count') | sum %}
+
+  <div class="stat-cards">
+    <div class="card stat-card">
+      <div class="stat-value">{{ subject_data | length }}</div>
+      <div class="stat-label">Subjects</div>
+    </div>
+    <div class="card stat-card">
+      <div class="stat-value">{{ total_templates }}</div>
+      <div class="stat-label">Templates</div>
+    </div>
+    <div class="card stat-card">
+      <div class="stat-value">{{ total_nodes }}</div>
+      <div class="stat-label">Template Nodes</div>
+    </div>
+    <div class="card stat-card">
+      <div class="stat-value">{{ total_rules }}</div>
+      <div class="stat-label">Template Rules</div>
+    </div>
+    <div class="card stat-card">
+      <div class="stat-value">{{ total_supp }}</div>
+      <div class="stat-label">Supplemental Rules</div>
+    </div>
+  </div>
+
+  <div class="card" style="padding: 0;">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Template</th>
+          <th style="text-align:right">Nodes</th>
+          <th style="text-align:right">Template Rules</th>
+          <th style="text-align:right">Supp. Rules</th>
+          <th>Coverage</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in subject_data %}
+        <tr>
+          <td class="subject-name">{{ item.subject.display_name }}</td>
+          <td>
+            {% for t in item.templates %}
+            <a href="/data/template/{{ t.id }}" class="template-link">{{ t.name }}</a>
+            {% if not loop.last %}<br>{% endif %}
+            {% else %}
+            <span class="muted">None</span>
+            {% endfor %}
+          </td>
+          <td class="num">{{ item.node_count }}</td>
+          <td class="num">{{ item.rule_count }}</td>
+          <td class="num">{{ item.supp_rule_count if item.supp_rule_count > 0 else '—' }}</td>
+          <td>
+            {% set max_rules = 85 %}
+            {% set pct = ((item.rule_count + item.supp_rule_count) / max_rules * 100) | int %}
+            {% set pct = [pct, 100] | min %}
+            {% if pct < 15 %}{% set bar_class = 'low' %}{% elif pct < 40 %}{% set bar_class = 'mid' %}{% else %}{% set bar_class = '' %}{% endif %}
+            <span class="coverage-bar {{ bar_class }}" style="width: {{ [pct, 3] | max }}px;" title="{{ item.rule_count }} schimmel + {{ item.supp_rule_count }} supplemental"></span>
+            <span class="muted" style="font-size:11px; margin-left:4px;">{{ item.rule_count + item.supp_rule_count }}</span>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

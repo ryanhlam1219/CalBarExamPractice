@@ -1,0 +1,24 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+*.pyc
+
+# Local and generated source material
+data/raw/
+data/extracted/
+data/parsed/
+data/manifests/
+data/input/*.pdf
+CalBarRules/
+
+# Database/runtime artifacts
+*.sqlite
+*.db
+*.log
+.tmp_pgdata/
+.tmp_pgsocket/

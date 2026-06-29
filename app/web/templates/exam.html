@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+{% block title %}Exam &mdash; Question {{ question.question_number }}{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css">
+<style>
+.exam-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 24px; border-bottom: 1px solid var(--line); background: var(--panel); }
+.exam-header .exam-title { font-weight: 700; font-size: 15px; }
+.timer { font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; color: var(--accent); }
+.timer.warning { color: var(--warn); }
+.timer.danger { color: var(--bad); }
+.exam-layout { display: grid; grid-template-columns: 1fr 1fr; height: calc(100vh - 110px); }
+.exam-panel { padding: 24px; overflow-y: auto; }
+.exam-panel.question { border-right: 1px solid var(--line); background: #fafbfc; }
+.exam-panel.question h2 { font-size: 16px; margin-bottom: 16px; color: var(--muted); }
+.exam-panel.question .question-text { font-size: 15px; line-height: 1.8; white-space: pre-wrap; font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif; }
+.exam-panel.answer h2 { font-size: 16px; margin-bottom: 12px; color: var(--muted); }
+.submit-bar { display: flex; align-items: center; justify-content: space-between; padding: 12px 24px; border-top: 1px solid var(--line); background: var(--panel); }
+.submit-bar .meta { font-size: 13px; color: var(--muted); }
+
+.editor-container { display: flex; flex-direction: column; height: calc(100% - 50px); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.editor-container .ql-toolbar { border: none; border-bottom: 1px solid var(--line); background: #f8fafc; flex-shrink: 0; }
+.editor-container .ql-container { border: none; flex: 1; overflow-y: auto; font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif; font-size: 15px; }
+.editor-container .ql-editor { line-height: 1.7; min-height: 100%; }
+.editor-container .ql-editor.ql-blank::before { font-style: normal; color: var(--muted); }
+.editor-container .ql-editor h1 { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
+.editor-container .ql-editor h2 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+.editor-container .ql-editor h3 { font-size: 16px; font-weight: 700; color: var(--muted); margin-bottom: 4px; }
+.editor-container .ql-editor blockquote { border-left: 3px solid var(--line); padding-left: 12px; color: var(--muted); }
+.word-count { margin-top: 8px; font-size: 13px; color: var(--muted); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="exam-header">
+  <span class="exam-title">
+    {% if question.exam_month %}{{ question.exam_month | capitalize }}{% endif %}
+    {% if question.exam_year %}{{ question.exam_year }}{% endif %}
+    &mdash; Question {{ question.question_number }}
+  </span>
+  <span class="timer" id="timer">01:00:00</span>
+</div>
+
+<form id="exam-form" method="post" action="/exam/{{ question.id }}/submit">
+  <div class="exam-layout">
+    <div class="exam-panel question">
+      <h2>Question</h2>
+      <div class="question-text">{{ question.normalized_text }}</div>
+    </div>
+    <div class="exam-panel answer">
+      <h2>Your Essay</h2>
+      <div class="editor-container">
+        <div id="quill-editor"></div>
+      </div>
+      <div class="word-count" id="word-count">0 words</div>
+    </div>
+  </div>
+  <div class="submit-bar">
+    <span class="meta">Once submitted, your essay will be analyzed by AI.</span>
+    <div style="display:flex; gap:10px; align-items:center;">
+      <a href="/" class="btn btn-outline">Exit</a>
+      <button type="submit" class="btn btn-primary" id="submit-btn">Submit Essay</button>
+    </div>
+  </div>
+  <input type="hidden" name="essay_text" id="essay-text">
+  <input type="hidden" name="started_at" id="started-at">
+  <input type="hidden" name="time_spent_seconds" id="time-spent">
+</form>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+<script>
+(function() {
+  var DURATION = 60 * 60;
+  var startTime = new Date();
+  document.getElementById('started-at').value = startTime.toISOString();
+
+  var timerEl = document.getElementById('timer');
+  var form = document.getElementById('exam-form');
+  var wordCountEl = document.getElementById('word-count');
+  var hiddenInput = document.getElementById('essay-text');
+
+  var quill = new Quill('#quill-editor', {
+    theme: 'snow',
+    placeholder: 'Begin writing your essay here...',
+    modules: {
+      toolbar: [
+        [{ header: [1, 2, 3, false] }],
+        ['bold', 'italic', 'underline', 'strike'],
+        [{ list: 'ordered' }, { list: 'bullet' }],
+        ['blockquote'],
+        [{ indent: '-1' }, { indent: '+1' }],
+        ['clean'],
+      ],
+    },
+  });
+
+  quill.focus();
+
+  quill.on('text-change', function() {
+    var text = quill.getText().trim();
+    var words = text ? text.split(/\s+/).length : 0;
+    wordCountEl.textContent = words + ' word' + (words !== 1 ? 's' : '');
+  });
+
+  function updateTimer() {
+    var elapsed = Math.floor((Date.now() - startTime.getTime()) / 1000);
+    var remaining = Math.max(0, DURATION - elapsed);
+    var h = Math.floor(remaining / 3600);
+    var m = Math.floor((remaining % 3600) / 60);
+    var s = remaining % 60;
+    timerEl.textContent = String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+    timerEl.className = 'timer';
+    if (remaining <= 300) timerEl.classList.add('danger');
+    else if (remaining <= 600) timerEl.classList.add('warning');
+    if (remaining <= 0) {
+      hiddenInput.value = quill.getText().trim();
+      form.submit();
+    }
+  }
+  setInterval(updateTimer, 1000);
+  updateTimer();
+
+  form.addEventListener('submit', function(e) {
+    hiddenInput.value = quill.getText().trim();
+    if (!hiddenInput.value) { e.preventDefault(); alert('Please write your essay before submitting.'); return; }
+    if (!confirm('Are you sure you want to submit your essay? Once submitted, it will be analyzed by AI.')) { e.preventDefault(); return; }
+    var elapsed = Math.floor((Date.now() - startTime.getTime()) / 1000);
+    document.getElementById('time-spent').value = elapsed;
+  });
+
+  window.addEventListener('beforeunload', function(e) {
+    if (quill.getText().trim()) { e.preventDefault(); }
+  });
+})();
+</script>
+{% endblock %}

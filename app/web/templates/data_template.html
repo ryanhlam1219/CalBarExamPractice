@@ -1,0 +1,186 @@
+{% extends "base.html" %}
+{% block title %}{{ template.name }}{% endblock %}
+
+{% block extra_css %}
+<style>
+.detail-header { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+.detail-header h1 { font-size: 20px; font-weight: 700; }
+.detail-stats { display: flex; gap: 16px; flex-wrap: wrap; }
+.detail-stat { padding: 4px 12px; border-radius: 6px; font-size: 13px; font-weight: 650; background: #f0f4f8; }
+
+.tree-section { margin-top: 20px; }
+.tree-section h2 { font-size: 16px; font-weight: 700; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+
+.tree-node { margin-left: 20px; border-left: 2px solid var(--line); padding-left: 14px; margin-bottom: 2px; }
+.tree-node.depth-0 { margin-left: 0; border-left: none; padding-left: 0; }
+.tree-node.depth-1 { border-left-color: var(--accent); }
+
+.node-header { display: flex; align-items: baseline; gap: 8px; padding: 4px 0; cursor: default; }
+.node-type { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; padding: 1px 6px; border-radius: 3px; flex-shrink: 0; }
+.node-type.SUBJECT { background: var(--accent); color: white; }
+.node-type.MAJOR_TOPIC { background: #1e40af; color: white; }
+.node-type.TOPIC { background: #6d28d9; color: white; }
+.node-type.ISSUE { background: #0369a1; color: white; }
+.node-type.SUBISSUE { background: #0891b2; color: white; }
+.node-type.RULE { background: var(--good); color: white; }
+.node-type.ELEMENT { background: #d97706; color: white; }
+.node-title { font-size: 13px; font-weight: 600; word-break: break-word; }
+.node-depth { font-size: 11px; color: var(--muted); flex-shrink: 0; }
+
+.node-rules { margin: 2px 0 6px 0; padding-left: 4px; }
+.rule-item { font-size: 12px; line-height: 1.5; padding: 4px 8px; margin: 2px 0; background: #f0fdf4; border-left: 3px solid var(--good); border-radius: 0 4px 4px 0; color: #14532d; word-break: break-word; }
+
+.supp-section { margin-top: 32px; }
+.supp-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.supp-table th, .supp-table td { padding: 8px 12px; border-bottom: 1px solid var(--line); text-align: left; }
+.supp-table th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .05em; background: #f8fafc; }
+.supp-table td { vertical-align: top; }
+.supp-name { font-weight: 600; }
+.supp-text { font-size: 12px; color: var(--muted); max-width: 500px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.empty-state { padding: 32px; text-align: center; color: var(--muted); }
+
+/* Clickable rules */
+.rule-item.clickable, .supp-row.clickable { cursor: pointer; transition: background .12s; }
+.rule-item.clickable:hover { background: #dcfce7; }
+.supp-row.clickable:hover td { background: #f0f4f8; }
+
+/* Modal */
+.modal-overlay { display: none; position: fixed; inset: 0; z-index: 100; background: rgba(0,0,0,.45); backdrop-filter: blur(2px); align-items: center; justify-content: center; }
+.modal-overlay.open { display: flex; }
+.modal { background: white; border-radius: 10px; width: 90%; max-width: 700px; max-height: 80vh; display: flex; flex-direction: column; box-shadow: 0 20px 60px rgba(0,0,0,.25); }
+.modal-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid var(--line); flex-shrink: 0; }
+.modal-header h3 { font-size: 15px; font-weight: 700; margin: 0; }
+.modal-close { background: none; border: none; font-size: 22px; cursor: pointer; color: var(--muted); padding: 0 4px; line-height: 1; }
+.modal-close:hover { color: var(--text); }
+.modal-body { padding: 20px; overflow-y: auto; }
+.modal-body .label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: 4px; }
+.modal-body .value { font-size: 14px; line-height: 1.7; white-space: pre-wrap; word-break: break-word; margin-bottom: 16px; font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif; }
+.modal-body .value:last-child { margin-bottom: 0; }
+.modal-meta { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+.modal-meta .badge { font-size: 11px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="detail-header">
+    <div>
+      <a href="/data" style="font-size:13px;">&larr; All Subjects</a>
+      <h1>{{ template.name }}</h1>
+      <p class="muted">Subject: {{ subject.display_name if subject else 'Unknown' }}</p>
+    </div>
+    <div class="detail-stats" style="margin-left:auto;">
+      <span class="detail-stat">{{ node_count }} nodes</span>
+      <span class="detail-stat">{{ rule_count }} rules</span>
+      <span class="detail-stat">{{ supp_rules | length }} supplemental</span>
+    </div>
+  </div>
+
+  <div class="card tree-section">
+    <h2>Template Node Hierarchy</h2>
+    {% macro render_node(item, depth) %}
+    <div class="tree-node depth-{{ depth }}">
+      <div class="node-header">
+        <span class="node-type {{ item.node.node_type }}">{{ item.node.node_type | replace('_', ' ') }}</span>
+        <span class="node-title">{{ (item.node.title | clean_rule)[:120] }}</span>
+        <span class="node-depth">d={{ item.node.depth }}</span>
+      </div>
+      {% if item.rules %}
+      <div class="node-rules">
+        {% for rule in item.rules %}
+        {% set clean = (rule.normalized_rule_text or rule.raw_rule_text or '') | clean_rule %}
+        <div class="rule-item clickable"
+             onclick="openRuleModal(this)"
+             data-title="{{ item.node.title.split('\n')[0][:100] }}"
+             data-type="Template Rule"
+             data-full="{{ clean | e }}"
+             data-confidence="{{ '%.0f' | format(rule.parse_confidence * 100) }}%"
+             data-pages="pp. {{ rule.start_page }}–{{ rule.end_page }}">{{ clean[:200] }}</div>
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% for child in item.children %}
+        {{ render_node(child, depth + 1) }}
+      {% endfor %}
+    </div>
+    {% endmacro %}
+
+    {% if tree %}
+      {% for item in tree %}
+        {{ render_node(item, 0) }}
+      {% endfor %}
+    {% else %}
+      <div class="empty-state">No nodes found for this template.</div>
+    {% endif %}
+  </div>
+
+  {% if supp_rules %}
+  <div class="card supp-section">
+    <h2>Supplemental Parsed Rules ({{ supp_rules | length }})</h2>
+    <table class="supp-table">
+      <thead>
+        <tr><th>Rule Name</th><th>Statement</th><th>Confidence</th></tr>
+      </thead>
+      <tbody>
+        {% for rule in supp_rules %}
+        <tr class="supp-row clickable"
+            onclick="openRuleModal(this)"
+            data-title="{{ rule.canonical_name }}"
+            data-type="Supplemental Rule"
+            data-full="{{ rule.rule_statement | e }}"
+            data-confidence="{{ '%.0f' | format(rule.parse_confidence * 100) }}%"
+            data-pages="">
+          <td class="supp-name">{{ rule.canonical_name }}</td>
+          <td class="supp-text">{{ rule.rule_statement[:150] }}</td>
+          <td>{{ '%.0f' | format(rule.parse_confidence * 100) }}%</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+</div>
+
+<div class="modal-overlay" id="rule-modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 id="modal-title"></h3>
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-meta" id="modal-meta"></div>
+      <div class="label">Full Statement</div>
+      <div class="value" id="modal-text"></div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function openRuleModal(el) {
+  document.getElementById('modal-title').textContent = el.dataset.title || 'Rule';
+  document.getElementById('modal-text').textContent = el.dataset.full || '';
+
+  var meta = document.getElementById('modal-meta');
+  meta.innerHTML = '';
+  var type = el.dataset.type;
+  if (type) meta.innerHTML += '<span class="badge">' + type + '</span>';
+  var conf = el.dataset.confidence;
+  if (conf) meta.innerHTML += '<span class="badge badge-good">Confidence: ' + conf + '</span>';
+  var pages = el.dataset.pages;
+  if (pages && pages.trim()) meta.innerHTML += '<span class="badge">' + pages + '</span>';
+
+  document.getElementById('rule-modal').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('rule-modal').classList.remove('open');
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeModal();
+});
+</script>
+{% endblock %}

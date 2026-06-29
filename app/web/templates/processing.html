@@ -1,0 +1,263 @@
+{% extends "base.html" %}
+{% block title %}Analyzing Essay...{% endblock %}
+
+{% block extra_css %}
+<style>
+.processing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+    padding: 40px 20px;
+}
+.spinner {
+    width: 56px;
+    height: 56px;
+    border: 5px solid var(--line);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.9s linear infinite;
+    margin-bottom: 28px;
+}
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+.processing-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.processing-subtitle {
+    color: var(--muted);
+    font-size: 15px;
+    max-width: 400px;
+    line-height: 1.6;
+}
+.processing-steps {
+    margin-top: 32px;
+    text-align: left;
+    max-width: 340px;
+}
+.step-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: var(--muted);
+    border-bottom: 1px solid var(--line);
+    transition: color 0.3s;
+}
+.step-item:last-child { border-bottom: none; }
+.step-item.active { color: var(--text); font-weight: 600; }
+.step-item.done { color: var(--good); }
+.step-icon {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 14px;
+}
+.step-item.active .step-icon::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--accent);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+}
+.step-item.done .step-icon::after { content: "\2714"; }
+.step-item.pending .step-icon::after { content: "\25CB"; }
+.elapsed {
+    margin-top: 20px;
+    font-size: 13px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+}
+.context-panel {
+    width: min(520px, 100%);
+    margin-top: 28px;
+    padding: 16px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: white;
+    text-align: left;
+}
+.context-panel h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--muted);
+    margin-bottom: 10px;
+}
+.context-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 13px;
+}
+.context-row:last-child { border-bottom: none; }
+.context-value { font-weight: 700; text-align: right; }
+.context-value.good { color: var(--good); }
+.context-value.warn { color: var(--warn); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="processing-container">
+    <div class="spinner" id="spinner"></div>
+    <div class="processing-title">Analyzing your essay</div>
+    <div class="processing-subtitle">
+        The AI is reading your response, comparing it against the grading template, and generating detailed feedback.
+    </div>
+
+    <div class="processing-steps">
+        <div class="step-item done" id="step-submit">
+            <span class="step-icon"></span>
+            <span>Essay submitted</span>
+        </div>
+        <div class="step-item active" id="step-template">
+            <span class="step-icon"></span>
+            <span>Matching grading template</span>
+        </div>
+        <div class="step-item pending" id="step-score">
+            <span class="step-icon"></span>
+            <span>Scoring your essay</span>
+        </div>
+        <div class="step-item pending" id="step-deep">
+            <span class="step-icon"></span>
+            <span>Deep analysis &amp; essay review</span>
+        </div>
+    </div>
+
+    <div id="score-preview" style="display:none; margin-top: 24px; width: min(400px, 100%);">
+        <div style="display:flex; align-items:center; gap:16px; padding:16px; border:1px solid var(--line); border-radius:8px; background:white;">
+            <div style="width:70px; height:70px; border-radius:50%; border:4px solid var(--accent); display:flex; flex-direction:column; align-items:center; justify-content:center; flex-shrink:0;">
+                <span id="preview-score" style="font-size:24px; font-weight:800; line-height:1;">—</span>
+                <span style="font-size:11px; color:var(--muted);">/ 100</span>
+            </div>
+            <div style="flex:1; font-size:13px;">
+                <div style="font-weight:700; margin-bottom:4px;">Score ready — analyzing details...</div>
+                <div style="color:var(--muted);">Issue analysis, rule funnels, and essay review are still processing.</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mock-warning" style="display:none; margin-top: 16px; width: min(520px, 100%); padding: 14px 18px; background: #fef3c7; border: 1px solid #f59e0b; border-radius: 8px; text-align: left; font-size: 13px; line-height: 1.6; color: #92400e;">
+      <strong>AI engine (Ollama) is not available.</strong> Analysis was performed using a simplified mock grader. For full AI analysis, start Ollama and re-analyze.
+    </div>
+
+    <div class="elapsed" id="elapsed">Elapsed: 0s</div>
+
+    <div class="context-panel">
+        <h2>Analysis Context</h2>
+        <div class="context-row">
+            <span>Schimmel template</span>
+            <span class="context-value warn" id="context-template">Matching...</span>
+        </div>
+        <div class="context-row">
+            <span>Template name</span>
+            <span class="context-value" id="context-template-name">Pending</span>
+        </div>
+        <div class="context-row">
+            <span>Parsed rules</span>
+            <span class="context-value" id="context-rules">Pending</span>
+        </div>
+        <div class="context-row">
+            <span>Selected-answer outline</span>
+            <span class="context-value warn" id="context-outline">Checking...</span>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function() {
+    const submissionId = {{ submission.id }};
+    const initialContext = {{ (submission.metadata_json.get('analysis_context') if submission.metadata_json else {}) | tojson }};
+    const startTime = Date.now();
+    let scoresShown = false;
+
+    function setStep(stepId, state) {
+        var el = document.getElementById(stepId);
+        if (el) el.className = 'step-item ' + state;
+    }
+
+    setTimeout(function() { setStep('step-template', 'done'); setStep('step-score', 'active'); }, 2000);
+    updateContext(initialContext);
+
+    setInterval(function() {
+        var elapsed = Math.floor((Date.now() - startTime) / 1000);
+        document.getElementById('elapsed').textContent = 'Elapsed: ' + elapsed + 's';
+    }, 1000);
+
+    function showScores(scores) {
+        if (scoresShown) return;
+        scoresShown = true;
+        setStep('step-template', 'done');
+        setStep('step-score', 'done');
+        setStep('step-deep', 'active');
+        document.getElementById('preview-score').textContent = Math.round(scores.overall);
+        document.getElementById('score-preview').style.display = 'block';
+    }
+
+    function poll() {
+        fetch('/api/analysis-status/' + submissionId)
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                updateContext(data.analysis_context || {});
+                if (data.status === 'scores_ready') {
+                    showScores(data.scores || {});
+                    setTimeout(poll, 2000);
+                } else if (data.status === 'complete' || data.status === 'scores_only') {
+                    if (data.scores) showScores(data.scores);
+                    ['step-submit','step-template','step-score','step-deep'].forEach(function(id) { setStep(id, 'done'); });
+                    document.getElementById('spinner').style.display = 'none';
+                    if (data.model_id && data.model_id.indexOf('mock') !== -1) {
+                        document.getElementById('mock-warning').style.display = 'block';
+                    }
+                    setTimeout(function() { window.location.href = '/results/' + submissionId; }, data.model_id && data.model_id.indexOf('mock') !== -1 ? 4000 : 600);
+                } else {
+                    setTimeout(poll, 2000);
+                }
+            })
+            .catch(function() { setTimeout(poll, 3000); });
+    }
+
+    setTimeout(poll, 1000);
+
+    function updateContext(context) {
+        if (!context || Object.keys(context).length === 0) return;
+
+        const template = document.getElementById('context-template');
+        const templateName = document.getElementById('context-template-name');
+        const rules = document.getElementById('context-rules');
+        const outline = document.getElementById('context-outline');
+
+        if (context.schimmel_template_used) {
+            template.textContent = 'Used';
+            template.className = 'context-value good';
+        } else {
+            template.textContent = 'Not found';
+            template.className = 'context-value warn';
+        }
+        templateName.textContent = context.template_name || 'No template';
+        rules.textContent = String(context.supplemental_rules_count || 0) + ' supplemental / ' +
+            String(context.schimmel_rule_candidates_count || 0) + ' Schimmel rules';
+        rules.className = (context.supplemental_rules_count || context.schimmel_rule_candidates_count)
+            ? 'context-value good'
+            : 'context-value warn';
+        outline.textContent = context.selected_answer_outline_used ? 'Used' : 'Not available';
+        outline.className = context.selected_answer_outline_used ? 'context-value good' : 'context-value warn';
+    }
+})();
+</script>
+{% endblock %}
