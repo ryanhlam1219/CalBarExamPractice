@@ -130,29 +130,36 @@ def load_seed(
 
 
 def _get_or_create_seed_document(session: Session, name: str, doc_type: str) -> SourceDocument:
-    """Get or create a minimal source document for seeded data."""
+    """Get or create a minimal source document for seeded data.
+    Creates the record directly without accessing any file on disk."""
     from sqlalchemy import select as sa_select
     existing = session.scalar(
         sa_select(SourceDocument).where(
             SourceDocument.original_filename == name,
-            SourceDocument.source_type == SourceType.BAR_REVIEW_OUTLINE.value,
         )
     )
     if existing:
         return existing
-    return register_source_document(
-        session,
-        local_path=Path(name),
+    doc = SourceDocument(
         source_type=SourceType.BAR_REVIEW_OUTLINE.value,
         publisher="Seeded from parsed JSON",
         title=name,
         subject=doc_type,
         original_filename=name,
+        local_path=f"seed://{name}",
+        sha256=f"seed-{name}",
+        file_size_bytes=0,
+        mime_type="application/json",
         license_status=LicenseStatus.PRIVATE_USE_ONLY.value,
         redistribution_allowed=False,
         usage_notes="Loaded from pre-parsed data in git repo.",
+        ingestion_status="PARSED",
+        review_status="UNREVIEWED",
         metadata_json={"seeded": True},
     )
+    session.add(doc)
+    session.flush()
+    return doc
 
 
 @app.command("discover-calbar")
