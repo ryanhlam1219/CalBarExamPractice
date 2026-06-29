@@ -2,31 +2,38 @@ from __future__ import annotations
 
 import logging
 import random
+import re
 import threading
-from typing import Any
 from datetime import datetime
+from typing import Any
 
 from fastapi import APIRouter, Body, Depends, Form, HTTPException, Request
 from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
-from sqlalchemy import select
-from sqlalchemy.orm import Session
+from sqlalchemy import func, select
+from sqlalchemy.orm import Session, selectinload
 
-from app.db.models.essays import EssayQuestion
+from app.db.models.essays import EssayQuestion, SelectedAnswer
 from app.db.models.rules import LegalRule, LegalSubject
 from app.db.models.submissions import EssaySubmission
 from app.db.models.templates import EssayTemplate, TemplateNode, TemplateRuleCandidate
-from app.services.analysis import _extract_selected_answer_headings
 from app.db.repositories.submissions import create_submission, get_submission, save_analysis
 from app.db.session import SessionLocal, get_session
-from app.services.analysis import chat_about_analysis, get_analysis_service
-from app.services.analysis import _format_selected_answer_issue_outline
-from app.services.question_subject_mapper import find_template_for_question
+from app.services.analysis import (
+    _extract_selected_answer_headings,
+    _format_selected_answer_issue_outline,
+    chat_about_analysis,
+    get_analysis_service,
+)
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
 
 # Overridable session factory — tests replace this to use the in-memory DB
 _session_factory = SessionLocal
+_practice_search_cache_lock = threading.Lock()
+_practice_search_cache_signature: tuple[tuple[str, int, int], ...] | None = None
+_practice_search_cache_subject_map: dict[int, list[str]] = {}
+_practice_search_cache_terms_map: dict[int, list[str]] = {}
 
 
 @router.get("/", response_class=HTMLResponse)
@@ -46,7 +53,7 @@ def practice_home(
         EssayQuestion.exam_year.desc(),
         EssayQuestion.exam_month,
         EssayQuestion.question_number,
-    )
+    ).options(selectinload(EssayQuestion.selected_answers))
     if parsed_year:
         query = query.where(EssayQuestion.exam_year == parsed_year)
     if clean_month:
@@ -70,14 +77,15 @@ def practice_home(
     for row in practiced_rows:
         practiced_subjects.add(row[0])
 
-    # Map each question to its subject(s)
-    q_subject_map = _get_question_subject_map(session)
+    # Map each question to subjects and inferred issue-search terms.
+    q_subject_map, q_search_terms_map = _get_practice_search_maps(session)
 
     # Enrich questions with subjects for client-side filtering
     question_data = []
     for q in questions:
         subjs = q_subject_map.get(q.id, [])
-        question_data.append({"question": q, "subjects": subjs})
+        search_terms = q_search_terms_map.get(q.id, [])
+        question_data.append({"question": q, "subjects": subjs, "search_terms": search_terms})
 
     templates = request.app.state.templates
     return templates.TemplateResponse(request, "practice.html", {
@@ -93,25 +101,59 @@ def practice_home(
     })
 
 
-_question_subjects_cache: dict[int, list[str]] | None = None
+def _get_practice_search_maps(session: Session) -> tuple[dict[int, list[str]], dict[int, list[str]]]:
+    global _practice_search_cache_signature
+    global _practice_search_cache_subject_map
+    global _practice_search_cache_terms_map
+
+    signature = _practice_search_signature(session)
+    with _practice_search_cache_lock:
+        if signature == _practice_search_cache_signature:
+            return _practice_search_cache_subject_map, _practice_search_cache_terms_map
+
+        all_questions = list(session.scalars(
+            select(EssayQuestion).options(selectinload(EssayQuestion.selected_answers))
+        ).all())
+        subject_map = _build_question_subject_map(session, all_questions)
+        terms_map = _build_question_search_terms_map(session, all_questions, subject_map)
+
+        _practice_search_cache_signature = signature
+        _practice_search_cache_subject_map = subject_map
+        _practice_search_cache_terms_map = terms_map
+        return subject_map, terms_map
 
 
-def _get_question_subject_map(session: Session) -> dict[int, list[str]]:
+def _practice_search_signature(session: Session) -> tuple[tuple[str, int, int], ...]:
+    rows: list[tuple[str, int, int]] = []
+    for name, model in (
+        ("questions", EssayQuestion),
+        ("selected_answers", SelectedAnswer),
+        ("subjects", LegalSubject),
+        ("templates", EssayTemplate),
+        ("template_nodes", TemplateNode),
+    ):
+        count, max_id = session.execute(select(func.count(model.id), func.max(model.id))).one()
+        rows.append((name, count or 0, max_id or 0))
+    return tuple(rows)
+
+
+def _build_question_subject_map(
+    session: Session,
+    all_questions: list[EssayQuestion] | None = None,
+) -> dict[int, list[str]]:
     """Map question IDs to lists of subject names. Handles multi-topic
     questions like 'Contracts/Remedies' by returning both subjects."""
-    global _question_subjects_cache
-    if _question_subjects_cache is not None:
-        return _question_subjects_cache
-
     import re
+
     from app.services.question_subject_mapper import (
-        _official_subject_label_for_question,
+        SUBJECT_LABEL_ALIASES,
         _clean_subject_label,
         _match_subject,
-        SUBJECT_LABEL_ALIASES,
+        _official_subject_label_for_question,
     )
 
-    all_questions = list(session.scalars(select(EssayQuestion)).all())
+    if all_questions is None:
+        all_questions = list(session.scalars(select(EssayQuestion)).all())
     all_subjects = list(session.scalars(select(LegalSubject)).all())
     subject_by_name = {s.display_name.casefold(): s for s in all_subjects}
     result: dict[int, list[str]] = {}
@@ -141,8 +183,147 @@ def _get_question_subject_map(session: Session) -> dict[int, list[str]]:
 
         result[q.id] = subjects
 
-    _question_subjects_cache = result
     return result
+
+
+_SEARCH_STOPWORDS = {
+    "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "if", "in", "is",
+    "it", "may", "of", "on", "or", "the", "to", "under", "where", "whether", "with",
+}
+
+
+def _build_question_search_terms_map(
+    session: Session,
+    questions: list[EssayQuestion],
+    q_subject_map: dict[int, list[str]],
+) -> dict[int, list[str]]:
+    """Build client-side search terms from selected-answer and Schimmel issue signals."""
+    if not questions:
+        return {}
+
+    nodes_by_subject = _schimmel_search_nodes_by_subject(session)
+    result: dict[int, list[str]] = {}
+
+    for question in questions:
+        terms: list[str] = []
+        evidence_parts = [question.title or "", question.normalized_text or "", question.raw_text or ""]
+
+        answers = list(question.selected_answers or [])
+        if not answers:
+            answers = list(session.scalars(
+                select(SelectedAnswer).where(SelectedAnswer.essay_question_id == question.id)
+            ).all())
+
+        for answer in answers:
+            answer_text = answer.normalized_text or answer.raw_text or ""
+            evidence_parts.append(answer_text)
+            terms.extend(_extract_selected_answer_headings(answer_text))
+
+        evidence_text = _normalize_search_text(" ".join(evidence_parts))
+        for subject_name in q_subject_map.get(question.id, []):
+            for label, tokens in nodes_by_subject.get(subject_name, []):
+                if _template_label_matches_evidence(label, tokens, evidence_text):
+                    terms.append(label)
+
+        result[question.id] = _dedupe_terms(terms)
+
+    return result
+
+
+def _schimmel_search_nodes_by_subject(session: Session) -> dict[str, list[tuple[str, tuple[str, ...]]]]:
+    subjects = list(session.scalars(select(LegalSubject)).all())
+    subject_by_id = {subject.id: subject.display_name for subject in subjects}
+    templates = list(session.scalars(
+        select(EssayTemplate)
+        .where(EssayTemplate.legal_subject_id.in_(subject_by_id))
+        .options(selectinload(EssayTemplate.nodes))
+    ).all())
+
+    preferred_template_ids: dict[int, int] = {}
+    for template in templates:
+        current_id = preferred_template_ids.get(template.legal_subject_id)
+        if current_id is None:
+            preferred_template_ids[template.legal_subject_id] = template.id
+            continue
+        current = next(t for t in templates if t.id == current_id)
+        if (template.metadata_json or {}).get("source") == "schimmel_template_parser" and (
+            current.metadata_json or {}
+        ).get("source") != "schimmel_template_parser":
+            preferred_template_ids[template.legal_subject_id] = template.id
+
+    result: dict[str, list[tuple[str, tuple[str, ...]]]] = {}
+    for template in templates:
+        if preferred_template_ids.get(template.legal_subject_id) != template.id:
+            continue
+        subject_name = subject_by_id.get(template.legal_subject_id)
+        if not subject_name:
+            continue
+        labels: list[tuple[str, tuple[str, ...]]] = []
+        for node in template.nodes:
+            if node.node_type == "SUBJECT":
+                continue
+            label = _clean_template_search_label(node.title or node.normalized_text or "")
+            tokens = _significant_search_tokens(label)
+            if not label or not tokens:
+                continue
+            labels.append((label, tokens))
+        result[subject_name] = labels
+
+    return result
+
+
+def _template_label_matches_evidence(
+    label: str,
+    tokens: tuple[str, ...],
+    evidence_text: str,
+) -> bool:
+    normalized_label = _normalize_search_text(label)
+    if normalized_label and f" {normalized_label} " in f" {evidence_text} ":
+        return True
+    if len(tokens) >= 2:
+        return all(re.search(rf"\b{re.escape(token)}\b", evidence_text) for token in tokens)
+    token = tokens[0]
+    return len(token) >= 5 and re.search(rf"\b{re.escape(token)}\b", evidence_text) is not None
+
+
+def _clean_template_search_label(value: str) -> str:
+    value = re.sub(r"[•✷]+", " ", value)
+    value = re.sub(r"\([^)]{1,4}\)", " ", value)
+    value = re.sub(r"\s+", " ", value).strip(" -:;")
+    if not value or len(value) > 120:
+        return ""
+    return value
+
+
+def _significant_search_tokens(value: str) -> tuple[str, ...]:
+    tokens = []
+    for token in re.findall(r"[a-zA-Z][a-zA-Z']+", value.casefold()):
+        token = token.strip("'")
+        if len(token) < 3 or token in _SEARCH_STOPWORDS:
+            continue
+        tokens.append(token)
+    return tuple(dict.fromkeys(tokens))
+
+
+def _normalize_search_text(value: str) -> str:
+    return " ".join(re.findall(r"[a-zA-Z][a-zA-Z']+", value.casefold()))
+
+
+def _dedupe_terms(terms: list[str], limit: int = 120) -> list[str]:
+    deduped: list[str] = []
+    seen: set[str] = set()
+    for term in terms:
+        cleaned = re.sub(r"\s+", " ", term).strip(" -:;")
+        if not cleaned:
+            continue
+        key = cleaned.casefold()
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(cleaned)
+        if len(deduped) >= limit:
+            break
+    return deduped
 
 
 @router.get("/random")

@@ -6,11 +6,11 @@ from sqlalchemy import StaticPool, create_engine
 from sqlalchemy.orm import Session, sessionmaker
 
 from app.db.base import Base
-from app.db.models.essays import EssayQuestion
+from app.db.models.essays import EssayQuestion, SelectedAnswer
 from app.db.models.rules import LegalSubject
 from app.db.models.source_documents import SourceDocument
 from app.db.models.submissions import EssayAnalysis
-from app.db.models.templates import EssayTemplate
+from app.db.models.templates import EssayTemplate, TemplateNode
 from app.db.repositories.submissions import create_submission
 from app.db.session import get_session
 from app.web.app import create_app
@@ -115,6 +115,60 @@ def test_practice_home_with_questions(client, db_session) -> None:
     assert "Question 1" in response.text
     assert "Start" in response.text
     assert "Random Question" in response.text
+
+
+def test_practice_search_terms_include_matching_schimmel_template_nodes(client, db_session) -> None:
+    q = _seed_question(
+        db_session,
+        title="Civil Procedure Question",
+    )
+    q.raw_text = "Plaintiff filed in federal court and defendant challenged venue."
+    q.normalized_text = q.raw_text
+
+    subject = LegalSubject(canonical_name="civil_procedure", display_name="Civil Procedure")
+    db_session.add(subject)
+    db_session.flush()
+    template = EssayTemplate(
+        legal_subject_id=subject.id,
+        source_document_id=q.source_document_id,
+        name="Civil Procedure Essay Template",
+        version="1",
+        parse_confidence=0.9,
+        parser_version="test",
+        metadata_json={"source": "schimmel_template_parser"},
+    )
+    db_session.add(template)
+    db_session.flush()
+    db_session.add(
+        TemplateNode(
+            essay_template_id=template.id,
+            node_type="ELEMENT",
+            title="Venue Transfer",
+            display_order=1,
+            depth=1,
+            parse_confidence=0.9,
+            parser_version="test",
+        )
+    )
+    db_session.add(
+        SelectedAnswer(
+            source_document_id=q.source_document_id,
+            essay_question_id=q.id,
+            answer_label="A",
+            raw_text="Venue Analysis\nA party may make a motion to transfer venue.",
+            normalized_text="Venue Analysis\nA party may make a motion to transfer venue.",
+            start_page=1,
+            end_page=1,
+            parse_confidence=0.9,
+            parser_version="test",
+        )
+    )
+    db_session.commit()
+
+    response = client.get("/")
+
+    assert response.status_code == 200
+    assert 'data-search-terms="venue analysis||venue transfer"' in response.text
 
 
 def test_exam_page(client, db_session) -> None:

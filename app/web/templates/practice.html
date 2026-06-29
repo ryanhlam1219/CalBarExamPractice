@@ -104,7 +104,7 @@
   <!-- Search + Subject filter (client-side) -->
   {% if question_data %}
   <div class="search-bar">
-    <input type="text" id="search-input" placeholder="Search questions by keyword (e.g., holographic will, negligence, easement...)" autocomplete="off">
+    <input type="text" id="search-input" placeholder="Search questions by keyword or issue (e.g., venue transfer, holographic will, negligence...)" autocomplete="off">
     <select id="subject-filter" onchange="filterQuestions()">
       <option value="">All Subjects</option>
       {% for s in all_subjects_list %}
@@ -142,7 +142,8 @@
     <div class="card q-card"
          data-subjects="{{ qd.subjects | join('||') }}"
          data-text="{{ q.normalized_text[:500] | lower }}"
-         data-title="{{ q.title | lower if q.title else '' }}">
+         data-title="{{ q.title | lower if q.title else '' }}"
+         data-search-terms="{{ qd.search_terms | join('||') | lower }}">
       <div class="q-info">
         <div class="q-title">
           {% if q.exam_month %}{{ q.exam_month | capitalize }}{% endif %}
@@ -215,7 +216,8 @@ function filterQuestions() {
     var cardSubjects = (card.getAttribute('data-subjects') || '').split('||').filter(Boolean);
     var cardText = card.getAttribute('data-text') || '';
     var cardTitle = card.getAttribute('data-title') || '';
-    var searchable = cardSubjects.join(' ').toLowerCase() + ' ' + cardText + ' ' + cardTitle;
+    var cardSearchTerms = (card.getAttribute('data-search-terms') || '').replace(/\|\|/g, ' ');
+    var searchable = cardSubjects.join(' ').toLowerCase() + ' ' + cardText + ' ' + cardTitle + ' ' + cardSearchTerms;
 
     var matchesSubject = !subject || cardSubjects.indexOf(subject) !== -1;
     var matchesSearch = keywords.length === 0 || keywords.every(function(kw) {

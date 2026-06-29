@@ -6,35 +6,40 @@ from pathlib import Path
 from typing import Annotated
 
 import typer
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from app.config import get_settings
 from app.db.base import Base
 from app.db.models import SourceDocument
 from app.db.models.enums import DocumentCategory, LicenseStatus, SourceType
+from app.db.models.templates import (
+    EssayTemplate,
+    TemplateCrossReference,
+    TemplateNode,
+    TemplateRuleCandidate,
+)
 from app.db.repositories.documents import register_source_document, replace_document_pages
 from app.db.repositories.essays import dedupe_essay_questions, replace_essay_parse
 from app.db.repositories.rules import replace_rule_parse
+from app.db.repositories.templates import (
+    get_subject_templates,
+    get_template_counts,
+    replace_essay_template_parse,
+)
 from app.db.session import SessionLocal, engine
 from app.ingestion.calbar.discovery import DEFAULT_ESSAY_CATEGORIES, CalBarCrawler
 from app.ingestion.calbar.downloader import CalBarDownloader, ManifestStore, filter_discovered_items
 from app.parsing.essays.parser import EssayParser
 from app.parsing.pdf.extractor import PDFExtractor
 from app.parsing.rules.parser import RuleOutlineParser
+from app.parsing.schimmel.models import SchimmelDocumentCandidate
 from app.parsing.schimmel.parser import SchimmelTemplateParser
 from app.schemas.calbar import CalBarDiscoveryItem, DownloadManifestEntry
 from app.services.export import export_document_review
 from app.services.files import write_json
 from app.services.html_export import export_data_browser_html, export_document_review_html
 from app.validation.reports import document_validation_summary
-from app.db.repositories.templates import (
-    get_subject_templates,
-    get_template_counts,
-    replace_essay_template_parse,
-)
-from app.db.models.templates import EssayTemplate, TemplateCrossReference, TemplateNode, TemplateRuleCandidate
-from app.parsing.schimmel.models import SchimmelDocumentCandidate
-from sqlalchemy import select
 
 app = typer.Typer(no_args_is_help=True)
 
@@ -69,6 +74,8 @@ def load_seed(
                     from app.schemas.essays import EssayParseResult
                     data = json.loads(ef.read_text())
                     year, month = _extract_year_month(ef.stem)
+                    if not year or not month:
+                        continue
                     cleaned_questions = []
                     for q in data.get("questions", []):
                         norm = (q.get("normalized_text") or "").lower()
@@ -130,23 +137,50 @@ def load_seed(
                     typer.echo(f"  Warning: {rf.name}: {exc}")
             typer.echo(f"  Loaded {totals['rules']} supplemental rules")
 
-        from app.db.repositories.essays import dedupe_essay_questions
         deduped = dedupe_essay_questions(session)
-        if deduped:
-            typer.echo(f"  Deduped {deduped} duplicate questions")
+        if deduped["duplicate_groups"]:
+            typer.echo(
+                "  Deduped "
+                f"{deduped['deleted_questions']} duplicate questions "
+                f"across {deduped['duplicate_groups']} groups"
+            )
+            if deduped["skipped_questions"]:
+                typer.echo(
+                    f"  Skipped {deduped['skipped_questions']} duplicate questions with answers/submissions"
+                )
+        persisted_counts = _seed_row_counts(session)
         session.commit()
 
-    typer.echo(f"\nSeed complete: {totals['questions']} questions, {totals['templates']} templates, {totals['rules']} rules")
+    typer.echo(
+        "\nSeed complete: "
+        f"{persisted_counts['questions']} questions, "
+        f"{persisted_counts['answers']} selected answers, "
+        f"{persisted_counts['templates']} templates, "
+        f"{persisted_counts['rules']} rules"
+    )
 
 
 def _load_schimmel_seed(session: Session, seed_data: dict, parser_version: str) -> int:
     """Load Schimmel templates directly from the seed JSON (bypasses parser)."""
-    from app.db.models.templates import EssayTemplate, TemplateNode, TemplateRuleCandidate
-    from app.db.models.rules import LegalSubject
     from app.db.models.enums import ReviewStatus
+    from app.db.models.rules import LegalSubject
+    from app.db.models.templates import EssayTemplate, TemplateNode, TemplateRuleCandidate
 
     templates_data = seed_data.get("templates", [])
     doc = _get_or_create_seed_document(session, "Schimmel Templates_Bullet Version", "essay_templates")
+
+    # Skip if templates already loaded for this document
+    existing = session.scalar(select(EssayTemplate).where(EssayTemplate.source_document_id == doc.id))
+    if existing:
+        count = (
+            session.scalar(
+                select(func.count(EssayTemplate.id)).where(EssayTemplate.source_document_id == doc.id)
+            )
+            or 0
+        )
+        typer.echo(f"  Schimmel templates already loaded ({count} templates)")
+        return count
+
     total_nodes = 0
     total_rules = 0
 
@@ -233,6 +267,20 @@ def _load_schimmel_seed(session: Session, seed_data: dict, parser_version: str) 
 
     typer.echo(f"  Loaded {len(templates_data)} templates, {total_nodes} nodes, {total_rules} rule candidates")
     return len(templates_data)
+
+
+def _seed_row_counts(session: Session) -> dict[str, int]:
+    """Return persisted seed row counts after replacement and dedupe."""
+    from app.db.models import EssayQuestion, SelectedAnswer
+    from app.db.models.rules import LegalRule
+    from app.db.models.templates import EssayTemplate
+
+    return {
+        "questions": session.scalar(select(func.count(EssayQuestion.id))) or 0,
+        "answers": session.scalar(select(func.count(SelectedAnswer.id))) or 0,
+        "templates": session.scalar(select(func.count(EssayTemplate.id))) or 0,
+        "rules": session.scalar(select(func.count(LegalRule.id))) or 0,
+    }
 
 
 _MONTH_MAP = {
@@ -696,7 +744,7 @@ def parse_essay_template(
                 session, source_document, document, parser.parser_version
             )
             session.commit()
-            typer.echo(f"\nDatabase load complete:")
+            typer.echo("\nDatabase load complete:")
             typer.echo(f"  Source document ID: {source_document.id}")
             typer.echo(f"  Templates stored: {counts['templates']}")
             typer.echo(f"  Nodes stored: {counts['nodes']}")
